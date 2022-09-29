@@ -40,7 +40,7 @@ class GameObject extends Behaviour {
     public var objectType:ObjectType;
 
 
-    //Temporal** will be changed in the future for something like unity's GetComponent<>(); function
+    //Temporal** will be changed in the future for something like unity's GetComponent<>();
     public var pBody:PhysicsBody = null;
     public var collider:Collider = null;
 

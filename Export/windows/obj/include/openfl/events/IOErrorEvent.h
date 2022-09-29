@@ -47,6 +47,8 @@ class HXCPP_CLASS_ATTRIBUTES IOErrorEvent_obj : public  ::openfl::events::ErrorE
 
 		static void __boot();
 		static ::String IO_ERROR;
+		static ::String STANDARD_OUTPUT_IO_ERROR;
+		static ::String STANDARD_ERROR_IO_ERROR;
 		 ::openfl::events::Event clone();
 
 		virtual ::String toString();

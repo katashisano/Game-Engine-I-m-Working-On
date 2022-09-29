@@ -8,6 +8,7 @@
 #endif
 
 HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_31_exists,"sys.FileSystem","exists",0xf55bed9e,"sys.FileSystem.exists","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",31,0xb7079c8b)
+HX_LOCAL_STACK_FRAME(_hx_pos_d1f1ed1bce212cc8_101_readDirectory,"sys.FileSystem","readDirectory",0x0619f8b5,"sys.FileSystem.readDirectory","C:\\HaxeToolkit\\haxe\\std/cpp/_std/sys/FileSystem.hx",101,0xb7079c8b)
 namespace sys{
 
 void FileSystem_obj::__construct() { }
@@ -54,6 +55,14 @@ HXDLIN(  31)		return _hx_std_sys_exists(_hx_tmp);
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(FileSystem_obj,exists,return )
 
+::Array< ::String > FileSystem_obj::readDirectory(::String path){
+            	HX_STACKFRAME(&_hx_pos_d1f1ed1bce212cc8_101_readDirectory)
+HXDLIN( 101)		return _hx_std_sys_read_dir(path);
+            	}
+
+
+STATIC_HX_DEFINE_DYNAMIC_FUNC1(FileSystem_obj,readDirectory,return )
+
 
 FileSystem_obj::FileSystem_obj()
 {
@@ -64,6 +73,9 @@ bool FileSystem_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx
 	switch(inName.length) {
 	case 6:
 		if (HX_FIELD_EQ(inName,"exists") ) { outValue = exists_dyn(); return true; }
+		break;
+	case 13:
+		if (HX_FIELD_EQ(inName,"readDirectory") ) { outValue = readDirectory_dyn(); return true; }
 	}
 	return false;
 }
@@ -77,6 +89,7 @@ static ::hx::StaticInfo *FileSystem_obj_sStaticStorageInfo = 0;
 
 static ::String FileSystem_obj_sStaticFields[] = {
 	HX_("exists",dc,1d,e0,bf),
+	HX_("readDirectory",37,6c,b3,a3),
 	::String(null())
 };
 

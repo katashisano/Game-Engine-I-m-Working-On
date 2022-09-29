@@ -8,6 +8,7 @@
 #ifndef INCLUDED_openfl_errors_Error
 #include <openfl/errors/Error.h>
 #endif
+HX_DECLARE_CLASS1(haxe,Exception)
 HX_DECLARE_CLASS2(openfl,errors,Error)
 HX_DECLARE_CLASS2(openfl,errors,IllegalOperationError)
 

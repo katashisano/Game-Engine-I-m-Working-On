@@ -263,7 +263,7 @@ HXDLIN(1225)		if ((this->position < this->length)) {
 HXLINE(1227)			return (this->b->__get(this->position++) != 0);
             		}
             		else {
-HXLINE(1231)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null())));
+HXLINE(1231)			HX_STACK_DO_THROW( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null()));
             		}
 HXLINE(1225)		return false;
             	}
@@ -294,7 +294,7 @@ HXLINE(1252)		if ((length == 0)) {
 HXLINE(1252)			length = (this->length - this->position);
             		}
 HXLINE(1254)		if (((this->position + length) > this->length)) {
-HXLINE(1256)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null())));
+HXLINE(1256)			HX_STACK_DO_THROW( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null()));
             		}
 HXLINE(1259)		if ((bytes->length < (offset + length))) {
 HXLINE(1261)			bytes->_hx___resize((offset + length));
@@ -311,7 +311,7 @@ Float ByteArrayData_obj::readDouble(){
             	HX_GC_STACKFRAME(&_hx_pos_dd5cdbe7a8b93fcc_1270_readDouble)
 HXDLIN(1270)		if (::hx::IsEq( this->_hx___endian,1 )) {
 HXLINE(1272)			if (((this->position + 8) > this->length)) {
-HXLINE(1274)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null())));
+HXLINE(1274)				HX_STACK_DO_THROW( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null()));
             			}
 HXLINE(1278)			 ::openfl::utils::ByteArrayData _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
 HXDLIN(1278)			_hx_tmp->position = (_hx_tmp->position + 8);
@@ -343,7 +343,7 @@ Float ByteArrayData_obj::readFloat(){
             	HX_GC_STACKFRAME(&_hx_pos_dd5cdbe7a8b93fcc_1292_readFloat)
 HXDLIN(1292)		if (::hx::IsEq( this->_hx___endian,1 )) {
 HXLINE(1294)			if (((this->position + 4) > this->length)) {
-HXLINE(1296)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null())));
+HXLINE(1296)				HX_STACK_DO_THROW( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null()));
             			}
 HXLINE(1300)			 ::openfl::utils::ByteArrayData _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
 HXDLIN(1300)			_hx_tmp->position = (_hx_tmp->position + 4);
@@ -447,7 +447,7 @@ HXDLIN(1474)		if ((this->position < this->length)) {
 HXLINE(1476)			return ( (int)(this->b->__get(this->position++)) );
             		}
             		else {
-HXLINE(1480)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null())));
+HXLINE(1480)			HX_STACK_DO_THROW( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null()));
             		}
 HXLINE(1474)		return 0;
             	}
@@ -501,7 +501,7 @@ HX_DEFINE_DYNAMIC_FUNC0(ByteArrayData_obj,readUTF,return )
 ::String ByteArrayData_obj::readUTFBytes(int length){
             	HX_GC_STACKFRAME(&_hx_pos_dd5cdbe7a8b93fcc_1524_readUTFBytes)
 HXLINE(1525)		if (((this->position + length) > this->length)) {
-HXLINE(1527)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null())));
+HXLINE(1527)			HX_STACK_DO_THROW( ::openfl::errors::EOFError_obj::__alloc( HX_CTX ,null(),null()));
             		}
 HXLINE(1530)		 ::openfl::utils::ByteArrayData _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
 HXDLIN(1530)		_hx_tmp->position = (_hx_tmp->position + length);

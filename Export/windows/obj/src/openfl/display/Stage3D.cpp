@@ -67,42 +67,42 @@
 #include <openfl/geom/Matrix3D.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_3e7f1148457df64b_211_new,"openfl.display.Stage3D","new",0x52647737,"openfl.display.Stage3D.new","openfl/display/Stage3D.hx",211,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_291_requestContext3D,"openfl.display.Stage3D","requestContext3D",0x80c219da,"openfl.display.Stage3D.requestContext3D","openfl/display/Stage3D.hx",291,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_371_requestContext3DMatchingProfiles,"openfl.display.Stage3D","requestContext3DMatchingProfiles",0x5b5ae301,"openfl.display.Stage3D.requestContext3DMatchingProfiles","openfl/display/Stage3D.hx",371,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_375___createContext,"openfl.display.Stage3D","__createContext",0x1987b48a,"openfl.display.Stage3D.__createContext","openfl/display/Stage3D.hx",375,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_457___dispatchError,"openfl.display.Stage3D","__dispatchError",0xdb9710e5,"openfl.display.Stage3D.__dispatchError","openfl/display/Stage3D.hx",457,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_464___dispatchCreate,"openfl.display.Stage3D","__dispatchCreate",0x733e9b3f,"openfl.display.Stage3D.__dispatchCreate","openfl/display/Stage3D.hx",464,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_472___lostContext,"openfl.display.Stage3D","__lostContext",0x951652e2,"openfl.display.Stage3D.__lostContext","openfl/display/Stage3D.hx",472,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_484___resize,"openfl.display.Stage3D","__resize",0x193af2dd,"openfl.display.Stage3D.__resize","openfl/display/Stage3D.hx",484,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_508___restoreContext,"openfl.display.Stage3D","__restoreContext",0xa732262a,"openfl.display.Stage3D.__restoreContext","openfl/display/Stage3D.hx",508,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_515_get_x,"openfl.display.Stage3D","get_x",0x0609efe6,"openfl.display.Stage3D.get_x","openfl/display/Stage3D.hx",515,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_519_set_x,"openfl.display.Stage3D","set_x",0xeed8e5f2,"openfl.display.Stage3D.set_x","openfl/display/Stage3D.hx",519,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_530_get_y,"openfl.display.Stage3D","get_y",0x0609efe7,"openfl.display.Stage3D.get_y","openfl/display/Stage3D.hx",530,0x37141b9b)
-HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_534_set_y,"openfl.display.Stage3D","set_y",0xeed8e5f3,"openfl.display.Stage3D.set_y","openfl/display/Stage3D.hx",534,0x37141b9b)
+HX_DEFINE_STACK_FRAME(_hx_pos_3e7f1148457df64b_212_new,"openfl.display.Stage3D","new",0x52647737,"openfl.display.Stage3D.new","openfl/display/Stage3D.hx",212,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_292_requestContext3D,"openfl.display.Stage3D","requestContext3D",0x80c219da,"openfl.display.Stage3D.requestContext3D","openfl/display/Stage3D.hx",292,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_372_requestContext3DMatchingProfiles,"openfl.display.Stage3D","requestContext3DMatchingProfiles",0x5b5ae301,"openfl.display.Stage3D.requestContext3DMatchingProfiles","openfl/display/Stage3D.hx",372,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_376___createContext,"openfl.display.Stage3D","__createContext",0x1987b48a,"openfl.display.Stage3D.__createContext","openfl/display/Stage3D.hx",376,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_476___dispatchError,"openfl.display.Stage3D","__dispatchError",0xdb9710e5,"openfl.display.Stage3D.__dispatchError","openfl/display/Stage3D.hx",476,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_483___dispatchCreate,"openfl.display.Stage3D","__dispatchCreate",0x733e9b3f,"openfl.display.Stage3D.__dispatchCreate","openfl/display/Stage3D.hx",483,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_491___lostContext,"openfl.display.Stage3D","__lostContext",0x951652e2,"openfl.display.Stage3D.__lostContext","openfl/display/Stage3D.hx",491,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_503___resize,"openfl.display.Stage3D","__resize",0x193af2dd,"openfl.display.Stage3D.__resize","openfl/display/Stage3D.hx",503,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_542___restoreContext,"openfl.display.Stage3D","__restoreContext",0xa732262a,"openfl.display.Stage3D.__restoreContext","openfl/display/Stage3D.hx",542,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_549_get_x,"openfl.display.Stage3D","get_x",0x0609efe6,"openfl.display.Stage3D.get_x","openfl/display/Stage3D.hx",549,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_553_set_x,"openfl.display.Stage3D","set_x",0xeed8e5f2,"openfl.display.Stage3D.set_x","openfl/display/Stage3D.hx",553,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_564_get_y,"openfl.display.Stage3D","get_y",0x0609efe7,"openfl.display.Stage3D.get_y","openfl/display/Stage3D.hx",564,0x37141b9b)
+HX_LOCAL_STACK_FRAME(_hx_pos_3e7f1148457df64b_568_set_y,"openfl.display.Stage3D","set_y",0xeed8e5f3,"openfl.display.Stage3D.set_y","openfl/display/Stage3D.hx",568,0x37141b9b)
 namespace openfl{
 namespace display{
 
 void Stage3D_obj::__construct( ::openfl::display::Stage stage){
-            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_211_new)
-HXLINE( 212)		super::__construct(null());
-HXLINE( 214)		this->_hx___stage = stage;
-HXLINE( 216)		this->_hx___height = 0;
-HXLINE( 217)		this->_hx___projectionTransform =  ::openfl::geom::Matrix3D_obj::__alloc( HX_CTX ,null());
-HXLINE( 218)		this->_hx___renderTransform =  ::openfl::geom::Matrix3D_obj::__alloc( HX_CTX ,null());
-HXLINE( 219)		this->_hx___width = 0;
-HXLINE( 220)		this->_hx___x = ( (Float)(0) );
-HXLINE( 221)		this->_hx___y = ( (Float)(0) );
-HXLINE( 223)		this->visible = true;
-HXLINE( 225)		bool _hx_tmp;
-HXDLIN( 225)		if ((stage->stageWidth > 0)) {
-HXLINE( 225)			_hx_tmp = (stage->stageHeight > 0);
+            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_212_new)
+HXLINE( 213)		super::__construct(null());
+HXLINE( 215)		this->_hx___stage = stage;
+HXLINE( 217)		this->_hx___height = 0;
+HXLINE( 218)		this->_hx___projectionTransform =  ::openfl::geom::Matrix3D_obj::__alloc( HX_CTX ,null());
+HXLINE( 219)		this->_hx___renderTransform =  ::openfl::geom::Matrix3D_obj::__alloc( HX_CTX ,null());
+HXLINE( 220)		this->_hx___width = 0;
+HXLINE( 221)		this->_hx___x = ( (Float)(0) );
+HXLINE( 222)		this->_hx___y = ( (Float)(0) );
+HXLINE( 224)		this->visible = true;
+HXLINE( 226)		bool _hx_tmp;
+HXDLIN( 226)		if ((stage->stageWidth > 0)) {
+HXLINE( 226)			_hx_tmp = (stage->stageHeight > 0);
             		}
             		else {
-HXLINE( 225)			_hx_tmp = false;
+HXLINE( 226)			_hx_tmp = false;
             		}
-HXDLIN( 225)		if (_hx_tmp) {
-HXLINE( 227)			this->_hx___resize(stage->stageWidth,stage->stageHeight);
+HXDLIN( 226)		if (_hx_tmp) {
+HXLINE( 228)			this->_hx___resize(stage->stageWidth,stage->stageHeight);
             		}
             	}
 
@@ -130,19 +130,19 @@ void Stage3D_obj::requestContext3D( ::Dynamic __o_context3DRenderMode, ::Dynamic
             		if (::hx::IsNull(__o_context3DRenderMode)) context3DRenderMode = 0;
             		 ::Dynamic profile = __o_profile;
             		if (::hx::IsNull(__o_profile)) profile = 0;
-            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_291_requestContext3D)
-HXLINE( 292)		if (this->_hx___contextLost) {
-HXLINE( 294)			this->_hx___contextRequested = true;
-HXLINE( 295)			return;
+            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_292_requestContext3D)
+HXLINE( 293)		if (this->_hx___contextLost) {
+HXLINE( 295)			this->_hx___contextRequested = true;
+HXLINE( 296)			return;
             		}
-HXLINE( 298)		if (::hx::IsNotNull( this->context3D )) {
-HXLINE( 300)			this->_hx___contextRequested = true;
-HXLINE( 301)			::haxe::Timer_obj::delay(this->_hx___dispatchCreate_dyn(),1);
+HXLINE( 299)		if (::hx::IsNotNull( this->context3D )) {
+HXLINE( 301)			this->_hx___contextRequested = true;
+HXLINE( 302)			::haxe::Timer_obj::delay(this->_hx___dispatchCreate_dyn(),1);
             		}
             		else {
-HXLINE( 303)			if (!(this->_hx___contextRequested)) {
-HXLINE( 305)				this->_hx___contextRequested = true;
-HXLINE( 306)				::haxe::Timer_obj::delay(this->_hx___createContext_dyn(),1);
+HXLINE( 304)			if (!(this->_hx___contextRequested)) {
+HXLINE( 306)				this->_hx___contextRequested = true;
+HXLINE( 307)				::haxe::Timer_obj::delay(this->_hx___createContext_dyn(),1);
             			}
             		}
             	}
@@ -151,34 +151,34 @@ HXLINE( 306)				::haxe::Timer_obj::delay(this->_hx___createContext_dyn(),1);
 HX_DEFINE_DYNAMIC_FUNC2(Stage3D_obj,requestContext3D,(void))
 
 void Stage3D_obj::requestContext3DMatchingProfiles( ::openfl::_Vector::ObjectVector profiles){
-            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_371_requestContext3DMatchingProfiles)
-HXDLIN( 371)		this->requestContext3D(null(),null());
+            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_372_requestContext3DMatchingProfiles)
+HXDLIN( 372)		this->requestContext3D(null(),null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage3D_obj,requestContext3DMatchingProfiles,(void))
 
 void Stage3D_obj::_hx___createContext(){
-            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_375___createContext)
-HXLINE( 377)		 ::openfl::display::Stage stage = this->_hx___stage;
-HXLINE( 378)		 ::openfl::display::DisplayObjectRenderer renderer = stage->_hx___renderer;
-HXLINE( 380)		bool _hx_tmp;
-HXDLIN( 380)		if ((renderer->_hx___type != HX_("cairo",88,30,19,41))) {
-HXLINE( 380)			_hx_tmp = (renderer->_hx___type == HX_("canvas",d8,54,42,b8));
+            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_376___createContext)
+HXLINE( 378)		 ::openfl::display::Stage stage = this->_hx___stage;
+HXLINE( 379)		 ::openfl::display::DisplayObjectRenderer renderer = stage->_hx___renderer;
+HXLINE( 381)		bool _hx_tmp;
+HXDLIN( 381)		if ((renderer->_hx___type != HX_("cairo",88,30,19,41))) {
+HXLINE( 381)			_hx_tmp = (renderer->_hx___type == HX_("canvas",d8,54,42,b8));
             		}
             		else {
-HXLINE( 380)			_hx_tmp = true;
+HXLINE( 381)			_hx_tmp = true;
             		}
-HXDLIN( 380)		if (_hx_tmp) {
-HXLINE( 382)			this->_hx___dispatchError();
-HXLINE( 383)			return;
+HXDLIN( 381)		if (_hx_tmp) {
+HXLINE( 383)			this->_hx___dispatchError();
+HXLINE( 384)			return;
             		}
-HXLINE( 386)		if ((renderer->_hx___type == HX_("opengl",6f,64,94,21))) {
-HXLINE( 391)			this->context3D =  ::openfl::display3D::Context3D_obj::__alloc( HX_CTX ,stage,stage->context3D->_hx___contextState,::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 393)			this->_hx___dispatchCreate();
+HXLINE( 387)		if ((renderer->_hx___type == HX_("opengl",6f,64,94,21))) {
+HXLINE( 392)			this->context3D =  ::openfl::display3D::Context3D_obj::__alloc( HX_CTX ,stage,stage->context3D->_hx___contextState,::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 394)			this->_hx___dispatchCreate();
             		}
             		else {
-HXLINE( 395)			bool _hx_tmp = (renderer->_hx___type == HX_("dom",82,42,4c,00));
+HXLINE( 396)			bool _hx_tmp = (renderer->_hx___type == HX_("dom",82,42,4c,00));
             		}
             	}
 
@@ -186,19 +186,19 @@ HXLINE( 395)			bool _hx_tmp = (renderer->_hx___type == HX_("dom",82,42,4c,00));
 HX_DEFINE_DYNAMIC_FUNC0(Stage3D_obj,_hx___createContext,(void))
 
 void Stage3D_obj::_hx___dispatchError(){
-            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_457___dispatchError)
-HXLINE( 458)		this->_hx___contextRequested = false;
-HXLINE( 459)		this->dispatchEvent( ::openfl::events::ErrorEvent_obj::__alloc( HX_CTX ,HX_("error",c8,cb,29,73),false,false,HX_("Context3D not available",9c,fc,63,d3),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_476___dispatchError)
+HXLINE( 477)		this->_hx___contextRequested = false;
+HXLINE( 478)		this->dispatchEvent( ::openfl::events::ErrorEvent_obj::__alloc( HX_CTX ,HX_("error",c8,cb,29,73),false,false,HX_("Context3D not available",9c,fc,63,d3),null()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Stage3D_obj,_hx___dispatchError,(void))
 
 void Stage3D_obj::_hx___dispatchCreate(){
-            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_464___dispatchCreate)
-HXDLIN( 464)		if (this->_hx___contextRequested) {
-HXLINE( 466)			this->_hx___contextRequested = false;
-HXLINE( 467)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("context3DCreate",7c,bf,59,7b),null(),null()));
+            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_483___dispatchCreate)
+HXDLIN( 483)		if (this->_hx___contextRequested) {
+HXLINE( 485)			this->_hx___contextRequested = false;
+HXLINE( 486)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("context3DCreate",7c,bf,59,7b),null(),null()));
             		}
             	}
 
@@ -206,11 +206,11 @@ HXLINE( 467)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX
 HX_DEFINE_DYNAMIC_FUNC0(Stage3D_obj,_hx___dispatchCreate,(void))
 
 void Stage3D_obj::_hx___lostContext(){
-            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_472___lostContext)
-HXLINE( 473)		this->_hx___contextLost = true;
-HXLINE( 475)		if (::hx::IsNotNull( this->context3D )) {
-HXLINE( 477)			this->context3D->_hx___dispose();
-HXLINE( 478)			this->_hx___contextRequested = true;
+            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_491___lostContext)
+HXLINE( 492)		this->_hx___contextLost = true;
+HXLINE( 494)		if (::hx::IsNotNull( this->context3D )) {
+HXLINE( 496)			this->context3D->_hx___dispose();
+HXLINE( 497)			this->_hx___contextRequested = true;
             		}
             	}
 
@@ -218,38 +218,38 @@ HXLINE( 478)			this->_hx___contextRequested = true;
 HX_DEFINE_DYNAMIC_FUNC0(Stage3D_obj,_hx___lostContext,(void))
 
 void Stage3D_obj::_hx___resize(int width,int height){
-            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_484___resize)
-HXDLIN( 484)		bool _hx_tmp;
-HXDLIN( 484)		if ((width == this->_hx___width)) {
-HXDLIN( 484)			_hx_tmp = (height != this->_hx___height);
+            	HX_GC_STACKFRAME(&_hx_pos_3e7f1148457df64b_503___resize)
+HXDLIN( 503)		bool _hx_tmp;
+HXDLIN( 503)		if ((width == this->_hx___width)) {
+HXDLIN( 503)			_hx_tmp = (height != this->_hx___height);
             		}
             		else {
-HXDLIN( 484)			_hx_tmp = true;
+HXDLIN( 503)			_hx_tmp = true;
             		}
-HXDLIN( 484)		if (_hx_tmp) {
-HXLINE( 494)			 ::openfl::geom::Matrix3D _hx_tmp = this->_hx___projectionTransform;
-HXDLIN( 494)			int length = null();
-HXDLIN( 494)			bool fixed = null();
-HXLINE( 495)			int _hx_tmp1;
-HXDLIN( 495)			if ((width > 0)) {
-HXLINE( 495)				_hx_tmp1 = width;
+HXDLIN( 503)		if (_hx_tmp) {
+HXLINE( 513)			 ::openfl::geom::Matrix3D _hx_tmp = this->_hx___projectionTransform;
+HXDLIN( 513)			int length = null();
+HXDLIN( 513)			bool fixed = null();
+HXLINE( 514)			int _hx_tmp1;
+HXDLIN( 514)			if ((width > 0)) {
+HXLINE( 514)				_hx_tmp1 = width;
             			}
             			else {
-HXLINE( 495)				_hx_tmp1 = 1;
+HXLINE( 514)				_hx_tmp1 = 1;
             			}
-HXDLIN( 495)			int _hx_tmp2;
-HXDLIN( 495)			if ((height > 0)) {
-HXLINE( 495)				_hx_tmp2 = height;
+HXLINE( 519)			int _hx_tmp2;
+HXDLIN( 519)			if ((height > 0)) {
+HXLINE( 519)				_hx_tmp2 = height;
             			}
             			else {
-HXLINE( 495)				_hx_tmp2 = 1;
+HXLINE( 519)				_hx_tmp2 = 1;
             			}
-HXLINE( 494)			_hx_tmp->copyRawDataFrom( ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,::Array_obj< Float >::__new(16)->init(0,(((Float)2.0) / ( (Float)(_hx_tmp1) )))->init(1,((Float)0.0))->init(2,((Float)0.0))->init(3,((Float)0.0))->init(4,((Float)0.0))->init(5,(((Float)-2.0) / ( (Float)(_hx_tmp2) )))->init(6,((Float)0.0))->init(7,((Float)0.0))->init(8,((Float)0.0))->init(9,((Float)0.0))->init(10,((Float)-0.001))->init(11,((Float)0.0))->init(12,((Float)-1.0))->init(13,((Float)1.0))->init(14,((Float)0.0))->init(15,((Float)1.0)),true),null(),null());
-HXLINE( 498)			this->_hx___renderTransform->identity();
-HXLINE( 499)			this->_hx___renderTransform->appendTranslation(this->_hx___x,this->_hx___y,( (Float)(0) ));
-HXLINE( 500)			this->_hx___renderTransform->append(this->_hx___projectionTransform);
-HXLINE( 502)			this->_hx___width = width;
-HXLINE( 503)			this->_hx___height = height;
+HXLINE( 513)			_hx_tmp->copyRawDataFrom( ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,::Array_obj< Float >::__new(16)->init(0,(((Float)2.0) / ( (Float)(_hx_tmp1) )))->init(1,((Float)0.0))->init(2,((Float)0.0))->init(3,((Float)0.0))->init(4,((Float)0.0))->init(5,(((Float)-2.0) / ( (Float)(_hx_tmp2) )))->init(6,((Float)0.0))->init(7,((Float)0.0))->init(8,((Float)0.0))->init(9,((Float)0.0))->init(10,((Float)-0.001))->init(11,((Float)0.0))->init(12,((Float)-1.0))->init(13,((Float)1.0))->init(14,((Float)0.0))->init(15,((Float)1.0)),true),null(),null());
+HXLINE( 532)			this->_hx___renderTransform->identity();
+HXLINE( 533)			this->_hx___renderTransform->appendTranslation(this->_hx___x,this->_hx___y,( (Float)(0) ));
+HXLINE( 534)			this->_hx___renderTransform->append(this->_hx___projectionTransform);
+HXLINE( 536)			this->_hx___width = width;
+HXLINE( 537)			this->_hx___height = height;
             		}
             	}
 
@@ -257,55 +257,55 @@ HXLINE( 503)			this->_hx___height = height;
 HX_DEFINE_DYNAMIC_FUNC2(Stage3D_obj,_hx___resize,(void))
 
 void Stage3D_obj::_hx___restoreContext(){
-            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_508___restoreContext)
-HXLINE( 509)		this->_hx___contextLost = false;
-HXLINE( 510)		this->_hx___createContext();
+            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_542___restoreContext)
+HXLINE( 543)		this->_hx___contextLost = false;
+HXLINE( 544)		this->_hx___createContext();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Stage3D_obj,_hx___restoreContext,(void))
 
 Float Stage3D_obj::get_x(){
-            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_515_get_x)
-HXDLIN( 515)		return this->_hx___x;
+            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_549_get_x)
+HXDLIN( 549)		return this->_hx___x;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Stage3D_obj,get_x,return )
 
 Float Stage3D_obj::set_x(Float value){
-            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_519_set_x)
-HXLINE( 520)		if ((this->_hx___x == value)) {
-HXLINE( 520)			return value;
+            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_553_set_x)
+HXLINE( 554)		if ((this->_hx___x == value)) {
+HXLINE( 554)			return value;
             		}
-HXLINE( 521)		this->_hx___x = value;
-HXLINE( 522)		this->_hx___renderTransform->identity();
-HXLINE( 523)		this->_hx___renderTransform->appendTranslation(this->_hx___x,this->_hx___y,( (Float)(0) ));
-HXLINE( 524)		this->_hx___renderTransform->append(this->_hx___projectionTransform);
-HXLINE( 525)		return value;
+HXLINE( 555)		this->_hx___x = value;
+HXLINE( 556)		this->_hx___renderTransform->identity();
+HXLINE( 557)		this->_hx___renderTransform->appendTranslation(this->_hx___x,this->_hx___y,( (Float)(0) ));
+HXLINE( 558)		this->_hx___renderTransform->append(this->_hx___projectionTransform);
+HXLINE( 559)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Stage3D_obj,set_x,return )
 
 Float Stage3D_obj::get_y(){
-            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_530_get_y)
-HXDLIN( 530)		return this->_hx___y;
+            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_564_get_y)
+HXDLIN( 564)		return this->_hx___y;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Stage3D_obj,get_y,return )
 
 Float Stage3D_obj::set_y(Float value){
-            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_534_set_y)
-HXLINE( 535)		if ((this->_hx___y == value)) {
-HXLINE( 535)			return value;
+            	HX_STACKFRAME(&_hx_pos_3e7f1148457df64b_568_set_y)
+HXLINE( 569)		if ((this->_hx___y == value)) {
+HXLINE( 569)			return value;
             		}
-HXLINE( 536)		this->_hx___y = value;
-HXLINE( 537)		this->_hx___renderTransform->identity();
-HXLINE( 538)		this->_hx___renderTransform->appendTranslation(this->_hx___x,this->_hx___y,( (Float)(0) ));
-HXLINE( 539)		this->_hx___renderTransform->append(this->_hx___projectionTransform);
-HXLINE( 540)		return value;
+HXLINE( 570)		this->_hx___y = value;
+HXLINE( 571)		this->_hx___renderTransform->identity();
+HXLINE( 572)		this->_hx___renderTransform->appendTranslation(this->_hx___x,this->_hx___y,( (Float)(0) ));
+HXLINE( 573)		this->_hx___renderTransform->append(this->_hx___projectionTransform);
+HXLINE( 574)		return value;
             	}
 
 

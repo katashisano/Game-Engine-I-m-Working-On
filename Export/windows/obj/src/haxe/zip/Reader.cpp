@@ -34,19 +34,18 @@
 #include <haxe/zip/Reader.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_c76307fb0f9c3e4f_34_new,"haxe.zip.Reader","new",0xf101338a,"haxe.zip.Reader.new","haxe/zip/Reader.hx",34,0x3164d664)
-HX_LOCAL_STACK_FRAME(_hx_pos_c76307fb0f9c3e4f_38_readZipDate,"haxe.zip.Reader","readZipDate",0xa6a02623,"haxe.zip.Reader.readZipDate","haxe/zip/Reader.hx",38,0x3164d664)
-HX_LOCAL_STACK_FRAME(_hx_pos_c76307fb0f9c3e4f_51_readExtraFields,"haxe.zip.Reader","readExtraFields",0x48ea639d,"haxe.zip.Reader.readExtraFields","haxe/zip/Reader.hx",51,0x3164d664)
-HX_LOCAL_STACK_FRAME(_hx_pos_c76307fb0f9c3e4f_85_readEntryHeader,"haxe.zip.Reader","readEntryHeader",0x28765213,"haxe.zip.Reader.readEntryHeader","haxe/zip/Reader.hx",85,0x3164d664)
-HX_LOCAL_STACK_FRAME(_hx_pos_c76307fb0f9c3e4f_122_read,"haxe.zip.Reader","read",0xf2b0acec,"haxe.zip.Reader.read","haxe/zip/Reader.hx",122,0x3164d664)
-HX_LOCAL_STACK_FRAME(_hx_pos_c76307fb0f9c3e4f_193_readZip,"haxe.zip.Reader","readZip",0x2845d555,"haxe.zip.Reader.readZip","haxe/zip/Reader.hx",193,0x3164d664)
-HX_LOCAL_STACK_FRAME(_hx_pos_c76307fb0f9c3e4f_199_unzip,"haxe.zip.Reader","unzip",0x282047d2,"haxe.zip.Reader.unzip","haxe/zip/Reader.hx",199,0x3164d664)
+HX_DEFINE_STACK_FRAME(_hx_pos_0e0824d2a0189e14_33_new,"haxe.zip.Reader","new",0xf101338a,"haxe.zip.Reader.new","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",33,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_36_readZipDate,"haxe.zip.Reader","readZipDate",0xa6a02623,"haxe.zip.Reader.readZipDate","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",36,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_48_readExtraFields,"haxe.zip.Reader","readExtraFields",0x48ea639d,"haxe.zip.Reader.readExtraFields","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",48,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_78_readEntryHeader,"haxe.zip.Reader","readEntryHeader",0x28765213,"haxe.zip.Reader.readEntryHeader","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",78,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_121_read,"haxe.zip.Reader","read",0xf2b0acec,"haxe.zip.Reader.read","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",121,0x0c8b1c7d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0e0824d2a0189e14_194_readZip,"haxe.zip.Reader","readZip",0x2845d555,"haxe.zip.Reader.readZip","C:\\HaxeToolkit\\haxe\\std/haxe/zip/Reader.hx",194,0x0c8b1c7d)
 namespace haxe{
 namespace zip{
 
 void Reader_obj::__construct( ::haxe::io::Input i){
-            	HX_STACKFRAME(&_hx_pos_c76307fb0f9c3e4f_34_new)
-HXDLIN(  34)		this->i = i;
+            	HX_STACKFRAME(&_hx_pos_0e0824d2a0189e14_33_new)
+HXDLIN(  33)		this->i = i;
             	}
 
 Dynamic Reader_obj::__CreateEmpty() { return new Reader_obj; }
@@ -65,117 +64,120 @@ bool Reader_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Date Reader_obj::readZipDate(){
-            	HX_GC_STACKFRAME(&_hx_pos_c76307fb0f9c3e4f_38_readZipDate)
-HXLINE(  39)		int t = this->i->readUInt16();
-HXLINE(  40)		int hour = ((t >> 11) & 31);
-HXLINE(  41)		int min = ((t >> 5) & 63);
-HXLINE(  42)		int sec = (t & 31);
-HXLINE(  43)		int d = this->i->readUInt16();
-HXLINE(  44)		int year = (d >> 9);
-HXLINE(  45)		int month = ((d >> 5) & 15);
-HXLINE(  46)		int day = (d & 31);
-HXLINE(  47)		return  ::Date_obj::__alloc( HX_CTX ,(year + 1980),(month - 1),day,hour,min,(sec << 1));
+            	HX_GC_STACKFRAME(&_hx_pos_0e0824d2a0189e14_36_readZipDate)
+HXLINE(  37)		int t = this->i->readUInt16();
+HXLINE(  38)		int hour = ((t >> 11) & 31);
+HXLINE(  39)		int min = ((t >> 5) & 63);
+HXLINE(  40)		int sec = (t & 31);
+HXLINE(  41)		int d = this->i->readUInt16();
+HXLINE(  42)		int year = (d >> 9);
+HXLINE(  43)		int month = ((d >> 5) & 15);
+HXLINE(  44)		int day = (d & 31);
+HXLINE(  45)		return  ::Date_obj::__alloc( HX_CTX ,(year + 1980),(month - 1),day,hour,min,(sec << 1));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Reader_obj,readZipDate,return )
 
  ::haxe::ds::List Reader_obj::readExtraFields(int length){
-            	HX_GC_STACKFRAME(&_hx_pos_c76307fb0f9c3e4f_51_readExtraFields)
-HXLINE(  52)		 ::haxe::ds::List fields =  ::haxe::ds::List_obj::__alloc( HX_CTX );
-HXLINE(  53)		while((length > 0)){
-HXLINE(  55)			if ((length < 4)) {
-HXLINE(  55)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid extra fields data",18,88,a4,23)));
+            	HX_GC_STACKFRAME(&_hx_pos_0e0824d2a0189e14_48_readExtraFields)
+HXLINE(  49)		 ::haxe::ds::List fields =  ::haxe::ds::List_obj::__alloc( HX_CTX );
+HXLINE(  50)		while((length > 0)){
+HXLINE(  51)			if ((length < 4)) {
+HXLINE(  52)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid extra fields data",18,88,a4,23)));
             			}
-HXLINE(  56)			int tag = this->i->readUInt16();
-HXLINE(  57)			int len = this->i->readUInt16();
-HXLINE(  58)			if ((length < len)) {
-HXLINE(  58)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid extra fields data",18,88,a4,23)));
+HXLINE(  53)			int tag = this->i->readUInt16();
+HXLINE(  54)			int len = this->i->readUInt16();
+HXLINE(  55)			if ((length < len)) {
+HXLINE(  56)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid extra fields data",18,88,a4,23)));
             			}
-HXLINE(  59)			if ((tag == 28789)) {
-HXLINE(  62)				int version = this->i->readByte();
-HXLINE(  63)				if ((version != 1)) {
-HXLINE(  65)					 ::haxe::io::BytesBuffer data =  ::haxe::io::BytesBuffer_obj::__alloc( HX_CTX );
-HXLINE(  66)					data->b->push(version);
-HXLINE(  67)					{
-HXLINE(  67)						 ::haxe::io::Bytes src = this->i->read((len - 1));
-HXDLIN(  67)						::Array< unsigned char > b1 = data->b;
-HXDLIN(  67)						::Array< unsigned char > b2 = src->b;
-HXDLIN(  67)						{
-HXLINE(  67)							int _g = 0;
-HXDLIN(  67)							int _g1 = src->length;
-HXDLIN(  67)							while((_g < _g1)){
-HXLINE(  67)								_g = (_g + 1);
-HXDLIN(  67)								int i = (_g - 1);
-HXDLIN(  67)								data->b->push(b2->__get(i));
+HXLINE(  57)			if ((tag == 28789)) {
+HXLINE(  59)				int version = this->i->readByte();
+HXLINE(  60)				if ((version != 1)) {
+HXLINE(  61)					 ::haxe::io::BytesBuffer data =  ::haxe::io::BytesBuffer_obj::__alloc( HX_CTX );
+HXLINE(  62)					data->b->push(version);
+HXLINE(  63)					{
+HXLINE(  63)						 ::haxe::io::Bytes src = this->i->read((len - 1));
+HXDLIN(  63)						::Array< unsigned char > b1 = data->b;
+HXDLIN(  63)						::Array< unsigned char > b2 = src->b;
+HXDLIN(  63)						{
+HXLINE(  63)							int _g = 0;
+HXDLIN(  63)							int _g1 = src->length;
+HXDLIN(  63)							while((_g < _g1)){
+HXLINE(  63)								_g = (_g + 1);
+HXDLIN(  63)								int i = (_g - 1);
+HXDLIN(  63)								data->b->push(b2->__get(i));
             							}
             						}
             					}
-HXLINE(  68)					fields->add(::haxe::zip::ExtraField_obj::FUnknown(tag,data->getBytes()));
+HXLINE(  64)					fields->add(::haxe::zip::ExtraField_obj::FUnknown(tag,data->getBytes()));
             				}
             				else {
-HXLINE(  72)					int crc = this->i->readInt32();
-HXLINE(  73)					::String name = this->i->read((len - 5))->toString();
-HXLINE(  74)					fields->add(::haxe::zip::ExtraField_obj::FInfoZipUnicodePath(name,crc));
+HXLINE(  66)					int crc = this->i->readInt32();
+HXLINE(  67)					::String name = this->i->read((len - 5))->toString();
+HXLINE(  68)					fields->add(::haxe::zip::ExtraField_obj::FInfoZipUnicodePath(name,crc));
             				}
             			}
             			else {
-HXLINE(  77)				fields->add(::haxe::zip::ExtraField_obj::FUnknown(tag,this->i->read(len)));
+HXLINE(  71)				fields->add(::haxe::zip::ExtraField_obj::FUnknown(tag,this->i->read(len)));
             			}
-HXLINE(  79)			length = (length - (4 + len));
+HXLINE(  73)			length = (length - (4 + len));
             		}
-HXLINE(  81)		return fields;
+HXLINE(  75)		return fields;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Reader_obj,readExtraFields,return )
 
  ::Dynamic Reader_obj::readEntryHeader(){
-            	HX_STACKFRAME(&_hx_pos_c76307fb0f9c3e4f_85_readEntryHeader)
-HXLINE(  86)		 ::haxe::io::Input i = this->i;
-HXLINE(  87)		int h = i->readInt32();
-HXLINE(  88)		bool _hx_tmp;
-HXDLIN(  88)		if ((h != 33639248)) {
-HXLINE(  88)			_hx_tmp = (h == 101010256);
+            	HX_STACKFRAME(&_hx_pos_0e0824d2a0189e14_78_readEntryHeader)
+HXLINE(  79)		 ::haxe::io::Input i = this->i;
+HXLINE(  80)		int h = i->readInt32();
+HXLINE(  81)		bool _hx_tmp;
+HXDLIN(  81)		if ((h != 33639248)) {
+HXLINE(  81)			_hx_tmp = (h == 101010256);
             		}
             		else {
-HXLINE(  88)			_hx_tmp = true;
+HXLINE(  81)			_hx_tmp = true;
             		}
-HXDLIN(  88)		if (_hx_tmp) {
-HXLINE(  88)			return null();
+HXDLIN(  81)		if (_hx_tmp) {
+HXLINE(  82)			return null();
             		}
-HXLINE(  89)		if ((h != 67324752)) {
-HXLINE(  89)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid Zip Data",72,da,ff,99)));
+HXLINE(  83)		if ((h != 67324752)) {
+HXLINE(  84)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("Invalid Zip Data",72,da,ff,99)));
             		}
-HXLINE(  90)		int version = i->readUInt16();
-HXLINE(  91)		int flags = i->readUInt16();
-HXLINE(  92)		bool utf8 = ((flags & 2048) != 0);
-HXLINE(  95)		int compression = i->readUInt16();
-HXLINE(  96)		bool compressed = (compression != 0);
-HXLINE(  97)		bool _hx_tmp1;
-HXDLIN(  97)		if (compressed) {
-HXLINE(  97)			_hx_tmp1 = (compression != 8);
+HXLINE(  85)		int version = i->readUInt16();
+HXLINE(  86)		int flags = i->readUInt16();
+HXLINE(  87)		bool utf8 = ((flags & 2048) != 0);
+HXLINE(  88)		if (((flags & 63473) != 0)) {
+HXLINE(  89)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Unsupported flags ",24,93,26,a4) + flags)));
+            		}
+HXLINE(  90)		int compression = i->readUInt16();
+HXLINE(  91)		bool compressed = (compression != 0);
+HXLINE(  92)		bool _hx_tmp1;
+HXDLIN(  92)		if (compressed) {
+HXLINE(  92)			_hx_tmp1 = (compression != 8);
             		}
             		else {
-HXLINE(  97)			_hx_tmp1 = false;
+HXLINE(  92)			_hx_tmp1 = false;
             		}
-HXDLIN(  97)		if (_hx_tmp1) {
-HXLINE(  97)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Unsupported compression ",65,94,24,90) + compression)));
+HXDLIN(  92)		if (_hx_tmp1) {
+HXLINE(  93)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Unsupported compression ",65,94,24,90) + compression)));
             		}
-HXLINE(  98)		 ::Date mtime = this->readZipDate();
-HXLINE(  99)		int crc32 = i->readInt32();
-HXLINE( 100)		int csize = i->readInt32();
-HXLINE( 101)		int usize = i->readInt32();
-HXLINE( 102)		int fnamelen = i->readInt16();
-HXLINE( 103)		int elen = i->readInt16();
-HXLINE( 104)		::String fname = i->readString(fnamelen,null());
-HXLINE( 105)		 ::haxe::ds::List fields = this->readExtraFields(elen);
-HXLINE( 106)		if (utf8) {
-HXLINE( 106)			fields->push(::haxe::zip::ExtraField_obj::FUtf8_dyn());
+HXLINE(  94)		 ::Date mtime = this->readZipDate();
+HXLINE(  95)		 ::Dynamic crc32 = i->readInt32();
+HXLINE(  96)		int csize = i->readInt32();
+HXLINE(  97)		int usize = i->readInt32();
+HXLINE(  98)		int fnamelen = i->readInt16();
+HXLINE(  99)		int elen = i->readInt16();
+HXLINE( 100)		::String fname = i->readString(fnamelen,null());
+HXLINE( 101)		 ::haxe::ds::List fields = this->readExtraFields(elen);
+HXLINE( 102)		if (utf8) {
+HXLINE( 103)			fields->push(::haxe::zip::ExtraField_obj::FUtf8_dyn());
             		}
-HXLINE( 107)		 ::haxe::io::Bytes data = null();
-HXLINE( 108)		if (((flags & 8) != 0)) {
-HXLINE( 108)			csize = -1;
+HXLINE( 104)		 ::haxe::io::Bytes data = null();
+HXLINE( 107)		if (((flags & 8) != 0)) {
+HXLINE( 108)			crc32 = null();
             		}
 HXLINE( 109)		return  ::Dynamic(::hx::Anon_obj::Create(8)
             			->setFixed(0,HX_("dataSize",0b,80,c7,8b),csize)
@@ -192,94 +194,87 @@ HXLINE( 109)		return  ::Dynamic(::hx::Anon_obj::Create(8)
 HX_DEFINE_DYNAMIC_FUNC0(Reader_obj,readEntryHeader,return )
 
  ::haxe::ds::List Reader_obj::read(){
-            	HX_GC_STACKFRAME(&_hx_pos_c76307fb0f9c3e4f_122_read)
-HXLINE( 123)		 ::haxe::ds::List l =  ::haxe::ds::List_obj::__alloc( HX_CTX );
-HXLINE( 124)		 ::Dynamic buf = null();
-HXLINE( 125)		 ::haxe::io::Bytes tmp = null();
-HXLINE( 126)		while(true){
-HXLINE( 128)			 ::Dynamic e = this->readEntryHeader();
-HXLINE( 129)			if (::hx::IsNull( e )) {
-HXLINE( 129)				goto _hx_goto_6;
+            	HX_GC_STACKFRAME(&_hx_pos_0e0824d2a0189e14_121_read)
+HXLINE( 122)		 ::haxe::ds::List l =  ::haxe::ds::List_obj::__alloc( HX_CTX );
+HXLINE( 123)		 ::Dynamic buf = null();
+HXLINE( 124)		 ::haxe::io::Bytes tmp = null();
+HXLINE( 125)		while(true){
+HXLINE( 126)			 ::Dynamic e = this->readEntryHeader();
+HXLINE( 127)			if (::hx::IsNull( e )) {
+HXLINE( 128)				goto _hx_goto_6;
             			}
-HXLINE( 130)			if (::hx::IsLess( e->__Field(HX_("dataSize",0b,80,c7,8b),::hx::paccDynamic),0 )) {
-HXLINE( 165)				int bufSize = 65536;
-HXLINE( 166)				if (::hx::IsNull( tmp )) {
-HXLINE( 166)					tmp = ::haxe::io::Bytes_obj::alloc(bufSize);
-            				}
-HXLINE( 167)				 ::haxe::io::BytesBuffer out =  ::haxe::io::BytesBuffer_obj::__alloc( HX_CTX );
-HXLINE( 168)				 ::haxe::zip::InflateImpl z =  ::haxe::zip::InflateImpl_obj::__alloc( HX_CTX ,this->i,false,false);
-HXLINE( 169)				while(true){
-HXLINE( 171)					int n = z->readBytes(tmp,0,bufSize);
-HXLINE( 172)					{
-HXLINE( 172)						bool _hx_tmp;
-HXDLIN( 172)						if ((n >= 0)) {
-HXLINE( 172)							_hx_tmp = (n > tmp->length);
-            						}
-            						else {
-HXLINE( 172)							_hx_tmp = true;
-            						}
-HXDLIN( 172)						if (_hx_tmp) {
-HXLINE( 172)							HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::haxe::io::Error_obj::OutsideBounds_dyn()));
-            						}
-HXDLIN( 172)						::Array< unsigned char > b1 = out->b;
-HXDLIN( 172)						::Array< unsigned char > b2 = tmp->b;
-HXDLIN( 172)						{
-HXLINE( 172)							int _g = 0;
-HXDLIN( 172)							int _g1 = n;
-HXDLIN( 172)							while((_g < _g1)){
-HXLINE( 172)								_g = (_g + 1);
-HXDLIN( 172)								int i = (_g - 1);
-HXDLIN( 172)								out->b->push(b2->__get(i));
+HXLINE( 130)			if (::hx::IsNull( e->__Field(HX_("crc32",73,0c,51,4c),::hx::paccDynamic) )) {
+HXLINE( 131)				if (( (bool)(e->__Field(HX_("compressed",81,4c,da,67),::hx::paccDynamic)) )) {
+HXLINE( 164)					int bufSize = 65536;
+HXLINE( 165)					if (::hx::IsNull( tmp )) {
+HXLINE( 166)						tmp = ::haxe::io::Bytes_obj::alloc(bufSize);
+            					}
+HXLINE( 167)					 ::haxe::io::BytesBuffer out =  ::haxe::io::BytesBuffer_obj::__alloc( HX_CTX );
+HXLINE( 168)					 ::haxe::zip::InflateImpl z =  ::haxe::zip::InflateImpl_obj::__alloc( HX_CTX ,this->i,false,false);
+HXLINE( 169)					while(true){
+HXLINE( 170)						int n = z->readBytes(tmp,0,bufSize);
+HXLINE( 171)						{
+HXLINE( 171)							bool _hx_tmp;
+HXDLIN( 171)							if ((n >= 0)) {
+HXLINE( 171)								_hx_tmp = (n > tmp->length);
+            							}
+            							else {
+HXLINE( 171)								_hx_tmp = true;
+            							}
+HXDLIN( 171)							if (_hx_tmp) {
+HXLINE( 171)								HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(::haxe::io::Error_obj::OutsideBounds_dyn()));
+            							}
+HXDLIN( 171)							::Array< unsigned char > b1 = out->b;
+HXDLIN( 171)							::Array< unsigned char > b2 = tmp->b;
+HXDLIN( 171)							{
+HXLINE( 171)								int _g = 0;
+HXDLIN( 171)								int _g1 = n;
+HXDLIN( 171)								while((_g < _g1)){
+HXLINE( 171)									_g = (_g + 1);
+HXDLIN( 171)									int i = (_g - 1);
+HXDLIN( 171)									out->b->push(b2->__get(i));
+            								}
             							}
             						}
+HXLINE( 172)						if ((n < bufSize)) {
+HXLINE( 173)							goto _hx_goto_7;
+            						}
             					}
-HXLINE( 173)					if ((n < bufSize)) {
-HXLINE( 173)						goto _hx_goto_7;
-            					}
+            					_hx_goto_7:;
+HXLINE( 175)					e->__SetField(HX_("data",2a,56,63,42),out->getBytes(),::hx::paccDynamic);
             				}
-            				_hx_goto_7:;
-HXLINE( 175)				e->__SetField(HX_("data",2a,56,63,42),out->getBytes(),::hx::paccDynamic);
-HXLINE( 177)				e->__SetField(HX_("crc32",73,0c,51,4c),this->i->readInt32(),::hx::paccDynamic);
-HXLINE( 178)				if (::hx::IsEq( e->__Field(HX_("crc32",73,0c,51,4c),::hx::paccDynamic),134695760 )) {
-HXLINE( 178)					e->__SetField(HX_("crc32",73,0c,51,4c),this->i->readInt32(),::hx::paccDynamic);
+            				else {
+HXLINE( 178)					e->__SetField(HX_("data",2a,56,63,42),this->i->read(( (int)(e->__Field(HX_("dataSize",0b,80,c7,8b),::hx::paccDynamic)) )),::hx::paccDynamic);
             				}
-HXLINE( 179)				e->__SetField(HX_("dataSize",0b,80,c7,8b),this->i->readInt32(),::hx::paccDynamic);
-HXLINE( 180)				e->__SetField(HX_("fileSize",5d,89,97,65),this->i->readInt32(),::hx::paccDynamic);
-HXLINE( 182)				e->__SetField(HX_("dataSize",0b,80,c7,8b),e->__Field(HX_("fileSize",5d,89,97,65),::hx::paccDynamic),::hx::paccDynamic);
-HXLINE( 183)				e->__SetField(HX_("compressed",81,4c,da,67),false,::hx::paccDynamic);
+HXLINE( 179)				e->__SetField(HX_("crc32",73,0c,51,4c),this->i->readInt32(),::hx::paccDynamic);
+HXLINE( 180)				if (::hx::IsEq( e->__Field(HX_("crc32",73,0c,51,4c),::hx::paccDynamic),134695760 )) {
+HXLINE( 181)					e->__SetField(HX_("crc32",73,0c,51,4c),this->i->readInt32(),::hx::paccDynamic);
+            				}
+HXLINE( 182)				e->__SetField(HX_("dataSize",0b,80,c7,8b),this->i->readInt32(),::hx::paccDynamic);
+HXLINE( 183)				e->__SetField(HX_("fileSize",5d,89,97,65),this->i->readInt32(),::hx::paccDynamic);
+HXLINE( 185)				e->__SetField(HX_("dataSize",0b,80,c7,8b),e->__Field(HX_("fileSize",5d,89,97,65),::hx::paccDynamic),::hx::paccDynamic);
+HXLINE( 186)				e->__SetField(HX_("compressed",81,4c,da,67),false,::hx::paccDynamic);
             			}
             			else {
-HXLINE( 186)				e->__SetField(HX_("data",2a,56,63,42),this->i->read(( (int)(e->__Field(HX_("dataSize",0b,80,c7,8b),::hx::paccDynamic)) )),::hx::paccDynamic);
+HXLINE( 188)				e->__SetField(HX_("data",2a,56,63,42),this->i->read(( (int)(e->__Field(HX_("dataSize",0b,80,c7,8b),::hx::paccDynamic)) )),::hx::paccDynamic);
             			}
-HXLINE( 187)			l->add(e);
+HXLINE( 189)			l->add(e);
             		}
             		_hx_goto_6:;
-HXLINE( 189)		return l;
+HXLINE( 191)		return l;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Reader_obj,read,return )
 
  ::haxe::ds::List Reader_obj::readZip( ::haxe::io::Input i){
-            	HX_GC_STACKFRAME(&_hx_pos_c76307fb0f9c3e4f_193_readZip)
-HXLINE( 194)		 ::haxe::zip::Reader r =  ::haxe::zip::Reader_obj::__alloc( HX_CTX ,i);
-HXLINE( 195)		return r->read();
+            	HX_GC_STACKFRAME(&_hx_pos_0e0824d2a0189e14_194_readZip)
+HXLINE( 195)		 ::haxe::zip::Reader r =  ::haxe::zip::Reader_obj::__alloc( HX_CTX ,i);
+HXLINE( 196)		return r->read();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Reader_obj,readZip,return )
-
- ::haxe::io::Bytes Reader_obj::unzip( ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_c76307fb0f9c3e4f_199_unzip)
-HXLINE( 200)		if (!(( (bool)(f->__Field(HX_("compressed",81,4c,da,67),::hx::paccDynamic)) ))) {
-HXLINE( 200)			return ( ( ::haxe::io::Bytes)(f->__Field(HX_("data",2a,56,63,42),::hx::paccDynamic)) );
-            		}
-HXLINE( 211)		HX_STACK_DO_THROW(::haxe::Exception_obj::thrown(HX_("No uncompress support",49,96,03,85)));
-HXDLIN( 211)		return null();
-            	}
-
-
-STATIC_HX_DEFINE_DYNAMIC_FUNC1(Reader_obj,unzip,return )
 
 
 ::hx::ObjectPtr< Reader_obj > Reader_obj::__new( ::haxe::io::Input i) {
@@ -333,9 +328,6 @@ void Reader_obj::__Visit(HX_VISIT_PARAMS)
 bool Reader_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::PropertyAccess inCallProp)
 {
 	switch(inName.length) {
-	case 5:
-		if (HX_FIELD_EQ(inName,"unzip") ) { outValue = unzip_dyn(); return true; }
-		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"readZip") ) { outValue = readZip_dyn(); return true; }
 	}
@@ -377,7 +369,6 @@ static ::String Reader_obj_sMemberFields[] = {
 
 static ::String Reader_obj_sStaticFields[] = {
 	HX_("readZip",2b,95,d6,02),
-	HX_("unzip",28,46,f4,a6),
 	::String(null())
 };
 

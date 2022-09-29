@@ -39,9 +39,17 @@ class HXCPP_CLASS_ATTRIBUTES UncaughtErrorEvents_obj : public  ::openfl::events:
 		//~UncaughtErrorEvents_obj();
 
 		HX_DO_RTTI_ALL;
+		::hx::Val __Field(const ::String &inString, ::hx::PropertyAccess inCallProp);
+		::hx::Val __SetField(const ::String &inString,const ::hx::Val &inValue, ::hx::PropertyAccess inCallProp);
+		void __GetFields(Array< ::String> &outFields);
 		static void __register();
 		bool _hx_isInstanceOf(int inClassId);
 		::String __ToString() const { return HX_("UncaughtErrorEvents",4c,8c,89,a6); }
+
+		bool _hx___enabled;
+		void addEventListener(::String type, ::Dynamic listener,::hx::Null< bool >  useCapture,::hx::Null< int >  priority,::hx::Null< bool >  useWeakReference);
+
+		void removeEventListener(::String type, ::Dynamic listener,::hx::Null< bool >  useCapture);
 
 };
 

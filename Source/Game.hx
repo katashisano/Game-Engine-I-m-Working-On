@@ -1,6 +1,6 @@
 package;
 
-import openfl.system.Capabilities;
+import openfl.display.StageDisplayState;
 import openfl.Lib;
 import openfl.geom.Point;
 import openfl.events.Event;
@@ -29,10 +29,7 @@ class Game extends Behaviour {
         
         if (fullScreen) {
             
-            Lib.current.stage.window.borderless = true;
-            Lib.current.stage.window.x = 0;
-            Lib.current.stage.window.y = 0;
-            Lib.current.stage.window.resize(Math.round(Capabilities.screenResolutionX), Math.round(Capabilities.screenResolutionY));
+            
             
         } else Lib.current.stage.window.resize(1280, 720); 
         

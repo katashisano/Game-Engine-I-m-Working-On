@@ -8,7 +8,9 @@
 #ifndef INCLUDED_openfl_display_Sprite
 #include <openfl/display/Sprite.h>
 #endif
+HX_DECLARE_CLASS0(Behaviour)
 HX_DECLARE_CLASS0(Game)
+HX_DECLARE_CLASS0(Input)
 HX_DECLARE_CLASS0(Main)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
 HX_DECLARE_CLASS2(openfl,display,DisplayObjectContainer)
@@ -54,9 +56,9 @@ class HXCPP_CLASS_ATTRIBUTES Main_obj : public  ::openfl::display::Sprite_obj
 		::String __ToString() const { return HX_("Main",59,64,2f,33); }
 
 		static  ::Game game;
-		static void main();
-		static ::Dynamic main_dyn();
-
+		static int gameResX;
+		static int gameResY;
+		static  ::Input input;
 		bool inited;
 		void resize( ::openfl::events::Event e);
 		::Dynamic resize_dyn();

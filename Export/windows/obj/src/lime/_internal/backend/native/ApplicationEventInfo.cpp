@@ -4,8 +4,8 @@
 #include <lime/_internal/backend/native/ApplicationEventInfo.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_1a94701d58bd3d3e_612_new,"lime._internal.backend.native.ApplicationEventInfo","new",0xb35cdd3c,"lime._internal.backend.native.ApplicationEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",612,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_1a94701d58bd3d3e_619_clone,"lime._internal.backend.native.ApplicationEventInfo","clone",0x996e0f39,"lime._internal.backend.native.ApplicationEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",619,0xc1eba895)
+HX_DEFINE_STACK_FRAME(_hx_pos_1a94701d58bd3d3e_625_new,"lime._internal.backend.native.ApplicationEventInfo","new",0xb35cdd3c,"lime._internal.backend.native.ApplicationEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",625,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_1a94701d58bd3d3e_632_clone,"lime._internal.backend.native.ApplicationEventInfo","clone",0x996e0f39,"lime._internal.backend.native.ApplicationEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",632,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
@@ -13,9 +13,9 @@ namespace native{
 
 void ApplicationEventInfo_obj::__construct( ::Dynamic type,::hx::Null< int >  __o_deltaTime){
             		int deltaTime = __o_deltaTime.Default(0);
-            	HX_STACKFRAME(&_hx_pos_1a94701d58bd3d3e_612_new)
-HXLINE( 613)		this->type = ( (int)(type) );
-HXLINE( 614)		this->deltaTime = deltaTime;
+            	HX_STACKFRAME(&_hx_pos_1a94701d58bd3d3e_625_new)
+HXLINE( 626)		this->type = ( (int)(type) );
+HXLINE( 627)		this->deltaTime = deltaTime;
             	}
 
 Dynamic ApplicationEventInfo_obj::__CreateEmpty() { return new ApplicationEventInfo_obj; }
@@ -34,8 +34,8 @@ bool ApplicationEventInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::ApplicationEventInfo ApplicationEventInfo_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_1a94701d58bd3d3e_619_clone)
-HXDLIN( 619)		return  ::lime::_internal::backend::native::ApplicationEventInfo_obj::__alloc( HX_CTX ,this->type,this->deltaTime);
+            	HX_GC_STACKFRAME(&_hx_pos_1a94701d58bd3d3e_632_clone)
+HXDLIN( 632)		return  ::lime::_internal::backend::native::ApplicationEventInfo_obj::__alloc( HX_CTX ,this->type,this->deltaTime);
             	}
 
 

@@ -57,6 +57,7 @@ class HXCPP_CLASS_ATTRIBUTES NativeAudioSource_obj : public ::hx::Object
 		static int STREAM_NUM_BUFFERS;
 		static int STREAM_TIMER_FREQUENCY;
 		::cpp::VirtualArray buffers;
+		::Array< Float > bufferTimeBlocks;
 		bool completed;
 		int dataLength;
 		int format;
@@ -120,6 +121,12 @@ class HXCPP_CLASS_ATTRIBUTES NativeAudioSource_obj : public ::hx::Object
 
 		int setLoops(int value);
 		::Dynamic setLoops_dyn();
+
+		Float getPitch();
+		::Dynamic getPitch_dyn();
+
+		Float setPitch(Float value);
+		::Dynamic setPitch_dyn();
 
 		 ::lime::math::Vector4 getPosition();
 		::Dynamic getPosition_dyn();

@@ -52,6 +52,9 @@ class HXCPP_CLASS_ATTRIBUTES FileSystem_obj : public ::hx::Object
 		static bool exists(::String path);
 		static ::Dynamic exists_dyn();
 
+		static ::Array< ::String > readDirectory(::String path);
+		static ::Dynamic readDirectory_dyn();
+
 };
 
 } // end namespace sys

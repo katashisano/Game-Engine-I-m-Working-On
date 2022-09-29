@@ -5,6 +5,8 @@
 #include <hxcpp.h>
 #endif
 
+HX_DECLARE_CLASS1(haxe,IMap)
+HX_DECLARE_CLASS2(haxe,ds,StringMap)
 HX_DECLARE_CLASS2(haxe,io,Bytes)
 HX_DECLARE_CLASS2(lime,app,Future)
 HX_DECLARE_CLASS2(lime,text,Font)
@@ -75,6 +77,7 @@ class HXCPP_CLASS_ATTRIBUTES Assets_obj : public ::hx::Object
 		static void __boot();
 		static ::Dynamic cache;
 		static  ::openfl::events::EventDispatcher dispatcher;
+		static  ::haxe::ds::StringMap libraryBindings;
 		static void addEventListener(::String type, ::Dynamic listener,::hx::Null< bool >  useCapture,::hx::Null< int >  priority,::hx::Null< bool >  useWeakReference);
 		static ::Dynamic addEventListener_dyn();
 
@@ -117,6 +120,9 @@ class HXCPP_CLASS_ATTRIBUTES Assets_obj : public ::hx::Object
 		static bool hasLibrary(::String name);
 		static ::Dynamic hasLibrary_dyn();
 
+		static void initBinding(::String className, ::Dynamic instance);
+		static ::Dynamic initBinding_dyn();
+
 		static bool isLocal(::String id,::String type,::hx::Null< bool >  useCache);
 		static ::Dynamic isLocal_dyn();
 
@@ -153,6 +159,9 @@ class HXCPP_CLASS_ATTRIBUTES Assets_obj : public ::hx::Object
 		static  ::lime::app::Future loadText(::String id);
 		static ::Dynamic loadText_dyn();
 
+		static void registerBinding(::String className, ::openfl::utils::AssetLibrary library);
+		static ::Dynamic registerBinding_dyn();
+
 		static void registerLibrary(::String name, ::openfl::utils::AssetLibrary library);
 		static ::Dynamic registerLibrary_dyn();
 
@@ -167,6 +176,9 @@ class HXCPP_CLASS_ATTRIBUTES Assets_obj : public ::hx::Object
 
 		static void unloadLibrary(::String name);
 		static ::Dynamic unloadLibrary_dyn();
+
+		static void unregisterBinding(::String className, ::openfl::utils::AssetLibrary library);
+		static ::Dynamic unregisterBinding_dyn();
 
 		static void LimeAssets_onChange();
 		static ::Dynamic LimeAssets_onChange_dyn();

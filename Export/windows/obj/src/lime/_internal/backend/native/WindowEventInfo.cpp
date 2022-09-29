@@ -4,8 +4,8 @@
 #include <lime/_internal/backend/native/WindowEventInfo.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d8a53269ce4a50a3_927_new,"lime._internal.backend.native.WindowEventInfo","new",0x4cd621b8,"lime._internal.backend.native.WindowEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",927,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8a53269ce4a50a3_938_clone,"lime._internal.backend.native.WindowEventInfo","clone",0x771e6ab5,"lime._internal.backend.native.WindowEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",938,0xc1eba895)
+HX_DEFINE_STACK_FRAME(_hx_pos_d8a53269ce4a50a3_940_new,"lime._internal.backend.native.WindowEventInfo","new",0x4cd621b8,"lime._internal.backend.native.WindowEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",940,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8a53269ce4a50a3_951_clone,"lime._internal.backend.native.WindowEventInfo","clone",0x771e6ab5,"lime._internal.backend.native.WindowEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",951,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
@@ -17,13 +17,13 @@ void WindowEventInfo_obj::__construct( ::Dynamic type,::hx::Null< int >  __o_win
             		int height = __o_height.Default(0);
             		int x = __o_x.Default(0);
             		int y = __o_y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_d8a53269ce4a50a3_927_new)
-HXLINE( 928)		this->type = ( (int)(type) );
-HXLINE( 929)		this->windowID = windowID;
-HXLINE( 930)		this->width = width;
-HXLINE( 931)		this->height = height;
-HXLINE( 932)		this->x = x;
-HXLINE( 933)		this->y = y;
+            	HX_STACKFRAME(&_hx_pos_d8a53269ce4a50a3_940_new)
+HXLINE( 941)		this->type = ( (int)(type) );
+HXLINE( 942)		this->windowID = windowID;
+HXLINE( 943)		this->width = width;
+HXLINE( 944)		this->height = height;
+HXLINE( 945)		this->x = x;
+HXLINE( 946)		this->y = y;
             	}
 
 Dynamic WindowEventInfo_obj::__CreateEmpty() { return new WindowEventInfo_obj; }
@@ -42,8 +42,8 @@ bool WindowEventInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::WindowEventInfo WindowEventInfo_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_d8a53269ce4a50a3_938_clone)
-HXDLIN( 938)		return  ::lime::_internal::backend::native::WindowEventInfo_obj::__alloc( HX_CTX ,this->type,this->windowID,this->width,this->height,this->x,this->y);
+            	HX_GC_STACKFRAME(&_hx_pos_d8a53269ce4a50a3_951_clone)
+HXDLIN( 951)		return  ::lime::_internal::backend::native::WindowEventInfo_obj::__alloc( HX_CTX ,this->type,this->windowID,this->width,this->height,this->x,this->y);
             	}
 
 

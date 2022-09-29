@@ -129,14 +129,15 @@ HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_527_set_resizable,"lime.ui.Window"
 HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_534_get_scale,"lime.ui.Window","get_scale",0x19cffc84,"lime.ui.Window.get_scale","lime/ui/Window.hx",534,0x6ac7286d)
 HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_539_get_textInputEnabled,"lime.ui.Window","get_textInputEnabled",0x0bd5462a,"lime.ui.Window.get_textInputEnabled","lime/ui/Window.hx",539,0x6ac7286d)
 HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_544_set_textInputEnabled,"lime.ui.Window","set_textInputEnabled",0xd88cfd9e,"lime.ui.Window.set_textInputEnabled","lime/ui/Window.hx",544,0x6ac7286d)
-HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_549_get_title,"lime.ui.Window","get_title",0xb13c4392,"lime.ui.Window.get_title","lime/ui/Window.hx",549,0x6ac7286d)
-HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_554_set_title,"lime.ui.Window","set_title",0x948d2f9e,"lime.ui.Window.set_title","lime/ui/Window.hx",554,0x6ac7286d)
-HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_559_get_width,"lime.ui.Window","get_width",0x6b63e400,"lime.ui.Window.get_width","lime/ui/Window.hx",559,0x6ac7286d)
-HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_563_set_width,"lime.ui.Window","set_width",0x4eb4d00c,"lime.ui.Window.set_width","lime/ui/Window.hx",563,0x6ac7286d)
-HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_570_get_x,"lime.ui.Window","get_x",0x57a02972,"lime.ui.Window.get_x","lime/ui/Window.hx",570,0x6ac7286d)
-HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_574_set_x,"lime.ui.Window","set_x",0x406f1f7e,"lime.ui.Window.set_x","lime/ui/Window.hx",574,0x6ac7286d)
-HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_581_get_y,"lime.ui.Window","get_y",0x57a02973,"lime.ui.Window.get_y","lime/ui/Window.hx",581,0x6ac7286d)
-HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_585_set_y,"lime.ui.Window","set_y",0x406f1f7f,"lime.ui.Window.set_y","lime/ui/Window.hx",585,0x6ac7286d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_549_setTextInputRect,"lime.ui.Window","setTextInputRect",0x309a2f9c,"lime.ui.Window.setTextInputRect","lime/ui/Window.hx",549,0x6ac7286d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_554_get_title,"lime.ui.Window","get_title",0xb13c4392,"lime.ui.Window.get_title","lime/ui/Window.hx",554,0x6ac7286d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_559_set_title,"lime.ui.Window","set_title",0x948d2f9e,"lime.ui.Window.set_title","lime/ui/Window.hx",559,0x6ac7286d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_564_get_width,"lime.ui.Window","get_width",0x6b63e400,"lime.ui.Window.get_width","lime/ui/Window.hx",564,0x6ac7286d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_568_set_width,"lime.ui.Window","set_width",0x4eb4d00c,"lime.ui.Window.set_width","lime/ui/Window.hx",568,0x6ac7286d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_575_get_x,"lime.ui.Window","get_x",0x57a02972,"lime.ui.Window.get_x","lime/ui/Window.hx",575,0x6ac7286d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_579_set_x,"lime.ui.Window","set_x",0x406f1f7e,"lime.ui.Window.set_x","lime/ui/Window.hx",579,0x6ac7286d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_586_get_y,"lime.ui.Window","get_y",0x57a02973,"lime.ui.Window.get_y","lime/ui/Window.hx",586,0x6ac7286d)
+HX_LOCAL_STACK_FRAME(_hx_pos_ee84c8bd7ccb9d8c_590_set_y,"lime.ui.Window","set_y",0x406f1f7f,"lime.ui.Window.set_y","lime/ui/Window.hx",590,0x6ac7286d)
 namespace lime{
 namespace ui{
 
@@ -493,68 +494,76 @@ HXDLIN( 544)		return this->_hx___backend->setTextInputEnabled(value);
 
 HX_DEFINE_DYNAMIC_FUNC1(Window_obj,set_textInputEnabled,return )
 
+ ::lime::math::Rectangle Window_obj::setTextInputRect( ::lime::math::Rectangle value){
+            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_549_setTextInputRect)
+HXDLIN( 549)		return this->_hx___backend->setTextInputRect(value);
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(Window_obj,setTextInputRect,return )
+
 ::String Window_obj::get_title(){
-            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_549_get_title)
-HXDLIN( 549)		return this->_hx___title;
+            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_554_get_title)
+HXDLIN( 554)		return this->_hx___title;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Window_obj,get_title,return )
 
 ::String Window_obj::set_title(::String value){
-            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_554_set_title)
-HXDLIN( 554)		return (this->_hx___title = this->_hx___backend->setTitle(value));
+            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_559_set_title)
+HXDLIN( 559)		return (this->_hx___title = this->_hx___backend->setTitle(value));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Window_obj,set_title,return )
 
 int Window_obj::get_width(){
-            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_559_get_width)
-HXDLIN( 559)		return this->_hx___width;
+            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_564_get_width)
+HXDLIN( 564)		return this->_hx___width;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Window_obj,get_width,return )
 
 int Window_obj::set_width(int value){
-            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_563_set_width)
-HXLINE( 564)		this->resize(value,this->_hx___height);
-HXLINE( 565)		return this->_hx___width;
+            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_568_set_width)
+HXLINE( 569)		this->resize(value,this->_hx___height);
+HXLINE( 570)		return this->_hx___width;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Window_obj,set_width,return )
 
 int Window_obj::get_x(){
-            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_570_get_x)
-HXDLIN( 570)		return this->_hx___x;
+            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_575_get_x)
+HXDLIN( 575)		return this->_hx___x;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Window_obj,get_x,return )
 
 int Window_obj::set_x(int value){
-            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_574_set_x)
-HXLINE( 575)		this->move(value,this->_hx___y);
-HXLINE( 576)		return this->_hx___x;
+            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_579_set_x)
+HXLINE( 580)		this->move(value,this->_hx___y);
+HXLINE( 581)		return this->_hx___x;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Window_obj,set_x,return )
 
 int Window_obj::get_y(){
-            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_581_get_y)
-HXDLIN( 581)		return this->_hx___y;
+            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_586_get_y)
+HXDLIN( 586)		return this->_hx___y;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Window_obj,get_y,return )
 
 int Window_obj::set_y(int value){
-            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_585_set_y)
-HXLINE( 586)		this->move(this->_hx___x,value);
-HXLINE( 587)		return this->_hx___y;
+            	HX_STACKFRAME(&_hx_pos_ee84c8bd7ccb9d8c_590_set_y)
+HXLINE( 591)		this->move(this->_hx___x,value);
+HXLINE( 592)		return this->_hx___y;
             	}
 
 
@@ -824,6 +833,7 @@ void Window_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 16:
 		if (HX_FIELD_EQ(inName,"textInputEnabled") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_textInputEnabled() ); }
+		if (HX_FIELD_EQ(inName,"setTextInputRect") ) { return ::hx::Val( setTextInputRect_dyn() ); }
 		break;
 	case 19:
 		if (HX_FIELD_EQ(inName,"onMouseMoveRelative") ) { return ::hx::Val( onMouseMoveRelative ); }
@@ -1150,6 +1160,7 @@ static ::String Window_obj_sMemberFields[] = {
 	HX_("get_scale",e1,2a,78,bc),
 	HX_("get_textInputEnabled",ed,aa,6a,e2),
 	HX_("set_textInputEnabled",61,62,22,af),
+	HX_("setTextInputRect",df,36,c7,8a),
 	HX_("get_title",ef,71,e4,53),
 	HX_("set_title",fb,5d,35,37),
 	HX_("get_width",5d,12,0c,0e),

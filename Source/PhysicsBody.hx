@@ -5,6 +5,10 @@ import openfl.geom.Point;
 
 class PhysicsBody extends Component {
 
+    //
+    // wip
+    //
+
     public var velocity:Point = new Point(0, 0);
     public var gravity:Point = new Point(0, -35);
 

@@ -29,9 +29,9 @@
 #endif
 
 HX_LOCAL_STACK_FRAME(_hx_pos_b5919670cea5e831_12_clear,"openfl.display._internal.DOMVideo","clear",0x14b329f4,"openfl.display._internal.DOMVideo.clear","openfl/display/_internal/DOMVideo.hx",12,0x240265a6)
-HX_LOCAL_STACK_FRAME(_hx_pos_b5919670cea5e831_23_render,"openfl.display._internal.DOMVideo","render",0x05930d0f,"openfl.display._internal.DOMVideo.render","openfl/display/_internal/DOMVideo.hx",23,0x240265a6)
-HX_LOCAL_STACK_FRAME(_hx_pos_b5919670cea5e831_52_renderDrawable,"openfl.display._internal.DOMVideo","renderDrawable",0x32b7dbcd,"openfl.display._internal.DOMVideo.renderDrawable","openfl/display/_internal/DOMVideo.hx",52,0x240265a6)
-HX_LOCAL_STACK_FRAME(_hx_pos_b5919670cea5e831_59_renderDrawableClear,"openfl.display._internal.DOMVideo","renderDrawableClear",0x90a01e80,"openfl.display._internal.DOMVideo.renderDrawableClear","openfl/display/_internal/DOMVideo.hx",59,0x240265a6)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5919670cea5e831_25_render,"openfl.display._internal.DOMVideo","render",0x05930d0f,"openfl.display._internal.DOMVideo.render","openfl/display/_internal/DOMVideo.hx",25,0x240265a6)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5919670cea5e831_54_renderDrawable,"openfl.display._internal.DOMVideo","renderDrawable",0x32b7dbcd,"openfl.display._internal.DOMVideo.renderDrawable","openfl/display/_internal/DOMVideo.hx",54,0x240265a6)
+HX_LOCAL_STACK_FRAME(_hx_pos_b5919670cea5e831_61_renderDrawableClear,"openfl.display._internal.DOMVideo","renderDrawableClear",0x90a01e80,"openfl.display._internal.DOMVideo.renderDrawableClear","openfl/display/_internal/DOMVideo.hx",61,0x240265a6)
 HX_LOCAL_STACK_FRAME(_hx_pos_b5919670cea5e831_9_boot,"openfl.display._internal.DOMVideo","boot",0x736315ab,"openfl.display._internal.DOMVideo.boot","openfl/display/_internal/DOMVideo.hx",9,0x240265a6)
 namespace openfl{
 namespace display{
@@ -62,24 +62,24 @@ void DOMVideo_obj::clear( ::openfl::media::Video video, ::openfl::display::DOMRe
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMVideo_obj,clear,(void))
 
 void DOMVideo_obj::render( ::openfl::media::Video video, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_b5919670cea5e831_23_render)
+            	HX_STACKFRAME(&_hx_pos_b5919670cea5e831_25_render)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMVideo_obj,render,(void))
 
 void DOMVideo_obj::renderDrawable( ::openfl::media::Video video, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_b5919670cea5e831_52_renderDrawable)
-HXLINE(  53)		::openfl::display::_internal::DOMVideo_obj::render(video,renderer);
-HXLINE(  54)		renderer->_hx___renderEvent(video);
+            	HX_STACKFRAME(&_hx_pos_b5919670cea5e831_54_renderDrawable)
+HXLINE(  55)		::openfl::display::_internal::DOMVideo_obj::render(video,renderer);
+HXLINE(  56)		renderer->_hx___renderEvent(video);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMVideo_obj,renderDrawable,(void))
 
 void DOMVideo_obj::renderDrawableClear( ::openfl::media::Video video, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_b5919670cea5e831_59_renderDrawableClear)
-HXDLIN(  59)		::openfl::display::_internal::DOMDisplayObject_obj::renderDrawableClear(video,renderer);
+            	HX_STACKFRAME(&_hx_pos_b5919670cea5e831_61_renderDrawableClear)
+HXDLIN(  61)		::openfl::display::_internal::DOMDisplayObject_obj::renderDrawableClear(video,renderer);
             	}
 
 

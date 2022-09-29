@@ -29,32 +29,32 @@
 #include <openfl/geom/Point.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_630_new,"openfl.events.MouseEvent","new",0x5c6da59e,"openfl.events.MouseEvent.new","openfl/events/MouseEvent.hx",630,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_651_clone,"openfl.events.MouseEvent","clone",0x3e8b341b,"openfl.events.MouseEvent.clone","openfl/events/MouseEvent.hx",651,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_662_toString,"openfl.events.MouseEvent","toString",0x2fb13aae,"openfl.events.MouseEvent.toString","openfl/events/MouseEvent.hx",662,0xd3783172)
+HX_DEFINE_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_634_new,"openfl.events.MouseEvent","new",0x5c6da59e,"openfl.events.MouseEvent.new","openfl/events/MouseEvent.hx",634,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_655_clone,"openfl.events.MouseEvent","clone",0x3e8b341b,"openfl.events.MouseEvent.clone","openfl/events/MouseEvent.hx",655,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_666_toString,"openfl.events.MouseEvent","toString",0x2fb13aae,"openfl.events.MouseEvent.toString","openfl/events/MouseEvent.hx",666,0xd3783172)
 static const ::String _hx_array_data_094f3eac_3[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),HX_("localX",8d,74,bf,59),HX_("localY",8e,74,bf,59),HX_("relatedObject",0a,bf,cb,e8),HX_("ctrlKey",b4,35,7d,61),HX_("altKey",f6,a7,ca,44),HX_("shiftKey",3d,92,9f,99),HX_("buttonDown",74,67,64,ac),HX_("delta",f8,e7,26,d7),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_672_updateAfterEvent,"openfl.events.MouseEvent","updateAfterEvent",0xc76737c9,"openfl.events.MouseEvent.updateAfterEvent","openfl/events/MouseEvent.hx",672,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_686___init,"openfl.events.MouseEvent","__init",0x61a823b2,"openfl.events.MouseEvent.__init","openfl/events/MouseEvent.hx",686,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_676___create,"openfl.events.MouseEvent","__create",0x1b813c1e,"openfl.events.MouseEvent.__create","openfl/events/MouseEvent.hx",676,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_47_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",47,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_99_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",99,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_123_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",123,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_148_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",148,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_173_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",173,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_198_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",198,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_222_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",222,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_247_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",247,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_272_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",272,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_296_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",296,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_321_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",321,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_329_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",329,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_353_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",353,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_378_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",378,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_403_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",403,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_427_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",427,0xd3783172)
-HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_452_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",452,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_676_updateAfterEvent,"openfl.events.MouseEvent","updateAfterEvent",0xc76737c9,"openfl.events.MouseEvent.updateAfterEvent","openfl/events/MouseEvent.hx",676,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_690___init,"openfl.events.MouseEvent","__init",0x61a823b2,"openfl.events.MouseEvent.__init","openfl/events/MouseEvent.hx",690,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_680___create,"openfl.events.MouseEvent","__create",0x1b813c1e,"openfl.events.MouseEvent.__create","openfl/events/MouseEvent.hx",680,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_49_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",49,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_101_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",101,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_125_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",125,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_150_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",150,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_175_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",175,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_200_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",200,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_224_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",224,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_249_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",249,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_274_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",274,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_298_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",298,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_323_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",323,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_331_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",331,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_355_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",355,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_380_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",380,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_405_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",405,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_429_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",429,0xd3783172)
+HX_LOCAL_STACK_FRAME(_hx_pos_93a9f8214e96e0e7_454_boot,"openfl.events.MouseEvent","boot",0x7b9c4534,"openfl.events.MouseEvent.boot","openfl/events/MouseEvent.hx",454,0xd3783172)
 namespace openfl{
 namespace events{
 
@@ -70,22 +70,22 @@ void MouseEvent_obj::__construct(::String type,::hx::Null< bool >  __o_bubbles,:
             		int delta = __o_delta.Default(0);
             		bool commandKey = __o_commandKey.Default(false);
             		int clickCount = __o_clickCount.Default(0);
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_630_new)
-HXLINE( 631)		super::__construct(type,bubbles,cancelable);
-HXLINE( 633)		this->shiftKey = shiftKey;
-HXLINE( 634)		this->altKey = altKey;
-HXLINE( 635)		this->ctrlKey = ctrlKey;
-HXLINE( 636)		this->bubbles = bubbles;
-HXLINE( 637)		this->relatedObject = relatedObject;
-HXLINE( 638)		this->delta = delta;
-HXLINE( 639)		this->localX = localX;
-HXLINE( 640)		this->localY = localY;
-HXLINE( 641)		this->buttonDown = buttonDown;
-HXLINE( 642)		this->commandKey = commandKey;
-HXLINE( 643)		this->clickCount = clickCount;
-HXLINE( 645)		this->isRelatedObjectInaccessible = false;
-HXLINE( 646)		this->stageX = ::Math_obj::NaN;
-HXLINE( 647)		this->stageY = ::Math_obj::NaN;
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_634_new)
+HXLINE( 635)		super::__construct(type,bubbles,cancelable);
+HXLINE( 637)		this->shiftKey = shiftKey;
+HXLINE( 638)		this->altKey = altKey;
+HXLINE( 639)		this->ctrlKey = ctrlKey;
+HXLINE( 640)		this->bubbles = bubbles;
+HXLINE( 641)		this->relatedObject = relatedObject;
+HXLINE( 642)		this->delta = delta;
+HXLINE( 643)		this->localX = localX;
+HXLINE( 644)		this->localY = localY;
+HXLINE( 645)		this->buttonDown = buttonDown;
+HXLINE( 646)		this->commandKey = commandKey;
+HXLINE( 647)		this->clickCount = clickCount;
+HXLINE( 649)		this->isRelatedObjectInaccessible = false;
+HXLINE( 650)		this->stageX = ::Math_obj::NaN;
+HXLINE( 651)		this->stageY = ::Math_obj::NaN;
             	}
 
 Dynamic MouseEvent_obj::__CreateEmpty() { return new MouseEvent_obj; }
@@ -108,45 +108,45 @@ bool MouseEvent_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event MouseEvent_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_651_clone)
-HXLINE( 652)		 ::openfl::events::MouseEvent event =  ::openfl::events::MouseEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->localX,this->localY,this->relatedObject,this->ctrlKey,this->altKey,this->shiftKey,this->buttonDown,this->delta,this->commandKey,this->clickCount);
-HXLINE( 654)		event->target = this->target;
-HXLINE( 655)		event->currentTarget = this->currentTarget;
-HXLINE( 656)		event->eventPhase = this->eventPhase;
-HXLINE( 657)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_655_clone)
+HXLINE( 656)		 ::openfl::events::MouseEvent event =  ::openfl::events::MouseEvent_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable,this->localX,this->localY,this->relatedObject,this->ctrlKey,this->altKey,this->shiftKey,this->buttonDown,this->delta,this->commandKey,this->clickCount);
+HXLINE( 658)		event->target = this->target;
+HXLINE( 659)		event->currentTarget = this->currentTarget;
+HXLINE( 660)		event->eventPhase = this->eventPhase;
+HXLINE( 661)		return event;
             	}
 
 
 ::String MouseEvent_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_662_toString)
-HXDLIN( 662)		return this->_hx___formatToString(HX_("MouseEvent",d5,bf,42,8a),::Array_obj< ::String >::fromData( _hx_array_data_094f3eac_3,11));
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_666_toString)
+HXDLIN( 666)		return this->_hx___formatToString(HX_("MouseEvent",d5,bf,42,8a),::Array_obj< ::String >::fromData( _hx_array_data_094f3eac_3,11));
             	}
 
 
 void MouseEvent_obj::updateAfterEvent(){
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_672_updateAfterEvent)
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_676_updateAfterEvent)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(MouseEvent_obj,updateAfterEvent,(void))
 
 void MouseEvent_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_686___init)
-HXLINE( 687)		this->super::_hx___init();
-HXLINE( 688)		this->shiftKey = false;
-HXLINE( 689)		this->altKey = false;
-HXLINE( 690)		this->ctrlKey = false;
-HXLINE( 691)		this->bubbles = false;
-HXLINE( 692)		this->relatedObject = null();
-HXLINE( 693)		this->delta = 0;
-HXLINE( 694)		this->localX = ( (Float)(0) );
-HXLINE( 695)		this->localY = ( (Float)(0) );
-HXLINE( 696)		this->buttonDown = false;
-HXLINE( 697)		this->commandKey = false;
-HXLINE( 698)		this->clickCount = 0;
-HXLINE( 700)		this->isRelatedObjectInaccessible = false;
-HXLINE( 701)		this->stageX = ::Math_obj::NaN;
-HXLINE( 702)		this->stageY = ::Math_obj::NaN;
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_690___init)
+HXLINE( 691)		this->super::_hx___init();
+HXLINE( 692)		this->shiftKey = false;
+HXLINE( 693)		this->altKey = false;
+HXLINE( 694)		this->ctrlKey = false;
+HXLINE( 695)		this->bubbles = false;
+HXLINE( 696)		this->relatedObject = null();
+HXLINE( 697)		this->delta = 0;
+HXLINE( 698)		this->localX = ( (Float)(0) );
+HXLINE( 699)		this->localY = ( (Float)(0) );
+HXLINE( 700)		this->buttonDown = false;
+HXLINE( 701)		this->commandKey = false;
+HXLINE( 702)		this->clickCount = 0;
+HXLINE( 704)		this->isRelatedObjectInaccessible = false;
+HXLINE( 705)		this->stageX = ::Math_obj::NaN;
+HXLINE( 706)		this->stageY = ::Math_obj::NaN;
             	}
 
 
@@ -196,12 +196,12 @@ bool MouseEvent_obj::_hx___shiftKey;
 
  ::openfl::events::MouseEvent MouseEvent_obj::_hx___create(::String type,int button,Float stageX,Float stageY, ::openfl::geom::Point local, ::openfl::display::InteractiveObject target,::hx::Null< int >  __o_delta){
             		int delta = __o_delta.Default(0);
-            	HX_GC_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_676___create)
-HXLINE( 677)		 ::openfl::events::MouseEvent event =  ::openfl::events::MouseEvent_obj::__alloc( HX_CTX ,type,true,false,local->x,local->y,null(),::openfl::events::MouseEvent_obj::_hx___ctrlKey,::openfl::events::MouseEvent_obj::_hx___altKey,::openfl::events::MouseEvent_obj::_hx___shiftKey,::openfl::events::MouseEvent_obj::_hx___buttonDown,delta,::openfl::events::MouseEvent_obj::_hx___commandKey,null());
-HXLINE( 678)		event->stageX = stageX;
-HXLINE( 679)		event->stageY = stageY;
-HXLINE( 680)		event->target = target;
-HXLINE( 682)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_680___create)
+HXLINE( 681)		 ::openfl::events::MouseEvent event =  ::openfl::events::MouseEvent_obj::__alloc( HX_CTX ,type,true,false,local->x,local->y,null(),::openfl::events::MouseEvent_obj::_hx___ctrlKey,::openfl::events::MouseEvent_obj::_hx___altKey,::openfl::events::MouseEvent_obj::_hx___shiftKey,::openfl::events::MouseEvent_obj::_hx___buttonDown,delta,::openfl::events::MouseEvent_obj::_hx___commandKey,null());
+HXLINE( 682)		event->stageX = stageX;
+HXLINE( 683)		event->stageY = stageY;
+HXLINE( 684)		event->target = target;
+HXLINE( 686)		return event;
             	}
 
 
@@ -568,72 +568,72 @@ void MouseEvent_obj::__register()
 void MouseEvent_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_47_boot)
-HXDLIN(  47)		CLICK = HX_("click",48,7c,5e,48);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_49_boot)
+HXDLIN(  49)		CLICK = HX_("click",48,7c,5e,48);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_99_boot)
-HXDLIN(  99)		DOUBLE_CLICK = HX_("doubleClick",77,03,76,cd);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_101_boot)
+HXDLIN( 101)		DOUBLE_CLICK = HX_("doubleClick",77,03,76,cd);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_123_boot)
-HXDLIN( 123)		MIDDLE_CLICK = HX_("middleClick",b3,e4,e5,43);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_125_boot)
+HXDLIN( 125)		MIDDLE_CLICK = HX_("middleClick",b3,e4,e5,43);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_148_boot)
-HXDLIN( 148)		MIDDLE_MOUSE_DOWN = HX_("middleMouseDown",12,2b,fe,01);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_150_boot)
+HXDLIN( 150)		MIDDLE_MOUSE_DOWN = HX_("middleMouseDown",12,2b,fe,01);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_173_boot)
-HXDLIN( 173)		MIDDLE_MOUSE_UP = HX_("middleMouseUp",0b,8d,f5,3a);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_175_boot)
+HXDLIN( 175)		MIDDLE_MOUSE_UP = HX_("middleMouseUp",0b,8d,f5,3a);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_198_boot)
-HXDLIN( 198)		MOUSE_DOWN = HX_("mouseDown",27,b1,c2,ee);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_200_boot)
+HXDLIN( 200)		MOUSE_DOWN = HX_("mouseDown",27,b1,c2,ee);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_222_boot)
-HXDLIN( 222)		MOUSE_MOVE = HX_("mouseMove",d6,9b,b5,f4);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_224_boot)
+HXDLIN( 224)		MOUSE_MOVE = HX_("mouseMove",d6,9b,b5,f4);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_247_boot)
-HXDLIN( 247)		MOUSE_OUT = HX_("mouseOut",69,e7,1d,a4);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_249_boot)
+HXDLIN( 249)		MOUSE_OUT = HX_("mouseOut",69,e7,1d,a4);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_272_boot)
-HXDLIN( 272)		MOUSE_OVER = HX_("mouseOver",19,4a,0d,f6);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_274_boot)
+HXDLIN( 274)		MOUSE_OVER = HX_("mouseOver",19,4a,0d,f6);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_296_boot)
-HXDLIN( 296)		MOUSE_UP = HX_("mouseUp",e0,f3,72,c0);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_298_boot)
+HXDLIN( 298)		MOUSE_UP = HX_("mouseUp",e0,f3,72,c0);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_321_boot)
-HXDLIN( 321)		MOUSE_WHEEL = HX_("mouseWheel",36,28,87,e7);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_323_boot)
+HXDLIN( 323)		MOUSE_WHEEL = HX_("mouseWheel",36,28,87,e7);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_329_boot)
-HXDLIN( 329)		RELEASE_OUTSIDE = HX_("releaseOutside",1e,86,e3,ad);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_331_boot)
+HXDLIN( 331)		RELEASE_OUTSIDE = HX_("releaseOutside",1e,86,e3,ad);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_353_boot)
-HXDLIN( 353)		RIGHT_CLICK = HX_("rightClick",cc,62,23,4b);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_355_boot)
+HXDLIN( 355)		RIGHT_CLICK = HX_("rightClick",cc,62,23,4b);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_378_boot)
-HXDLIN( 378)		RIGHT_MOUSE_DOWN = HX_("rightMouseDown",ab,29,d7,cd);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_380_boot)
+HXDLIN( 380)		RIGHT_MOUSE_DOWN = HX_("rightMouseDown",ab,29,d7,cd);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_403_boot)
-HXDLIN( 403)		RIGHT_MOUSE_UP = HX_("rightMouseUp",64,83,21,ab);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_405_boot)
+HXDLIN( 405)		RIGHT_MOUSE_UP = HX_("rightMouseUp",64,83,21,ab);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_427_boot)
-HXDLIN( 427)		ROLL_OUT = HX_("rollOut",11,f9,11,5d);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_429_boot)
+HXDLIN( 429)		ROLL_OUT = HX_("rollOut",11,f9,11,5d);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_452_boot)
-HXDLIN( 452)		ROLL_OVER = HX_("rollOver",71,ab,a8,12);
+            	HX_STACKFRAME(&_hx_pos_93a9f8214e96e0e7_454_boot)
+HXDLIN( 454)		ROLL_OVER = HX_("rollOver",71,ab,a8,12);
             	}
 }
 

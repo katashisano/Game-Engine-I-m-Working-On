@@ -62,9 +62,9 @@
 #endif
 
 HX_LOCAL_STACK_FRAME(_hx_pos_fad01968ffdb63cd_18_render,"openfl.display._internal.Context3DTextField","render",0x02b1a2db,"openfl.display._internal.Context3DTextField.render","openfl/display/_internal/Context3DTextField.hx",18,0xdb755bb2)
-HX_LOCAL_STACK_FRAME(_hx_pos_fad01968ffdb63cd_28_renderDrawable,"openfl.display._internal.Context3DTextField","renderDrawable",0x18531d99,"openfl.display._internal.Context3DTextField.renderDrawable","openfl/display/_internal/Context3DTextField.hx",28,0xdb755bb2)
-HX_LOCAL_STACK_FRAME(_hx_pos_fad01968ffdb63cd_45_renderDrawableMask,"openfl.display._internal.Context3DTextField","renderDrawableMask",0x2823cb25,"openfl.display._internal.Context3DTextField.renderDrawableMask","openfl/display/_internal/Context3DTextField.hx",45,0xdb755bb2)
-HX_LOCAL_STACK_FRAME(_hx_pos_fad01968ffdb63cd_51_renderMask,"openfl.display._internal.Context3DTextField","renderMask",0xe51b1967,"openfl.display._internal.Context3DTextField.renderMask","openfl/display/_internal/Context3DTextField.hx",51,0xdb755bb2)
+HX_LOCAL_STACK_FRAME(_hx_pos_fad01968ffdb63cd_30_renderDrawable,"openfl.display._internal.Context3DTextField","renderDrawable",0x18531d99,"openfl.display._internal.Context3DTextField.renderDrawable","openfl/display/_internal/Context3DTextField.hx",30,0xdb755bb2)
+HX_LOCAL_STACK_FRAME(_hx_pos_fad01968ffdb63cd_47_renderDrawableMask,"openfl.display._internal.Context3DTextField","renderDrawableMask",0x2823cb25,"openfl.display._internal.Context3DTextField.renderDrawableMask","openfl/display/_internal/Context3DTextField.hx",47,0xdb755bb2)
+HX_LOCAL_STACK_FRAME(_hx_pos_fad01968ffdb63cd_53_renderMask,"openfl.display._internal.Context3DTextField","renderMask",0xe51b1967,"openfl.display._internal.Context3DTextField.renderMask","openfl/display/_internal/Context3DTextField.hx",53,0xdb755bb2)
 HX_LOCAL_STACK_FRAME(_hx_pos_fad01968ffdb63cd_15_boot,"openfl.display._internal.Context3DTextField","boot",0x76806077,"openfl.display._internal.Context3DTextField.boot","openfl/display/_internal/Context3DTextField.hx",15,0xdb755bb2)
 namespace openfl{
 namespace display{
@@ -89,104 +89,105 @@ bool Context3DTextField_obj::_hx_isInstanceOf(int inClassId) {
 
 void Context3DTextField_obj::render( ::openfl::text::TextField textField, ::openfl::display::OpenGLRenderer renderer){
             	HX_STACKFRAME(&_hx_pos_fad01968ffdb63cd_18_render)
-HXLINE(  22)		::openfl::display::_internal::CairoTextField_obj::render(textField,( ( ::openfl::display::CairoRenderer)(renderer->_hx___softwareRenderer) ),textField->_hx___worldTransform);
-HXLINE(  24)		textField->_hx___graphics->_hx___hardwareDirty = false;
+HXLINE(  19)		renderer->_hx___softwareRenderer->_hx___pixelRatio = renderer->_hx___pixelRatio;
+HXLINE(  24)		::openfl::display::_internal::CairoTextField_obj::render(textField,( ( ::openfl::display::CairoRenderer)(renderer->_hx___softwareRenderer) ),textField->_hx___worldTransform);
+HXLINE(  26)		textField->_hx___graphics->_hx___hardwareDirty = false;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Context3DTextField_obj,render,(void))
 
 void Context3DTextField_obj::renderDrawable( ::openfl::text::TextField textField, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_fad01968ffdb63cd_28_renderDrawable)
-HXLINE(  29)		renderer->_hx___updateCacheBitmap(textField,false);
-HXLINE(  31)		bool _hx_tmp;
-HXDLIN(  31)		if (::hx::IsNotNull( textField->_hx___cacheBitmap )) {
-HXLINE(  31)			_hx_tmp = !(textField->_hx___isCacheBitmapRender);
+            	HX_STACKFRAME(&_hx_pos_fad01968ffdb63cd_30_renderDrawable)
+HXLINE(  31)		renderer->_hx___updateCacheBitmap(textField,false);
+HXLINE(  33)		bool _hx_tmp;
+HXDLIN(  33)		if (::hx::IsNotNull( textField->_hx___cacheBitmap )) {
+HXLINE(  33)			_hx_tmp = !(textField->_hx___isCacheBitmapRender);
             		}
             		else {
-HXLINE(  31)			_hx_tmp = false;
+HXLINE(  33)			_hx_tmp = false;
             		}
-HXDLIN(  31)		if (_hx_tmp) {
-HXLINE(  33)			::openfl::display::_internal::Context3DBitmap_obj::render(textField->_hx___cacheBitmap,renderer);
+HXDLIN(  33)		if (_hx_tmp) {
+HXLINE(  35)			::openfl::display::_internal::Context3DBitmap_obj::render(textField->_hx___cacheBitmap,renderer);
             		}
             		else {
-HXLINE(  37)			::openfl::display::_internal::Context3DTextField_obj::render(textField,renderer);
-HXLINE(  38)			bool _hx_tmp;
-HXDLIN(  38)			if (::hx::IsNull( textField->opaqueBackground )) {
-HXLINE(  38)				_hx_tmp = ::hx::IsNull( textField->_hx___graphics );
+HXLINE(  39)			::openfl::display::_internal::Context3DTextField_obj::render(textField,renderer);
+HXLINE(  40)			bool _hx_tmp;
+HXDLIN(  40)			if (::hx::IsNull( textField->opaqueBackground )) {
+HXLINE(  40)				_hx_tmp = ::hx::IsNull( textField->_hx___graphics );
             			}
             			else {
-HXLINE(  38)				_hx_tmp = false;
+HXLINE(  40)				_hx_tmp = false;
             			}
-HXDLIN(  38)			if (!(_hx_tmp)) {
-HXLINE(  38)				bool _hx_tmp;
-HXDLIN(  38)				if (textField->_hx___renderable) {
-HXLINE(  38)					_hx_tmp = (textField->_hx___worldAlpha <= 0);
+HXDLIN(  40)			if (!(_hx_tmp)) {
+HXLINE(  40)				bool _hx_tmp;
+HXDLIN(  40)				if (textField->_hx___renderable) {
+HXLINE(  40)					_hx_tmp = (textField->_hx___worldAlpha <= 0);
             				}
             				else {
-HXLINE(  38)					_hx_tmp = true;
+HXLINE(  40)					_hx_tmp = true;
             				}
-HXDLIN(  38)				if (!(_hx_tmp)) {
-HXLINE(  38)					bool _hx_tmp;
-HXDLIN(  38)					bool _hx_tmp1;
-HXDLIN(  38)					bool _hx_tmp2;
-HXDLIN(  38)					if (::hx::IsNotNull( textField->opaqueBackground )) {
-HXLINE(  38)						_hx_tmp2 = !(textField->_hx___isCacheBitmapRender);
+HXDLIN(  40)				if (!(_hx_tmp)) {
+HXLINE(  40)					bool _hx_tmp;
+HXDLIN(  40)					bool _hx_tmp1;
+HXDLIN(  40)					bool _hx_tmp2;
+HXDLIN(  40)					if (::hx::IsNotNull( textField->opaqueBackground )) {
+HXLINE(  40)						_hx_tmp2 = !(textField->_hx___isCacheBitmapRender);
             					}
             					else {
-HXLINE(  38)						_hx_tmp2 = false;
+HXLINE(  40)						_hx_tmp2 = false;
             					}
-HXDLIN(  38)					if (_hx_tmp2) {
-HXLINE(  38)						_hx_tmp1 = (textField->get_width() > 0);
-            					}
-            					else {
-HXLINE(  38)						_hx_tmp1 = false;
-            					}
-HXDLIN(  38)					if (_hx_tmp1) {
-HXLINE(  38)						_hx_tmp = (textField->get_height() > 0);
+HXDLIN(  40)					if (_hx_tmp2) {
+HXLINE(  40)						_hx_tmp1 = (textField->get_width() > 0);
             					}
             					else {
-HXLINE(  38)						_hx_tmp = false;
+HXLINE(  40)						_hx_tmp1 = false;
             					}
-HXDLIN(  38)					if (_hx_tmp) {
-HXLINE(  38)						renderer->_hx___setBlendMode(textField->_hx___worldBlendMode);
-HXDLIN(  38)						renderer->_hx___pushMaskObject(textField,null());
-HXDLIN(  38)						 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
-HXDLIN(  38)						 ::openfl::geom::Rectangle rect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXDLIN(  38)						Float _hx_tmp = textField->get_width();
-HXDLIN(  38)						rect->setTo(( (Float)(0) ),( (Float)(0) ),_hx_tmp,textField->get_height());
-HXDLIN(  38)						renderer->_hx___pushMaskRect(rect,textField->_hx___renderTransform);
-HXDLIN(  38)						int color = ( (int)(textField->opaqueBackground) );
-HXDLIN(  38)						context->clear((( (Float)((::hx::UShr(color,16) & 255)) ) / ( (Float)(255) )),(( (Float)((::hx::UShr(color,8) & 255)) ) / ( (Float)(255) )),(( (Float)((color & 255)) ) / ( (Float)(255) )),1,0,0,1);
-HXDLIN(  38)						renderer->_hx___popMaskRect();
-HXDLIN(  38)						renderer->_hx___popMaskObject(textField,null());
-HXDLIN(  38)						::openfl::geom::Rectangle_obj::_hx___pool->release(rect);
+HXDLIN(  40)					if (_hx_tmp1) {
+HXLINE(  40)						_hx_tmp = (textField->get_height() > 0);
             					}
-HXDLIN(  38)					if (::hx::IsNotNull( textField->_hx___graphics )) {
-HXLINE(  38)						::openfl::display::_internal::Context3DShape_obj::render(textField,renderer);
+            					else {
+HXLINE(  40)						_hx_tmp = false;
+            					}
+HXDLIN(  40)					if (_hx_tmp) {
+HXLINE(  40)						renderer->_hx___setBlendMode(textField->_hx___worldBlendMode);
+HXDLIN(  40)						renderer->_hx___pushMaskObject(textField,null());
+HXDLIN(  40)						 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
+HXDLIN(  40)						 ::openfl::geom::Rectangle rect = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXDLIN(  40)						Float _hx_tmp = textField->get_width();
+HXDLIN(  40)						rect->setTo(( (Float)(0) ),( (Float)(0) ),_hx_tmp,textField->get_height());
+HXDLIN(  40)						renderer->_hx___pushMaskRect(rect,textField->_hx___renderTransform);
+HXDLIN(  40)						int color = ( (int)(textField->opaqueBackground) );
+HXDLIN(  40)						context->clear((( (Float)((::hx::UShr(color,16) & 255)) ) / ( (Float)(255) )),(( (Float)((::hx::UShr(color,8) & 255)) ) / ( (Float)(255) )),(( (Float)((color & 255)) ) / ( (Float)(255) )),1,0,0,1);
+HXDLIN(  40)						renderer->_hx___popMaskRect();
+HXDLIN(  40)						renderer->_hx___popMaskObject(textField,null());
+HXDLIN(  40)						::openfl::geom::Rectangle_obj::_hx___pool->release(rect);
+            					}
+HXDLIN(  40)					if (::hx::IsNotNull( textField->_hx___graphics )) {
+HXLINE(  40)						::openfl::display::_internal::Context3DShape_obj::render(textField,renderer);
             					}
             				}
             			}
             		}
-HXLINE(  41)		renderer->_hx___renderEvent(textField);
+HXLINE(  43)		renderer->_hx___renderEvent(textField);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Context3DTextField_obj,renderDrawable,(void))
 
 void Context3DTextField_obj::renderDrawableMask( ::openfl::text::TextField textField, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_fad01968ffdb63cd_45_renderDrawableMask)
-HXLINE(  46)		::openfl::display::_internal::Context3DTextField_obj::renderMask(textField,renderer);
-HXLINE(  47)		::openfl::display::_internal::Context3DDisplayObject_obj::renderDrawableMask(textField,renderer);
+            	HX_STACKFRAME(&_hx_pos_fad01968ffdb63cd_47_renderDrawableMask)
+HXLINE(  48)		::openfl::display::_internal::Context3DTextField_obj::renderMask(textField,renderer);
+HXLINE(  49)		::openfl::display::_internal::Context3DDisplayObject_obj::renderDrawableMask(textField,renderer);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Context3DTextField_obj,renderDrawableMask,(void))
 
 void Context3DTextField_obj::renderMask( ::openfl::text::TextField textField, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_fad01968ffdb63cd_51_renderMask)
-HXLINE(  55)		::openfl::display::_internal::CairoTextField_obj::render(textField,( ( ::openfl::display::CairoRenderer)(renderer->_hx___softwareRenderer) ),textField->_hx___worldTransform);
-HXLINE(  57)		textField->_hx___graphics->_hx___hardwareDirty = false;
+            	HX_STACKFRAME(&_hx_pos_fad01968ffdb63cd_53_renderMask)
+HXLINE(  57)		::openfl::display::_internal::CairoTextField_obj::render(textField,( ( ::openfl::display::CairoRenderer)(renderer->_hx___softwareRenderer) ),textField->_hx___worldTransform);
+HXLINE(  59)		textField->_hx___graphics->_hx___hardwareDirty = false;
             	}
 
 

@@ -484,7 +484,7 @@ HXLINE( 662)					if ((sampler->regCount == 1)) {
 HXLINE( 664)						gl->uniform1i(sampler->location,sampler->regIndex);
             					}
             					else {
-HXLINE( 668)						HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("!!! TODO: uniform location on webgl",0c,47,d9,53))));
+HXLINE( 668)						HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("!!! TODO: uniform location on webgl",0c,47,d9,53)));
             					}
             				}
             			}
@@ -498,7 +498,7 @@ HXLINE( 674)					if ((sampler->regCount == 1)) {
 HXLINE( 676)						gl->uniform1i(sampler->location,sampler->regIndex);
             					}
             					else {
-HXLINE( 680)						HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("!!! TODO: uniform location on webgl",0c,47,d9,53))));
+HXLINE( 680)						HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("!!! TODO: uniform location on webgl",0c,47,d9,53)));
             					}
             				}
             			}

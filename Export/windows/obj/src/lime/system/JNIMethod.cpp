@@ -7,17 +7,17 @@
 #include <lime/system/JNIMethod.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_39b0deb1236c4593_264_new,"lime.system.JNIMethod","new",0xca67a7f2,"lime.system.JNIMethod.new","lime/system/JNI.hx",264,0x21970b7f)
-HX_LOCAL_STACK_FRAME(_hx_pos_39b0deb1236c4593_273_callMember,"lime.system.JNIMethod","callMember",0x1acfd846,"lime.system.JNIMethod.callMember","lime/system/JNI.hx",273,0x21970b7f)
-HX_LOCAL_STACK_FRAME(_hx_pos_39b0deb1236c4593_282_callStatic,"lime.system.JNIMethod","callStatic",0x1c15d29a,"lime.system.JNIMethod.callStatic","lime/system/JNI.hx",282,0x21970b7f)
-HX_LOCAL_STACK_FRAME(_hx_pos_39b0deb1236c4593_288_getMemberMethod,"lime.system.JNIMethod","getMemberMethod",0x7872cd23,"lime.system.JNIMethod.getMemberMethod","lime/system/JNI.hx",288,0x21970b7f)
-HX_LOCAL_STACK_FRAME(_hx_pos_39b0deb1236c4593_300_getStaticMethod,"lime.system.JNIMethod","getStaticMethod",0xd67b3e77,"lime.system.JNIMethod.getStaticMethod","lime/system/JNI.hx",300,0x21970b7f)
+HX_DEFINE_STACK_FRAME(_hx_pos_39b0deb1236c4593_297_new,"lime.system.JNIMethod","new",0xca67a7f2,"lime.system.JNIMethod.new","lime/system/JNI.hx",297,0x21970b7f)
+HX_LOCAL_STACK_FRAME(_hx_pos_39b0deb1236c4593_306_callMember,"lime.system.JNIMethod","callMember",0x1acfd846,"lime.system.JNIMethod.callMember","lime/system/JNI.hx",306,0x21970b7f)
+HX_LOCAL_STACK_FRAME(_hx_pos_39b0deb1236c4593_315_callStatic,"lime.system.JNIMethod","callStatic",0x1c15d29a,"lime.system.JNIMethod.callStatic","lime/system/JNI.hx",315,0x21970b7f)
+HX_LOCAL_STACK_FRAME(_hx_pos_39b0deb1236c4593_321_getMemberMethod,"lime.system.JNIMethod","getMemberMethod",0x7872cd23,"lime.system.JNIMethod.getMemberMethod","lime/system/JNI.hx",321,0x21970b7f)
+HX_LOCAL_STACK_FRAME(_hx_pos_39b0deb1236c4593_333_getStaticMethod,"lime.system.JNIMethod","getStaticMethod",0xd67b3e77,"lime.system.JNIMethod.getStaticMethod","lime/system/JNI.hx",333,0x21970b7f)
 namespace lime{
 namespace _hx_system{
 
 void JNIMethod_obj::__construct( ::Dynamic method){
-            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_264_new)
-HXDLIN( 264)		this->method = method;
+            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_297_new)
+HXDLIN( 297)		this->method = method;
             	}
 
 Dynamic JNIMethod_obj::__CreateEmpty() { return new JNIMethod_obj; }
@@ -36,44 +36,44 @@ bool JNIMethod_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic JNIMethod_obj::callMember(::cpp::VirtualArray args){
-            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_273_callMember)
-HXDLIN( 273)		return null();
+            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_306_callMember)
+HXDLIN( 306)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(JNIMethod_obj,callMember,return )
 
  ::Dynamic JNIMethod_obj::callStatic(::cpp::VirtualArray args){
-            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_282_callStatic)
-HXDLIN( 282)		return null();
+            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_315_callStatic)
+HXDLIN( 315)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(JNIMethod_obj,callStatic,return )
 
  ::Dynamic JNIMethod_obj::getMemberMethod(bool useArray){
-            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_288_getMemberMethod)
-HXDLIN( 288)		if (useArray) {
-HXLINE( 290)			return this->callMember_dyn();
+            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_321_getMemberMethod)
+HXDLIN( 321)		if (useArray) {
+HXLINE( 323)			return this->callMember_dyn();
             		}
             		else {
-HXLINE( 294)			return ::Reflect_obj::makeVarArgs(this->callMember_dyn());
+HXLINE( 327)			return ::Reflect_obj::makeVarArgs(this->callMember_dyn());
             		}
-HXLINE( 288)		return null();
+HXLINE( 321)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(JNIMethod_obj,getMemberMethod,return )
 
  ::Dynamic JNIMethod_obj::getStaticMethod(bool useArray){
-            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_300_getStaticMethod)
-HXDLIN( 300)		if (useArray) {
-HXLINE( 302)			return this->callStatic_dyn();
+            	HX_STACKFRAME(&_hx_pos_39b0deb1236c4593_333_getStaticMethod)
+HXDLIN( 333)		if (useArray) {
+HXLINE( 335)			return this->callStatic_dyn();
             		}
             		else {
-HXLINE( 306)			return ::Reflect_obj::makeVarArgs(this->callStatic_dyn());
+HXLINE( 339)			return ::Reflect_obj::makeVarArgs(this->callStatic_dyn());
             		}
-HXLINE( 300)		return null();
+HXLINE( 333)		return null();
             	}
 
 

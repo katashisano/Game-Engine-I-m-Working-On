@@ -48,7 +48,7 @@ HXLINE(  41)		data->position = byteArrayOffset;
 HXLINE(  42)		::String signature = data->readUTFBytes(3);
 HXLINE(  43)		data->position = byteArrayOffset;
 HXLINE(  45)		if ((signature != HX_("ATF",f3,9b,31,00))) {
-HXLINE(  47)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF signature not found",a0,f7,2f,3a))));
+HXLINE(  47)			HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF signature not found",a0,f7,2f,3a)));
             		}
 HXLINE(  50)		int length = 0;
 HXLINE(  53)		if ((data->b->__get((byteArrayOffset + 6)) == 255)) {
@@ -73,7 +73,7 @@ HXLINE(  66)			_hx_tmp = aNeg;
 HXLINE(  66)			_hx_tmp = (a > b);
             		}
 HXDLIN(  66)		if (_hx_tmp) {
-HXLINE(  68)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF length exceeds byte array length",d7,29,45,0f))));
+HXLINE(  68)			HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF length exceeds byte array length",d7,29,45,0f)));
             		}
 HXLINE(  71)		this->data = data;
             	}
@@ -105,7 +105,7 @@ HXLINE(  79)			_hx_tmp = (type != 0);
 HXLINE(  79)			_hx_tmp = false;
             		}
 HXDLIN(  79)		if (_hx_tmp) {
-HXLINE(  81)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF Cube map not expected",a7,74,ca,c8))));
+HXLINE(  81)			HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF Cube map not expected",a7,74,ca,c8)));
             		}
 HXLINE(  84)		bool _hx_tmp1;
 HXDLIN(  84)		if (cubeMap) {
@@ -115,7 +115,7 @@ HXLINE(  84)			_hx_tmp1 = (type != 1);
 HXLINE(  84)			_hx_tmp1 = false;
             		}
 HXDLIN(  84)		if (_hx_tmp1) {
-HXLINE(  86)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF Cube map expected",fa,fe,ed,52))));
+HXLINE(  86)			HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF Cube map expected",fa,fe,ed,52)));
             		}
 HXLINE(  89)		this->cubeMap = cubeMap;
 HXLINE(  91)		this->atfFormat = (tdata & 127);
@@ -139,7 +139,7 @@ HXLINE( 102)			_hx_tmp3 = (this->height != _hx___height);
 HXLINE( 102)			_hx_tmp3 = true;
             		}
 HXDLIN( 102)		if (_hx_tmp3) {
-HXLINE( 104)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF width and height dont match",3f,49,15,70))));
+HXLINE( 104)			HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("ATF width and height dont match",3f,49,15,70)));
             		}
 HXLINE( 107)		this->mipCount = this->data->readUnsignedByte();
 HXLINE( 109)		return (this->atfFormat == 5);
@@ -201,7 +201,7 @@ HXLINE( 127)									_hx_tmp = aNeg;
 HXLINE( 127)									_hx_tmp = (a > b);
             								}
 HXDLIN( 127)								if (_hx_tmp) {
-HXLINE( 129)									HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Block length exceeds ATF file length",15,23,c0,24))));
+HXLINE( 129)									HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Block length exceeds ATF file length",15,23,c0,24)));
             								}
 HXLINE( 132)								bool aNeg1 = (blockLength < 0);
 HXDLIN( 132)								bool bNeg1 = (0 < 0);

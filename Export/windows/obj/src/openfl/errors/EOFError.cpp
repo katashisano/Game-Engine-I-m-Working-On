@@ -1,5 +1,8 @@
 #include <hxcpp.h>
 
+#ifndef INCLUDED_haxe_Exception
+#include <haxe/Exception.h>
+#endif
 #ifndef INCLUDED_openfl_errors_EOFError
 #include <openfl/errors/EOFError.h>
 #endif
@@ -41,7 +44,7 @@ bool EOFError_obj::_hx_isInstanceOf(int inClassId) {
 			return inClassId==(int)0x2be3de43;
 		}
 	} else {
-		return inClassId==(int)0x3495c9c5;
+		return inClassId==(int)0x3495c9c5 || inClassId==(int)0x677ddc49;
 	}
 }
 

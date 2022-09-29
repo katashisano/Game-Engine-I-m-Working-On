@@ -76,17 +76,18 @@ HXLINE(  62)						null();
             				}
             			}
             		}
-HXLINE(  65)		bool _hx_tmp1;
-HXDLIN(  65)		if (::Reflect_obj::hasField(attributes,HX_("resizable",6b,37,50,a9))) {
-HXLINE(  65)			_hx_tmp1 = !(( (bool)(attributes->__Field(HX_("resizable",6b,37,50,a9),::hx::paccDynamic)) ));
+HXLINE(  65)		this->stage->_hx___setLogicalSize(( (int)(attributes->__Field(HX_("width",06,b6,62,ca),::hx::paccDynamic)) ),( (int)(attributes->__Field(HX_("height",e7,07,4c,02),::hx::paccDynamic)) ));
+HXLINE(  67)		bool _hx_tmp1;
+HXDLIN(  67)		if (::Reflect_obj::hasField(attributes,HX_("resizable",6b,37,50,a9))) {
+HXLINE(  67)			_hx_tmp1 = !(( (bool)(attributes->__Field(HX_("resizable",6b,37,50,a9),::hx::paccDynamic)) ));
             		}
             		else {
-HXLINE(  65)			_hx_tmp1 = false;
+HXLINE(  67)			_hx_tmp1 = false;
             		}
-HXDLIN(  65)		if (_hx_tmp1) {
-HXLINE(  67)			this->stage->_hx___setLogicalSize(( (int)(attributes->__Field(HX_("width",06,b6,62,ca),::hx::paccDynamic)) ),( (int)(attributes->__Field(HX_("height",e7,07,4c,02),::hx::paccDynamic)) ));
+HXDLIN(  67)		if (_hx_tmp1) {
+HXLINE(  69)			this->stage->set_scaleMode(3);
             		}
-HXLINE(  71)		application->addModule(this->stage);
+HXLINE(  73)		application->addModule(this->stage);
             	}
 
 Dynamic Window_obj::__CreateEmpty() { return new Window_obj; }

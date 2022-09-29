@@ -9,17 +9,18 @@ import haxe.macro.Expr;
 @:access(lime.app.Application)
 @:access(lime.system.System)
 @:access(openfl.display.Stage)
+@:access(openfl.events.UncaughtErrorEvents)
 @:dox(hide)
 class ApplicationMain
 {
 	#if !macro
 	public static function main()
 	{
-		lime.system.System.__registerEntryPoint("CUsersAlkostoDocumentsHaxeProjectsGamesTheShortAdventuresOfMaloTheWizard", create);
+		lime.system.System.__registerEntryPoint("what", create);
 
 		#if (js && html5)
 		#if (munit || utest)
-		lime.system.System.embed("CUsersAlkostoDocumentsHaxeProjectsGamesTheShortAdventuresOfMaloTheWizard", null, 800, 600);
+		lime.system.System.embed("what", null, 800, 600);
 		#end
 		#else
 		create(null);
@@ -30,13 +31,15 @@ class ApplicationMain
 	{
 		var app = new openfl.display.Application();
 
+		#if !disable_preloader_assets
 		ManifestResources.init(config);
+		#end
 
-		app.meta["build"] = "62";
-		app.meta["company"] = "Company Name";
-		app.meta["file"] = "CUsersAlkostoDocumentsHaxeProjectsGamesTheShortAdventuresOfMaloTheWizard";
-		app.meta["name"] = "CUsersAlkostoDocumentsHaxeProjectsGamesTheShortAdventuresOfMaloTheWizard";
-		app.meta["packageName"] = "com.sample.cusersalkostodocumentshaxeprojectsgamestheshortadventuresofmalothewizard";
+		app.meta["build"] = "67";
+		app.meta["company"] = "me";
+		app.meta["file"] = "what";
+		app.meta["name"] = "what";
+		app.meta["packageName"] = "com.sample.what";
 		app.meta["version"] = "1.0.0";
 
 		
@@ -57,7 +60,7 @@ class ApplicationMain
 			minimized: false,
 			parameters: {},
 			resizable: true,
-			title: "CUsersAlkostoDocumentsHaxeProjectsGamesTheShortAdventuresOfMaloTheWizard",
+			title: "what",
 			width: 800,
 			x: null,
 			y: null,
@@ -115,6 +118,7 @@ class ApplicationMain
 
 		preloader.onComplete.add(start.bind((cast app.window:openfl.display.Window).stage));
 
+		#if !disable_preloader_assets
 		for (library in ManifestResources.preloadLibraries)
 		{
 			app.preloader.addLibrary(library);
@@ -124,6 +128,7 @@ class ApplicationMain
 		{
 			app.preloader.addLibraryName(name);
 		}
+		#end
 
 		app.preloader.load();
 
@@ -139,7 +144,28 @@ class ApplicationMain
 		#if flash
 		ApplicationMain.getEntryPoint();
 		#else
-		try {
+		if (stage.__uncaughtErrorEvents.__enabled)
+		{
+			try
+			{
+				ApplicationMain.getEntryPoint();
+
+				stage.dispatchEvent(new openfl.events.Event(openfl.events.Event.RESIZE, false, false));
+
+				if (stage.window.fullscreen)
+				{
+					stage.dispatchEvent(new openfl.events.FullScreenEvent(openfl.events.FullScreenEvent.FULL_SCREEN, false, false, true, true));
+				}
+			}
+			catch (e:Dynamic)
+			{
+				#if !display
+				stage.__handleError(e);
+				#end
+			}
+		}
+		else
+		{
 			ApplicationMain.getEntryPoint();
 
 			stage.dispatchEvent(new openfl.events.Event(openfl.events.Event.RESIZE, false, false));
@@ -148,12 +174,6 @@ class ApplicationMain
 			{
 				stage.dispatchEvent(new openfl.events.FullScreenEvent(openfl.events.FullScreenEvent.FULL_SCREEN, false, false, true, true));
 			}
-		}
-		catch (e:Dynamic)
-		{
-			#if !display
-			stage.__handleError (e);
-			#end
 		}
 		#end
 	}

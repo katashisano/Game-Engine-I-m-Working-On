@@ -50,6 +50,9 @@ class HXCPP_CLASS_ATTRIBUTES EReg_obj : public ::hx::Object
 		::String matched(int n);
 		::Dynamic matched_dyn();
 
+		::String matchedRight();
+		::Dynamic matchedRight_dyn();
+
 		 ::Dynamic matchedPos();
 		::Dynamic matchedPos_dyn();
 

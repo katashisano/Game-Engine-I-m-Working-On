@@ -8,6 +8,7 @@
 HX_DECLARE_CLASS2(sys,thread,EventLoop)
 HX_DECLARE_CLASS2(sys,thread,Lock)
 HX_DECLARE_CLASS2(sys,thread,Mutex)
+HX_DECLARE_CLASS2(sys,thread,NextEventTime)
 HX_DECLARE_CLASS3(sys,thread,_EventLoop,RegularEvent)
 
 namespace sys{
@@ -52,6 +53,9 @@ class HXCPP_CLASS_ATTRIBUTES EventLoop_obj : public ::hx::Object
 		 ::sys::thread::Lock waitLock;
 		int promisedEventsCount;
 		 ::sys::thread::_EventLoop::RegularEvent regularEvents;
+		 ::sys::thread::NextEventTime progress();
+		::Dynamic progress_dyn();
+
 		void loop();
 		::Dynamic loop_dyn();
 

@@ -181,7 +181,7 @@ HXLINE(  40)				return HX_("sampler",08,c5,c9,83);
             			}
             			break;
             			default:{
-HXLINE(  42)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Invalid data!",ae,d8,c0,b8))));
+HXLINE(  42)				HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Invalid data!",ae,d8,c0,b8)));
             			}
             		}
 HXLINE(  27)		return null();
@@ -209,15 +209,15 @@ HXLINE(  60)		if ((magic == 176)) {
 HXLINE(  63)			return agal->readUTF();
             		}
 HXLINE(  66)		if ((magic != 160)) {
-HXLINE(  68)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Magic value must be 0xA0, may not be AGAL",33,cd,d9,2e))));
+HXLINE(  68)			HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Magic value must be 0xA0, may not be AGAL",33,cd,d9,2e)));
             		}
 HXLINE(  71)		int version = agal->readInt();
 HXLINE(  73)		if ((version != 1)) {
-HXLINE(  75)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Version must be 1",e3,ba,ef,98))));
+HXLINE(  75)			HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Version must be 1",e3,ba,ef,98)));
             		}
 HXLINE(  78)		int shaderTypeID = (agal->readByte() & 255);
 HXLINE(  80)		if ((shaderTypeID != 161)) {
-HXLINE(  82)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Shader type ID must be 0xA1",38,36,8f,05))));
+HXLINE(  82)			HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Shader type ID must be 0xA1",38,36,8f,05)));
             		}
 HXLINE(  85)		 ::openfl::display3D::_internal::_AGALConverter::ProgramType programType;
 HXDLIN(  85)		if (((agal->readByte() & 255) == 0)) {
@@ -1226,7 +1226,7 @@ HXLINE( 466)					map->addSR(sr2,::openfl::display3D::_internal::_AGALConverter::
             				}
             				break;
             				default:{
-HXLINE( 470)					HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,(HX_("Opcode ",72,65,6e,e7) + opcode))));
+HXLINE( 470)					HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,(HX_("Opcode ",72,65,6e,e7) + opcode)));
             				}
             			}
 HXLINE( 473)			{

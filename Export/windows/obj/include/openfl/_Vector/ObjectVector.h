@@ -52,6 +52,7 @@ class HXCPP_CLASS_ATTRIBUTES ObjectVector_obj : public ::hx::Object
 		static  ::Dynamic __meta__;
 		bool fixed;
 		::cpp::VirtualArray _hx___array;
+		int _hx___tempIndex;
 		::Dynamic concat(::Dynamic a);
 		::Dynamic concat_dyn();
 

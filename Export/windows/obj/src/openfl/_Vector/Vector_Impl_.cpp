@@ -1,5 +1,8 @@
 #include <hxcpp.h>
 
+#ifndef INCLUDED_Reflect
+#include <Reflect.h>
+#endif
 #ifndef INCLUDED_openfl__Vector_BoolVector
 #include <openfl/_Vector/BoolVector.h>
 #endif
@@ -24,40 +27,42 @@
 
 HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_193_concat,"openfl._Vector.Vector_Impl_","concat",0x0c502a95,"openfl._Vector.Vector_Impl_.concat","openfl/Vector.hx",193,0x4a01873c)
 HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_202_copy,"openfl._Vector.Vector_Impl_","copy",0x7571caf6,"openfl._Vector.Vector_Impl_.copy","openfl/Vector.hx",202,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_214_filter,"openfl._Vector.Vector_Impl_","filter",0xc9b54139,"openfl._Vector.Vector_Impl_.filter","openfl/Vector.hx",214,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_222_get,"openfl._Vector.Vector_Impl_","get",0x456ad475,"openfl._Vector.Vector_Impl_.get","openfl/Vector.hx",222,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_238_indexOf,"openfl._Vector.Vector_Impl_","indexOf",0x8c5c7828,"openfl._Vector.Vector_Impl_.indexOf","openfl/Vector.hx",238,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_254_insertAt,"openfl._Vector.Vector_Impl_","insertAt",0x400bc04d,"openfl._Vector.Vector_Impl_.insertAt","openfl/Vector.hx",254,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_262_iterator,"openfl._Vector.Vector_Impl_","iterator",0x11868daf,"openfl._Vector.Vector_Impl_.iterator","openfl/Vector.hx",262,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_278_join,"openfl._Vector.Vector_Impl_","join",0x7a12432b,"openfl._Vector.Vector_Impl_.join","openfl/Vector.hx",278,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_299_lastIndexOf,"openfl._Vector.Vector_Impl_","lastIndexOf",0x5bdcc7f2,"openfl._Vector.Vector_Impl_.lastIndexOf","openfl/Vector.hx",299,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_310_pop,"openfl._Vector.Vector_Impl_","pop",0x4571b170,"openfl._Vector.Vector_Impl_.pop","openfl/Vector.hx",310,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_330_push,"openfl._Vector.Vector_Impl_","push",0x7e0e211b,"openfl._Vector.Vector_Impl_.push","openfl/Vector.hx",330,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_348_removeAt,"openfl._Vector.Vector_Impl_","removeAt",0x2b07b218,"openfl._Vector.Vector_Impl_.removeAt","openfl/Vector.hx",348,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_359_reverse,"openfl._Vector.Vector_Impl_","reverse",0xc6996881,"openfl._Vector.Vector_Impl_.reverse","openfl/Vector.hx",359,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_367_set,"openfl._Vector.Vector_Impl_","set",0x4573ef81,"openfl._Vector.Vector_Impl_.set","openfl/Vector.hx",367,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_379_shift,"openfl._Vector.Vector_Impl_","shift",0x7fe33621,"openfl._Vector.Vector_Impl_.shift","openfl/Vector.hx",379,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_403_slice,"openfl._Vector.Vector_Impl_","slice",0x82880df1,"openfl._Vector.Vector_Impl_.slice","openfl/Vector.hx",403,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_451_sort,"openfl._Vector.Vector_Impl_","sort",0x8005369f,"openfl._Vector.Vector_Impl_.sort","openfl/Vector.hx",451,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_476_splice,"openfl._Vector.Vector_Impl_","splice",0x041ea6fd,"openfl._Vector.Vector_Impl_.splice","openfl/Vector.hx",476,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_489_toString,"openfl._Vector.Vector_Impl_","toString",0xb65b146d,"openfl._Vector.Vector_Impl_.toString","openfl/Vector.hx",489,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_511_unshift,"openfl._Vector.Vector_Impl_","unshift",0x245112e8,"openfl._Vector.Vector_Impl_.unshift","openfl/Vector.hx",511,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_538_convert,"openfl._Vector.Vector_Impl_","convert",0xc6672d52,"openfl._Vector.Vector_Impl_.convert","openfl/Vector.hx",538,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_544_toBoolVector,"openfl._Vector.Vector_Impl_","toBoolVector",0xb60d0e29,"openfl._Vector.Vector_Impl_.toBoolVector","openfl/Vector.hx",544,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_549_toIntVector,"openfl._Vector.Vector_Impl_","toIntVector",0xe9b44cf6,"openfl._Vector.Vector_Impl_.toIntVector","openfl/Vector.hx",549,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_554_toFloatVector,"openfl._Vector.Vector_Impl_","toFloatVector",0xde8c8663,"openfl._Vector.Vector_Impl_.toFloatVector","openfl/Vector.hx",554,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_561_toFunctionVector,"openfl._Vector.Vector_Impl_","toFunctionVector",0xabc41997,"openfl._Vector.Vector_Impl_.toFunctionVector","openfl/Vector.hx",561,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_567_toObjectVector,"openfl._Vector.Vector_Impl_","toObjectVector",0xdd29457e,"openfl._Vector.Vector_Impl_.toObjectVector","openfl/Vector.hx",567,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_573_toNullVector,"openfl._Vector.Vector_Impl_","toNullVector",0xff9bcc46,"openfl._Vector.Vector_Impl_.toNullVector","openfl/Vector.hx",573,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_578_fromBoolVector,"openfl._Vector.Vector_Impl_","fromBoolVector",0x5de98118,"openfl._Vector.Vector_Impl_.fromBoolVector","openfl/Vector.hx",578,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_583_fromIntVector,"openfl._Vector.Vector_Impl_","fromIntVector",0xcee7cce7,"openfl._Vector.Vector_Impl_.fromIntVector","openfl/Vector.hx",583,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_588_fromFloatVector,"openfl._Vector.Vector_Impl_","fromFloatVector",0x1794a494,"openfl._Vector.Vector_Impl_.fromFloatVector","openfl/Vector.hx",588,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_594_fromFunctionVector,"openfl._Vector.Vector_Impl_","fromFunctionVector",0xbc863006,"openfl._Vector.Vector_Impl_.fromFunctionVector","openfl/Vector.hx",594,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_600_fromObjectVector,"openfl._Vector.Vector_Impl_","fromObjectVector",0x8b3b922d,"openfl._Vector.Vector_Impl_.fromObjectVector","openfl/Vector.hx",600,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_607_get_fixed,"openfl._Vector.Vector_Impl_","get_fixed",0xf51a5aea,"openfl._Vector.Vector_Impl_.get_fixed","openfl/Vector.hx",607,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_612_set_fixed,"openfl._Vector.Vector_Impl_","set_fixed",0xd86b46f6,"openfl._Vector.Vector_Impl_.set_fixed","openfl/Vector.hx",612,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_617_get_length,"openfl._Vector.Vector_Impl_","get_length",0x93e47ab0,"openfl._Vector.Vector_Impl_.get_length","openfl/Vector.hx",617,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_622_set_length,"openfl._Vector.Vector_Impl_","set_length",0x97621924,"openfl._Vector.Vector_Impl_.set_length","openfl/Vector.hx",622,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_233_every,"openfl._Vector.Vector_Impl_","every",0x7985153a,"openfl._Vector.Vector_Impl_.every","openfl/Vector.hx",233,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_256_filter,"openfl._Vector.Vector_Impl_","filter",0xc9b54139,"openfl._Vector.Vector_Impl_.filter","openfl/Vector.hx",256,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_264_get,"openfl._Vector.Vector_Impl_","get",0x456ad475,"openfl._Vector.Vector_Impl_.get","openfl/Vector.hx",264,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_280_indexOf,"openfl._Vector.Vector_Impl_","indexOf",0x8c5c7828,"openfl._Vector.Vector_Impl_.indexOf","openfl/Vector.hx",280,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_296_insertAt,"openfl._Vector.Vector_Impl_","insertAt",0x400bc04d,"openfl._Vector.Vector_Impl_.insertAt","openfl/Vector.hx",296,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_304_iterator,"openfl._Vector.Vector_Impl_","iterator",0x11868daf,"openfl._Vector.Vector_Impl_.iterator","openfl/Vector.hx",304,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_320_join,"openfl._Vector.Vector_Impl_","join",0x7a12432b,"openfl._Vector.Vector_Impl_.join","openfl/Vector.hx",320,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_341_lastIndexOf,"openfl._Vector.Vector_Impl_","lastIndexOf",0x5bdcc7f2,"openfl._Vector.Vector_Impl_.lastIndexOf","openfl/Vector.hx",341,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_352_pop,"openfl._Vector.Vector_Impl_","pop",0x4571b170,"openfl._Vector.Vector_Impl_.pop","openfl/Vector.hx",352,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_372_push,"openfl._Vector.Vector_Impl_","push",0x7e0e211b,"openfl._Vector.Vector_Impl_.push","openfl/Vector.hx",372,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_390_removeAt,"openfl._Vector.Vector_Impl_","removeAt",0x2b07b218,"openfl._Vector.Vector_Impl_.removeAt","openfl/Vector.hx",390,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_401_reverse,"openfl._Vector.Vector_Impl_","reverse",0xc6996881,"openfl._Vector.Vector_Impl_.reverse","openfl/Vector.hx",401,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_409_set,"openfl._Vector.Vector_Impl_","set",0x4573ef81,"openfl._Vector.Vector_Impl_.set","openfl/Vector.hx",409,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_421_shift,"openfl._Vector.Vector_Impl_","shift",0x7fe33621,"openfl._Vector.Vector_Impl_.shift","openfl/Vector.hx",421,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_445_slice,"openfl._Vector.Vector_Impl_","slice",0x82880df1,"openfl._Vector.Vector_Impl_.slice","openfl/Vector.hx",445,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_465_some,"openfl._Vector.Vector_Impl_","some",0x80053235,"openfl._Vector.Vector_Impl_.some","openfl/Vector.hx",465,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_526_sort,"openfl._Vector.Vector_Impl_","sort",0x8005369f,"openfl._Vector.Vector_Impl_.sort","openfl/Vector.hx",526,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_550_splice,"openfl._Vector.Vector_Impl_","splice",0x041ea6fd,"openfl._Vector.Vector_Impl_.splice","openfl/Vector.hx",550,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_575_toString,"openfl._Vector.Vector_Impl_","toString",0xb65b146d,"openfl._Vector.Vector_Impl_.toString","openfl/Vector.hx",575,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_597_unshift,"openfl._Vector.Vector_Impl_","unshift",0x245112e8,"openfl._Vector.Vector_Impl_.unshift","openfl/Vector.hx",597,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_624_convert,"openfl._Vector.Vector_Impl_","convert",0xc6672d52,"openfl._Vector.Vector_Impl_.convert","openfl/Vector.hx",624,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_630_toBoolVector,"openfl._Vector.Vector_Impl_","toBoolVector",0xb60d0e29,"openfl._Vector.Vector_Impl_.toBoolVector","openfl/Vector.hx",630,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_635_toIntVector,"openfl._Vector.Vector_Impl_","toIntVector",0xe9b44cf6,"openfl._Vector.Vector_Impl_.toIntVector","openfl/Vector.hx",635,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_640_toFloatVector,"openfl._Vector.Vector_Impl_","toFloatVector",0xde8c8663,"openfl._Vector.Vector_Impl_.toFloatVector","openfl/Vector.hx",640,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_647_toFunctionVector,"openfl._Vector.Vector_Impl_","toFunctionVector",0xabc41997,"openfl._Vector.Vector_Impl_.toFunctionVector","openfl/Vector.hx",647,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_653_toObjectVector,"openfl._Vector.Vector_Impl_","toObjectVector",0xdd29457e,"openfl._Vector.Vector_Impl_.toObjectVector","openfl/Vector.hx",653,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_659_toNullVector,"openfl._Vector.Vector_Impl_","toNullVector",0xff9bcc46,"openfl._Vector.Vector_Impl_.toNullVector","openfl/Vector.hx",659,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_664_fromBoolVector,"openfl._Vector.Vector_Impl_","fromBoolVector",0x5de98118,"openfl._Vector.Vector_Impl_.fromBoolVector","openfl/Vector.hx",664,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_669_fromIntVector,"openfl._Vector.Vector_Impl_","fromIntVector",0xcee7cce7,"openfl._Vector.Vector_Impl_.fromIntVector","openfl/Vector.hx",669,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_674_fromFloatVector,"openfl._Vector.Vector_Impl_","fromFloatVector",0x1794a494,"openfl._Vector.Vector_Impl_.fromFloatVector","openfl/Vector.hx",674,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_680_fromFunctionVector,"openfl._Vector.Vector_Impl_","fromFunctionVector",0xbc863006,"openfl._Vector.Vector_Impl_.fromFunctionVector","openfl/Vector.hx",680,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_686_fromObjectVector,"openfl._Vector.Vector_Impl_","fromObjectVector",0x8b3b922d,"openfl._Vector.Vector_Impl_.fromObjectVector","openfl/Vector.hx",686,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_693_get_fixed,"openfl._Vector.Vector_Impl_","get_fixed",0xf51a5aea,"openfl._Vector.Vector_Impl_.get_fixed","openfl/Vector.hx",693,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_698_set_fixed,"openfl._Vector.Vector_Impl_","set_fixed",0xd86b46f6,"openfl._Vector.Vector_Impl_.set_fixed","openfl/Vector.hx",698,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_703_get_length,"openfl._Vector.Vector_Impl_","get_length",0x93e47ab0,"openfl._Vector.Vector_Impl_.get_length","openfl/Vector.hx",703,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_708_set_length,"openfl._Vector.Vector_Impl_","set_length",0x97621924,"openfl._Vector.Vector_Impl_.set_length","openfl/Vector.hx",708,0x4a01873c)
 HX_LOCAL_STACK_FRAME(_hx_pos_a3c09d73ddb47bfc_85_boot,"openfl._Vector.Vector_Impl_","boot",0x74c89373,"openfl._Vector.Vector_Impl_.boot","openfl/Vector.hx",85,0x4a01873c)
 namespace openfl{
 namespace _Vector{
@@ -95,17 +100,46 @@ HXDLIN( 202)		return ( ( ::openfl::_Vector::ObjectVector)(::openfl::_Vector::IVe
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,copy,return )
 
+bool Vector_Impl__obj::every(::Dynamic this1, ::Dynamic callback, ::Dynamic thisObject){
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_233_every)
+HXLINE( 234)		{
+HXLINE( 234)			int _g = 0;
+HXDLIN( 234)			int _g1 = ::openfl::_Vector::IVector_obj::get_length(this1);
+HXDLIN( 234)			while((_g < _g1)){
+HXLINE( 234)				_g = (_g + 1);
+HXDLIN( 234)				int i = (_g - 1);
+HXLINE( 236)				this1->__SetField(HX_("__tempIndex",3e,e8,54,22),i,::hx::paccDynamic);
+HXLINE( 238)				if (::hx::IsNotNull( thisObject )) {
+HXLINE( 240)					if (::hx::IsEq( ::Reflect_obj::callMethod(thisObject,callback,::cpp::VirtualArray_obj::__new(3)->init(0,::openfl::_Vector::IVector_obj::get(this1,i))->init(1,i)->init(2,this1)),false )) {
+HXLINE( 240)						goto _hx_goto_2;
+            					}
+            				}
+            				else {
+HXLINE( 242)					if (::hx::IsEq( callback(::openfl::_Vector::IVector_obj::get(this1,i),i,this1),false )) {
+HXLINE( 242)						goto _hx_goto_2;
+            					}
+            				}
+            			}
+            			_hx_goto_2:;
+            		}
+HXLINE( 244)		int this2 = ( (int)(this1->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) );
+HXDLIN( 244)		return (this2 == (::openfl::_Vector::IVector_obj::get_length(this1) - 1));
+            	}
+
+
+STATIC_HX_DEFINE_DYNAMIC_FUNC3(Vector_Impl__obj,every,return )
+
  ::openfl::_Vector::ObjectVector Vector_Impl__obj::filter(::Dynamic this1, ::Dynamic callback){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_214_filter)
-HXDLIN( 214)		return ( ( ::openfl::_Vector::ObjectVector)(::openfl::_Vector::IVector_obj::filter(this1,callback)) );
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_256_filter)
+HXDLIN( 256)		return ( ( ::openfl::_Vector::ObjectVector)(::openfl::_Vector::IVector_obj::filter(this1,callback)) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector_Impl__obj,filter,return )
 
  ::Dynamic Vector_Impl__obj::get(::Dynamic this1,int index){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_222_get)
-HXDLIN( 222)		return ::openfl::_Vector::IVector_obj::get(this1,index);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_264_get)
+HXDLIN( 264)		return ::openfl::_Vector::IVector_obj::get(this1,index);
             	}
 
 
@@ -113,24 +147,24 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector_Impl__obj,get,return )
 
 int Vector_Impl__obj::indexOf(::Dynamic this1, ::Dynamic searchElement,::hx::Null< int >  __o_fromIndex){
             		int fromIndex = __o_fromIndex.Default(0);
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_238_indexOf)
-HXDLIN( 238)		return ::openfl::_Vector::IVector_obj::indexOf(this1,searchElement,fromIndex);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_280_indexOf)
+HXDLIN( 280)		return ::openfl::_Vector::IVector_obj::indexOf(this1,searchElement,fromIndex);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Vector_Impl__obj,indexOf,return )
 
 void Vector_Impl__obj::insertAt(::Dynamic this1,int index, ::Dynamic element){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_254_insertAt)
-HXDLIN( 254)		::openfl::_Vector::IVector_obj::insertAt(this1,index,element);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_296_insertAt)
+HXDLIN( 296)		::openfl::_Vector::IVector_obj::insertAt(this1,index,element);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Vector_Impl__obj,insertAt,(void))
 
  ::Dynamic Vector_Impl__obj::iterator(::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_262_iterator)
-HXDLIN( 262)		return ::openfl::_Vector::IVector_obj::iterator(this1);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_304_iterator)
+HXDLIN( 304)		return ::openfl::_Vector::IVector_obj::iterator(this1);
             	}
 
 
@@ -139,64 +173,64 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,iterator,return )
 ::String Vector_Impl__obj::join(::Dynamic this1,::String __o_sep){
             		::String sep = __o_sep;
             		if (::hx::IsNull(__o_sep)) sep = HX_(",",2c,00,00,00);
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_278_join)
-HXDLIN( 278)		return ::openfl::_Vector::IVector_obj::join(this1,sep);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_320_join)
+HXDLIN( 320)		return ::openfl::_Vector::IVector_obj::join(this1,sep);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector_Impl__obj,join,return )
 
 int Vector_Impl__obj::lastIndexOf(::Dynamic this1, ::Dynamic searchElement, ::Dynamic fromIndex){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_299_lastIndexOf)
-HXDLIN( 299)		return ::openfl::_Vector::IVector_obj::lastIndexOf(this1,searchElement,fromIndex);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_341_lastIndexOf)
+HXDLIN( 341)		return ::openfl::_Vector::IVector_obj::lastIndexOf(this1,searchElement,fromIndex);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Vector_Impl__obj,lastIndexOf,return )
 
  ::Dynamic Vector_Impl__obj::pop(::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_310_pop)
-HXDLIN( 310)		return ::openfl::_Vector::IVector_obj::pop(this1);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_352_pop)
+HXDLIN( 352)		return ::openfl::_Vector::IVector_obj::pop(this1);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,pop,return )
 
 int Vector_Impl__obj::push(::Dynamic this1, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_330_push)
-HXDLIN( 330)		return ::openfl::_Vector::IVector_obj::push(this1,value);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_372_push)
+HXDLIN( 372)		return ::openfl::_Vector::IVector_obj::push(this1,value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector_Impl__obj,push,return )
 
  ::Dynamic Vector_Impl__obj::removeAt(::Dynamic this1,int index){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_348_removeAt)
-HXDLIN( 348)		return ::openfl::_Vector::IVector_obj::removeAt(this1,index);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_390_removeAt)
+HXDLIN( 390)		return ::openfl::_Vector::IVector_obj::removeAt(this1,index);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector_Impl__obj,removeAt,return )
 
  ::openfl::_Vector::ObjectVector Vector_Impl__obj::reverse(::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_359_reverse)
-HXDLIN( 359)		return ( ( ::openfl::_Vector::ObjectVector)(::openfl::_Vector::IVector_obj::reverse(this1)) );
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_401_reverse)
+HXDLIN( 401)		return ( ( ::openfl::_Vector::ObjectVector)(::openfl::_Vector::IVector_obj::reverse(this1)) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,reverse,return )
 
  ::Dynamic Vector_Impl__obj::set(::Dynamic this1,int index, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_367_set)
-HXDLIN( 367)		return ::openfl::_Vector::IVector_obj::set(this1,index,value);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_409_set)
+HXDLIN( 409)		return ::openfl::_Vector::IVector_obj::set(this1,index,value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Vector_Impl__obj,set,return )
 
  ::Dynamic Vector_Impl__obj::shift(::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_379_shift)
-HXDLIN( 379)		return ::openfl::_Vector::IVector_obj::shift(this1);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_421_shift)
+HXDLIN( 421)		return ::openfl::_Vector::IVector_obj::shift(this1);
             	}
 
 
@@ -204,174 +238,217 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,shift,return )
 
  ::openfl::_Vector::ObjectVector Vector_Impl__obj::slice(::Dynamic this1,::hx::Null< int >  __o_startIndex, ::Dynamic endIndex){
             		int startIndex = __o_startIndex.Default(0);
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_403_slice)
-HXDLIN( 403)		return ( ( ::openfl::_Vector::ObjectVector)(::openfl::_Vector::IVector_obj::slice(this1,startIndex,endIndex)) );
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_445_slice)
+HXDLIN( 445)		return ( ( ::openfl::_Vector::ObjectVector)(::openfl::_Vector::IVector_obj::slice(this1,startIndex,endIndex)) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Vector_Impl__obj,slice,return )
 
+bool Vector_Impl__obj::some(::Dynamic this1, ::Dynamic callback, ::Dynamic thisObject){
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_465_some)
+HXLINE( 466)		{
+HXLINE( 466)			int _g = 0;
+HXDLIN( 466)			int _g1 = ::openfl::_Vector::IVector_obj::get_length(this1);
+HXDLIN( 466)			while((_g < _g1)){
+HXLINE( 466)				_g = (_g + 1);
+HXDLIN( 466)				int i = (_g - 1);
+HXLINE( 468)				this1->__SetField(HX_("__tempIndex",3e,e8,54,22),i,::hx::paccDynamic);
+HXLINE( 470)				if (::hx::IsNotNull( thisObject )) {
+HXLINE( 472)					if (::hx::IsEq( ::Reflect_obj::callMethod(thisObject,callback,::cpp::VirtualArray_obj::__new(3)->init(0,::openfl::_Vector::IVector_obj::get(this1,i))->init(1,i)->init(2,this1)),true )) {
+HXLINE( 472)						goto _hx_goto_18;
+            					}
+            				}
+            				else {
+HXLINE( 474)					if (( (bool)(callback(::openfl::_Vector::IVector_obj::get(this1,i),i,this1)) )) {
+HXLINE( 474)						goto _hx_goto_18;
+            					}
+            				}
+HXLINE( 476)				if ((i == (::openfl::_Vector::IVector_obj::get_length(this1) - 1))) {
+HXLINE( 476)					::hx::FieldRef((this1).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
+            				}
+            			}
+            			_hx_goto_18:;
+            		}
+HXLINE( 478)		int this2 = ( (int)(this1->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)) );
+HXDLIN( 478)		return (this2 < (::openfl::_Vector::IVector_obj::get_length(this1) - 1));
+            	}
+
+
+STATIC_HX_DEFINE_DYNAMIC_FUNC3(Vector_Impl__obj,some,return )
+
 void Vector_Impl__obj::sort(::Dynamic this1, ::Dynamic sortBehavior){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_451_sort)
-HXDLIN( 451)		::openfl::_Vector::IVector_obj::sort(this1,sortBehavior);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_526_sort)
+HXDLIN( 526)		::openfl::_Vector::IVector_obj::sort(this1,sortBehavior);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector_Impl__obj,sort,(void))
 
- ::openfl::_Vector::ObjectVector Vector_Impl__obj::splice(::Dynamic this1,int startIndex,int deleteCount){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_476_splice)
-HXDLIN( 476)		return ( ( ::openfl::_Vector::ObjectVector)(::openfl::_Vector::IVector_obj::splice(this1,startIndex,deleteCount)) );
+ ::openfl::_Vector::ObjectVector Vector_Impl__obj::splice(::Dynamic this1,int startIndex,int deleteCount,::cpp::VirtualArray items){
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_550_splice)
+HXLINE( 552)		this1->__SetField(HX_("__tempIndex",3e,e8,54,22),startIndex,::hx::paccDynamic);
+HXLINE( 554)		{
+HXLINE( 554)			int _g_current = 0;
+HXDLIN( 554)			::cpp::VirtualArray _g_args = items;
+HXDLIN( 554)			while((_g_current < _g_args->get_length())){
+HXLINE( 554)				_g_current = (_g_current + 1);
+HXDLIN( 554)				 ::Dynamic item = _g_args->__get((_g_current - 1));
+HXLINE( 556)				::openfl::_Vector::IVector_obj::insertAt(this1, ::Dynamic(this1->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)),item);
+HXLINE( 557)				::hx::FieldRef((this1).mPtr,HX_("__tempIndex",3e,e8,54,22))++;
+            			}
+            		}
+HXLINE( 559)		return ( ( ::openfl::_Vector::ObjectVector)(::openfl::_Vector::IVector_obj::splice(this1, ::Dynamic(this1->__Field(HX_("__tempIndex",3e,e8,54,22),::hx::paccDynamic)),deleteCount)) );
             	}
 
 
-STATIC_HX_DEFINE_DYNAMIC_FUNC3(Vector_Impl__obj,splice,return )
+STATIC_HX_DEFINE_DYNAMIC_FUNC4(Vector_Impl__obj,splice,return )
 
 ::String Vector_Impl__obj::toString(::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_489_toString)
-HXDLIN( 489)		if (::hx::IsNotNull( this1 )) {
-HXDLIN( 489)			return ::openfl::_Vector::IVector_obj::toString(this1);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_575_toString)
+HXDLIN( 575)		if (::hx::IsNotNull( this1 )) {
+HXDLIN( 575)			return ::openfl::_Vector::IVector_obj::toString(this1);
             		}
             		else {
-HXDLIN( 489)			return null();
+HXDLIN( 575)			return null();
             		}
-HXDLIN( 489)		return null();
+HXDLIN( 575)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,toString,return )
 
 void Vector_Impl__obj::unshift(::Dynamic this1, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_511_unshift)
-HXDLIN( 511)		::openfl::_Vector::IVector_obj::unshift(this1,value);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_597_unshift)
+HXDLIN( 597)		::openfl::_Vector::IVector_obj::unshift(this1,value);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector_Impl__obj,unshift,(void))
 
 ::Dynamic Vector_Impl__obj::convert(::Dynamic vec){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_538_convert)
-HXDLIN( 538)		return vec;
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_624_convert)
+HXDLIN( 624)		return vec;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,convert,return )
 
  ::openfl::_Vector::BoolVector Vector_Impl__obj::toBoolVector(::Dynamic t,int length,bool fixed,::cpp::VirtualArray array){
-            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_544_toBoolVector)
-HXDLIN( 544)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,length,fixed,array);
+            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_630_toBoolVector)
+HXDLIN( 630)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,length,fixed,array);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(Vector_Impl__obj,toBoolVector,return )
 
  ::openfl::_Vector::IntVector Vector_Impl__obj::toIntVector(::Dynamic t,int length,bool fixed,::cpp::VirtualArray array){
-            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_549_toIntVector)
-HXDLIN( 549)		return  ::openfl::_Vector::IntVector_obj::__alloc( HX_CTX ,length,fixed,array);
+            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_635_toIntVector)
+HXDLIN( 635)		return  ::openfl::_Vector::IntVector_obj::__alloc( HX_CTX ,length,fixed,array);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(Vector_Impl__obj,toIntVector,return )
 
  ::openfl::_Vector::FloatVector Vector_Impl__obj::toFloatVector(::Dynamic t,int length,bool fixed,::cpp::VirtualArray array){
-            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_554_toFloatVector)
-HXDLIN( 554)		return  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
+            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_640_toFloatVector)
+HXDLIN( 640)		return  ::openfl::_Vector::FloatVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(Vector_Impl__obj,toFloatVector,return )
 
  ::openfl::_Vector::FunctionVector Vector_Impl__obj::toFunctionVector(::Dynamic t,int length,bool fixed,::cpp::VirtualArray array){
-            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_561_toFunctionVector)
-HXDLIN( 561)		return  ::openfl::_Vector::FunctionVector_obj::__alloc( HX_CTX ,length,fixed,array);
+            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_647_toFunctionVector)
+HXDLIN( 647)		return  ::openfl::_Vector::FunctionVector_obj::__alloc( HX_CTX ,length,fixed,array);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(Vector_Impl__obj,toFunctionVector,return )
 
  ::openfl::_Vector::ObjectVector Vector_Impl__obj::toObjectVector(::Dynamic t,int length,bool fixed,::cpp::VirtualArray array){
-            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_567_toObjectVector)
-HXDLIN( 567)		return  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
+            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_653_toObjectVector)
+HXDLIN( 653)		return  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(Vector_Impl__obj,toObjectVector,return )
 
  ::openfl::_Vector::ObjectVector Vector_Impl__obj::toNullVector(::Dynamic t,int length,bool fixed,::cpp::VirtualArray array){
-            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_573_toNullVector)
-HXDLIN( 573)		return  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
+            	HX_GC_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_659_toNullVector)
+HXDLIN( 659)		return  ::openfl::_Vector::ObjectVector_obj::__alloc( HX_CTX ,length,fixed,array,true);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC4(Vector_Impl__obj,toNullVector,return )
 
  ::openfl::_Vector::ObjectVector Vector_Impl__obj::fromBoolVector( ::openfl::_Vector::BoolVector vector){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_578_fromBoolVector)
-HXDLIN( 578)		return ( ( ::openfl::_Vector::ObjectVector)(vector) );
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_664_fromBoolVector)
+HXDLIN( 664)		return ( ( ::openfl::_Vector::ObjectVector)(vector) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,fromBoolVector,return )
 
  ::openfl::_Vector::ObjectVector Vector_Impl__obj::fromIntVector( ::openfl::_Vector::IntVector vector){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_583_fromIntVector)
-HXDLIN( 583)		return ( ( ::openfl::_Vector::ObjectVector)(vector) );
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_669_fromIntVector)
+HXDLIN( 669)		return ( ( ::openfl::_Vector::ObjectVector)(vector) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,fromIntVector,return )
 
  ::openfl::_Vector::ObjectVector Vector_Impl__obj::fromFloatVector( ::openfl::_Vector::FloatVector vector){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_588_fromFloatVector)
-HXDLIN( 588)		return ( ( ::openfl::_Vector::ObjectVector)(vector) );
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_674_fromFloatVector)
+HXDLIN( 674)		return ( ( ::openfl::_Vector::ObjectVector)(vector) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,fromFloatVector,return )
 
  ::openfl::_Vector::FunctionVector Vector_Impl__obj::fromFunctionVector( ::openfl::_Vector::FunctionVector vector){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_594_fromFunctionVector)
-HXDLIN( 594)		return vector;
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_680_fromFunctionVector)
+HXDLIN( 680)		return vector;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,fromFunctionVector,return )
 
  ::openfl::_Vector::ObjectVector Vector_Impl__obj::fromObjectVector( ::openfl::_Vector::ObjectVector vector){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_600_fromObjectVector)
-HXDLIN( 600)		return vector;
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_686_fromObjectVector)
+HXDLIN( 686)		return vector;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,fromObjectVector,return )
 
 bool Vector_Impl__obj::get_fixed(::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_607_get_fixed)
-HXDLIN( 607)		return ( (bool)(this1->__Field(HX_("fixed",74,f9,a1,00),::hx::paccDynamic)) );
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_693_get_fixed)
+HXDLIN( 693)		return ( (bool)(this1->__Field(HX_("fixed",74,f9,a1,00),::hx::paccDynamic)) );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,get_fixed,return )
 
 bool Vector_Impl__obj::set_fixed(::Dynamic this1,bool value){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_612_set_fixed)
-HXDLIN( 612)		return (this1->__SetField(HX_("fixed",74,f9,a1,00),value,::hx::paccDynamic));
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_698_set_fixed)
+HXDLIN( 698)		return (this1->__SetField(HX_("fixed",74,f9,a1,00),value,::hx::paccDynamic));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Vector_Impl__obj,set_fixed,return )
 
 int Vector_Impl__obj::get_length(::Dynamic this1){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_617_get_length)
-HXDLIN( 617)		return ::openfl::_Vector::IVector_obj::get_length(this1);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_703_get_length)
+HXDLIN( 703)		return ::openfl::_Vector::IVector_obj::get_length(this1);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Vector_Impl__obj,get_length,return )
 
 int Vector_Impl__obj::set_length(::Dynamic this1,int value){
-            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_622_set_length)
-HXDLIN( 622)		return ::openfl::_Vector::IVector_obj::set_length(this1,value);
+            	HX_STACKFRAME(&_hx_pos_a3c09d73ddb47bfc_708_set_length)
+HXDLIN( 708)		return ::openfl::_Vector::IVector_obj::set_length(this1,value);
             	}
 
 
@@ -394,9 +471,11 @@ bool Vector_Impl__obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::
 		if (HX_FIELD_EQ(inName,"copy") ) { outValue = copy_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"join") ) { outValue = join_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"push") ) { outValue = push_dyn(); return true; }
+		if (HX_FIELD_EQ(inName,"some") ) { outValue = some_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"sort") ) { outValue = sort_dyn(); return true; }
 		break;
 	case 5:
+		if (HX_FIELD_EQ(inName,"every") ) { outValue = every_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"shift") ) { outValue = shift_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"slice") ) { outValue = slice_dyn(); return true; }
 		break;
@@ -464,6 +543,7 @@ static ::hx::StaticInfo *Vector_Impl__obj_sStaticStorageInfo = 0;
 static ::String Vector_Impl__obj_sStaticFields[] = {
 	HX_("concat",14,09,d0,c7),
 	HX_("copy",b5,bb,c4,41),
+	HX_("every",9b,cb,c4,75),
 	HX_("filter",b8,1f,35,85),
 	HX_("get",96,80,4e,00),
 	HX_("indexOf",c9,48,bf,e0),
@@ -478,6 +558,7 @@ static ::String Vector_Impl__obj_sStaticFields[] = {
 	HX_("set",a2,9b,57,00),
 	HX_("shift",82,ec,22,7c),
 	HX_("slice",52,c4,c7,7e),
+	HX_("some",f4,22,58,4c),
 	HX_("sort",5e,27,58,4c),
 	HX_("splice",7c,85,9e,bf),
 	HX_("toString",ac,d0,6e,38),

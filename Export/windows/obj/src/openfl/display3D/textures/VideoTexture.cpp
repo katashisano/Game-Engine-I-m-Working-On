@@ -91,8 +91,8 @@ HXDLIN( 162)		return this->_hx___textureID;
 void VideoTexture_obj::_hx___textureReady(){
             	HX_GC_STACKFRAME(&_hx_pos_8bd748bb3c8a0c13_166___textureReady)
 HXLINE( 172)		 ::openfl::events::Event event = null();
-HXLINE( 177)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("textureReady",88,4d,5a,df),null(),null());
-HXLINE( 180)		this->dispatchEvent(event);
+HXLINE( 178)		event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("textureReady",88,4d,5a,df),null(),null());
+HXLINE( 181)		this->dispatchEvent(event);
             	}
 
 

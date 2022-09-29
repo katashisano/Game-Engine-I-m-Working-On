@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_d0c0bd38b1c3a1bc_680_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_d0c0bd38b1c3a1bc_693_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,GamepadEventInfo)
 
 namespace lime{
@@ -44,12 +44,12 @@ class HXCPP_CLASS_ATTRIBUTES GamepadEventInfo_obj : public ::hx::Object
             		int button = __o_button.Default(0);
             		int axis = __o_axis.Default(0);
             		Float value = __o_value.Default(0);
-            	HX_STACKFRAME(&_hx_pos_d0c0bd38b1c3a1bc_680_new)
-HXLINE( 681)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 682)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->id = id;
-HXLINE( 683)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->button = button;
-HXLINE( 684)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->axis = axis;
-HXLINE( 685)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->axisValue = value;
+            	HX_STACKFRAME(&_hx_pos_d0c0bd38b1c3a1bc_693_new)
+HXLINE( 694)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 695)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->id = id;
+HXLINE( 696)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->button = button;
+HXLINE( 697)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->axis = axis;
+HXLINE( 698)		( ( ::lime::_internal::backend::native::GamepadEventInfo)(__this) )->axisValue = value;
             	}
 		
 			return __this;

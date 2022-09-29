@@ -19,15 +19,15 @@
 #include <lime/net/_IHTTPRequest.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_cf7dae7cab1a2f06_127_new,"lime.net._HTTPRequest_String","new",0x883ccdf0,"lime.net._HTTPRequest_String.new","lime/net/HTTPRequest.hx",127,0x339db723)
-HX_LOCAL_STACK_FRAME(_hx_pos_cf7dae7cab1a2f06_144_load,"lime.net._HTTPRequest_String","load",0xabac7a96,"lime.net._HTTPRequest_String.load","lime/net/HTTPRequest.hx",144,0x339db723)
-HX_LOCAL_STACK_FRAME(_hx_pos_cf7dae7cab1a2f06_131_load,"lime.net._HTTPRequest_String","load",0xabac7a96,"lime.net._HTTPRequest_String.load","lime/net/HTTPRequest.hx",131,0x339db723)
+HX_DEFINE_STACK_FRAME(_hx_pos_cf7dae7cab1a2f06_129_new,"lime.net._HTTPRequest_String","new",0x883ccdf0,"lime.net._HTTPRequest_String.new","lime/net/HTTPRequest.hx",129,0x339db723)
+HX_LOCAL_STACK_FRAME(_hx_pos_cf7dae7cab1a2f06_146_load,"lime.net._HTTPRequest_String","load",0xabac7a96,"lime.net._HTTPRequest_String.load","lime/net/HTTPRequest.hx",146,0x339db723)
+HX_LOCAL_STACK_FRAME(_hx_pos_cf7dae7cab1a2f06_133_load,"lime.net._HTTPRequest_String","load",0xabac7a96,"lime.net._HTTPRequest_String.load","lime/net/HTTPRequest.hx",133,0x339db723)
 namespace lime{
 namespace net{
 
 void _HTTPRequest_String_obj::__construct(::String uri){
-            	HX_STACKFRAME(&_hx_pos_cf7dae7cab1a2f06_127_new)
-HXDLIN( 127)		super::__construct(uri);
+            	HX_STACKFRAME(&_hx_pos_cf7dae7cab1a2f06_129_new)
+HXDLIN( 129)		super::__construct(uri);
             	}
 
 Dynamic _HTTPRequest_String_obj::__CreateEmpty() { return new _HTTPRequest_String_obj; }
@@ -52,23 +52,23 @@ bool _HTTPRequest_String_obj::_hx_isInstanceOf(int inClassId) {
  ::lime::app::Future _HTTPRequest_String_obj::load(::String uri){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::lime::net::_HTTPRequest_String,_gthis, ::lime::app::Promise,promise) HXARGC(1)
             		void _hx_run(::String text){
-            			HX_GC_STACKFRAME(&_hx_pos_cf7dae7cab1a2f06_144_load)
-HXLINE( 145)			_gthis->responseData = text;
-HXLINE( 146)			promise->complete(_gthis->responseData);
+            			HX_GC_STACKFRAME(&_hx_pos_cf7dae7cab1a2f06_146_load)
+HXLINE( 147)			_gthis->responseData = text;
+HXLINE( 148)			promise->complete(_gthis->responseData);
             		}
             		HX_END_LOCAL_FUNC1((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_cf7dae7cab1a2f06_131_load)
-HXDLIN( 131)		 ::lime::net::_HTTPRequest_String _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 132)		if (::hx::IsNotNull( uri )) {
-HXLINE( 134)			this->uri = uri;
+            	HX_GC_STACKFRAME(&_hx_pos_cf7dae7cab1a2f06_133_load)
+HXDLIN( 133)		 ::lime::net::_HTTPRequest_String _gthis = ::hx::ObjectPtr<OBJ_>(this);
+HXLINE( 134)		if (::hx::IsNotNull( uri )) {
+HXLINE( 136)			this->uri = uri;
             		}
-HXLINE( 137)		 ::lime::app::Promise promise =  ::lime::app::Promise_obj::__alloc( HX_CTX );
-HXLINE( 138)		 ::lime::app::Future future = this->_hx___backend->loadText(this->uri);
-HXLINE( 140)		future->onProgress(promise->progress_dyn());
-HXLINE( 141)		future->onError(promise->error_dyn());
-HXLINE( 143)		future->onComplete( ::Dynamic(new _hx_Closure_0(_gthis,promise)));
-HXLINE( 149)		return promise->future;
+HXLINE( 139)		 ::lime::app::Promise promise =  ::lime::app::Promise_obj::__alloc( HX_CTX );
+HXLINE( 140)		 ::lime::app::Future future = this->_hx___backend->loadText(this->uri);
+HXLINE( 142)		future->onProgress(promise->progress_dyn());
+HXLINE( 143)		future->onError(promise->error_dyn());
+HXLINE( 145)		future->onComplete( ::Dynamic(new _hx_Closure_0(_gthis,promise)));
+HXLINE( 151)		return promise->future;
             	}
 
 

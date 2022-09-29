@@ -153,7 +153,7 @@ HXDLIN(  64)		idleTimeout = ((Float)0);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_21b30f6acc93c9d1_75_boot)
-HXDLIN(  75)		manageCookies = false;
+HXDLIN(  75)		manageCookies = true;
             	}
 }
 

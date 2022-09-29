@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_1a94701d58bd3d3e_612_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_1a94701d58bd3d3e_625_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,ApplicationEventInfo)
 
 namespace lime{
@@ -41,9 +41,9 @@ class HXCPP_CLASS_ATTRIBUTES ApplicationEventInfo_obj : public ::hx::Object
 			*(void **)__this = ApplicationEventInfo_obj::_hx_vtable;
 {
             		int deltaTime = __o_deltaTime.Default(0);
-            	HX_STACKFRAME(&_hx_pos_1a94701d58bd3d3e_612_new)
-HXLINE( 613)		( ( ::lime::_internal::backend::native::ApplicationEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 614)		( ( ::lime::_internal::backend::native::ApplicationEventInfo)(__this) )->deltaTime = deltaTime;
+            	HX_STACKFRAME(&_hx_pos_1a94701d58bd3d3e_625_new)
+HXLINE( 626)		( ( ::lime::_internal::backend::native::ApplicationEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 627)		( ( ::lime::_internal::backend::native::ApplicationEventInfo)(__this) )->deltaTime = deltaTime;
             	}
 		
 			return __this;

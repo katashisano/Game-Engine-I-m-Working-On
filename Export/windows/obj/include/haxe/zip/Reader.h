@@ -7,7 +7,6 @@
 
 HX_DECLARE_CLASS0(Date)
 HX_DECLARE_CLASS2(haxe,ds,List)
-HX_DECLARE_CLASS2(haxe,io,Bytes)
 HX_DECLARE_CLASS2(haxe,io,Input)
 HX_DECLARE_CLASS2(haxe,zip,Reader)
 
@@ -50,9 +49,6 @@ class HXCPP_CLASS_ATTRIBUTES Reader_obj : public ::hx::Object
 
 		static  ::haxe::ds::List readZip( ::haxe::io::Input i);
 		static ::Dynamic readZip_dyn();
-
-		static  ::haxe::io::Bytes unzip( ::Dynamic f);
-		static ::Dynamic unzip_dyn();
 
 		 ::haxe::io::Input i;
 		 ::Date readZipDate();

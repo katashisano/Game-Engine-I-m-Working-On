@@ -16,14 +16,15 @@
 HX_DEFINE_STACK_FRAME(_hx_pos_2cd113ad60e10261_28_new,"EReg","new",0x8b859e81,"EReg.new","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",28,0xa4513ee9)
 HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_36_match,"EReg","match",0x18fda1a6,"EReg.match","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",36,0xa4513ee9)
 HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_45_matched,"EReg","matched",0x8ce62f85,"EReg.matched","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",45,0xa4513ee9)
+HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_55_matchedRight,"EReg","matchedRight",0x6157ea17,"EReg.matchedRight","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",55,0xa4513ee9)
 HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_62_matchedPos,"EReg","matchedPos",0x7007a70f,"EReg.matchedPos","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",62,0xa4513ee9)
 HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_65_matchSub,"EReg","matchSub",0xbc75cb7a,"EReg.matchSub","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",65,0xa4513ee9)
 HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_74_split,"EReg","split",0x9749433b,"EReg.split","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",74,0xa4513ee9)
 HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_98_replace,"EReg","replace",0xae923ad5,"EReg.replace","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",98,0xa4513ee9)
-static const ::String _hx_array_data_2dda4a0f_10[] = {
+static const ::String _hx_array_data_2dda4a0f_11[] = {
 	HX_("$",24,00,00,00),
 };
-static const ::String _hx_array_data_2dda4a0f_11[] = {
+static const ::String _hx_array_data_2dda4a0f_12[] = {
 	HX_("$",24,00,00,00),
 };
 HX_LOCAL_STACK_FRAME(_hx_pos_2cd113ad60e10261_149_map,"EReg","map",0x8b84d8bd,"EReg.map","C:\\HaxeToolkit\\haxe\\std/cpp/_std/EReg.hx",149,0xa4513ee9)
@@ -77,6 +78,16 @@ HXLINE(  47)		return m;
 
 HX_DEFINE_DYNAMIC_FUNC1(EReg_obj,matched,return )
 
+::String EReg_obj::matchedRight(){
+            	HX_STACKFRAME(&_hx_pos_2cd113ad60e10261_55_matchedRight)
+HXLINE(  56)		 ::Dynamic p = _hx_regexp_matched_pos(this->r,0);
+HXLINE(  57)		int sz = ( (int)((p->__Field(HX_("pos",94,5d,55,00),::hx::paccDynamic) + p->__Field(HX_("len",d5,4b,52,00),::hx::paccDynamic))) );
+HXLINE(  58)		return this->last.substr(sz,(this->last.length - sz));
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC0(EReg_obj,matchedRight,return )
+
  ::Dynamic EReg_obj::matchedPos(){
             	HX_STACKFRAME(&_hx_pos_2cd113ad60e10261_62_matchedPos)
 HXDLIN(  62)		return _hx_regexp_matched_pos(this->r,0);
@@ -125,7 +136,7 @@ HXLINE(  83)				_hx_tmp = false;
             			}
 HXDLIN(  83)			if (_hx_tmp) {
 HXLINE(  84)				if (::hx::IsEq( p->__Field(HX_("pos",94,5d,55,00),::hx::paccDynamic),s.length )) {
-HXLINE(  85)					goto _hx_goto_5;
+HXLINE(  85)					goto _hx_goto_6;
             				}
 HXLINE(  86)				 ::Dynamic p1 = p;
 HXDLIN(  86)				p1->__SetField(HX_("pos",94,5d,55,00),(p1->__Field(HX_("pos",94,5d,55,00),::hx::paccDynamic) + 1),::hx::paccDynamic);
@@ -136,10 +147,10 @@ HXLINE(  90)			pos = (pos + tot);
 HXLINE(  91)			len = (len - tot);
 HXLINE(  92)			first = false;
 HXLINE(  79)			if (!(this->global)) {
-HXLINE(  79)				goto _hx_goto_5;
+HXLINE(  79)				goto _hx_goto_6;
             			}
             		}
-            		_hx_goto_5:;
+            		_hx_goto_6:;
 HXLINE(  94)		a->push(s.substr(pos,len));
 HXLINE(  95)		return a;
             	}
@@ -165,7 +176,7 @@ HXLINE( 108)				_hx_tmp = false;
             			}
 HXDLIN( 108)			if (_hx_tmp) {
 HXLINE( 109)				if (::hx::IsEq( p->__Field(HX_("pos",94,5d,55,00),::hx::paccDynamic),s.length )) {
-HXLINE( 110)					goto _hx_goto_7;
+HXLINE( 110)					goto _hx_goto_8;
             				}
 HXLINE( 111)				 ::Dynamic p1 = p;
 HXDLIN( 111)				p1->__SetField(HX_("pos",94,5d,55,00),(p1->__Field(HX_("pos",94,5d,55,00),::hx::paccDynamic) + 1),::hx::paccDynamic);
@@ -237,7 +248,7 @@ HXLINE( 124)							if (::hx::IsNotNull( b->charBuf )) {
 HXLINE( 124)								b->flush();
             							}
 HXDLIN( 124)							if (::hx::IsNull( b->b )) {
-HXLINE( 124)								b->b = ::Array_obj< ::String >::fromData( _hx_array_data_2dda4a0f_10,1);
+HXLINE( 124)								b->b = ::Array_obj< ::String >::fromData( _hx_array_data_2dda4a0f_11,1);
             							}
             							else {
 HXLINE( 124)								b->b->push(HX_("$",24,00,00,00));
@@ -293,7 +304,7 @@ HXLINE( 131)							if (::hx::IsNotNull( b->charBuf )) {
 HXLINE( 131)								b->flush();
             							}
 HXDLIN( 131)							if (::hx::IsNull( b->b )) {
-HXLINE( 131)								b->b = ::Array_obj< ::String >::fromData( _hx_array_data_2dda4a0f_11,1);
+HXLINE( 131)								b->b = ::Array_obj< ::String >::fromData( _hx_array_data_2dda4a0f_12,1);
             							}
             							else {
 HXLINE( 131)								b->b->push(HX_("$",24,00,00,00));
@@ -342,10 +353,10 @@ HXLINE( 141)			pos = (pos + tot);
 HXLINE( 142)			len = (len - tot);
 HXLINE( 143)			first = false;
 HXLINE( 104)			if (!(this->global)) {
-HXLINE( 104)				goto _hx_goto_7;
+HXLINE( 104)				goto _hx_goto_8;
             			}
             		}
-            		_hx_goto_7:;
+            		_hx_goto_8:;
 HXLINE( 145)		{
 HXLINE( 145)			if (::hx::IsNotNull( b->charBuf )) {
 HXLINE( 145)				b->flush();
@@ -370,7 +381,7 @@ HXLINE( 150)		int offset = 0;
 HXLINE( 151)		 ::StringBuf buf =  ::StringBuf_obj::__alloc( HX_CTX );
 HXLINE( 152)		while(true){
 HXLINE( 153)			if ((offset >= s.length)) {
-HXLINE( 154)				goto _hx_goto_12;
+HXLINE( 154)				goto _hx_goto_13;
             			}
             			else {
 HXLINE( 155)				if (!(this->matchSub(s,offset,null()))) {
@@ -387,7 +398,7 @@ HXLINE( 156)							::Array< ::String > buf1 = buf->b;
 HXDLIN( 156)							buf1->push(::Std_obj::string(x));
             						}
             					}
-HXLINE( 157)					goto _hx_goto_12;
+HXLINE( 157)					goto _hx_goto_13;
             				}
             			}
 HXLINE( 159)			 ::Dynamic p = _hx_regexp_matched_pos(this->r,0);
@@ -437,10 +448,10 @@ HXLINE( 164)				offset = ( (int)((p->__Field(HX_("pos",94,5d,55,00),::hx::paccDy
 HXLINE( 166)				offset = ( (int)((p->__Field(HX_("pos",94,5d,55,00),::hx::paccDynamic) + p->__Field(HX_("len",d5,4b,52,00),::hx::paccDynamic))) );
             			}
 HXLINE( 152)			if (!(this->global)) {
-HXLINE( 152)				goto _hx_goto_12;
+HXLINE( 152)				goto _hx_goto_13;
             			}
             		}
-            		_hx_goto_12:;
+            		_hx_goto_13:;
 HXLINE( 168)		bool _hx_tmp;
 HXDLIN( 168)		bool _hx_tmp1;
 HXDLIN( 168)		if (!(this->global)) {
@@ -536,6 +547,9 @@ void EReg_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 10:
 		if (HX_FIELD_EQ(inName,"matchedPos") ) { return ::hx::Val( matchedPos_dyn() ); }
+		break;
+	case 12:
+		if (HX_FIELD_EQ(inName,"matchedRight") ) { return ::hx::Val( matchedRight_dyn() ); }
 	}
 	return super::__Field(inName,inCallProp);
 }
@@ -579,6 +593,7 @@ static ::String EReg_obj_sMemberFields[] = {
 	HX_("global",63,31,b2,a7),
 	HX_("match",45,49,23,03),
 	HX_("matched",e4,3c,7c,89),
+	HX_("matchedRight",58,04,9a,a4),
 	HX_("matchedPos",10,ff,c2,cb),
 	HX_("matchSub",3b,71,2b,c3),
 	HX_("split",da,ea,6e,81),

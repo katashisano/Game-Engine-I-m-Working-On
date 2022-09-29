@@ -65,6 +65,7 @@ class HXCPP_CLASS_ATTRIBUTES DisplayObjectRenderer_obj : public  ::openfl::event
 		bool _hx___cleared;
 		 ::lime::graphics::RenderContext _hx___context;
 		 ::Dynamic _hx___overrideBlendMode;
+		Float _hx___pixelRatio;
 		bool _hx___roundPixels;
 		 ::openfl::display::Stage _hx___stage;
 		 ::openfl::geom::ColorTransform _hx___tempColorTransform;

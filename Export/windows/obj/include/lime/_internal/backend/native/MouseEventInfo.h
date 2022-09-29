@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_3eb566585b06ea2e_777_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_3eb566585b06ea2e_790_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,MouseEventInfo)
 
 namespace lime{
@@ -46,14 +46,14 @@ class HXCPP_CLASS_ATTRIBUTES MouseEventInfo_obj : public ::hx::Object
             		int button = __o_button.Default(0);
             		Float movementX = __o_movementX.Default(0);
             		Float movementY = __o_movementY.Default(0);
-            	HX_STACKFRAME(&_hx_pos_3eb566585b06ea2e_777_new)
-HXLINE( 778)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 779)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->windowID = 0;
-HXLINE( 780)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->x = x;
-HXLINE( 781)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->y = y;
-HXLINE( 782)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->button = button;
-HXLINE( 783)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->movementX = movementX;
-HXLINE( 784)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->movementY = movementY;
+            	HX_STACKFRAME(&_hx_pos_3eb566585b06ea2e_790_new)
+HXLINE( 791)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 792)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->windowID = 0;
+HXLINE( 793)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->x = x;
+HXLINE( 794)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->y = y;
+HXLINE( 795)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->button = button;
+HXLINE( 796)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->movementX = movementX;
+HXLINE( 797)		( ( ::lime::_internal::backend::native::MouseEventInfo)(__this) )->movementY = movementY;
             	}
 		
 			return __this;

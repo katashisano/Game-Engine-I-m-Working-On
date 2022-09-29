@@ -34,6 +34,7 @@ static ::String _IHTTPRequest_obj_sMemberFields[] = {
 	HX_("uri",6c,2b,59,00),
 	HX_("userAgent",7a,f0,12,c8),
 	HX_("withCredentials",56,86,c4,ca),
+	HX_("manageCookies",6a,1f,8f,bc),
 	HX_("cancel",7a,ed,33,b8),
 	::String(null()) };
 

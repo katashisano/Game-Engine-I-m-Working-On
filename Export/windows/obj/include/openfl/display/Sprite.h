@@ -8,15 +8,18 @@
 #ifndef INCLUDED_openfl_display_DisplayObjectContainer
 #include <openfl/display/DisplayObjectContainer.h>
 #endif
+HX_DECLARE_CLASS2(lime,utils,AssetLibrary)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
 HX_DECLARE_CLASS2(openfl,display,DisplayObjectContainer)
 HX_DECLARE_CLASS2(openfl,display,Graphics)
 HX_DECLARE_CLASS2(openfl,display,IBitmapDrawable)
 HX_DECLARE_CLASS2(openfl,display,InteractiveObject)
 HX_DECLARE_CLASS2(openfl,display,Sprite)
+HX_DECLARE_CLASS2(openfl,display,Timeline)
 HX_DECLARE_CLASS2(openfl,events,EventDispatcher)
 HX_DECLARE_CLASS2(openfl,events,IEventDispatcher)
 HX_DECLARE_CLASS2(openfl,geom,Rectangle)
+HX_DECLARE_CLASS2(openfl,utils,AssetLibrary)
 
 namespace openfl{
 namespace display{
@@ -46,7 +49,9 @@ class HXCPP_CLASS_ATTRIBUTES Sprite_obj : public  ::openfl::display::DisplayObje
 
 		HX_DO_RTTI_ALL;
 		::hx::Val __Field(const ::String &inString, ::hx::PropertyAccess inCallProp);
+		static bool __GetStatic(const ::String &inString, Dynamic &outValue, ::hx::PropertyAccess inCallProp);
 		::hx::Val __SetField(const ::String &inString,const ::hx::Val &inValue, ::hx::PropertyAccess inCallProp);
+		static bool __SetStatic(const ::String &inString, Dynamic &ioValue, ::hx::PropertyAccess inCallProp);
 		void __GetFields(Array< ::String> &outFields);
 		static void __register();
 		void __Mark(HX_MARK_PARAMS);
@@ -54,15 +59,25 @@ class HXCPP_CLASS_ATTRIBUTES Sprite_obj : public  ::openfl::display::DisplayObje
 		bool _hx_isInstanceOf(int inClassId);
 		::String __ToString() const { return HX_("Sprite",25,50,2a,f8); }
 
+		static  ::Dynamic _hx___constructor;
+		static Dynamic _hx___constructor_dyn() { return _hx___constructor;}
+		static  ::openfl::display::Sprite fromTimeline( ::openfl::display::Timeline timeline);
+		static ::Dynamic fromTimeline_dyn();
+
 		 ::openfl::display::DisplayObject dropTarget;
 		 ::openfl::display::Sprite hitArea;
 		bool useHandCursor;
 		bool _hx___buttonMode;
+		::String _hx___pendingBindClassName;
+		 ::openfl::utils::AssetLibrary _hx___pendingBindLibrary;
 		void startDrag(::hx::Null< bool >  lockCenter, ::openfl::geom::Rectangle bounds);
 		::Dynamic startDrag_dyn();
 
 		void stopDrag();
 		::Dynamic stopDrag_dyn();
+
+		void _hx___bind( ::openfl::utils::AssetLibrary library,::String className);
+		::Dynamic _hx___bind_dyn();
 
 		::String _hx___getCursor();
 

@@ -4,17 +4,17 @@
 #include <lime/_internal/backend/native/DropEventInfo.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_a21879e7650910f2_655_new,"lime._internal.backend.native.DropEventInfo","new",0x21a63a99,"lime._internal.backend.native.DropEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",655,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_a21879e7650910f2_662_clone,"lime._internal.backend.native.DropEventInfo","clone",0x32cf3dd6,"lime._internal.backend.native.DropEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",662,0xc1eba895)
+HX_DEFINE_STACK_FRAME(_hx_pos_a21879e7650910f2_668_new,"lime._internal.backend.native.DropEventInfo","new",0x21a63a99,"lime._internal.backend.native.DropEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",668,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_a21879e7650910f2_675_clone,"lime._internal.backend.native.DropEventInfo","clone",0x32cf3dd6,"lime._internal.backend.native.DropEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",675,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
 namespace native{
 
 void DropEventInfo_obj::__construct( ::Dynamic type,::String file){
-            	HX_STACKFRAME(&_hx_pos_a21879e7650910f2_655_new)
-HXLINE( 656)		this->type = ( (int)(type) );
-HXLINE( 657)		this->file = file;
+            	HX_STACKFRAME(&_hx_pos_a21879e7650910f2_668_new)
+HXLINE( 669)		this->type = ( (int)(type) );
+HXLINE( 670)		this->file = file;
             	}
 
 Dynamic DropEventInfo_obj::__CreateEmpty() { return new DropEventInfo_obj; }
@@ -33,8 +33,8 @@ bool DropEventInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::DropEventInfo DropEventInfo_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_a21879e7650910f2_662_clone)
-HXDLIN( 662)		return  ::lime::_internal::backend::native::DropEventInfo_obj::__alloc( HX_CTX ,this->type,this->file);
+            	HX_GC_STACKFRAME(&_hx_pos_a21879e7650910f2_675_clone)
+HXDLIN( 675)		return  ::lime::_internal::backend::native::DropEventInfo_obj::__alloc( HX_CTX ,this->type,this->file);
             	}
 
 

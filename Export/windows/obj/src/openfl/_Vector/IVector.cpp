@@ -4,7 +4,7 @@
 #include <openfl/_Vector/IVector.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_d7693ed8053d108e_1878_boot,"openfl._Vector.IVector","boot",0x499ba4fe,"openfl._Vector.IVector.boot","openfl/Vector.hx",1878,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_d7693ed8053d108e_1969_boot,"openfl._Vector.IVector","boot",0x499ba4fe,"openfl._Vector.IVector.boot","openfl/Vector.hx",1969,0x4a01873c)
 namespace openfl{
 namespace _Vector{
 
@@ -33,6 +33,7 @@ static ::String IVector_obj_sMemberFields[] = {
 	HX_("splice",7c,85,9e,bf),
 	HX_("toString",ac,d0,6e,38),
 	HX_("unshift",89,e3,b3,78),
+	HX_("__tempIndex",3e,e8,54,22),
 	::String(null()) };
 
 ::hx::Class IVector_obj::__mClass;
@@ -50,8 +51,8 @@ void IVector_obj::__register()
 void IVector_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_d7693ed8053d108e_1878_boot)
-HXDLIN(1878)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_d7693ed8053d108e_1969_boot)
+HXDLIN(1969)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("obj",f7,8f,54,00), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))));
             	}

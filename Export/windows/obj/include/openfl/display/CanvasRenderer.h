@@ -56,7 +56,6 @@ class HXCPP_CLASS_ATTRIBUTES CanvasRenderer_obj : public  ::openfl::display::Dis
 		static void __boot();
 		static  ::Dynamic __meta__;
 		 ::Dynamic context;
-		Float pixelRatio;
 		bool _hx___isDOM;
 		 ::openfl::geom::Matrix _hx___tempMatrix;
 		void applySmoothing( ::Dynamic context,bool value);

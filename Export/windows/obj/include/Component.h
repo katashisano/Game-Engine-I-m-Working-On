@@ -5,9 +5,10 @@
 #include <hxcpp.h>
 #endif
 
-#ifndef INCLUDED_openfl_display_Sprite
-#include <openfl/display/Sprite.h>
+#ifndef INCLUDED_Behaviour
+#include <Behaviour.h>
 #endif
+HX_DECLARE_CLASS0(Behaviour)
 HX_DECLARE_CLASS0(Component)
 HX_DECLARE_CLASS0(GameObject)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
@@ -20,10 +21,10 @@ HX_DECLARE_CLASS2(openfl,events,IEventDispatcher)
 
 
 
-class HXCPP_CLASS_ATTRIBUTES Component_obj : public  ::openfl::display::Sprite_obj
+class HXCPP_CLASS_ATTRIBUTES Component_obj : public  ::Behaviour_obj
 {
 	public:
-		typedef  ::openfl::display::Sprite_obj super;
+		typedef  ::Behaviour_obj super;
 		typedef Component_obj OBJ_;
 		Component_obj();
 
@@ -54,9 +55,7 @@ class HXCPP_CLASS_ATTRIBUTES Component_obj : public  ::openfl::display::Sprite_o
 
 		bool enabled;
 		 ::GameObject parentObject;
-		void addComponent( ::GameObject o);
-		::Dynamic addComponent_dyn();
-
+		::String type;
 };
 
 

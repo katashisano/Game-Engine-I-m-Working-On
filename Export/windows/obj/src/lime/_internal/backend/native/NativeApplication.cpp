@@ -1,5 +1,8 @@
 #include <hxcpp.h>
 
+#ifndef INCLUDED_Std
+#include <Std.h>
+#endif
 #ifndef INCLUDED_haxe_IMap
 #include <haxe/IMap.h>
 #endif
@@ -162,6 +165,18 @@
 #ifndef INCLUDED_lime_ui__KeyModifier_KeyModifier_Impl_
 #include <lime/ui/_KeyModifier/KeyModifier_Impl_.h>
 #endif
+#ifndef INCLUDED_sys_thread_EventLoop
+#include <sys/thread/EventLoop.h>
+#endif
+#ifndef INCLUDED_sys_thread_NextEventTime
+#include <sys/thread/NextEventTime.h>
+#endif
+#ifndef INCLUDED_sys_thread__Thread_HaxeThread
+#include <sys/thread/_Thread/HaxeThread.h>
+#endif
+#ifndef INCLUDED_sys_thread__Thread_Thread_Impl_
+#include <sys/thread/_Thread/Thread_Impl_.h>
+#endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_8a85bd2a97260674_43_new,"lime._internal.backend.native.NativeApplication","new",0xc2e44119,"lime._internal.backend.native.NativeApplication.new","lime/_internal/backend/native/NativeApplication.hx",43,0xc1eba895)
 HX_LOCAL_STACK_FRAME(_hx_pos_e85ed898374c2632_69___init__,"::lime::_internal::backend::native::NativeApplication_obj","__init__",0xb8ff4971,"::lime::_internal::backend::native::NativeApplication_obj.__init__","lime/_internal/backend/native/NativeApplication.hx",69,0xc1eba895)
@@ -174,13 +189,13 @@ HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_188_handleDropEvent,"lime._interna
 HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_196_handleGamepadEvent,"lime._internal.backend.native.NativeApplication","handleGamepadEvent",0x1eeb62e8,"lime._internal.backend.native.NativeApplication.handleGamepadEvent","lime/_internal/backend/native/NativeApplication.hx",196,0xc1eba895)
 HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_220_handleJoystickEvent,"lime._internal.backend.native.NativeApplication","handleJoystickEvent",0xd92b03af,"lime._internal.backend.native.NativeApplication.handleJoystickEvent","lime/_internal/backend/native/NativeApplication.hx",220,0xc1eba895)
 HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_251_handleKeyEvent,"lime._internal.backend.native.NativeApplication","handleKeyEvent",0x72c15daa,"lime._internal.backend.native.NativeApplication.handleKeyEvent","lime/_internal/backend/native/NativeApplication.hx",251,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_329_handleMouseEvent,"lime._internal.backend.native.NativeApplication","handleMouseEvent",0xca833524,"lime._internal.backend.native.NativeApplication.handleMouseEvent","lime/_internal/backend/native/NativeApplication.hx",329,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_358_handleRenderEvent,"lime._internal.backend.native.NativeApplication","handleRenderEvent",0x1dcebc95,"lime._internal.backend.native.NativeApplication.handleRenderEvent","lime/_internal/backend/native/NativeApplication.hx",358,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_410_handleSensorEvent,"lime._internal.backend.native.NativeApplication","handleSensorEvent",0x98787b31,"lime._internal.backend.native.NativeApplication.handleSensorEvent","lime/_internal/backend/native/NativeApplication.hx",410,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_420_handleTextEvent,"lime._internal.backend.native.NativeApplication","handleTextEvent",0xd6b1219e,"lime._internal.backend.native.NativeApplication.handleTextEvent","lime/_internal/backend/native/NativeApplication.hx",420,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_441_handleTouchEvent,"lime._internal.backend.native.NativeApplication","handleTouchEvent",0xa647254a,"lime._internal.backend.native.NativeApplication.handleTouchEvent","lime/_internal/backend/native/NativeApplication.hx",441,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_502_handleWindowEvent,"lime._internal.backend.native.NativeApplication","handleWindowEvent",0x42f025bb,"lime._internal.backend.native.NativeApplication.handleWindowEvent","lime/_internal/backend/native/NativeApplication.hx",502,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_570_updateTimer,"lime._internal.backend.native.NativeApplication","updateTimer",0xd6c37ab5,"lime._internal.backend.native.NativeApplication.updateTimer","lime/_internal/backend/native/NativeApplication.hx",570,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_330_handleMouseEvent,"lime._internal.backend.native.NativeApplication","handleMouseEvent",0xca833524,"lime._internal.backend.native.NativeApplication.handleMouseEvent","lime/_internal/backend/native/NativeApplication.hx",330,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_359_handleRenderEvent,"lime._internal.backend.native.NativeApplication","handleRenderEvent",0x1dcebc95,"lime._internal.backend.native.NativeApplication.handleRenderEvent","lime/_internal/backend/native/NativeApplication.hx",359,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_411_handleSensorEvent,"lime._internal.backend.native.NativeApplication","handleSensorEvent",0x98787b31,"lime._internal.backend.native.NativeApplication.handleSensorEvent","lime/_internal/backend/native/NativeApplication.hx",411,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_421_handleTextEvent,"lime._internal.backend.native.NativeApplication","handleTextEvent",0xd6b1219e,"lime._internal.backend.native.NativeApplication.handleTextEvent","lime/_internal/backend/native/NativeApplication.hx",421,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_442_handleTouchEvent,"lime._internal.backend.native.NativeApplication","handleTouchEvent",0xa647254a,"lime._internal.backend.native.NativeApplication.handleTouchEvent","lime/_internal/backend/native/NativeApplication.hx",442,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_503_handleWindowEvent,"lime._internal.backend.native.NativeApplication","handleWindowEvent",0x42f025bb,"lime._internal.backend.native.NativeApplication.handleWindowEvent","lime/_internal/backend/native/NativeApplication.hx",503,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_8a85bd2a97260674_569_updateTimer,"lime._internal.backend.native.NativeApplication","updateTimer",0xd6c37ab5,"lime._internal.backend.native.NativeApplication.updateTimer","lime/_internal/backend/native/NativeApplication.hx",569,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
@@ -412,55 +427,56 @@ void NativeApplication_obj::handleKeyEvent(){
 HXLINE( 252)		 ::lime::ui::Window window = ( ( ::lime::ui::Window)(this->parent->_hx___windowByID->get(this->keyEventInfo->windowID)) );
 HXLINE( 254)		if (::hx::IsNotNull( window )) {
 HXLINE( 256)			int type = this->keyEventInfo->type;
-HXLINE( 257)			int keyCode = this->keyEventInfo->keyCode;
-HXLINE( 258)			int modifier = this->keyEventInfo->modifier;
-HXLINE( 260)			switch((int)(type)){
+HXLINE( 257)			Float int32 = this->keyEventInfo->keyCode;
+HXLINE( 258)			int keyCode = ::Std_obj::_hx_int(int32);
+HXLINE( 259)			int modifier = this->keyEventInfo->modifier;
+HXLINE( 261)			switch((int)(type)){
             				case (int)0: {
-HXLINE( 263)					window->onKeyDown->dispatch(keyCode,modifier);
+HXLINE( 264)					window->onKeyDown->dispatch(keyCode,modifier);
             				}
             				break;
             				case (int)1: {
-HXLINE( 266)					window->onKeyUp->dispatch(keyCode,modifier);
+HXLINE( 267)					window->onKeyUp->dispatch(keyCode,modifier);
             				}
             				break;
             			}
-HXLINE( 270)			if ((keyCode == 13)) {
-HXLINE( 272)				if ((type == 0)) {
-HXLINE( 274)					bool _hx_tmp;
-HXDLIN( 274)					bool _hx_tmp1;
-HXDLIN( 274)					if (this->toggleFullscreen) {
-HXLINE( 274)						_hx_tmp1 = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_altKey(modifier);
+HXLINE( 271)			if ((keyCode == 13)) {
+HXLINE( 273)				if ((type == 0)) {
+HXLINE( 275)					bool _hx_tmp;
+HXDLIN( 275)					bool _hx_tmp1;
+HXDLIN( 275)					if (this->toggleFullscreen) {
+HXLINE( 275)						_hx_tmp1 = ::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_altKey(modifier);
             					}
             					else {
-HXLINE( 274)						_hx_tmp1 = false;
+HXLINE( 275)						_hx_tmp1 = false;
             					}
-HXDLIN( 274)					if (_hx_tmp1) {
-HXLINE( 274)						bool _hx_tmp1;
-HXDLIN( 274)						if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier))) {
-HXLINE( 274)							_hx_tmp1 = !(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier));
+HXDLIN( 275)					if (_hx_tmp1) {
+HXLINE( 275)						bool _hx_tmp1;
+HXDLIN( 275)						if (!(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_ctrlKey(modifier))) {
+HXLINE( 275)							_hx_tmp1 = !(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_shiftKey(modifier));
             						}
             						else {
-HXLINE( 274)							_hx_tmp1 = false;
+HXLINE( 275)							_hx_tmp1 = false;
             						}
-HXDLIN( 274)						if (_hx_tmp1) {
-HXLINE( 274)							_hx_tmp = !(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier));
+HXDLIN( 275)						if (_hx_tmp1) {
+HXLINE( 275)							_hx_tmp = !(::lime::ui::_KeyModifier::KeyModifier_Impl__obj::get_metaKey(modifier));
             						}
             						else {
-HXLINE( 274)							_hx_tmp = false;
+HXLINE( 275)							_hx_tmp = false;
             						}
             					}
             					else {
-HXLINE( 274)						_hx_tmp = false;
+HXLINE( 275)						_hx_tmp = false;
             					}
-HXDLIN( 274)					if (_hx_tmp) {
-HXLINE( 276)						this->toggleFullscreen = false;
-HXLINE( 278)						if (!(window->onKeyDown->canceled)) {
-HXLINE( 280)							window->set_fullscreen(!(window->_hx___fullscreen));
+HXDLIN( 275)					if (_hx_tmp) {
+HXLINE( 277)						this->toggleFullscreen = false;
+HXLINE( 279)						if (!(window->onKeyDown->canceled)) {
+HXLINE( 281)							window->set_fullscreen(!(window->_hx___fullscreen));
             						}
             					}
             				}
             				else {
-HXLINE( 286)					this->toggleFullscreen = true;
+HXLINE( 287)					this->toggleFullscreen = true;
             				}
             			}
             		}
@@ -470,25 +486,25 @@ HXLINE( 286)					this->toggleFullscreen = true;
 HX_DEFINE_DYNAMIC_FUNC0(NativeApplication_obj,handleKeyEvent,(void))
 
 void NativeApplication_obj::handleMouseEvent(){
-            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_329_handleMouseEvent)
-HXLINE( 330)		 ::lime::ui::Window window = ( ( ::lime::ui::Window)(this->parent->_hx___windowByID->get(this->mouseEventInfo->windowID)) );
-HXLINE( 332)		if (::hx::IsNotNull( window )) {
-HXLINE( 334)			switch((int)(this->mouseEventInfo->type)){
+            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_330_handleMouseEvent)
+HXLINE( 331)		 ::lime::ui::Window window = ( ( ::lime::ui::Window)(this->parent->_hx___windowByID->get(this->mouseEventInfo->windowID)) );
+HXLINE( 333)		if (::hx::IsNotNull( window )) {
+HXLINE( 335)			switch((int)(this->mouseEventInfo->type)){
             				case (int)0: {
-HXLINE( 337)					window->onMouseDown->dispatch(this->mouseEventInfo->x,this->mouseEventInfo->y,this->mouseEventInfo->button);
+HXLINE( 338)					window->onMouseDown->dispatch(this->mouseEventInfo->x,this->mouseEventInfo->y,this->mouseEventInfo->button);
             				}
             				break;
             				case (int)1: {
-HXLINE( 340)					window->onMouseUp->dispatch(this->mouseEventInfo->x,this->mouseEventInfo->y,this->mouseEventInfo->button);
+HXLINE( 341)					window->onMouseUp->dispatch(this->mouseEventInfo->x,this->mouseEventInfo->y,this->mouseEventInfo->button);
             				}
             				break;
             				case (int)2: {
-HXLINE( 343)					window->onMouseMove->dispatch(this->mouseEventInfo->x,this->mouseEventInfo->y);
-HXLINE( 344)					window->onMouseMoveRelative->dispatch(this->mouseEventInfo->movementX,this->mouseEventInfo->movementY);
+HXLINE( 344)					window->onMouseMove->dispatch(this->mouseEventInfo->x,this->mouseEventInfo->y);
+HXLINE( 345)					window->onMouseMoveRelative->dispatch(this->mouseEventInfo->movementX,this->mouseEventInfo->movementY);
             				}
             				break;
             				case (int)3: {
-HXLINE( 347)					window->onMouseWheel->dispatch(this->mouseEventInfo->x,this->mouseEventInfo->y,::lime::ui::MouseWheelMode_obj::UNKNOWN_dyn());
+HXLINE( 348)					window->onMouseWheel->dispatch(this->mouseEventInfo->x,this->mouseEventInfo->y,::lime::ui::MouseWheelMode_obj::UNKNOWN_dyn());
             				}
             				break;
             				default:{
@@ -501,55 +517,55 @@ HXLINE( 347)					window->onMouseWheel->dispatch(this->mouseEventInfo->x,this->mo
 HX_DEFINE_DYNAMIC_FUNC0(NativeApplication_obj,handleMouseEvent,(void))
 
 void NativeApplication_obj::handleRenderEvent(){
-            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_358_handleRenderEvent)
-HXDLIN( 358)		int _g = 0;
-HXDLIN( 358)		::Array< ::Dynamic> _g1 = this->parent->_hx___windows;
-HXDLIN( 358)		while((_g < _g1->length)){
-HXDLIN( 358)			 ::lime::ui::Window window = _g1->__get(_g).StaticCast<  ::lime::ui::Window >();
-HXDLIN( 358)			_g = (_g + 1);
-HXLINE( 360)			if (::hx::IsNull( window )) {
-HXLINE( 360)				continue;
+            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_359_handleRenderEvent)
+HXDLIN( 359)		int _g = 0;
+HXDLIN( 359)		::Array< ::Dynamic> _g1 = this->parent->_hx___windows;
+HXDLIN( 359)		while((_g < _g1->length)){
+HXDLIN( 359)			 ::lime::ui::Window window = _g1->__get(_g).StaticCast<  ::lime::ui::Window >();
+HXDLIN( 359)			_g = (_g + 1);
+HXLINE( 361)			if (::hx::IsNull( window )) {
+HXLINE( 361)				continue;
             			}
-HXLINE( 364)			switch((int)(this->renderEventInfo->type)){
+HXLINE( 365)			switch((int)(this->renderEventInfo->type)){
             				case (int)0: {
-HXLINE( 367)					if (::hx::IsNotNull( window->context )) {
-HXLINE( 369)						window->_hx___backend->render();
-HXLINE( 370)						window->onRender->dispatch(window->context);
-HXLINE( 372)						if (!(window->onRender->canceled)) {
-HXLINE( 374)							window->_hx___backend->contextFlip();
+HXLINE( 368)					if (::hx::IsNotNull( window->context )) {
+HXLINE( 370)						window->_hx___backend->render();
+HXLINE( 371)						window->onRender->dispatch(window->context);
+HXLINE( 373)						if (!(window->onRender->canceled)) {
+HXLINE( 375)							window->_hx___backend->contextFlip();
             						}
             					}
             				}
             				break;
             				case (int)1: {
-HXLINE( 379)					bool _hx_tmp;
-HXDLIN( 379)					if (window->_hx___backend->useHardware) {
-HXLINE( 379)						_hx_tmp = ::hx::IsNotNull( window->context );
+HXLINE( 380)					bool _hx_tmp;
+HXDLIN( 380)					if (window->_hx___backend->useHardware) {
+HXLINE( 380)						_hx_tmp = ::hx::IsNotNull( window->context );
             					}
             					else {
-HXLINE( 379)						_hx_tmp = false;
+HXLINE( 380)						_hx_tmp = false;
             					}
-HXDLIN( 379)					if (_hx_tmp) {
-HXLINE( 381)						::String _hx_switch_0 = window->context->type;
+HXDLIN( 380)					if (_hx_tmp) {
+HXLINE( 382)						::String _hx_switch_0 = window->context->type;
             						if (  (_hx_switch_0==HX_("opengl",6f,64,94,21)) ||  (_hx_switch_0==HX_("opengles",9d,f6,c9,fa)) ||  (_hx_switch_0==HX_("webgl",b9,4b,bc,c7)) ){
-HXLINE( 385)							 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = window->context->gl;
-HXLINE( 386)							gl->_hx___contextLost();
-HXLINE( 387)							if (::hx::IsInstanceEq( ::lime::graphics::opengl::GL_obj::context,gl )) {
-HXLINE( 387)								::lime::graphics::opengl::GL_obj::context = null();
+HXLINE( 386)							 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = window->context->gl;
+HXLINE( 387)							gl->_hx___contextLost();
+HXLINE( 388)							if (::hx::IsInstanceEq( ::lime::graphics::opengl::GL_obj::context,gl )) {
+HXLINE( 388)								::lime::graphics::opengl::GL_obj::context = null();
             							}
-HXLINE( 383)							goto _hx_goto_14;
+HXLINE( 384)							goto _hx_goto_14;
             						}
             						/* default */{
             						}
             						_hx_goto_14:;
-HXLINE( 393)						window->context = null();
-HXLINE( 394)						window->onRenderContextLost->dispatch();
+HXLINE( 394)						window->context = null();
+HXLINE( 395)						window->onRenderContextLost->dispatch();
             					}
             				}
             				break;
             				case (int)2: {
-HXLINE( 398)					if (window->_hx___backend->useHardware) {
-HXLINE( 403)						window->onRenderContextRestored->dispatch(window->context);
+HXLINE( 399)					if (window->_hx___backend->useHardware) {
+HXLINE( 404)						window->onRenderContextRestored->dispatch(window->context);
             					}
             				}
             				break;
@@ -561,10 +577,10 @@ HXLINE( 403)						window->onRenderContextRestored->dispatch(window->context);
 HX_DEFINE_DYNAMIC_FUNC0(NativeApplication_obj,handleRenderEvent,(void))
 
 void NativeApplication_obj::handleSensorEvent(){
-            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_410_handleSensorEvent)
-HXLINE( 411)		 ::lime::_hx_system::Sensor sensor = ( ( ::lime::_hx_system::Sensor)(::lime::_hx_system::Sensor_obj::sensorByID->get(this->sensorEventInfo->id)) );
-HXLINE( 413)		if (::hx::IsNotNull( sensor )) {
-HXLINE( 415)			sensor->onUpdate->dispatch(this->sensorEventInfo->x,this->sensorEventInfo->y,this->sensorEventInfo->z);
+            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_411_handleSensorEvent)
+HXLINE( 412)		 ::lime::_hx_system::Sensor sensor = ( ( ::lime::_hx_system::Sensor)(::lime::_hx_system::Sensor_obj::sensorByID->get(this->sensorEventInfo->id)) );
+HXLINE( 414)		if (::hx::IsNotNull( sensor )) {
+HXLINE( 416)			sensor->onUpdate->dispatch(this->sensorEventInfo->x,this->sensorEventInfo->y,this->sensorEventInfo->z);
             		}
             	}
 
@@ -572,16 +588,16 @@ HXLINE( 415)			sensor->onUpdate->dispatch(this->sensorEventInfo->x,this->sensorE
 HX_DEFINE_DYNAMIC_FUNC0(NativeApplication_obj,handleSensorEvent,(void))
 
 void NativeApplication_obj::handleTextEvent(){
-            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_420_handleTextEvent)
-HXLINE( 421)		 ::lime::ui::Window window = ( ( ::lime::ui::Window)(this->parent->_hx___windowByID->get(this->textEventInfo->windowID)) );
-HXLINE( 423)		if (::hx::IsNotNull( window )) {
-HXLINE( 425)			switch((int)(this->textEventInfo->type)){
+            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_421_handleTextEvent)
+HXLINE( 422)		 ::lime::ui::Window window = ( ( ::lime::ui::Window)(this->parent->_hx___windowByID->get(this->textEventInfo->windowID)) );
+HXLINE( 424)		if (::hx::IsNotNull( window )) {
+HXLINE( 426)			switch((int)(this->textEventInfo->type)){
             				case (int)0: {
-HXLINE( 428)					window->onTextInput->dispatch(this->textEventInfo->text);
+HXLINE( 429)					window->onTextInput->dispatch(this->textEventInfo->text);
             				}
             				break;
             				case (int)1: {
-HXLINE( 431)					window->onTextEdit->dispatch(this->textEventInfo->text,this->textEventInfo->start,this->textEventInfo->length);
+HXLINE( 432)					window->onTextEdit->dispatch(this->textEventInfo->text,this->textEventInfo->start,this->textEventInfo->length);
             				}
             				break;
             				default:{
@@ -594,49 +610,49 @@ HXLINE( 431)					window->onTextEdit->dispatch(this->textEventInfo->text,this->te
 HX_DEFINE_DYNAMIC_FUNC0(NativeApplication_obj,handleTextEvent,(void))
 
 void NativeApplication_obj::handleTouchEvent(){
-            	HX_GC_STACKFRAME(&_hx_pos_8a85bd2a97260674_441_handleTouchEvent)
-HXDLIN( 441)		switch((int)(this->touchEventInfo->type)){
+            	HX_GC_STACKFRAME(&_hx_pos_8a85bd2a97260674_442_handleTouchEvent)
+HXDLIN( 442)		switch((int)(this->touchEventInfo->type)){
             			case (int)0: {
-HXLINE( 444)				 ::lime::ui::Touch touch = this->unusedTouchesPool->pop().StaticCast<  ::lime::ui::Touch >();
-HXLINE( 446)				if (::hx::IsNull( touch )) {
-HXLINE( 448)					touch =  ::lime::ui::Touch_obj::__alloc( HX_CTX ,this->touchEventInfo->x,this->touchEventInfo->y,this->touchEventInfo->id,this->touchEventInfo->dx,this->touchEventInfo->dy,this->touchEventInfo->pressure,this->touchEventInfo->device);
+HXLINE( 445)				 ::lime::ui::Touch touch = this->unusedTouchesPool->pop().StaticCast<  ::lime::ui::Touch >();
+HXLINE( 447)				if (::hx::IsNull( touch )) {
+HXLINE( 449)					touch =  ::lime::ui::Touch_obj::__alloc( HX_CTX ,this->touchEventInfo->x,this->touchEventInfo->y,this->touchEventInfo->id,this->touchEventInfo->dx,this->touchEventInfo->dy,this->touchEventInfo->pressure,this->touchEventInfo->device);
             				}
             				else {
-HXLINE( 453)					touch->x = this->touchEventInfo->x;
-HXLINE( 454)					touch->y = this->touchEventInfo->y;
-HXLINE( 455)					touch->id = this->touchEventInfo->id;
-HXLINE( 456)					touch->dx = this->touchEventInfo->dx;
-HXLINE( 457)					touch->dy = this->touchEventInfo->dy;
-HXLINE( 458)					touch->pressure = this->touchEventInfo->pressure;
-HXLINE( 459)					touch->device = this->touchEventInfo->device;
+HXLINE( 454)					touch->x = this->touchEventInfo->x;
+HXLINE( 455)					touch->y = this->touchEventInfo->y;
+HXLINE( 456)					touch->id = this->touchEventInfo->id;
+HXLINE( 457)					touch->dx = this->touchEventInfo->dx;
+HXLINE( 458)					touch->dy = this->touchEventInfo->dy;
+HXLINE( 459)					touch->pressure = this->touchEventInfo->pressure;
+HXLINE( 460)					touch->device = this->touchEventInfo->device;
             				}
-HXLINE( 462)				this->currentTouches->set(touch->id,touch);
-HXLINE( 464)				::lime::ui::Touch_obj::onStart->dispatch(touch);
+HXLINE( 463)				this->currentTouches->set(touch->id,touch);
+HXLINE( 465)				::lime::ui::Touch_obj::onStart->dispatch(touch);
             			}
             			break;
             			case (int)1: {
-HXLINE( 467)				 ::lime::ui::Touch touch = ( ( ::lime::ui::Touch)(this->currentTouches->get(this->touchEventInfo->id)) );
-HXLINE( 469)				if (::hx::IsNotNull( touch )) {
-HXLINE( 471)					touch->x = this->touchEventInfo->x;
-HXLINE( 472)					touch->y = this->touchEventInfo->y;
-HXLINE( 473)					touch->dx = this->touchEventInfo->dx;
-HXLINE( 474)					touch->dy = this->touchEventInfo->dy;
-HXLINE( 475)					touch->pressure = this->touchEventInfo->pressure;
-HXLINE( 477)					::lime::ui::Touch_obj::onEnd->dispatch(touch);
-HXLINE( 479)					this->currentTouches->remove(this->touchEventInfo->id);
-HXLINE( 480)					this->unusedTouchesPool->add(touch);
+HXLINE( 468)				 ::lime::ui::Touch touch = ( ( ::lime::ui::Touch)(this->currentTouches->get(this->touchEventInfo->id)) );
+HXLINE( 470)				if (::hx::IsNotNull( touch )) {
+HXLINE( 472)					touch->x = this->touchEventInfo->x;
+HXLINE( 473)					touch->y = this->touchEventInfo->y;
+HXLINE( 474)					touch->dx = this->touchEventInfo->dx;
+HXLINE( 475)					touch->dy = this->touchEventInfo->dy;
+HXLINE( 476)					touch->pressure = this->touchEventInfo->pressure;
+HXLINE( 478)					::lime::ui::Touch_obj::onEnd->dispatch(touch);
+HXLINE( 480)					this->currentTouches->remove(this->touchEventInfo->id);
+HXLINE( 481)					this->unusedTouchesPool->add(touch);
             				}
             			}
             			break;
             			case (int)2: {
-HXLINE( 484)				 ::lime::ui::Touch touch = ( ( ::lime::ui::Touch)(this->currentTouches->get(this->touchEventInfo->id)) );
-HXLINE( 486)				if (::hx::IsNotNull( touch )) {
-HXLINE( 488)					touch->x = this->touchEventInfo->x;
-HXLINE( 489)					touch->y = this->touchEventInfo->y;
-HXLINE( 490)					touch->dx = this->touchEventInfo->dx;
-HXLINE( 491)					touch->dy = this->touchEventInfo->dy;
-HXLINE( 492)					touch->pressure = this->touchEventInfo->pressure;
-HXLINE( 494)					::lime::ui::Touch_obj::onMove->dispatch(touch);
+HXLINE( 485)				 ::lime::ui::Touch touch = ( ( ::lime::ui::Touch)(this->currentTouches->get(this->touchEventInfo->id)) );
+HXLINE( 487)				if (::hx::IsNotNull( touch )) {
+HXLINE( 489)					touch->x = this->touchEventInfo->x;
+HXLINE( 490)					touch->y = this->touchEventInfo->y;
+HXLINE( 491)					touch->dx = this->touchEventInfo->dx;
+HXLINE( 492)					touch->dy = this->touchEventInfo->dy;
+HXLINE( 493)					touch->pressure = this->touchEventInfo->pressure;
+HXLINE( 495)					::lime::ui::Touch_obj::onMove->dispatch(touch);
             				}
             			}
             			break;
@@ -649,76 +665,76 @@ HXLINE( 494)					::lime::ui::Touch_obj::onMove->dispatch(touch);
 HX_DEFINE_DYNAMIC_FUNC0(NativeApplication_obj,handleTouchEvent,(void))
 
 void NativeApplication_obj::handleWindowEvent(){
-            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_502_handleWindowEvent)
-HXLINE( 503)		 ::lime::ui::Window window = ( ( ::lime::ui::Window)(this->parent->_hx___windowByID->get(this->windowEventInfo->windowID)) );
-HXLINE( 505)		if (::hx::IsNotNull( window )) {
-HXLINE( 507)			switch((int)(this->windowEventInfo->type)){
+            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_503_handleWindowEvent)
+HXLINE( 504)		 ::lime::ui::Window window = ( ( ::lime::ui::Window)(this->parent->_hx___windowByID->get(this->windowEventInfo->windowID)) );
+HXLINE( 506)		if (::hx::IsNotNull( window )) {
+HXLINE( 508)			switch((int)(this->windowEventInfo->type)){
             				case (int)0: {
-HXLINE( 510)					this->advanceTimer();
-HXLINE( 511)					window->onActivate->dispatch();
-HXLINE( 512)					::lime::media::AudioManager_obj::resume();
+HXLINE( 511)					this->advanceTimer();
+HXLINE( 512)					window->onActivate->dispatch();
+HXLINE( 513)					::lime::media::AudioManager_obj::resume();
             				}
             				break;
             				case (int)1: {
-HXLINE( 515)					window->close();
+HXLINE( 516)					window->close();
             				}
             				break;
             				case (int)2: {
-HXLINE( 518)					window->onDeactivate->dispatch();
-HXLINE( 519)					::lime::media::AudioManager_obj::suspend();
-HXLINE( 520)					this->pauseTimer = ::lime::_hx_system::System_obj::getTimer();
+HXLINE( 519)					window->onDeactivate->dispatch();
+HXLINE( 520)					::lime::media::AudioManager_obj::suspend();
+HXLINE( 521)					this->pauseTimer = ::lime::_hx_system::System_obj::getTimer();
             				}
             				break;
             				case (int)3: {
-HXLINE( 523)					window->onEnter->dispatch();
+HXLINE( 524)					window->onEnter->dispatch();
             				}
             				break;
             				case (int)4: {
-HXLINE( 526)					window->onExpose->dispatch();
+HXLINE( 527)					window->onExpose->dispatch();
             				}
             				break;
             				case (int)5: {
-HXLINE( 529)					window->onFocusIn->dispatch();
+HXLINE( 530)					window->onFocusIn->dispatch();
             				}
             				break;
             				case (int)6: {
-HXLINE( 532)					window->onFocusOut->dispatch();
+HXLINE( 533)					window->onFocusOut->dispatch();
             				}
             				break;
             				case (int)7: {
-HXLINE( 535)					window->onLeave->dispatch();
+HXLINE( 536)					window->onLeave->dispatch();
             				}
             				break;
             				case (int)8: {
-HXLINE( 538)					window->_hx___maximized = true;
-HXLINE( 539)					window->_hx___fullscreen = false;
-HXLINE( 540)					window->_hx___minimized = false;
-HXLINE( 541)					window->onMaximize->dispatch();
+HXLINE( 539)					window->_hx___maximized = true;
+HXLINE( 540)					window->_hx___fullscreen = false;
+HXLINE( 541)					window->_hx___minimized = false;
+HXLINE( 542)					window->onMaximize->dispatch();
             				}
             				break;
             				case (int)9: {
-HXLINE( 544)					window->_hx___minimized = true;
-HXLINE( 545)					window->_hx___maximized = false;
-HXLINE( 546)					window->_hx___fullscreen = false;
-HXLINE( 547)					window->onMinimize->dispatch();
+HXLINE( 545)					window->_hx___minimized = true;
+HXLINE( 546)					window->_hx___maximized = false;
+HXLINE( 547)					window->_hx___fullscreen = false;
+HXLINE( 548)					window->onMinimize->dispatch();
             				}
             				break;
             				case (int)10: {
-HXLINE( 550)					window->_hx___x = this->windowEventInfo->x;
-HXLINE( 551)					window->_hx___y = this->windowEventInfo->y;
-HXLINE( 552)					window->onMove->dispatch(( (Float)(this->windowEventInfo->x) ),( (Float)(this->windowEventInfo->y) ));
+HXLINE( 551)					window->_hx___x = this->windowEventInfo->x;
+HXLINE( 552)					window->_hx___y = this->windowEventInfo->y;
+HXLINE( 553)					window->onMove->dispatch(( (Float)(this->windowEventInfo->x) ),( (Float)(this->windowEventInfo->y) ));
             				}
             				break;
             				case (int)11: {
-HXLINE( 555)					window->_hx___width = this->windowEventInfo->width;
-HXLINE( 556)					window->_hx___height = this->windowEventInfo->height;
-HXLINE( 557)					window->onResize->dispatch(this->windowEventInfo->width,this->windowEventInfo->height);
+HXLINE( 556)					window->_hx___width = this->windowEventInfo->width;
+HXLINE( 557)					window->_hx___height = this->windowEventInfo->height;
+HXLINE( 558)					window->onResize->dispatch(this->windowEventInfo->width,this->windowEventInfo->height);
             				}
             				break;
             				case (int)12: {
-HXLINE( 560)					window->_hx___fullscreen = false;
-HXLINE( 561)					window->_hx___minimized = false;
-HXLINE( 562)					window->onRestore->dispatch();
+HXLINE( 561)					window->_hx___fullscreen = false;
+HXLINE( 562)					window->_hx___minimized = false;
+HXLINE( 563)					window->onRestore->dispatch();
             				}
             				break;
             			}
@@ -729,53 +745,54 @@ HXLINE( 562)					window->onRestore->dispatch();
 HX_DEFINE_DYNAMIC_FUNC0(NativeApplication_obj,handleWindowEvent,(void))
 
 void NativeApplication_obj::updateTimer(){
-            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_570_updateTimer)
-HXDLIN( 570)		if ((::haxe::Timer_obj::sRunningTimers->length > 0)) {
-HXLINE( 572)			int currentTime = ::lime::_hx_system::System_obj::getTimer();
-HXLINE( 573)			bool foundNull = false;
-HXLINE( 574)			 ::haxe::Timer timer;
-HXLINE( 576)			{
-HXLINE( 576)				int _g = 0;
-HXDLIN( 576)				int _g1 = ::haxe::Timer_obj::sRunningTimers->length;
-HXDLIN( 576)				while((_g < _g1)){
-HXLINE( 576)					_g = (_g + 1);
-HXDLIN( 576)					int i = (_g - 1);
-HXLINE( 578)					timer = ::haxe::Timer_obj::sRunningTimers->__get(i).StaticCast<  ::haxe::Timer >();
-HXLINE( 580)					if (::hx::IsNotNull( timer )) {
-HXLINE( 582)						bool _hx_tmp;
-HXDLIN( 582)						if (timer->mRunning) {
-HXLINE( 582)							_hx_tmp = (currentTime >= timer->mFireAt);
+            	HX_STACKFRAME(&_hx_pos_8a85bd2a97260674_569_updateTimer)
+HXLINE( 571)		if ((::haxe::Timer_obj::sRunningTimers->length > 0)) {
+HXLINE( 573)			int currentTime = ::lime::_hx_system::System_obj::getTimer();
+HXLINE( 574)			bool foundNull = false;
+HXLINE( 575)			 ::haxe::Timer timer;
+HXLINE( 577)			{
+HXLINE( 577)				int _g = 0;
+HXDLIN( 577)				int _g1 = ::haxe::Timer_obj::sRunningTimers->length;
+HXDLIN( 577)				while((_g < _g1)){
+HXLINE( 577)					_g = (_g + 1);
+HXDLIN( 577)					int i = (_g - 1);
+HXLINE( 579)					timer = ::haxe::Timer_obj::sRunningTimers->__get(i).StaticCast<  ::haxe::Timer >();
+HXLINE( 581)					if (::hx::IsNotNull( timer )) {
+HXLINE( 583)						bool _hx_tmp;
+HXDLIN( 583)						if (timer->mRunning) {
+HXLINE( 583)							_hx_tmp = (currentTime >= timer->mFireAt);
             						}
             						else {
-HXLINE( 582)							_hx_tmp = false;
+HXLINE( 583)							_hx_tmp = false;
             						}
-HXDLIN( 582)						if (_hx_tmp) {
-HXLINE( 584)							 ::haxe::Timer timer1 = timer;
-HXDLIN( 584)							timer1->mFireAt = (timer1->mFireAt + timer->mTime);
-HXLINE( 585)							timer->run();
+HXDLIN( 583)						if (_hx_tmp) {
+HXLINE( 585)							 ::haxe::Timer timer1 = timer;
+HXDLIN( 585)							timer1->mFireAt = (timer1->mFireAt + timer->mTime);
+HXLINE( 586)							timer->run();
             						}
             					}
             					else {
-HXLINE( 590)						foundNull = true;
+HXLINE( 591)						foundNull = true;
             					}
             				}
             			}
-HXLINE( 594)			if (foundNull) {
-HXLINE( 596)				::Array< ::Dynamic> _g = ::Array_obj< ::Dynamic>::__new(0);
-HXDLIN( 596)				{
-HXLINE( 596)					int _g1 = 0;
-HXDLIN( 596)					::Array< ::Dynamic> _g2 = ::haxe::Timer_obj::sRunningTimers;
-HXDLIN( 596)					while((_g1 < _g2->length)){
-HXLINE( 596)						 ::haxe::Timer v = _g2->__get(_g1).StaticCast<  ::haxe::Timer >();
-HXDLIN( 596)						_g1 = (_g1 + 1);
-HXDLIN( 596)						if (::hx::IsNotNull( v )) {
-HXLINE( 596)							_g->push(v);
+HXLINE( 595)			if (foundNull) {
+HXLINE( 597)				::Array< ::Dynamic> _g = ::Array_obj< ::Dynamic>::__new(0);
+HXDLIN( 597)				{
+HXLINE( 597)					int _g1 = 0;
+HXDLIN( 597)					::Array< ::Dynamic> _g2 = ::haxe::Timer_obj::sRunningTimers;
+HXDLIN( 597)					while((_g1 < _g2->length)){
+HXLINE( 597)						 ::haxe::Timer v = _g2->__get(_g1).StaticCast<  ::haxe::Timer >();
+HXDLIN( 597)						_g1 = (_g1 + 1);
+HXDLIN( 597)						if (::hx::IsNotNull( v )) {
+HXLINE( 597)							_g->push(v);
             						}
             					}
             				}
-HXDLIN( 596)				::haxe::Timer_obj::sRunningTimers = _g;
+HXDLIN( 597)				::haxe::Timer_obj::sRunningTimers = _g;
             			}
             		}
+HXLINE( 606)		::sys::thread::_Thread::Thread_Impl__obj::get_events(::sys::thread::_Thread::HaxeThread_obj::current())->progress();
             	}
 
 

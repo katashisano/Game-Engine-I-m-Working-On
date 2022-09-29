@@ -5,16 +5,20 @@
 #include <hxcpp.h>
 #endif
 
+#ifndef INCLUDED_haxe_Exception
+#include <haxe/Exception.h>
+#endif
+HX_DECLARE_CLASS1(haxe,Exception)
 HX_DECLARE_CLASS2(openfl,errors,Error)
 
 namespace openfl{
 namespace errors{
 
 
-class HXCPP_CLASS_ATTRIBUTES Error_obj : public ::hx::Object
+class HXCPP_CLASS_ATTRIBUTES Error_obj : public  ::haxe::Exception_obj
 {
 	public:
-		typedef ::hx::Object super;
+		typedef  ::haxe::Exception_obj super;
 		typedef Error_obj OBJ_;
 		Error_obj();
 
@@ -46,13 +50,11 @@ class HXCPP_CLASS_ATTRIBUTES Error_obj : public ::hx::Object
 		static void __boot();
 		static ::String DEFAULT_TO_STRING;
 		int errorID;
-		::String message;
 		::String name;
 		::String getStackTrace();
 		::Dynamic getStackTrace_dyn();
 
 		virtual ::String toString();
-		::Dynamic toString_dyn();
 
 };
 

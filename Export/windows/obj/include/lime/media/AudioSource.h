@@ -90,6 +90,12 @@ class HXCPP_CLASS_ATTRIBUTES AudioSource_obj : public ::hx::Object
 		int set_loops(int value);
 		::Dynamic set_loops_dyn();
 
+		Float get_pitch();
+		::Dynamic get_pitch_dyn();
+
+		Float set_pitch(Float value);
+		::Dynamic set_pitch_dyn();
+
 		 ::lime::math::Vector4 get_position();
 		::Dynamic get_position_dyn();
 

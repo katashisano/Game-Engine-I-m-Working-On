@@ -38,11 +38,11 @@
 #endif
 
 HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_20_clear,"openfl.display._internal.DOMBitmap","clear",0xbe3441f4,"openfl.display._internal.DOMBitmap.clear","openfl/display/_internal/DOMBitmap.hx",20,0xcb448c4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_44_render,"openfl.display._internal.DOMBitmap","render",0xad06f50f,"openfl.display._internal.DOMBitmap.render","openfl/display/_internal/DOMBitmap.hx",44,0xcb448c4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_70_renderCanvas,"openfl.display._internal.DOMBitmap","renderCanvas",0x9cc57347,"openfl.display._internal.DOMBitmap.renderCanvas","openfl/display/_internal/DOMBitmap.hx",70,0xcb448c4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_112_renderDrawable,"openfl.display._internal.DOMBitmap","renderDrawable",0xcc53c3cd,"openfl.display._internal.DOMBitmap.renderDrawable","openfl/display/_internal/DOMBitmap.hx",112,0xcb448c4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_133_renderDrawableClear,"openfl.display._internal.DOMBitmap","renderDrawableClear",0x10db3680,"openfl.display._internal.DOMBitmap.renderDrawableClear","openfl/display/_internal/DOMBitmap.hx",133,0xcb448c4c)
-HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_137_renderImage,"openfl.display._internal.DOMBitmap","renderImage",0x1c91e3cc,"openfl.display._internal.DOMBitmap.renderImage","openfl/display/_internal/DOMBitmap.hx",137,0xcb448c4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_41_render,"openfl.display._internal.DOMBitmap","render",0xad06f50f,"openfl.display._internal.DOMBitmap.render","openfl/display/_internal/DOMBitmap.hx",41,0xcb448c4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_75_renderCanvas,"openfl.display._internal.DOMBitmap","renderCanvas",0x9cc57347,"openfl.display._internal.DOMBitmap.renderCanvas","openfl/display/_internal/DOMBitmap.hx",75,0xcb448c4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_117_renderDrawable,"openfl.display._internal.DOMBitmap","renderDrawable",0xcc53c3cd,"openfl.display._internal.DOMBitmap.renderDrawable","openfl/display/_internal/DOMBitmap.hx",117,0xcb448c4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_138_renderDrawableClear,"openfl.display._internal.DOMBitmap","renderDrawableClear",0x10db3680,"openfl.display._internal.DOMBitmap.renderDrawableClear","openfl/display/_internal/DOMBitmap.hx",138,0xcb448c4c)
+HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_142_renderImage,"openfl.display._internal.DOMBitmap","renderImage",0x1c91e3cc,"openfl.display._internal.DOMBitmap.renderImage","openfl/display/_internal/DOMBitmap.hx",142,0xcb448c4c)
 HX_LOCAL_STACK_FRAME(_hx_pos_d34f8755a1b4262c_17_boot,"openfl.display._internal.DOMBitmap","boot",0x8e8cfdab,"openfl.display._internal.DOMBitmap.boot","openfl/display/_internal/DOMBitmap.hx",17,0xcb448c4c)
 namespace openfl{
 namespace display{
@@ -73,49 +73,49 @@ void DOMBitmap_obj::clear( ::openfl::display::Bitmap bitmap, ::openfl::display::
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMBitmap_obj,clear,(void))
 
 void DOMBitmap_obj::render( ::openfl::display::Bitmap bitmap, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_44_render)
+            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_41_render)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMBitmap_obj,render,(void))
 
 void DOMBitmap_obj::renderCanvas( ::openfl::display::Bitmap bitmap, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_70_renderCanvas)
+            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_75_renderCanvas)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMBitmap_obj,renderCanvas,(void))
 
 void DOMBitmap_obj::renderDrawable( ::openfl::display::Bitmap bitmap, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_112_renderDrawable)
-HXLINE( 113)		renderer->_hx___updateCacheBitmap(bitmap,false);
-HXLINE( 115)		bool _hx_tmp;
-HXDLIN( 115)		if (::hx::IsNotNull( bitmap->_hx___cacheBitmap )) {
-HXLINE( 115)			_hx_tmp = !(bitmap->_hx___isCacheBitmapRender);
+            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_117_renderDrawable)
+HXLINE( 118)		renderer->_hx___updateCacheBitmap(bitmap,false);
+HXLINE( 120)		bool _hx_tmp;
+HXDLIN( 120)		if (::hx::IsNotNull( bitmap->_hx___cacheBitmap )) {
+HXLINE( 120)			_hx_tmp = !(bitmap->_hx___isCacheBitmapRender);
             		}
             		else {
-HXLINE( 115)			_hx_tmp = false;
+HXLINE( 120)			_hx_tmp = false;
             		}
-HXDLIN( 115)		if (_hx_tmp) {
-HXLINE( 117)			renderer->_hx___renderDrawableClear(bitmap);
-HXLINE( 118)			bitmap->_hx___cacheBitmap->stage = bitmap->stage;
+HXDLIN( 120)		if (_hx_tmp) {
+HXLINE( 122)			renderer->_hx___renderDrawableClear(bitmap);
+HXLINE( 123)			bitmap->_hx___cacheBitmap->stage = bitmap->stage;
             		}
-HXLINE( 128)		renderer->_hx___renderEvent(bitmap);
+HXLINE( 133)		renderer->_hx___renderEvent(bitmap);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMBitmap_obj,renderDrawable,(void))
 
 void DOMBitmap_obj::renderDrawableClear( ::openfl::display::Bitmap bitmap, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_133_renderDrawableClear)
-HXDLIN( 133)		::openfl::display::_internal::DOMBitmap_obj::clear(bitmap,renderer);
+            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_138_renderDrawableClear)
+HXDLIN( 138)		::openfl::display::_internal::DOMBitmap_obj::clear(bitmap,renderer);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMBitmap_obj,renderDrawableClear,(void))
 
 void DOMBitmap_obj::renderImage( ::openfl::display::Bitmap bitmap, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_137_renderImage)
+            	HX_STACKFRAME(&_hx_pos_d34f8755a1b4262c_142_renderImage)
             	}
 
 

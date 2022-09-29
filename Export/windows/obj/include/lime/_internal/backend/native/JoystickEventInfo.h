@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_21cd05885e6e0032_713_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_21cd05885e6e0032_726_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,JoystickEventInfo)
 
 namespace lime{
@@ -45,13 +45,13 @@ class HXCPP_CLASS_ATTRIBUTES JoystickEventInfo_obj : public ::hx::Object
             		int value = __o_value.Default(0);
             		Float x = __o_x.Default(0);
             		Float y = __o_y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_21cd05885e6e0032_713_new)
-HXLINE( 714)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 715)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->id = id;
-HXLINE( 716)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->index = index;
-HXLINE( 717)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->eventValue = value;
-HXLINE( 718)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->x = x;
-HXLINE( 719)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->y = y;
+            	HX_STACKFRAME(&_hx_pos_21cd05885e6e0032_726_new)
+HXLINE( 727)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 728)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->id = id;
+HXLINE( 729)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->index = index;
+HXLINE( 730)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->eventValue = value;
+HXLINE( 731)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->x = x;
+HXLINE( 732)		( ( ::lime::_internal::backend::native::JoystickEventInfo)(__this) )->y = y;
             	}
 		
 			return __this;

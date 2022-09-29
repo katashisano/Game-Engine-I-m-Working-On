@@ -120,6 +120,9 @@ class HXCPP_CLASS_ATTRIBUTES NativeWindow_obj : public ::hx::Object
 		bool setTextInputEnabled(bool value);
 		::Dynamic setTextInputEnabled_dyn();
 
+		 ::lime::math::Rectangle setTextInputRect( ::lime::math::Rectangle value);
+		::Dynamic setTextInputRect_dyn();
+
 		Float setFrameRate(Float value);
 		::Dynamic setFrameRate_dyn();
 

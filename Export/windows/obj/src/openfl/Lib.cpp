@@ -1,5 +1,8 @@
 #include <hxcpp.h>
 
+#ifndef INCLUDED_EReg
+#include <EReg.h>
+#endif
 #ifndef INCLUDED_Reflect
 #include <Reflect.h>
 #endif
@@ -14,6 +17,9 @@
 #endif
 #ifndef INCLUDED_ValueType
 #include <ValueType.h>
+#endif
+#ifndef INCLUDED_haxe_Exception
+#include <haxe/Exception.h>
 #endif
 #ifndef INCLUDED_haxe_IMap
 #include <haxe/IMap.h>
@@ -69,6 +75,12 @@
 #ifndef INCLUDED_openfl_display_Sprite
 #include <openfl/display/Sprite.h>
 #endif
+#ifndef INCLUDED_openfl_errors_Error
+#include <openfl/errors/Error.h>
+#endif
+#ifndef INCLUDED_openfl_errors_TypeError
+#include <openfl/errors/TypeError.h>
+#endif
 #ifndef INCLUDED_openfl_events_EventDispatcher
 #include <openfl/events/EventDispatcher.h>
 #endif
@@ -85,29 +97,33 @@
 #include <openfl/utils/_internal/Lib.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_59_as,"openfl.Lib","as",0x3965ffb9,"openfl.Lib.as","openfl/Lib.hx",59,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_68_attach,"openfl.Lib","attach",0xe350160c,"openfl.Lib.attach","openfl/Lib.hx",68,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_80_clearInterval,"openfl.Lib","clearInterval",0x3d2e488b,"openfl.Lib.clearInterval","openfl/Lib.hx",80,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_96_clearTimeout,"openfl.Lib","clearTimeout",0x5e39561b,"openfl.Lib.clearTimeout","openfl/Lib.hx",96,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_128_getDefinitionByName,"openfl.Lib","getDefinitionByName",0xbac193c4,"openfl.Lib.getDefinitionByName","openfl/Lib.hx",128,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_151_getQualifiedClassName,"openfl.Lib","getQualifiedClassName",0x7f8a34b6,"openfl.Lib.getQualifiedClassName","openfl/Lib.hx",151,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_191_getQualifiedSuperclassName,"openfl.Lib","getQualifiedSuperclassName",0xc02d02d5,"openfl.Lib.getQualifiedSuperclassName","openfl/Lib.hx",191,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_225_getTimer,"openfl.Lib","getTimer",0xd73d4956,"openfl.Lib.getTimer","openfl/Lib.hx",225,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_234_getURL,"openfl.Lib","getURL",0xa66862c0,"openfl.Lib.getURL","openfl/Lib.hx",234,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_387_navigateToURL,"openfl.Lib","navigateToURL",0x74efcc5c,"openfl.Lib.navigateToURL","openfl/Lib.hx",387,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_424_notImplemented,"openfl.Lib","notImplemented",0x6ff873b6,"openfl.Lib.notImplemented","openfl/Lib.hx",424,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_436_preventDefaultTouchMove,"openfl.Lib","preventDefaultTouchMove",0x0727aa40,"openfl.Lib.preventDefaultTouchMove","openfl/Lib.hx",436,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_491_sendToURL,"openfl.Lib","sendToURL",0xb7c4ca65,"openfl.Lib.sendToURL","openfl/Lib.hx",491,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_526_setInterval,"openfl.Lib","setInterval",0x38558760,"openfl.Lib.setInterval","openfl/Lib.hx",526,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_520_setInterval,"openfl.Lib","setInterval",0x38558760,"openfl.Lib.setInterval","openfl/Lib.hx",520,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_554_setTimeout,"openfl.Lib","setTimeout",0x1b9e88e6,"openfl.Lib.setTimeout","openfl/Lib.hx",554,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_558_setTimeout,"openfl.Lib","setTimeout",0x1b9e88e6,"openfl.Lib.setTimeout","openfl/Lib.hx",558,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_565_trace,"openfl.Lib","trace",0xeba99a1e,"openfl.Lib.trace","openfl/Lib.hx",565,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_571_get_application,"openfl.Lib","get_application",0x64b447c0,"openfl.Lib.get_application","openfl/Lib.hx",571,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_575_get_current,"openfl.Lib","get_current",0x315640a9,"openfl.Lib.get_current","openfl/Lib.hx",575,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_27_boot,"openfl.Lib","boot",0xdf56aeb9,"openfl.Lib.boot","openfl/Lib.hx",27,0x62fb7c98)
-HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_28_boot,"openfl.Lib","boot",0xdf56aeb9,"openfl.Lib.boot","openfl/Lib.hx",28,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_62_as,"openfl.Lib","as",0x3965ffb9,"openfl.Lib.as","openfl/Lib.hx",62,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_71_attach,"openfl.Lib","attach",0xe350160c,"openfl.Lib.attach","openfl/Lib.hx",71,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_83_clearInterval,"openfl.Lib","clearInterval",0x3d2e488b,"openfl.Lib.clearInterval","openfl/Lib.hx",83,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_99_clearTimeout,"openfl.Lib","clearTimeout",0x5e39561b,"openfl.Lib.clearTimeout","openfl/Lib.hx",99,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_131_getDefinitionByName,"openfl.Lib","getDefinitionByName",0xbac193c4,"openfl.Lib.getDefinitionByName","openfl/Lib.hx",131,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_154_getQualifiedClassName,"openfl.Lib","getQualifiedClassName",0x7f8a34b6,"openfl.Lib.getQualifiedClassName","openfl/Lib.hx",154,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_194_getQualifiedSuperclassName,"openfl.Lib","getQualifiedSuperclassName",0xc02d02d5,"openfl.Lib.getQualifiedSuperclassName","openfl/Lib.hx",194,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_228_getTimer,"openfl.Lib","getTimer",0xd73d4956,"openfl.Lib.getTimer","openfl/Lib.hx",228,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_237_getURL,"openfl.Lib","getURL",0xa66862c0,"openfl.Lib.getURL","openfl/Lib.hx",237,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_390_navigateToURL,"openfl.Lib","navigateToURL",0x74efcc5c,"openfl.Lib.navigateToURL","openfl/Lib.hx",390,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_427_notImplemented,"openfl.Lib","notImplemented",0x6ff873b6,"openfl.Lib.notImplemented","openfl/Lib.hx",427,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_439_preventDefaultTouchMove,"openfl.Lib","preventDefaultTouchMove",0x0727aa40,"openfl.Lib.preventDefaultTouchMove","openfl/Lib.hx",439,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_494_sendToURL,"openfl.Lib","sendToURL",0xb7c4ca65,"openfl.Lib.sendToURL","openfl/Lib.hx",494,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_529_setInterval,"openfl.Lib","setInterval",0x38558760,"openfl.Lib.setInterval","openfl/Lib.hx",529,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_523_setInterval,"openfl.Lib","setInterval",0x38558760,"openfl.Lib.setInterval","openfl/Lib.hx",523,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_557_setTimeout,"openfl.Lib","setTimeout",0x1b9e88e6,"openfl.Lib.setTimeout","openfl/Lib.hx",557,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_561_setTimeout,"openfl.Lib","setTimeout",0x1b9e88e6,"openfl.Lib.setTimeout","openfl/Lib.hx",561,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_568_trace,"openfl.Lib","trace",0xeba99a1e,"openfl.Lib.trace","openfl/Lib.hx",568,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_576_isXMLName,"openfl.Lib","isXMLName",0x250ff111,"openfl.Lib.isXMLName","openfl/Lib.hx",576,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_610_getClassByAlias,"openfl.Lib","getClassByAlias",0x8623c170,"openfl.Lib.getClassByAlias","openfl/Lib.hx",610,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_640_registerClassAlias,"openfl.Lib","registerClassAlias",0xa0b10b42,"openfl.Lib.registerClassAlias","openfl/Lib.hx",640,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_659_get_application,"openfl.Lib","get_application",0x64b447c0,"openfl.Lib.get_application","openfl/Lib.hx",659,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_663_get_current,"openfl.Lib","get_current",0x315640a9,"openfl.Lib.get_current","openfl/Lib.hx",663,0x62fb7c98)
 HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_29_boot,"openfl.Lib","boot",0xdf56aeb9,"openfl.Lib.boot","openfl/Lib.hx",29,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_30_boot,"openfl.Lib","boot",0xdf56aeb9,"openfl.Lib.boot","openfl/Lib.hx",30,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_31_boot,"openfl.Lib","boot",0xdf56aeb9,"openfl.Lib.boot","openfl/Lib.hx",31,0x62fb7c98)
+HX_LOCAL_STACK_FRAME(_hx_pos_c4ab5e3027df58c9_32_boot,"openfl.Lib","boot",0xdf56aeb9,"openfl.Lib.boot","openfl/Lib.hx",32,0x62fb7c98)
 namespace openfl{
 
 void Lib_obj::__construct() { }
@@ -133,34 +149,36 @@ int Lib_obj::_hx___lastTimerID;
 
  ::haxe::ds::IntMap Lib_obj::_hx___timers;
 
+ ::haxe::ds::StringMap Lib_obj::_hx___registeredClassAliases;
+
  ::Dynamic Lib_obj::as( ::Dynamic v,::hx::Class c){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_59_as)
-HXDLIN(  59)		if (::Std_obj::isOfType(v,c)) {
-HXDLIN(  59)			return v;
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_62_as)
+HXDLIN(  62)		if (::Std_obj::isOfType(v,c)) {
+HXDLIN(  62)			return v;
             		}
             		else {
-HXDLIN(  59)			return null();
+HXDLIN(  62)			return null();
             		}
-HXDLIN(  59)		return null();
+HXDLIN(  62)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Lib_obj,as,return )
 
  ::openfl::display::MovieClip Lib_obj::attach(::String name){
-            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_68_attach)
-HXDLIN(  68)		return  ::openfl::display::MovieClip_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_71_attach)
+HXDLIN(  71)		return  ::openfl::display::MovieClip_obj::__alloc( HX_CTX );
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,attach,return )
 
 void Lib_obj::clearInterval(int id){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_80_clearInterval)
-HXDLIN(  80)		if (::openfl::Lib_obj::_hx___timers->exists(id)) {
-HXLINE(  82)			 ::haxe::Timer timer = ( ( ::haxe::Timer)(::openfl::Lib_obj::_hx___timers->get(id)) );
-HXLINE(  83)			timer->stop();
-HXLINE(  84)			::openfl::Lib_obj::_hx___timers->remove(id);
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_83_clearInterval)
+HXDLIN(  83)		if (::openfl::Lib_obj::_hx___timers->exists(id)) {
+HXLINE(  85)			 ::haxe::Timer timer = ( ( ::haxe::Timer)(::openfl::Lib_obj::_hx___timers->get(id)) );
+HXLINE(  86)			timer->stop();
+HXLINE(  87)			::openfl::Lib_obj::_hx___timers->remove(id);
             		}
             	}
 
@@ -168,11 +186,11 @@ HXLINE(  84)			::openfl::Lib_obj::_hx___timers->remove(id);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,clearInterval,(void))
 
 void Lib_obj::clearTimeout(int id){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_96_clearTimeout)
-HXDLIN(  96)		if (::openfl::Lib_obj::_hx___timers->exists(id)) {
-HXLINE(  98)			 ::haxe::Timer timer = ( ( ::haxe::Timer)(::openfl::Lib_obj::_hx___timers->get(id)) );
-HXLINE(  99)			timer->stop();
-HXLINE( 100)			::openfl::Lib_obj::_hx___timers->remove(id);
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_99_clearTimeout)
+HXDLIN(  99)		if (::openfl::Lib_obj::_hx___timers->exists(id)) {
+HXLINE( 101)			 ::haxe::Timer timer = ( ( ::haxe::Timer)(::openfl::Lib_obj::_hx___timers->get(id)) );
+HXLINE( 102)			timer->stop();
+HXLINE( 103)			::openfl::Lib_obj::_hx___timers->remove(id);
             		}
             	}
 
@@ -180,154 +198,154 @@ HXLINE( 100)			::openfl::Lib_obj::_hx___timers->remove(id);
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,clearTimeout,(void))
 
 ::hx::Class Lib_obj::getDefinitionByName(::String name){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_128_getDefinitionByName)
-HXLINE( 129)		if (::hx::IsNull( name )) {
-HXLINE( 129)			return null();
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_131_getDefinitionByName)
+HXLINE( 132)		if (::hx::IsNull( name )) {
+HXLINE( 132)			return null();
             		}
-HXLINE( 138)		return ::Type_obj::resolveClass(name);
+HXLINE( 141)		return ::Type_obj::resolveClass(name);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,getDefinitionByName,return )
 
 ::String Lib_obj::getQualifiedClassName( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_151_getQualifiedClassName)
-HXLINE( 152)		if (::hx::IsNull( value )) {
-HXLINE( 152)			return null();
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_154_getQualifiedClassName)
+HXLINE( 155)		if (::hx::IsNull( value )) {
+HXLINE( 155)			return null();
             		}
-HXLINE( 153)		::hx::Class ref;
-HXDLIN( 153)		if (::Std_obj::isOfType(value,::hx::ClassOf< ::hx::Class >())) {
-HXLINE( 153)			ref = value;
+HXLINE( 156)		::hx::Class ref;
+HXDLIN( 156)		if (::Std_obj::isOfType(value,::hx::ClassOf< ::hx::Class >())) {
+HXLINE( 156)			ref = value;
             		}
             		else {
-HXLINE( 153)			ref = ::Type_obj::getClass(value);
+HXLINE( 156)			ref = ::Type_obj::getClass(value);
             		}
-HXLINE( 154)		if (::hx::IsNull( ref )) {
-HXLINE( 156)			bool _hx_tmp;
-HXDLIN( 156)			if (!(::Std_obj::isOfType(value,::hx::ClassOf< bool >()))) {
-HXLINE( 156)				_hx_tmp = ::hx::IsPointerEq( value,::hx::ClassOf< bool >() );
+HXLINE( 157)		if (::hx::IsNull( ref )) {
+HXLINE( 159)			bool _hx_tmp;
+HXDLIN( 159)			if (!(::Std_obj::isOfType(value,::hx::ClassOf< bool >()))) {
+HXLINE( 159)				_hx_tmp = ::hx::IsPointerEq( value,::hx::ClassOf< bool >() );
             			}
             			else {
-HXLINE( 156)				_hx_tmp = true;
+HXLINE( 159)				_hx_tmp = true;
             			}
-HXDLIN( 156)			if (_hx_tmp) {
-HXLINE( 156)				return HX_("Bool",4a,b0,f4,2b);
+HXDLIN( 159)			if (_hx_tmp) {
+HXLINE( 159)				return HX_("Bool",4a,b0,f4,2b);
             			}
             			else {
-HXLINE( 157)				bool _hx_tmp;
-HXDLIN( 157)				if (!(::Std_obj::isOfType(value,::hx::ClassOf< int >()))) {
-HXLINE( 157)					_hx_tmp = ::hx::IsPointerEq( value,::hx::ClassOf< int >() );
+HXLINE( 160)				bool _hx_tmp;
+HXDLIN( 160)				if (!(::Std_obj::isOfType(value,::hx::ClassOf< int >()))) {
+HXLINE( 160)					_hx_tmp = ::hx::IsPointerEq( value,::hx::ClassOf< int >() );
             				}
             				else {
-HXLINE( 157)					_hx_tmp = true;
+HXLINE( 160)					_hx_tmp = true;
             				}
-HXDLIN( 157)				if (_hx_tmp) {
-HXLINE( 157)					return HX_("Int",cf,c4,37,00);
+HXDLIN( 160)				if (_hx_tmp) {
+HXLINE( 160)					return HX_("Int",cf,c4,37,00);
             				}
             				else {
-HXLINE( 158)					bool _hx_tmp;
-HXDLIN( 158)					if (!(::Std_obj::isOfType(value,::hx::ClassOf< ::Float >()))) {
-HXLINE( 158)						_hx_tmp = ::hx::IsPointerEq( value,::hx::ClassOf< ::Float >() );
+HXLINE( 161)					bool _hx_tmp;
+HXDLIN( 161)					if (!(::Std_obj::isOfType(value,::hx::ClassOf< ::Float >()))) {
+HXLINE( 161)						_hx_tmp = ::hx::IsPointerEq( value,::hx::ClassOf< ::Float >() );
             					}
             					else {
-HXLINE( 158)						_hx_tmp = true;
+HXLINE( 161)						_hx_tmp = true;
             					}
-HXDLIN( 158)					if (_hx_tmp) {
-HXLINE( 158)						return HX_("Float",7c,35,c4,95);
+HXDLIN( 161)					if (_hx_tmp) {
+HXLINE( 161)						return HX_("Float",7c,35,c4,95);
             					}
             					else {
-HXLINE( 161)						return null();
+HXLINE( 164)						return null();
             					}
             				}
             			}
             		}
-HXLINE( 163)		return ::Type_obj::getClassName(ref);
+HXLINE( 166)		return ::Type_obj::getClassName(ref);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,getQualifiedClassName,return )
 
 ::String Lib_obj::getQualifiedSuperclassName( ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_191_getQualifiedSuperclassName)
-HXLINE( 192)		if (::hx::IsNull( value )) {
-HXLINE( 192)			return null();
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_194_getQualifiedSuperclassName)
+HXLINE( 195)		if (::hx::IsNull( value )) {
+HXLINE( 195)			return null();
             		}
-HXLINE( 193)		::hx::Class ref;
-HXDLIN( 193)		if (::Std_obj::isOfType(value,::hx::ClassOf< ::hx::Class >())) {
-HXLINE( 193)			ref = value;
+HXLINE( 196)		::hx::Class ref;
+HXDLIN( 196)		if (::Std_obj::isOfType(value,::hx::ClassOf< ::hx::Class >())) {
+HXLINE( 196)			ref = value;
             		}
             		else {
-HXLINE( 193)			ref = ::Type_obj::getClass(value);
+HXLINE( 196)			ref = ::Type_obj::getClass(value);
             		}
-HXLINE( 194)		if (::hx::IsNull( ref )) {
-HXLINE( 194)			return null();
+HXLINE( 197)		if (::hx::IsNull( ref )) {
+HXLINE( 197)			return null();
             		}
-HXLINE( 195)		::hx::Class parentRef = ::Type_obj::getSuperClass(ref);
-HXLINE( 196)		if (::hx::IsNull( parentRef )) {
-HXLINE( 196)			return null();
+HXLINE( 198)		::hx::Class parentRef = ::Type_obj::getSuperClass(ref);
+HXLINE( 199)		if (::hx::IsNull( parentRef )) {
+HXLINE( 199)			return null();
             		}
-HXLINE( 197)		return ::Type_obj::getClassName(parentRef);
+HXLINE( 200)		return ::Type_obj::getClassName(parentRef);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,getQualifiedSuperclassName,return )
 
 int Lib_obj::getTimer(){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_225_getTimer)
-HXDLIN( 225)		return ::lime::_hx_system::System_obj::getTimer();
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_228_getTimer)
+HXDLIN( 228)		return ::lime::_hx_system::System_obj::getTimer();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Lib_obj,getTimer,return )
 
 void Lib_obj::getURL( ::openfl::net::URLRequest request,::String target){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_234_getURL)
-HXDLIN( 234)		::openfl::Lib_obj::navigateToURL(request,target);
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_237_getURL)
+HXDLIN( 237)		::openfl::Lib_obj::navigateToURL(request,target);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Lib_obj,getURL,(void))
 
 void Lib_obj::navigateToURL( ::openfl::net::URLRequest request,::String window){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_387_navigateToURL)
-HXLINE( 388)		if (::hx::IsNull( window )) {
-HXLINE( 390)			window = HX_("_blank",95,26,d9,b0);
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_390_navigateToURL)
+HXLINE( 391)		if (::hx::IsNull( window )) {
+HXLINE( 393)			window = HX_("_blank",95,26,d9,b0);
             		}
-HXLINE( 396)		::String uri = request->url;
-HXLINE( 398)		if (::hx::IsPointerEq( ::Type_obj::_hx_typeof(request->data),::ValueType_obj::TObject_dyn() )) {
-HXLINE( 400)			::String query = HX_("",00,00,00,00);
-HXLINE( 401)			::Array< ::String > fields = ::Reflect_obj::fields(request->data);
-HXLINE( 403)			{
-HXLINE( 403)				int _g = 0;
-HXDLIN( 403)				while((_g < fields->length)){
-HXLINE( 403)					::String field = fields->__get(_g);
-HXDLIN( 403)					_g = (_g + 1);
-HXLINE( 405)					if ((query.length > 0)) {
-HXLINE( 405)						query = (query + HX_("&",26,00,00,00));
+HXLINE( 399)		::String uri = request->url;
+HXLINE( 401)		if (::hx::IsPointerEq( ::Type_obj::_hx_typeof(request->data),::ValueType_obj::TObject_dyn() )) {
+HXLINE( 403)			::String query = HX_("",00,00,00,00);
+HXLINE( 404)			::Array< ::String > fields = ::Reflect_obj::fields(request->data);
+HXLINE( 406)			{
+HXLINE( 406)				int _g = 0;
+HXDLIN( 406)				while((_g < fields->length)){
+HXLINE( 406)					::String field = fields->__get(_g);
+HXDLIN( 406)					_g = (_g + 1);
+HXLINE( 408)					if ((query.length > 0)) {
+HXLINE( 408)						query = (query + HX_("&",26,00,00,00));
             					}
-HXLINE( 406)					::String query1 = (::StringTools_obj::urlEncode(field) + HX_("=",3d,00,00,00));
-HXDLIN( 406)					query = (query + (query1 + ::StringTools_obj::urlEncode(::Std_obj::string(::Reflect_obj::field(request->data,field)))));
+HXLINE( 409)					::String query1 = (::StringTools_obj::urlEncode(field) + HX_("=",3d,00,00,00));
+HXDLIN( 409)					query = (query + (query1 + ::StringTools_obj::urlEncode(::Std_obj::string(::Reflect_obj::field(request->data,field)))));
             				}
             			}
-HXLINE( 409)			if ((uri.indexOf(HX_("?",3f,00,00,00),null()) > -1)) {
-HXLINE( 411)				uri = (uri + (HX_("&",26,00,00,00) + query));
+HXLINE( 412)			if ((uri.indexOf(HX_("?",3f,00,00,00),null()) > -1)) {
+HXLINE( 414)				uri = (uri + (HX_("&",26,00,00,00) + query));
             			}
             			else {
-HXLINE( 415)				uri = (uri + (HX_("?",3f,00,00,00) + query));
+HXLINE( 418)				uri = (uri + (HX_("?",3f,00,00,00) + query));
             			}
             		}
-HXLINE( 419)		::lime::_hx_system::System_obj::openURL(uri,window);
+HXLINE( 422)		::lime::_hx_system::System_obj::openURL(uri,window);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Lib_obj,navigateToURL,(void))
 
 void Lib_obj::notImplemented( ::Dynamic posInfo){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_424_notImplemented)
-HXLINE( 425)		::String api = ( (::String)(((posInfo->__Field(HX_("className",a3,92,3d,dc),::hx::paccDynamic) + HX_(".",2e,00,00,00)) + posInfo->__Field(HX_("methodName",cc,19,0f,12),::hx::paccDynamic))) );
-HXLINE( 427)		if (!(::openfl::Lib_obj::_hx___sentWarnings->exists(api))) {
-HXLINE( 429)			::openfl::Lib_obj::_hx___sentWarnings->set(api,true);
-HXLINE( 431)			::lime::utils::Log_obj::warn( ::Dynamic((posInfo->__Field(HX_("methodName",cc,19,0f,12),::hx::paccDynamic) + HX_(" is not implemented",1f,12,d2,b9))),posInfo);
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_427_notImplemented)
+HXLINE( 428)		::String api = ( (::String)(((posInfo->__Field(HX_("className",a3,92,3d,dc),::hx::paccDynamic) + HX_(".",2e,00,00,00)) + posInfo->__Field(HX_("methodName",cc,19,0f,12),::hx::paccDynamic))) );
+HXLINE( 430)		if (!(::openfl::Lib_obj::_hx___sentWarnings->exists(api))) {
+HXLINE( 432)			::openfl::Lib_obj::_hx___sentWarnings->set(api,true);
+HXLINE( 434)			::lime::utils::Log_obj::warn( ::Dynamic((posInfo->__Field(HX_("methodName",cc,19,0f,12),::hx::paccDynamic) + HX_(" is not implemented",1f,12,d2,b9))),posInfo);
             		}
             	}
 
@@ -335,16 +353,16 @@ HXLINE( 431)			::lime::utils::Log_obj::warn( ::Dynamic((posInfo->__Field(HX_("me
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,notImplemented,(void))
 
 void Lib_obj::preventDefaultTouchMove(){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_436_preventDefaultTouchMove)
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_439_preventDefaultTouchMove)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Lib_obj,preventDefaultTouchMove,(void))
 
 void Lib_obj::sendToURL( ::openfl::net::URLRequest request){
-            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_491_sendToURL)
-HXLINE( 492)		 ::openfl::net::URLLoader urlLoader =  ::openfl::net::URLLoader_obj::__alloc( HX_CTX ,null());
-HXLINE( 493)		urlLoader->load(request);
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_494_sendToURL)
+HXLINE( 495)		 ::openfl::net::URLLoader urlLoader =  ::openfl::net::URLLoader_obj::__alloc( HX_CTX ,null());
+HXLINE( 496)		urlLoader->load(request);
             	}
 
 
@@ -353,79 +371,124 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,sendToURL,(void))
 int Lib_obj::setInterval( ::Dynamic closure,int delay,::cpp::VirtualArray args){
             		HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::Dynamic,closure,::cpp::VirtualArray,args) HXARGC(0)
             		void _hx_run(){
-            			HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_526_setInterval)
-HXLINE( 526)			::cpp::VirtualArray _hx_tmp;
-HXDLIN( 526)			if (::hx::IsNull( args )) {
-HXLINE( 526)				_hx_tmp = ::cpp::VirtualArray_obj::__new(0);
+            			HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_529_setInterval)
+HXLINE( 529)			::cpp::VirtualArray _hx_tmp;
+HXDLIN( 529)			if (::hx::IsNull( args )) {
+HXLINE( 529)				_hx_tmp = ::cpp::VirtualArray_obj::__new(0);
             			}
             			else {
-HXLINE( 526)				_hx_tmp = args;
+HXLINE( 529)				_hx_tmp = args;
             			}
-HXDLIN( 526)			::Reflect_obj::callMethod(closure,closure,_hx_tmp);
+HXDLIN( 529)			::Reflect_obj::callMethod(closure,closure,_hx_tmp);
             		}
             		HX_END_LOCAL_FUNC0((void))
 
-            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_520_setInterval)
-HXLINE( 521)		int id = ++::openfl::Lib_obj::_hx___lastTimerID;
-HXLINE( 522)		 ::haxe::Timer timer =  ::haxe::Timer_obj::__alloc( HX_CTX ,( (Float)(delay) ));
-HXLINE( 523)		::openfl::Lib_obj::_hx___timers->set(id,timer);
-HXLINE( 524)		timer->run =  ::Dynamic(new _hx_Closure_0(closure,args));
-HXLINE( 528)		return id;
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_523_setInterval)
+HXLINE( 524)		int id = ++::openfl::Lib_obj::_hx___lastTimerID;
+HXLINE( 525)		 ::haxe::Timer timer =  ::haxe::Timer_obj::__alloc( HX_CTX ,( (Float)(delay) ));
+HXLINE( 526)		::openfl::Lib_obj::_hx___timers->set(id,timer);
+HXLINE( 527)		timer->run =  ::Dynamic(new _hx_Closure_0(closure,args));
+HXLINE( 531)		return id;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Lib_obj,setInterval,return )
 
 int Lib_obj::setTimeout( ::Dynamic closure,int delay,::cpp::VirtualArray args){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_554_setTimeout)
-HXLINE( 555)		int id = ++::openfl::Lib_obj::_hx___lastTimerID;
-HXLINE( 556)		{
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_557_setTimeout)
+HXLINE( 558)		int id = ++::openfl::Lib_obj::_hx___lastTimerID;
+HXLINE( 559)		{
             			HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::Dynamic,closure,::cpp::VirtualArray,args) HXARGC(0)
             			void _hx_run(){
-            				HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_558_setTimeout)
-HXLINE( 558)				::cpp::VirtualArray v;
-HXDLIN( 558)				if (::hx::IsNull( args )) {
-HXLINE( 558)					v = ::cpp::VirtualArray_obj::__new(0);
+            				HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_561_setTimeout)
+HXLINE( 561)				::cpp::VirtualArray v;
+HXDLIN( 561)				if (::hx::IsNull( args )) {
+HXLINE( 561)					v = ::cpp::VirtualArray_obj::__new(0);
             				}
             				else {
-HXLINE( 558)					v = args;
+HXLINE( 561)					v = args;
             				}
-HXDLIN( 558)				::Reflect_obj::callMethod(closure,closure,v);
+HXDLIN( 561)				::Reflect_obj::callMethod(closure,closure,v);
             			}
             			HX_END_LOCAL_FUNC0((void))
 
-HXLINE( 556)			::Dynamic this1 = ::openfl::Lib_obj::_hx___timers;
-HXDLIN( 556)			 ::haxe::Timer v = ::haxe::Timer_obj::delay( ::Dynamic(new _hx_Closure_0(closure,args)),delay);
-HXDLIN( 556)			( ( ::haxe::ds::IntMap)(this1) )->set(id,v);
+HXLINE( 559)			::Dynamic this1 = ::openfl::Lib_obj::_hx___timers;
+HXDLIN( 559)			 ::haxe::Timer v = ::haxe::Timer_obj::delay( ::Dynamic(new _hx_Closure_0(closure,args)),delay);
+HXDLIN( 559)			( ( ::haxe::ds::IntMap)(this1) )->set(id,v);
             		}
-HXLINE( 560)		return id;
+HXLINE( 563)		return id;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(Lib_obj,setTimeout,return )
 
 void Lib_obj::trace( ::Dynamic arg){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_565_trace)
-HXDLIN( 565)		::haxe::Log_obj::trace(arg,::hx::SourceInfo(HX_("openfl/Lib.hx",98,7c,fb,62),565,HX_("openfl.Lib",47,43,57,2f),HX_("trace",85,8e,1f,16)));
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_568_trace)
+HXDLIN( 568)		::haxe::Log_obj::trace(arg,::hx::SourceInfo(HX_("openfl/Lib.hx",98,7c,fb,62),568,HX_("openfl.Lib",47,43,57,2f),HX_("trace",85,8e,1f,16)));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,trace,(void))
 
+bool Lib_obj::isXMLName(::String name){
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_576_isXMLName)
+HXLINE( 580)		if (::hx::IsNull( name )) {
+HXLINE( 582)			return false;
+            		}
+HXLINE( 585)		if (!( ::EReg_obj::__alloc( HX_CTX ,HX_("^[a-zA-Z_]",db,66,24,e5),HX_("",00,00,00,00))->match(name))) {
+HXLINE( 587)			return false;
+            		}
+HXLINE( 590)		if ( ::EReg_obj::__alloc( HX_CTX ,HX_("^[xX][mM][lL]",84,2a,12,bb),HX_("",00,00,00,00))->match(name)) {
+HXLINE( 592)			return false;
+            		}
+HXLINE( 595)		if (!( ::EReg_obj::__alloc( HX_CTX ,HX_("^[a-zA-Z0-9_\\-\\.]+$",f3,c5,d1,03),HX_("",00,00,00,00))->match(name))) {
+HXLINE( 597)			return false;
+            		}
+HXLINE( 599)		return true;
+            	}
+
+
+STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,isXMLName,return )
+
+::hx::Class Lib_obj::getClassByAlias(::String aliasName){
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_610_getClassByAlias)
+HXLINE( 614)		if (!(::openfl::Lib_obj::_hx___registeredClassAliases->exists(aliasName))) {
+HXLINE( 616)			HX_STACK_DO_THROW( ::openfl::errors::Error_obj::__alloc( HX_CTX ,((HX_("Class ",08,2d,a5,39) + aliasName) + HX_(" could not be found.",9d,35,06,90)),null()));
+            		}
+HXLINE( 618)		return ::openfl::Lib_obj::_hx___registeredClassAliases->get(aliasName);
+            	}
+
+
+STATIC_HX_DEFINE_DYNAMIC_FUNC1(Lib_obj,getClassByAlias,return )
+
+void Lib_obj::registerClassAlias(::String aliasName,::hx::Class classObject){
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_640_registerClassAlias)
+HXLINE( 644)		if (::hx::IsNull( classObject )) {
+HXLINE( 646)			HX_STACK_DO_THROW( ::openfl::errors::TypeError_obj::__alloc( HX_CTX ,HX_("Parameter classObject must be non-null",8d,5e,6b,41)));
+            		}
+HXLINE( 648)		if (::hx::IsNull( aliasName )) {
+HXLINE( 650)			HX_STACK_DO_THROW( ::openfl::errors::TypeError_obj::__alloc( HX_CTX ,HX_("Parameter aliasName must be non-null",69,cf,07,4f)));
+            		}
+HXLINE( 652)		::openfl::Lib_obj::_hx___registeredClassAliases->set(aliasName,classObject);
+            	}
+
+
+STATIC_HX_DEFINE_DYNAMIC_FUNC2(Lib_obj,registerClassAlias,(void))
+
  ::openfl::display::Application Lib_obj::get_application(){
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_571_get_application)
-HXDLIN( 571)		return ::openfl::utils::_internal::Lib_obj::application;
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_659_get_application)
+HXDLIN( 659)		return ::openfl::utils::_internal::Lib_obj::application;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC0(Lib_obj,get_application,return )
 
  ::openfl::display::MovieClip Lib_obj::get_current(){
-            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_575_get_current)
-HXLINE( 579)		if (::hx::IsNull( ::openfl::utils::_internal::Lib_obj::current )) {
-HXLINE( 579)			::openfl::utils::_internal::Lib_obj::current =  ::openfl::display::MovieClip_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_663_get_current)
+HXLINE( 667)		if (::hx::IsNull( ::openfl::utils::_internal::Lib_obj::current )) {
+HXLINE( 667)			::openfl::utils::_internal::Lib_obj::current =  ::openfl::display::MovieClip_obj::__alloc( HX_CTX );
             		}
-HXLINE( 580)		return ::openfl::utils::_internal::Lib_obj::current;
+HXLINE( 668)		return ::openfl::utils::_internal::Lib_obj::current;
             	}
 
 
@@ -458,6 +521,7 @@ bool Lib_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::Prope
 		break;
 	case 9:
 		if (HX_FIELD_EQ(inName,"sendToURL") ) { outValue = sendToURL_dyn(); return true; }
+		if (HX_FIELD_EQ(inName,"isXMLName") ) { outValue = isXMLName_dyn(); return true; }
 		break;
 	case 10:
 		if (HX_FIELD_EQ(inName,"setTimeout") ) { outValue = setTimeout_dyn(); return true; }
@@ -480,7 +544,11 @@ bool Lib_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::Prope
 		if (HX_FIELD_EQ(inName,"notImplemented") ) { outValue = notImplemented_dyn(); return true; }
 		break;
 	case 15:
+		if (HX_FIELD_EQ(inName,"getClassByAlias") ) { outValue = getClassByAlias_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"get_application") ) { outValue = get_application_dyn(); return true; }
+		break;
+	case 18:
+		if (HX_FIELD_EQ(inName,"registerClassAlias") ) { outValue = registerClassAlias_dyn(); return true; }
 		break;
 	case 19:
 		if (HX_FIELD_EQ(inName,"getDefinitionByName") ) { outValue = getDefinitionByName_dyn(); return true; }
@@ -490,6 +558,9 @@ bool Lib_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::hx::Prope
 		break;
 	case 23:
 		if (HX_FIELD_EQ(inName,"preventDefaultTouchMove") ) { outValue = preventDefaultTouchMove_dyn(); return true; }
+		break;
+	case 24:
+		if (HX_FIELD_EQ(inName,"__registeredClassAliases") ) { outValue = ( _hx___registeredClassAliases ); return true; }
 		break;
 	case 26:
 		if (HX_FIELD_EQ(inName,"getQualifiedSuperclassName") ) { outValue = getQualifiedSuperclassName_dyn(); return true; }
@@ -508,6 +579,9 @@ bool Lib_obj::__SetStatic(const ::String &inName,Dynamic &ioValue,::hx::Property
 		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"__sentWarnings") ) { _hx___sentWarnings=ioValue.Cast<  ::haxe::ds::StringMap >(); return true; }
+		break;
+	case 24:
+		if (HX_FIELD_EQ(inName,"__registeredClassAliases") ) { _hx___registeredClassAliases=ioValue.Cast<  ::haxe::ds::StringMap >(); return true; }
 	}
 	return false;
 }
@@ -518,6 +592,7 @@ static ::hx::StaticInfo Lib_obj_sStaticStorageInfo[] = {
 	{::hx::fsInt,(void *) &Lib_obj::_hx___lastTimerID,HX_("__lastTimerID",0a,30,1d,d6)},
 	{::hx::fsObject /*  ::haxe::ds::StringMap */ ,(void *) &Lib_obj::_hx___sentWarnings,HX_("__sentWarnings",2f,1b,27,19)},
 	{::hx::fsObject /*  ::haxe::ds::IntMap */ ,(void *) &Lib_obj::_hx___timers,HX_("__timers",2e,78,01,c7)},
+	{::hx::fsObject /*  ::haxe::ds::StringMap */ ,(void *) &Lib_obj::_hx___registeredClassAliases,HX_("__registeredClassAliases",68,a4,0f,b1)},
 	{ ::hx::fsUnknown, 0, null()}
 };
 #endif
@@ -526,6 +601,7 @@ static void Lib_obj_sMarkStatics(HX_MARK_PARAMS) {
 	HX_MARK_MEMBER_NAME(Lib_obj::_hx___lastTimerID,"__lastTimerID");
 	HX_MARK_MEMBER_NAME(Lib_obj::_hx___sentWarnings,"__sentWarnings");
 	HX_MARK_MEMBER_NAME(Lib_obj::_hx___timers,"__timers");
+	HX_MARK_MEMBER_NAME(Lib_obj::_hx___registeredClassAliases,"__registeredClassAliases");
 };
 
 #ifdef HXCPP_VISIT_ALLOCS
@@ -533,6 +609,7 @@ static void Lib_obj_sVisitStatics(HX_VISIT_PARAMS) {
 	HX_VISIT_MEMBER_NAME(Lib_obj::_hx___lastTimerID,"__lastTimerID");
 	HX_VISIT_MEMBER_NAME(Lib_obj::_hx___sentWarnings,"__sentWarnings");
 	HX_VISIT_MEMBER_NAME(Lib_obj::_hx___timers,"__timers");
+	HX_VISIT_MEMBER_NAME(Lib_obj::_hx___registeredClassAliases,"__registeredClassAliases");
 };
 
 #endif
@@ -543,6 +620,7 @@ static ::String Lib_obj_sStaticFields[] = {
 	HX_("__lastTimerID",0a,30,1d,d6),
 	HX_("__sentWarnings",2f,1b,27,19),
 	HX_("__timers",2e,78,01,c7),
+	HX_("__registeredClassAliases",68,a4,0f,b1),
 	HX_("as",f2,54,00,00),
 	HX_("attach",c5,fb,0f,e0),
 	HX_("clearInterval",f2,7b,d9,5b),
@@ -559,6 +637,9 @@ static ::String Lib_obj_sStaticFields[] = {
 	HX_("setInterval",07,43,dd,58),
 	HX_("setTimeout",1f,3f,d6,2b),
 	HX_("trace",85,8e,1f,16),
+	HX_("isXMLName",f8,a4,d5,41),
+	HX_("getClassByAlias",97,dc,8f,0c),
+	HX_("registerClassAlias",7b,22,4f,d8),
 	HX_("get_application",e7,62,20,eb),
 	HX_("get_current",50,fc,dd,51),
 	::String(null())
@@ -594,16 +675,20 @@ void Lib_obj::__register()
 void Lib_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_27_boot)
-HXDLIN(  27)		_hx___lastTimerID = 0;
+            	HX_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_29_boot)
+HXDLIN(  29)		_hx___lastTimerID = 0;
             	}
 {
-            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_28_boot)
-HXDLIN(  28)		_hx___sentWarnings =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_30_boot)
+HXDLIN(  30)		_hx___sentWarnings =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
             	}
 {
-            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_29_boot)
-HXDLIN(  29)		_hx___timers =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_31_boot)
+HXDLIN(  31)		_hx___timers =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+            	}
+{
+            	HX_GC_STACKFRAME(&_hx_pos_c4ab5e3027df58c9_32_boot)
+HXDLIN(  32)		_hx___registeredClassAliases =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
             	}
 }
 

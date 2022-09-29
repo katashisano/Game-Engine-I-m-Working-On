@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_dc6fd8f0bbdab31a_893_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_dc6fd8f0bbdab31a_906_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,TouchEventInfo)
 
 namespace lime{
@@ -47,15 +47,15 @@ class HXCPP_CLASS_ATTRIBUTES TouchEventInfo_obj : public ::hx::Object
             		Float dy = __o_dy.Default(0);
             		Float pressure = __o_pressure.Default(0);
             		int device = __o_device.Default(0);
-            	HX_STACKFRAME(&_hx_pos_dc6fd8f0bbdab31a_893_new)
-HXLINE( 894)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 895)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->x = x;
-HXLINE( 896)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->y = y;
-HXLINE( 897)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->id = id;
-HXLINE( 898)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->dx = dx;
-HXLINE( 899)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->dy = dy;
-HXLINE( 900)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->pressure = pressure;
-HXLINE( 901)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->device = device;
+            	HX_STACKFRAME(&_hx_pos_dc6fd8f0bbdab31a_906_new)
+HXLINE( 907)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 908)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->x = x;
+HXLINE( 909)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->y = y;
+HXLINE( 910)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->id = id;
+HXLINE( 911)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->dx = dx;
+HXLINE( 912)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->dy = dy;
+HXLINE( 913)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->pressure = pressure;
+HXLINE( 914)		( ( ::lime::_internal::backend::native::TouchEventInfo)(__this) )->device = device;
             	}
 		
 			return __this;

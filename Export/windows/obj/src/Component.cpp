@@ -1,5 +1,8 @@
 #include <hxcpp.h>
 
+#ifndef INCLUDED_Behaviour
+#include <Behaviour.h>
+#endif
 #ifndef INCLUDED_Component
 #include <Component.h>
 #endif
@@ -28,12 +31,12 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_fb53a11edd27aff1_13_new,"Component","new",0x1973840f,"Component.new","Component.hx",13,0xeee4f241)
-HX_LOCAL_STACK_FRAME(_hx_pos_fb53a11edd27aff1_19_addComponent,"Component","addComponent",0xde61f0cd,"Component.addComponent","Component.hx",19,0xeee4f241)
+HX_DEFINE_STACK_FRAME(_hx_pos_fb53a11edd27aff1_3_new,"Component","new",0x1973840f,"Component.new","Component.hx",3,0xeee4f241)
 
 void Component_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_fb53a11edd27aff1_13_new)
-HXDLIN(  13)		super::__construct();
+            	HX_STACKFRAME(&_hx_pos_fb53a11edd27aff1_3_new)
+HXLINE(   9)		this->type = HX_("Void",74,ef,2c,39);
+HXLINE(  13)		super::__construct();
             	}
 
 Dynamic Component_obj::__CreateEmpty() { return new Component_obj; }
@@ -48,7 +51,7 @@ Dynamic Component_obj::__Create(::hx::DynamicArray inArgs)
 }
 
 bool Component_obj::_hx_isInstanceOf(int inClassId) {
-	if (inClassId<=(int)0x1f4df417) {
+	if (inClassId<=(int)0x49891979) {
 		if (inClassId<=(int)0x0c89e854) {
 			if (inClassId<=(int)0x0330636f) {
 				return inClassId==(int)0x00000001 || inClassId==(int)0x0330636f;
@@ -56,7 +59,7 @@ bool Component_obj::_hx_isInstanceOf(int inClassId) {
 				return inClassId==(int)0x0c89e854;
 			}
 		} else {
-			return inClassId==(int)0x1f4df417;
+			return inClassId==(int)0x1f4df417 || inClassId==(int)0x49891979;
 		}
 	} else {
 		if (inClassId<=(int)0x6b353933) {
@@ -66,14 +69,6 @@ bool Component_obj::_hx_isInstanceOf(int inClassId) {
 		}
 	}
 }
-
-void Component_obj::addComponent( ::GameObject o){
-            	HX_STACKFRAME(&_hx_pos_fb53a11edd27aff1_19_addComponent)
-HXDLIN(  19)		this->parentObject = o;
-            	}
-
-
-HX_DEFINE_DYNAMIC_FUNC1(Component_obj,addComponent,(void))
 
 
 ::hx::ObjectPtr< Component_obj > Component_obj::__new() {
@@ -98,6 +93,7 @@ void Component_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_BEGIN_CLASS(Component);
 	HX_MARK_MEMBER_NAME(enabled,"enabled");
 	HX_MARK_MEMBER_NAME(parentObject,"parentObject");
+	HX_MARK_MEMBER_NAME(type,"type");
 	 ::openfl::display::Sprite_obj::__Mark(HX_MARK_ARG);
 	HX_MARK_END_CLASS();
 }
@@ -106,18 +102,21 @@ void Component_obj::__Visit(HX_VISIT_PARAMS)
 {
 	HX_VISIT_MEMBER_NAME(enabled,"enabled");
 	HX_VISIT_MEMBER_NAME(parentObject,"parentObject");
+	HX_VISIT_MEMBER_NAME(type,"type");
 	 ::openfl::display::Sprite_obj::__Visit(HX_VISIT_ARG);
 }
 
 ::hx::Val Component_obj::__Field(const ::String &inName,::hx::PropertyAccess inCallProp)
 {
 	switch(inName.length) {
+	case 4:
+		if (HX_FIELD_EQ(inName,"type") ) { return ::hx::Val( type ); }
+		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"enabled") ) { return ::hx::Val( enabled ); }
 		break;
 	case 12:
 		if (HX_FIELD_EQ(inName,"parentObject") ) { return ::hx::Val( parentObject ); }
-		if (HX_FIELD_EQ(inName,"addComponent") ) { return ::hx::Val( addComponent_dyn() ); }
 	}
 	return super::__Field(inName,inCallProp);
 }
@@ -125,6 +124,9 @@ void Component_obj::__Visit(HX_VISIT_PARAMS)
 ::hx::Val Component_obj::__SetField(const ::String &inName,const ::hx::Val &inValue,::hx::PropertyAccess inCallProp)
 {
 	switch(inName.length) {
+	case 4:
+		if (HX_FIELD_EQ(inName,"type") ) { type=inValue.Cast< ::String >(); return inValue; }
+		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"enabled") ) { enabled=inValue.Cast< bool >(); return inValue; }
 		break;
@@ -138,6 +140,7 @@ void Component_obj::__GetFields(Array< ::String> &outFields)
 {
 	outFields->push(HX_("enabled",81,04,31,7e));
 	outFields->push(HX_("parentObject",89,33,a9,27));
+	outFields->push(HX_("type",ba,f2,08,4d));
 	super::__GetFields(outFields);
 };
 
@@ -145,6 +148,7 @@ void Component_obj::__GetFields(Array< ::String> &outFields)
 static ::hx::StorageInfo Component_obj_sMemberStorageInfo[] = {
 	{::hx::fsBool,(int)offsetof(Component_obj,enabled),HX_("enabled",81,04,31,7e)},
 	{::hx::fsObject /*  ::GameObject */ ,(int)offsetof(Component_obj,parentObject),HX_("parentObject",89,33,a9,27)},
+	{::hx::fsString,(int)offsetof(Component_obj,type),HX_("type",ba,f2,08,4d)},
 	{ ::hx::fsUnknown, 0, null()}
 };
 static ::hx::StaticInfo *Component_obj_sStaticStorageInfo = 0;
@@ -153,7 +157,7 @@ static ::hx::StaticInfo *Component_obj_sStaticStorageInfo = 0;
 static ::String Component_obj_sMemberFields[] = {
 	HX_("enabled",81,04,31,7e),
 	HX_("parentObject",89,33,a9,27),
-	HX_("addComponent",5c,12,a8,0e),
+	HX_("type",ba,f2,08,4d),
 	::String(null()) };
 
 ::hx::Class Component_obj::__mClass;

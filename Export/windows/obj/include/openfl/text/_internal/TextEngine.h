@@ -81,6 +81,9 @@ class HXCPP_CLASS_ATTRIBUTES TextEngine_obj : public ::hx::Object
 		static  ::openfl::text::Font findFontVariant( ::openfl::text::TextFormat format);
 		static ::Dynamic findFontVariant_dyn();
 
+		static  ::openfl::text::Font getDefaultFont(::String name,bool bold,bool italic);
+		static ::Dynamic getDefaultFont_dyn();
+
 		static Float getFormatHeight( ::openfl::text::TextFormat format);
 		static ::Dynamic getFormatHeight_dyn();
 

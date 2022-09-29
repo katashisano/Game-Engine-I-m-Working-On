@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_d8a53269ce4a50a3_927_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_d8a53269ce4a50a3_940_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,WindowEventInfo)
 
 namespace lime{
@@ -45,13 +45,13 @@ class HXCPP_CLASS_ATTRIBUTES WindowEventInfo_obj : public ::hx::Object
             		int height = __o_height.Default(0);
             		int x = __o_x.Default(0);
             		int y = __o_y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_d8a53269ce4a50a3_927_new)
-HXLINE( 928)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 929)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->windowID = windowID;
-HXLINE( 930)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->width = width;
-HXLINE( 931)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->height = height;
-HXLINE( 932)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->x = x;
-HXLINE( 933)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->y = y;
+            	HX_STACKFRAME(&_hx_pos_d8a53269ce4a50a3_940_new)
+HXLINE( 941)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 942)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->windowID = windowID;
+HXLINE( 943)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->width = width;
+HXLINE( 944)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->height = height;
+HXLINE( 945)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->x = x;
+HXLINE( 946)		( ( ::lime::_internal::backend::native::WindowEventInfo)(__this) )->y = y;
             	}
 		
 			return __this;

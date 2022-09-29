@@ -58,8 +58,8 @@
 #include <openfl/geom/Rectangle.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_8b6ffc20068bc116_13_renderDrawable,"openfl.display._internal.Context3DBitmapData","renderDrawable",0x41212da5,"openfl.display._internal.Context3DBitmapData.renderDrawable","openfl/display/_internal/Context3DBitmapData.hx",13,0x6ac5d3e4)
-HX_LOCAL_STACK_FRAME(_hx_pos_8b6ffc20068bc116_43_renderDrawableMask,"openfl.display._internal.Context3DBitmapData","renderDrawableMask",0x2208d131,"openfl.display._internal.Context3DBitmapData.renderDrawableMask","openfl/display/_internal/Context3DBitmapData.hx",43,0x6ac5d3e4)
+HX_LOCAL_STACK_FRAME(_hx_pos_8b6ffc20068bc116_18_renderDrawable,"openfl.display._internal.Context3DBitmapData","renderDrawable",0x41212da5,"openfl.display._internal.Context3DBitmapData.renderDrawable","openfl/display/_internal/Context3DBitmapData.hx",18,0x6ac5d3e4)
+HX_LOCAL_STACK_FRAME(_hx_pos_8b6ffc20068bc116_48_renderDrawableMask,"openfl.display._internal.Context3DBitmapData","renderDrawableMask",0x2208d131,"openfl.display._internal.Context3DBitmapData.renderDrawableMask","openfl/display/_internal/Context3DBitmapData.hx",48,0x6ac5d3e4)
 namespace openfl{
 namespace display{
 namespace _internal{
@@ -82,51 +82,51 @@ bool Context3DBitmapData_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Context3DBitmapData_obj::renderDrawable( ::openfl::display::BitmapData bitmapData, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_8b6ffc20068bc116_13_renderDrawable)
-HXLINE(  14)		 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
-HXLINE(  15)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
-HXLINE(  17)		renderer->_hx___setBlendMode(10);
-HXLINE(  19)		 ::openfl::display::DisplayObjectShader shader = renderer->_hx___defaultDisplayShader;
-HXLINE(  20)		renderer->setShader(shader);
-HXLINE(  21)		renderer->applyBitmapData(bitmapData,renderer->_hx___upscaled,null());
-HXLINE(  22)		renderer->applyMatrix(renderer->_hx___getMatrix(bitmapData->_hx___worldTransform,1));
-HXLINE(  23)		renderer->applyAlpha(bitmapData->_hx___worldAlpha);
-HXLINE(  24)		renderer->applyColorTransform(bitmapData->_hx___worldColorTransform);
-HXLINE(  25)		renderer->updateShader();
-HXLINE(  29)		 ::openfl::display3D::VertexBuffer3D vertexBuffer = bitmapData->getVertexBuffer(context,null(),null());
-HXLINE(  30)		if (::hx::IsNotNull( shader->_hx___position )) {
-HXLINE(  30)			context->setVertexBufferAt(( (int)(shader->_hx___position->index) ),vertexBuffer,0,3);
+            	HX_STACKFRAME(&_hx_pos_8b6ffc20068bc116_18_renderDrawable)
+HXLINE(  19)		 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
+HXLINE(  20)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
+HXLINE(  22)		renderer->_hx___setBlendMode(10);
+HXLINE(  24)		 ::openfl::display::DisplayObjectShader shader = renderer->_hx___defaultDisplayShader;
+HXLINE(  25)		renderer->setShader(shader);
+HXLINE(  26)		renderer->applyBitmapData(bitmapData,renderer->_hx___upscaled,null());
+HXLINE(  27)		renderer->applyMatrix(renderer->_hx___getMatrix(bitmapData->_hx___worldTransform,1));
+HXLINE(  28)		renderer->applyAlpha(bitmapData->_hx___worldAlpha);
+HXLINE(  29)		renderer->applyColorTransform(bitmapData->_hx___worldColorTransform);
+HXLINE(  30)		renderer->updateShader();
+HXLINE(  34)		 ::openfl::display3D::VertexBuffer3D vertexBuffer = bitmapData->getVertexBuffer(context,null(),null());
+HXLINE(  35)		if (::hx::IsNotNull( shader->_hx___position )) {
+HXLINE(  35)			context->setVertexBufferAt(( (int)(shader->_hx___position->index) ),vertexBuffer,0,3);
             		}
-HXLINE(  31)		if (::hx::IsNotNull( shader->_hx___textureCoord )) {
-HXLINE(  31)			context->setVertexBufferAt(( (int)(shader->_hx___textureCoord->index) ),vertexBuffer,3,2);
+HXLINE(  36)		if (::hx::IsNotNull( shader->_hx___textureCoord )) {
+HXLINE(  36)			context->setVertexBufferAt(( (int)(shader->_hx___textureCoord->index) ),vertexBuffer,3,2);
             		}
-HXLINE(  32)		 ::openfl::display3D::IndexBuffer3D indexBuffer = bitmapData->getIndexBuffer(context,null());
-HXLINE(  33)		context->drawTriangles(indexBuffer,null(),null());
-HXLINE(  39)		renderer->_hx___clearShader();
+HXLINE(  37)		 ::openfl::display3D::IndexBuffer3D indexBuffer = bitmapData->getIndexBuffer(context,null());
+HXLINE(  38)		context->drawTriangles(indexBuffer,null(),null());
+HXLINE(  44)		renderer->_hx___clearShader();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(Context3DBitmapData_obj,renderDrawable,(void))
 
 void Context3DBitmapData_obj::renderDrawableMask( ::openfl::display::BitmapData bitmapData, ::openfl::display::OpenGLRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_8b6ffc20068bc116_43_renderDrawableMask)
-HXLINE(  44)		 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
-HXLINE(  45)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
-HXLINE(  47)		 ::openfl::display::_internal::Context3DMaskShader shader = renderer->_hx___maskShader;
-HXLINE(  48)		renderer->setShader(shader);
-HXLINE(  49)		renderer->applyBitmapData(bitmapData,renderer->_hx___upscaled,null());
-HXLINE(  50)		renderer->applyMatrix(renderer->_hx___getMatrix(bitmapData->_hx___worldTransform,1));
-HXLINE(  51)		renderer->updateShader();
-HXLINE(  53)		 ::openfl::display3D::VertexBuffer3D vertexBuffer = bitmapData->getVertexBuffer(context,null(),null());
-HXLINE(  54)		if (::hx::IsNotNull( shader->_hx___position )) {
-HXLINE(  54)			context->setVertexBufferAt(( (int)(shader->_hx___position->index) ),vertexBuffer,0,3);
+            	HX_STACKFRAME(&_hx_pos_8b6ffc20068bc116_48_renderDrawableMask)
+HXLINE(  49)		 ::openfl::display3D::Context3D context = renderer->_hx___context3D;
+HXLINE(  50)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
+HXLINE(  52)		 ::openfl::display::_internal::Context3DMaskShader shader = renderer->_hx___maskShader;
+HXLINE(  53)		renderer->setShader(shader);
+HXLINE(  54)		renderer->applyBitmapData(bitmapData,renderer->_hx___upscaled,null());
+HXLINE(  55)		renderer->applyMatrix(renderer->_hx___getMatrix(bitmapData->_hx___worldTransform,1));
+HXLINE(  56)		renderer->updateShader();
+HXLINE(  58)		 ::openfl::display3D::VertexBuffer3D vertexBuffer = bitmapData->getVertexBuffer(context,null(),null());
+HXLINE(  59)		if (::hx::IsNotNull( shader->_hx___position )) {
+HXLINE(  59)			context->setVertexBufferAt(( (int)(shader->_hx___position->index) ),vertexBuffer,0,3);
             		}
-HXLINE(  55)		if (::hx::IsNotNull( shader->_hx___textureCoord )) {
-HXLINE(  55)			context->setVertexBufferAt(( (int)(shader->_hx___textureCoord->index) ),vertexBuffer,3,2);
+HXLINE(  60)		if (::hx::IsNotNull( shader->_hx___textureCoord )) {
+HXLINE(  60)			context->setVertexBufferAt(( (int)(shader->_hx___textureCoord->index) ),vertexBuffer,3,2);
             		}
-HXLINE(  56)		 ::openfl::display3D::IndexBuffer3D indexBuffer = bitmapData->getIndexBuffer(context,null());
-HXLINE(  57)		context->drawTriangles(indexBuffer,null(),null());
-HXLINE(  63)		renderer->_hx___clearShader();
+HXLINE(  61)		 ::openfl::display3D::IndexBuffer3D indexBuffer = bitmapData->getIndexBuffer(context,null());
+HXLINE(  62)		context->drawTriangles(indexBuffer,null(),null());
+HXLINE(  68)		renderer->_hx___clearShader();
             	}
 
 

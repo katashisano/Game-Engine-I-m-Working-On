@@ -94,12 +94,12 @@
 HX_DEFINE_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_160_new,"openfl.net.URLLoader","new",0xb8a6da85,"openfl.net.URLLoader.new","openfl/net/URLLoader.hx",160,0x11daec0d)
 HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_181_close,"openfl.net.URLLoader","close",0x0328b51d,"openfl.net.URLLoader.close","openfl/net/URLLoader.hx",181,0x11daec0d)
 HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_285_load,"openfl.net.URLLoader","load",0xd80d7061,"openfl.net.URLLoader.load","openfl/net/URLLoader.hx",285,0x11daec0d)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_296_load,"openfl.net.URLLoader","load",0xd80d7061,"openfl.net.URLLoader.load","openfl/net/URLLoader.hx",296,0x11daec0d)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_313_load,"openfl.net.URLLoader","load",0xd80d7061,"openfl.net.URLLoader.load","openfl/net/URLLoader.hx",313,0x11daec0d)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_325___dispatchStatus,"openfl.net.URLLoader","__dispatchStatus",0xadb63f67,"openfl.net.URLLoader.__dispatchStatus","openfl/net/URLLoader.hx",325,0x11daec0d)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_347___prepareRequest,"openfl.net.URLLoader","__prepareRequest",0x68321263,"openfl.net.URLLoader.__prepareRequest","openfl/net/URLLoader.hx",347,0x11daec0d)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_399_httpRequest_onError,"openfl.net.URLLoader","httpRequest_onError",0x8f111376,"openfl.net.URLLoader.httpRequest_onError","openfl/net/URLLoader.hx",399,0x11daec0d)
-HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_417_httpRequest_onProgress,"openfl.net.URLLoader","httpRequest_onProgress",0xf5cd30bf,"openfl.net.URLLoader.httpRequest_onProgress","openfl/net/URLLoader.hx",417,0x11daec0d)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_300_load,"openfl.net.URLLoader","load",0xd80d7061,"openfl.net.URLLoader.load","openfl/net/URLLoader.hx",300,0x11daec0d)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_317_load,"openfl.net.URLLoader","load",0xd80d7061,"openfl.net.URLLoader.load","openfl/net/URLLoader.hx",317,0x11daec0d)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_329___dispatchStatus,"openfl.net.URLLoader","__dispatchStatus",0xadb63f67,"openfl.net.URLLoader.__dispatchStatus","openfl/net/URLLoader.hx",329,0x11daec0d)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_351___prepareRequest,"openfl.net.URLLoader","__prepareRequest",0x68321263,"openfl.net.URLLoader.__prepareRequest","openfl/net/URLLoader.hx",351,0x11daec0d)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_405_httpRequest_onError,"openfl.net.URLLoader","httpRequest_onError",0x8f111376,"openfl.net.URLLoader.httpRequest_onError","openfl/net/URLLoader.hx",405,0x11daec0d)
+HX_LOCAL_STACK_FRAME(_hx_pos_4a9fdaaca9dd41d2_426_httpRequest_onProgress,"openfl.net.URLLoader","httpRequest_onProgress",0xf5cd30bf,"openfl.net.URLLoader.httpRequest_onProgress","openfl/net/URLLoader.hx",426,0x11daec0d)
 namespace openfl{
 namespace net{
 
@@ -146,35 +146,37 @@ HX_DEFINE_DYNAMIC_FUNC0(URLLoader_obj,close,(void))
 void URLLoader_obj::load( ::openfl::net::URLRequest request){
             	HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_285_load)
 HXDLIN( 285)		 ::openfl::net::URLLoader _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 287)		if (::hx::IsEq( this->dataFormat,0 )) {
+HXLINE( 288)		 ::openfl::events::Event openEvent =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("open",ca,03,b4,49),null(),null());
+HXLINE( 289)		this->dispatchEvent(openEvent);
+HXLINE( 291)		if (::hx::IsEq( this->dataFormat,0 )) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::openfl::net::URLLoader,_gthis) HXARGC(1)
             			void _hx_run( ::openfl::utils::ByteArrayData data){
-            				HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_296_load)
-HXLINE( 297)				_gthis->_hx___dispatchStatus();
-HXLINE( 298)				_gthis->data = data;
-HXLINE( 300)				 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null());
-HXLINE( 301)				_gthis->dispatchEvent(event);
+            				HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_300_load)
+HXLINE( 301)				_gthis->_hx___dispatchStatus();
+HXLINE( 302)				_gthis->data = data;
+HXLINE( 304)				 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null());
+HXLINE( 305)				_gthis->dispatchEvent(event);
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 289)			 ::lime::net::_HTTPRequest_openfl_utils_ByteArray httpRequest =  ::lime::net::_HTTPRequest_openfl_utils_ByteArray_obj::__alloc( HX_CTX ,null());
-HXLINE( 290)			this->_hx___prepareRequest(httpRequest,request);
-HXLINE( 292)			httpRequest->load(null())->onProgress(this->httpRequest_onProgress_dyn())->onError(this->httpRequest_onError_dyn())->onComplete( ::Dynamic(new _hx_Closure_0(_gthis)));
+HXLINE( 293)			 ::lime::net::_HTTPRequest_openfl_utils_ByteArray httpRequest =  ::lime::net::_HTTPRequest_openfl_utils_ByteArray_obj::__alloc( HX_CTX ,null());
+HXLINE( 294)			this->_hx___prepareRequest(httpRequest,request);
+HXLINE( 296)			httpRequest->load(null())->onProgress(this->httpRequest_onProgress_dyn())->onError(this->httpRequest_onError_dyn())->onComplete( ::Dynamic(new _hx_Closure_0(_gthis)));
             		}
             		else {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_1, ::openfl::net::URLLoader,_gthis) HXARGC(1)
             			void _hx_run(::String data){
-            				HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_313_load)
-HXLINE( 314)				_gthis->_hx___dispatchStatus();
-HXLINE( 315)				_gthis->data = data;
-HXLINE( 317)				 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null());
-HXLINE( 318)				_gthis->dispatchEvent(event);
+            				HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_317_load)
+HXLINE( 318)				_gthis->_hx___dispatchStatus();
+HXLINE( 319)				_gthis->data = data;
+HXLINE( 321)				 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("complete",b9,00,c8,7f),null(),null());
+HXLINE( 322)				_gthis->dispatchEvent(event);
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 306)			 ::lime::net::_HTTPRequest_String httpRequest =  ::lime::net::_HTTPRequest_String_obj::__alloc( HX_CTX ,null());
-HXLINE( 307)			this->_hx___prepareRequest(httpRequest,request);
-HXLINE( 309)			httpRequest->load(null())->onProgress(this->httpRequest_onProgress_dyn())->onError(this->httpRequest_onError_dyn())->onComplete( ::Dynamic(new _hx_Closure_1(_gthis)));
+HXLINE( 310)			 ::lime::net::_HTTPRequest_String httpRequest =  ::lime::net::_HTTPRequest_String_obj::__alloc( HX_CTX ,null());
+HXLINE( 311)			this->_hx___prepareRequest(httpRequest,request);
+HXLINE( 313)			httpRequest->load(null())->onProgress(this->httpRequest_onProgress_dyn())->onError(this->httpRequest_onError_dyn())->onComplete( ::Dynamic(new _hx_Closure_1(_gthis)));
             		}
             	}
 
@@ -182,100 +184,100 @@ HXLINE( 309)			httpRequest->load(null())->onProgress(this->httpRequest_onProgres
 HX_DEFINE_DYNAMIC_FUNC1(URLLoader_obj,load,(void))
 
 void URLLoader_obj::_hx___dispatchStatus(){
-            	HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_325___dispatchStatus)
-HXLINE( 326)		 ::openfl::events::HTTPStatusEvent event =  ::openfl::events::HTTPStatusEvent_obj::__alloc( HX_CTX ,HX_("httpStatus",da,4c,74,0a),false,false,this->_hx___httpRequest->__Field(HX_("responseStatus",93,60,a4,78),::hx::paccDynamic),null());
-HXLINE( 327)		event->responseURL = ( (::String)(this->_hx___httpRequest->__Field(HX_("uri",6c,2b,59,00),::hx::paccDynamic)) );
-HXLINE( 329)		::Array< ::Dynamic> headers = ::Array_obj< ::Dynamic>::__new();
-HXLINE( 332)		bool _hx_tmp;
-HXDLIN( 332)		if (( (bool)(this->_hx___httpRequest->__Field(HX_("enableResponseHeaders",82,32,47,05),::hx::paccDynamic)) )) {
-HXLINE( 332)			_hx_tmp = ::hx::IsNotNull( this->_hx___httpRequest->__Field(HX_("responseHeaders",c5,0d,ca,43),::hx::paccDynamic) );
+            	HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_329___dispatchStatus)
+HXLINE( 330)		 ::openfl::events::HTTPStatusEvent event =  ::openfl::events::HTTPStatusEvent_obj::__alloc( HX_CTX ,HX_("httpStatus",da,4c,74,0a),false,false,this->_hx___httpRequest->__Field(HX_("responseStatus",93,60,a4,78),::hx::paccDynamic),null());
+HXLINE( 331)		event->responseURL = ( (::String)(this->_hx___httpRequest->__Field(HX_("uri",6c,2b,59,00),::hx::paccDynamic)) );
+HXLINE( 333)		::Array< ::Dynamic> headers = ::Array_obj< ::Dynamic>::__new();
+HXLINE( 336)		bool _hx_tmp;
+HXDLIN( 336)		if (( (bool)(this->_hx___httpRequest->__Field(HX_("enableResponseHeaders",82,32,47,05),::hx::paccDynamic)) )) {
+HXLINE( 336)			_hx_tmp = ::hx::IsNotNull( this->_hx___httpRequest->__Field(HX_("responseHeaders",c5,0d,ca,43),::hx::paccDynamic) );
             		}
             		else {
-HXLINE( 332)			_hx_tmp = false;
+HXLINE( 336)			_hx_tmp = false;
             		}
-HXDLIN( 332)		if (_hx_tmp) {
-HXLINE( 334)			int _g = 0;
-HXDLIN( 334)			::Array< ::Dynamic> _g1 = ( (::Array< ::Dynamic>)(this->_hx___httpRequest->__Field(HX_("responseHeaders",c5,0d,ca,43),::hx::paccDynamic)) );
-HXDLIN( 334)			while((_g < _g1->length)){
-HXLINE( 334)				 ::lime::net::HTTPRequestHeader header = _g1->__get(_g).StaticCast<  ::lime::net::HTTPRequestHeader >();
-HXDLIN( 334)				_g = (_g + 1);
-HXLINE( 336)				headers->push( ::openfl::net::URLRequestHeader_obj::__alloc( HX_CTX ,header->name,header->value));
+HXDLIN( 336)		if (_hx_tmp) {
+HXLINE( 338)			int _g = 0;
+HXDLIN( 338)			::Array< ::Dynamic> _g1 = ( (::Array< ::Dynamic>)(this->_hx___httpRequest->__Field(HX_("responseHeaders",c5,0d,ca,43),::hx::paccDynamic)) );
+HXDLIN( 338)			while((_g < _g1->length)){
+HXLINE( 338)				 ::lime::net::HTTPRequestHeader header = _g1->__get(_g).StaticCast<  ::lime::net::HTTPRequestHeader >();
+HXDLIN( 338)				_g = (_g + 1);
+HXLINE( 340)				headers->push( ::openfl::net::URLRequestHeader_obj::__alloc( HX_CTX ,header->name,header->value));
             			}
             		}
-HXLINE( 341)		event->responseHeaders = headers;
-HXLINE( 342)		this->dispatchEvent(event);
+HXLINE( 345)		event->responseHeaders = headers;
+HXLINE( 346)		this->dispatchEvent(event);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(URLLoader_obj,_hx___dispatchStatus,(void))
 
 void URLLoader_obj::_hx___prepareRequest(::Dynamic httpRequest, ::openfl::net::URLRequest request){
-            	HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_347___prepareRequest)
-HXLINE( 349)		this->_hx___httpRequest = httpRequest;
-HXLINE( 350)		this->_hx___httpRequest->__SetField(HX_("uri",6c,2b,59,00),request->url,::hx::paccDynamic);
-HXLINE( 351)		this->_hx___httpRequest->__SetField(HX_("method",e1,f6,5a,09),request->method,::hx::paccDynamic);
-HXLINE( 353)		if (::hx::IsNotNull( request->data )) {
-HXLINE( 355)			if (::hx::IsPointerEq( ::Type_obj::_hx_typeof(request->data),::ValueType_obj::TObject_dyn() )) {
-HXLINE( 357)				::Array< ::String > fields = ::Reflect_obj::fields(request->data);
-HXLINE( 359)				{
-HXLINE( 359)					int _g = 0;
-HXDLIN( 359)					while((_g < fields->length)){
-HXLINE( 359)						::String field = fields->__get(_g);
-HXDLIN( 359)						_g = (_g + 1);
-HXLINE( 361)						{
-HXLINE( 361)							::Dynamic this1 =  ::Dynamic(this->_hx___httpRequest->__Field(HX_("formData",8e,d5,80,56),::hx::paccDynamic));
-HXDLIN( 361)							( ( ::haxe::ds::StringMap)(this1) )->set(field,::Reflect_obj::field(request->data,field));
+            	HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_351___prepareRequest)
+HXLINE( 353)		this->_hx___httpRequest = httpRequest;
+HXLINE( 354)		this->_hx___httpRequest->__SetField(HX_("uri",6c,2b,59,00),request->url,::hx::paccDynamic);
+HXLINE( 355)		this->_hx___httpRequest->__SetField(HX_("method",e1,f6,5a,09),request->method,::hx::paccDynamic);
+HXLINE( 357)		if (::hx::IsNotNull( request->data )) {
+HXLINE( 359)			if (::hx::IsPointerEq( ::Type_obj::_hx_typeof(request->data),::ValueType_obj::TObject_dyn() )) {
+HXLINE( 361)				::Array< ::String > fields = ::Reflect_obj::fields(request->data);
+HXLINE( 363)				{
+HXLINE( 363)					int _g = 0;
+HXDLIN( 363)					while((_g < fields->length)){
+HXLINE( 363)						::String field = fields->__get(_g);
+HXDLIN( 363)						_g = (_g + 1);
+HXLINE( 365)						{
+HXLINE( 365)							::Dynamic this1 =  ::Dynamic(this->_hx___httpRequest->__Field(HX_("formData",8e,d5,80,56),::hx::paccDynamic));
+HXDLIN( 365)							( ( ::haxe::ds::StringMap)(this1) )->set(field,::Reflect_obj::field(request->data,field));
             						}
             					}
             				}
             			}
             			else {
-HXLINE( 364)				if (::Std_obj::isOfType(request->data,::hx::ClassOf< ::haxe::io::Bytes >())) {
-HXLINE( 366)					this->_hx___httpRequest->__SetField(HX_("data",2a,56,63,42),request->data,::hx::paccDynamic);
+HXLINE( 368)				if (::Std_obj::isOfType(request->data,::hx::ClassOf< ::haxe::io::Bytes >())) {
+HXLINE( 370)					this->_hx___httpRequest->__SetField(HX_("data",2a,56,63,42),request->data,::hx::paccDynamic);
             				}
             				else {
-HXLINE( 370)					::String _hx_tmp = ::Std_obj::string(request->data);
-HXDLIN( 370)					this->_hx___httpRequest->__SetField(HX_("data",2a,56,63,42),::haxe::io::Bytes_obj::ofString(_hx_tmp,null()),::hx::paccDynamic);
+HXLINE( 374)					::String _hx_tmp = ::Std_obj::string(request->data);
+HXDLIN( 374)					this->_hx___httpRequest->__SetField(HX_("data",2a,56,63,42),::haxe::io::Bytes_obj::ofString(_hx_tmp,null()),::hx::paccDynamic);
             				}
             			}
             		}
-HXLINE( 374)		this->_hx___httpRequest->__SetField(HX_("contentType",93,3c,7b,2a),request->contentType,::hx::paccDynamic);
-HXLINE( 376)		if (::hx::IsNotNull( request->requestHeaders )) {
-HXLINE( 378)			int _g = 0;
-HXDLIN( 378)			::Array< ::Dynamic> _g1 = request->requestHeaders;
-HXDLIN( 378)			while((_g < _g1->length)){
-HXLINE( 378)				 ::openfl::net::URLRequestHeader header = _g1->__get(_g).StaticCast<  ::openfl::net::URLRequestHeader >();
-HXDLIN( 378)				_g = (_g + 1);
-HXLINE( 380)				::Array< ::Dynamic> _hx_tmp = ( (::Array< ::Dynamic>)(this->_hx___httpRequest->__Field(HX_("headers",46,52,08,63),::hx::paccDynamic)) );
-HXDLIN( 380)				_hx_tmp->push( ::lime::net::HTTPRequestHeader_obj::__alloc( HX_CTX ,header->name,header->value));
+HXLINE( 378)		this->_hx___httpRequest->__SetField(HX_("contentType",93,3c,7b,2a),request->contentType,::hx::paccDynamic);
+HXLINE( 380)		if (::hx::IsNotNull( request->requestHeaders )) {
+HXLINE( 382)			int _g = 0;
+HXDLIN( 382)			::Array< ::Dynamic> _g1 = request->requestHeaders;
+HXDLIN( 382)			while((_g < _g1->length)){
+HXLINE( 382)				 ::openfl::net::URLRequestHeader header = _g1->__get(_g).StaticCast<  ::openfl::net::URLRequestHeader >();
+HXDLIN( 382)				_g = (_g + 1);
+HXLINE( 384)				::Array< ::Dynamic> _hx_tmp = ( (::Array< ::Dynamic>)(this->_hx___httpRequest->__Field(HX_("headers",46,52,08,63),::hx::paccDynamic)) );
+HXDLIN( 384)				_hx_tmp->push( ::lime::net::HTTPRequestHeader_obj::__alloc( HX_CTX ,header->name,header->value));
             			}
             		}
-HXLINE( 384)		this->_hx___httpRequest->__SetField(HX_("followRedirects",26,5a,40,75),request->followRedirects,::hx::paccDynamic);
-HXLINE( 385)		this->_hx___httpRequest->__SetField(HX_("timeout",a1,1a,f7,d8),::Std_obj::_hx_int(request->idleTimeout),::hx::paccDynamic);
-HXLINE( 386)		this->_hx___httpRequest->__SetField(HX_("withCredentials",56,86,c4,ca),request->manageCookies,::hx::paccDynamic);
-HXLINE( 389)		::String userAgent = request->userAgent;
-HXLINE( 390)		if (::hx::IsNull( userAgent )) {
-HXLINE( 390)			userAgent = HX_("Mozilla/5.0 (Windows; U; en) AppleWebKit/420+ (KHTML, like Gecko) OpenFL/1.0",2f,7c,ab,e1);
+HXLINE( 388)		this->_hx___httpRequest->__SetField(HX_("followRedirects",26,5a,40,75),request->followRedirects,::hx::paccDynamic);
+HXLINE( 389)		this->_hx___httpRequest->__SetField(HX_("timeout",a1,1a,f7,d8),::Std_obj::_hx_int(request->idleTimeout),::hx::paccDynamic);
+HXLINE( 391)		this->_hx___httpRequest->__SetField(HX_("manageCookies",6a,1f,8f,bc),request->manageCookies,::hx::paccDynamic);
+HXLINE( 395)		::String userAgent = request->userAgent;
+HXLINE( 396)		if (::hx::IsNull( userAgent )) {
+HXLINE( 396)			userAgent = HX_("Mozilla/5.0 (Windows; U; en) AppleWebKit/420+ (KHTML, like Gecko) OpenFL/1.0",2f,7c,ab,e1);
             		}
-HXLINE( 392)		this->_hx___httpRequest->__SetField(HX_("userAgent",7a,f0,12,c8),request->userAgent,::hx::paccDynamic);
-HXLINE( 393)		this->_hx___httpRequest->__SetField(HX_("enableResponseHeaders",82,32,47,05),true,::hx::paccDynamic);
+HXLINE( 398)		this->_hx___httpRequest->__SetField(HX_("userAgent",7a,f0,12,c8),request->userAgent,::hx::paccDynamic);
+HXLINE( 399)		this->_hx___httpRequest->__SetField(HX_("enableResponseHeaders",82,32,47,05),true,::hx::paccDynamic);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(URLLoader_obj,_hx___prepareRequest,(void))
 
 void URLLoader_obj::httpRequest_onError( ::Dynamic error){
-            	HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_399_httpRequest_onError)
-HXLINE( 400)		this->_hx___dispatchStatus();
-HXLINE( 402)		if (::hx::IsEq( error,403 )) {
-HXLINE( 404)			 ::openfl::events::SecurityErrorEvent event =  ::openfl::events::SecurityErrorEvent_obj::__alloc( HX_CTX ,HX_("securityError",e8,28,7c,a2),null(),null(),null(),null());
-HXLINE( 405)			event->text = ::Std_obj::string(error);
-HXLINE( 406)			this->dispatchEvent(event);
+            	HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_405_httpRequest_onError)
+HXLINE( 406)		this->_hx___dispatchStatus();
+HXLINE( 410)		if (::hx::IsEq( error,403 )) {
+HXLINE( 412)			 ::openfl::events::SecurityErrorEvent event =  ::openfl::events::SecurityErrorEvent_obj::__alloc( HX_CTX ,HX_("securityError",e8,28,7c,a2),null(),null(),null(),null());
+HXLINE( 413)			event->text = ::Std_obj::string(error);
+HXLINE( 414)			this->dispatchEvent(event);
             		}
             		else {
-HXLINE( 410)			 ::openfl::events::IOErrorEvent event =  ::openfl::events::IOErrorEvent_obj::__alloc( HX_CTX ,HX_("ioError",02,fe,41,76),null(),null(),null(),null());
-HXLINE( 411)			event->text = ::Std_obj::string(error);
-HXLINE( 412)			this->dispatchEvent(event);
+HXLINE( 419)			 ::openfl::events::IOErrorEvent event =  ::openfl::events::IOErrorEvent_obj::__alloc( HX_CTX ,HX_("ioError",02,fe,41,76),null(),null(),null(),null());
+HXLINE( 420)			event->text = ::Std_obj::string(error);
+HXLINE( 421)			this->dispatchEvent(event);
             		}
             	}
 
@@ -283,11 +285,11 @@ HXLINE( 412)			this->dispatchEvent(event);
 HX_DEFINE_DYNAMIC_FUNC1(URLLoader_obj,httpRequest_onError,(void))
 
 void URLLoader_obj::httpRequest_onProgress(int bytesLoaded,int bytesTotal){
-            	HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_417_httpRequest_onProgress)
-HXLINE( 418)		 ::openfl::events::ProgressEvent event =  ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,HX_("progress",ad,f7,2a,86),null(),null(),null(),null());
-HXLINE( 419)		event->bytesLoaded = ( (Float)(bytesLoaded) );
-HXLINE( 420)		event->bytesTotal = ( (Float)(bytesTotal) );
-HXLINE( 421)		this->dispatchEvent(event);
+            	HX_GC_STACKFRAME(&_hx_pos_4a9fdaaca9dd41d2_426_httpRequest_onProgress)
+HXLINE( 427)		 ::openfl::events::ProgressEvent event =  ::openfl::events::ProgressEvent_obj::__alloc( HX_CTX ,HX_("progress",ad,f7,2a,86),null(),null(),null(),null());
+HXLINE( 428)		event->bytesLoaded = ( (Float)(bytesLoaded) );
+HXLINE( 429)		event->bytesTotal = ( (Float)(bytesTotal) );
+HXLINE( 430)		this->dispatchEvent(event);
             	}
 
 

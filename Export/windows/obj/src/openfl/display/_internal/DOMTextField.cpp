@@ -31,18 +31,18 @@
 #include <openfl/text/TextField.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_26_clear,"openfl.display._internal.DOMTextField","clear",0x58a798c6,"openfl.display._internal.DOMTextField.clear","openfl/display/_internal/DOMTextField.hx",26,0xc7d4d214)
-HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_43_measureText,"openfl.display._internal.DOMTextField","measureText",0xa92bd324,"openfl.display._internal.DOMTextField.measureText","openfl/display/_internal/DOMTextField.hx",43,0xc7d4d214)
-HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_79_render,"openfl.display._internal.DOMTextField","render",0x377f95fd,"openfl.display._internal.DOMTextField.render","openfl/display/_internal/DOMTextField.hx",79,0xc7d4d214)
-HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_346_renderDrawable,"openfl.display._internal.DOMTextField","renderDrawable",0x8cdc02bb,"openfl.display._internal.DOMTextField.renderDrawable","openfl/display/_internal/DOMTextField.hx",346,0xc7d4d214)
-HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_384_renderDrawableClear,"openfl.display._internal.DOMTextField","renderDrawableClear",0xaca218d2,"openfl.display._internal.DOMTextField.renderDrawableClear","openfl/display/_internal/DOMTextField.hx",384,0xc7d4d214)
-HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_389___getAttributeMatch,"openfl.display._internal.DOMTextField","__getAttributeMatch",0x43d53498,"openfl.display._internal.DOMTextField.__getAttributeMatch","openfl/display/_internal/DOMTextField.hx",389,0xc7d4d214)
-HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_17_boot,"openfl.display._internal.DOMTextField","boot",0xe1e5e719,"openfl.display._internal.DOMTextField.boot","openfl/display/_internal/DOMTextField.hx",17,0xc7d4d214)
-HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_19_boot,"openfl.display._internal.DOMTextField","boot",0xe1e5e719,"openfl.display._internal.DOMTextField.boot","openfl/display/_internal/DOMTextField.hx",19,0xc7d4d214)
+HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_27_clear,"openfl.display._internal.DOMTextField","clear",0x58a798c6,"openfl.display._internal.DOMTextField.clear","openfl/display/_internal/DOMTextField.hx",27,0xc7d4d214)
+HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_41_measureText,"openfl.display._internal.DOMTextField","measureText",0xa92bd324,"openfl.display._internal.DOMTextField.measureText","openfl/display/_internal/DOMTextField.hx",41,0xc7d4d214)
+HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_77_render,"openfl.display._internal.DOMTextField","render",0x377f95fd,"openfl.display._internal.DOMTextField.render","openfl/display/_internal/DOMTextField.hx",77,0xc7d4d214)
+HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_407_renderDrawable,"openfl.display._internal.DOMTextField","renderDrawable",0x8cdc02bb,"openfl.display._internal.DOMTextField.renderDrawable","openfl/display/_internal/DOMTextField.hx",407,0xc7d4d214)
+HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_445_renderDrawableClear,"openfl.display._internal.DOMTextField","renderDrawableClear",0xaca218d2,"openfl.display._internal.DOMTextField.renderDrawableClear","openfl/display/_internal/DOMTextField.hx",445,0xc7d4d214)
+HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_450___getAttributeMatch,"openfl.display._internal.DOMTextField","__getAttributeMatch",0x43d53498,"openfl.display._internal.DOMTextField.__getAttributeMatch","openfl/display/_internal/DOMTextField.hx",450,0xc7d4d214)
+HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_18_boot,"openfl.display._internal.DOMTextField","boot",0xe1e5e719,"openfl.display._internal.DOMTextField.boot","openfl/display/_internal/DOMTextField.hx",18,0xc7d4d214)
 HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_20_boot,"openfl.display._internal.DOMTextField","boot",0xe1e5e719,"openfl.display._internal.DOMTextField.boot","openfl/display/_internal/DOMTextField.hx",20,0xc7d4d214)
 HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_21_boot,"openfl.display._internal.DOMTextField","boot",0xe1e5e719,"openfl.display._internal.DOMTextField.boot","openfl/display/_internal/DOMTextField.hx",21,0xc7d4d214)
 HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_22_boot,"openfl.display._internal.DOMTextField","boot",0xe1e5e719,"openfl.display._internal.DOMTextField.boot","openfl/display/_internal/DOMTextField.hx",22,0xc7d4d214)
 HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_23_boot,"openfl.display._internal.DOMTextField","boot",0xe1e5e719,"openfl.display._internal.DOMTextField.boot","openfl/display/_internal/DOMTextField.hx",23,0xc7d4d214)
+HX_LOCAL_STACK_FRAME(_hx_pos_737ece1df218ad42_24_boot,"openfl.display._internal.DOMTextField","boot",0xe1e5e719,"openfl.display._internal.DOMTextField.boot","openfl/display/_internal/DOMTextField.hx",24,0xc7d4d214)
 namespace openfl{
 namespace display{
 namespace _internal{
@@ -75,50 +75,50 @@ bool DOMTextField_obj::_hx_isInstanceOf(int inClassId) {
  ::EReg DOMTextField_obj::_hx___regexSize;
 
 void DOMTextField_obj::clear( ::openfl::text::TextField textField, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_26_clear)
+            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_27_clear)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMTextField_obj,clear,(void))
 
 void DOMTextField_obj::measureText( ::openfl::text::TextField textField){
-            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_43_measureText)
+            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_41_measureText)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(DOMTextField_obj,measureText,(void))
 
 void DOMTextField_obj::render( ::openfl::text::TextField textField, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_79_render)
+            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_77_render)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMTextField_obj,render,(void))
 
 void DOMTextField_obj::renderDrawable( ::openfl::text::TextField textField, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_346_renderDrawable)
+            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_407_renderDrawable)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMTextField_obj,renderDrawable,(void))
 
 void DOMTextField_obj::renderDrawableClear( ::openfl::text::TextField textField, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_384_renderDrawableClear)
-HXDLIN( 384)		::openfl::display::_internal::DOMTextField_obj::clear(textField,renderer);
+            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_445_renderDrawableClear)
+HXDLIN( 445)		::openfl::display::_internal::DOMTextField_obj::clear(textField,renderer);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMTextField_obj,renderDrawableClear,(void))
 
 ::String DOMTextField_obj::_hx___getAttributeMatch( ::EReg regex){
-            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_389___getAttributeMatch)
-HXDLIN( 389)		if (::hx::IsNotNull( regex->matched(2) )) {
-HXDLIN( 389)			return regex->matched(2);
+            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_450___getAttributeMatch)
+HXDLIN( 450)		if (::hx::IsNotNull( regex->matched(2) )) {
+HXDLIN( 450)			return regex->matched(2);
             		}
             		else {
-HXDLIN( 389)			return regex->matched(3);
+HXDLIN( 450)			return regex->matched(3);
             		}
-HXDLIN( 389)		return null();
+HXDLIN( 450)		return null();
             	}
 
 
@@ -255,30 +255,30 @@ void DOMTextField_obj::__register()
 void DOMTextField_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_17_boot)
-HXDLIN(  17)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_737ece1df218ad42_18_boot)
+HXDLIN(  18)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("obj",f7,8f,54,00), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))));
             	}
 {
-            	HX_GC_STACKFRAME(&_hx_pos_737ece1df218ad42_19_boot)
-HXDLIN(  19)		_hx___regexColor =  ::EReg_obj::__alloc( HX_CTX ,HX_("color=(\"#([^\"]+)\"|'#([^']+)')",36,15,0f,76),HX_("i",69,00,00,00));
-            	}
-{
             	HX_GC_STACKFRAME(&_hx_pos_737ece1df218ad42_20_boot)
-HXDLIN(  20)		_hx___regexFace =  ::EReg_obj::__alloc( HX_CTX ,HX_("face=(\"([^\"]+)\"|'([^']+)')",1e,00,2b,89),HX_("i",69,00,00,00));
+HXDLIN(  20)		_hx___regexColor =  ::EReg_obj::__alloc( HX_CTX ,HX_("color=(\"#([^\"]+)\"|'#([^']+)')",36,15,0f,76),HX_("i",69,00,00,00));
             	}
 {
             	HX_GC_STACKFRAME(&_hx_pos_737ece1df218ad42_21_boot)
-HXDLIN(  21)		_hx___regexFont =  ::EReg_obj::__alloc( HX_CTX ,HX_("<font ([^>]+)>",eb,24,d0,0a),HX_("gi",22,5a,00,00));
+HXDLIN(  21)		_hx___regexFace =  ::EReg_obj::__alloc( HX_CTX ,HX_("face=(\"([^\"]+)\"|'([^']+)')",1e,00,2b,89),HX_("i",69,00,00,00));
             	}
 {
             	HX_GC_STACKFRAME(&_hx_pos_737ece1df218ad42_22_boot)
-HXDLIN(  22)		_hx___regexCloseFont =  ::EReg_obj::__alloc( HX_CTX ,HX_("</font>",3c,82,5f,8e),HX_("gi",22,5a,00,00));
+HXDLIN(  22)		_hx___regexFont =  ::EReg_obj::__alloc( HX_CTX ,HX_("<font ([^>]+)>",eb,24,d0,0a),HX_("gi",22,5a,00,00));
             	}
 {
             	HX_GC_STACKFRAME(&_hx_pos_737ece1df218ad42_23_boot)
-HXDLIN(  23)		_hx___regexSize =  ::EReg_obj::__alloc( HX_CTX ,HX_("size=(\"([^\"]+)\"|'([^']+)')",42,27,be,87),HX_("i",69,00,00,00));
+HXDLIN(  23)		_hx___regexCloseFont =  ::EReg_obj::__alloc( HX_CTX ,HX_("</font>",3c,82,5f,8e),HX_("gi",22,5a,00,00));
+            	}
+{
+            	HX_GC_STACKFRAME(&_hx_pos_737ece1df218ad42_24_boot)
+HXDLIN(  24)		_hx___regexSize =  ::EReg_obj::__alloc( HX_CTX ,HX_("size=(\"([^\"]+)\"|'([^']+)')",42,27,be,87),HX_("i",69,00,00,00));
             	}
 }
 

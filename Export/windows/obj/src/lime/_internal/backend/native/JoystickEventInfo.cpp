@@ -4,8 +4,8 @@
 #include <lime/_internal/backend/native/JoystickEventInfo.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_21cd05885e6e0032_713_new,"lime._internal.backend.native.JoystickEventInfo","new",0x6a2decec,"lime._internal.backend.native.JoystickEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",713,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_21cd05885e6e0032_724_clone,"lime._internal.backend.native.JoystickEventInfo","clone",0x72666ae9,"lime._internal.backend.native.JoystickEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",724,0xc1eba895)
+HX_DEFINE_STACK_FRAME(_hx_pos_21cd05885e6e0032_726_new,"lime._internal.backend.native.JoystickEventInfo","new",0x6a2decec,"lime._internal.backend.native.JoystickEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",726,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_21cd05885e6e0032_737_clone,"lime._internal.backend.native.JoystickEventInfo","clone",0x72666ae9,"lime._internal.backend.native.JoystickEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",737,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
@@ -17,13 +17,13 @@ void JoystickEventInfo_obj::__construct( ::Dynamic type,::hx::Null< int >  __o_i
             		int value = __o_value.Default(0);
             		Float x = __o_x.Default(0);
             		Float y = __o_y.Default(0);
-            	HX_STACKFRAME(&_hx_pos_21cd05885e6e0032_713_new)
-HXLINE( 714)		this->type = ( (int)(type) );
-HXLINE( 715)		this->id = id;
-HXLINE( 716)		this->index = index;
-HXLINE( 717)		this->eventValue = value;
-HXLINE( 718)		this->x = x;
-HXLINE( 719)		this->y = y;
+            	HX_STACKFRAME(&_hx_pos_21cd05885e6e0032_726_new)
+HXLINE( 727)		this->type = ( (int)(type) );
+HXLINE( 728)		this->id = id;
+HXLINE( 729)		this->index = index;
+HXLINE( 730)		this->eventValue = value;
+HXLINE( 731)		this->x = x;
+HXLINE( 732)		this->y = y;
             	}
 
 Dynamic JoystickEventInfo_obj::__CreateEmpty() { return new JoystickEventInfo_obj; }
@@ -42,8 +42,8 @@ bool JoystickEventInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::JoystickEventInfo JoystickEventInfo_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_21cd05885e6e0032_724_clone)
-HXDLIN( 724)		return  ::lime::_internal::backend::native::JoystickEventInfo_obj::__alloc( HX_CTX ,this->type,this->id,this->index,this->eventValue,this->x,this->y);
+            	HX_GC_STACKFRAME(&_hx_pos_21cd05885e6e0032_737_clone)
+HXDLIN( 737)		return  ::lime::_internal::backend::native::JoystickEventInfo_obj::__alloc( HX_CTX ,this->type,this->id,this->index,this->eventValue,this->x,this->y);
             	}
 
 

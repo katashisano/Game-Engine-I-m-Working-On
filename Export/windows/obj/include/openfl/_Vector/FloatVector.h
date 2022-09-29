@@ -67,6 +67,7 @@ class HXCPP_CLASS_ATTRIBUTES FloatVector_obj : public ::hx::Object
 		static  ::Dynamic __meta__;
 		bool fixed;
 		::Array< Float > _hx___array;
+		int _hx___tempIndex;
 		::Dynamic concat(::Dynamic a);
 		::Dynamic concat_dyn();
 

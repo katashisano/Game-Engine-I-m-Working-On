@@ -4,8 +4,8 @@
 #include <lime/_internal/backend/native/SensorEventInfo.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_60e5fd49cce3a06e_832_new,"lime._internal.backend.native.SensorEventInfo","new",0xcd81dd2e,"lime._internal.backend.native.SensorEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",832,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_60e5fd49cce3a06e_842_clone,"lime._internal.backend.native.SensorEventInfo","clone",0x46c86fab,"lime._internal.backend.native.SensorEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",842,0xc1eba895)
+HX_DEFINE_STACK_FRAME(_hx_pos_60e5fd49cce3a06e_845_new,"lime._internal.backend.native.SensorEventInfo","new",0xcd81dd2e,"lime._internal.backend.native.SensorEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",845,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_60e5fd49cce3a06e_855_clone,"lime._internal.backend.native.SensorEventInfo","clone",0x46c86fab,"lime._internal.backend.native.SensorEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",855,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
@@ -16,12 +16,12 @@ void SensorEventInfo_obj::__construct( ::Dynamic type,::hx::Null< int >  __o_id,
             		Float x = __o_x.Default(0);
             		Float y = __o_y.Default(0);
             		Float z = __o_z.Default(0);
-            	HX_STACKFRAME(&_hx_pos_60e5fd49cce3a06e_832_new)
-HXLINE( 833)		this->type = ( (int)(type) );
-HXLINE( 834)		this->id = id;
-HXLINE( 835)		this->x = x;
-HXLINE( 836)		this->y = y;
-HXLINE( 837)		this->z = z;
+            	HX_STACKFRAME(&_hx_pos_60e5fd49cce3a06e_845_new)
+HXLINE( 846)		this->type = ( (int)(type) );
+HXLINE( 847)		this->id = id;
+HXLINE( 848)		this->x = x;
+HXLINE( 849)		this->y = y;
+HXLINE( 850)		this->z = z;
             	}
 
 Dynamic SensorEventInfo_obj::__CreateEmpty() { return new SensorEventInfo_obj; }
@@ -40,8 +40,8 @@ bool SensorEventInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::SensorEventInfo SensorEventInfo_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_60e5fd49cce3a06e_842_clone)
-HXDLIN( 842)		return  ::lime::_internal::backend::native::SensorEventInfo_obj::__alloc( HX_CTX ,this->type,this->id,this->x,this->y,this->z);
+            	HX_GC_STACKFRAME(&_hx_pos_60e5fd49cce3a06e_855_clone)
+HXDLIN( 855)		return  ::lime::_internal::backend::native::SensorEventInfo_obj::__alloc( HX_CTX ,this->type,this->id,this->x,this->y,this->z);
             	}
 
 

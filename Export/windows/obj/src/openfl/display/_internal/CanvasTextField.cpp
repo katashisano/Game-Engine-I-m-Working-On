@@ -35,8 +35,8 @@
 #endif
 
 HX_LOCAL_STACK_FRAME(_hx_pos_3208549e91c46d80_31_render,"openfl.display._internal.CanvasTextField","render",0x61465dcb,"openfl.display._internal.CanvasTextField.render","openfl/display/_internal/CanvasTextField.hx",31,0x76b44b48)
-HX_LOCAL_STACK_FRAME(_hx_pos_3208549e91c46d80_385_renderDrawable,"openfl.display._internal.CanvasTextField","renderDrawable",0x53844889,"openfl.display._internal.CanvasTextField.renderDrawable","openfl/display/_internal/CanvasTextField.hx",385,0x76b44b48)
-HX_LOCAL_STACK_FRAME(_hx_pos_3208549e91c46d80_445_renderDrawableMask,"openfl.display._internal.CanvasTextField","renderDrawableMask",0x545d2e15,"openfl.display._internal.CanvasTextField.renderDrawableMask","openfl/display/_internal/CanvasTextField.hx",445,0x76b44b48)
+HX_LOCAL_STACK_FRAME(_hx_pos_3208549e91c46d80_382_renderDrawable,"openfl.display._internal.CanvasTextField","renderDrawable",0x53844889,"openfl.display._internal.CanvasTextField.renderDrawable","openfl/display/_internal/CanvasTextField.hx",382,0x76b44b48)
+HX_LOCAL_STACK_FRAME(_hx_pos_3208549e91c46d80_443_renderDrawableMask,"openfl.display._internal.CanvasTextField","renderDrawableMask",0x545d2e15,"openfl.display._internal.CanvasTextField.renderDrawableMask","openfl/display/_internal/CanvasTextField.hx",443,0x76b44b48)
 HX_LOCAL_STACK_FRAME(_hx_pos_3208549e91c46d80_23_boot,"openfl.display._internal.CanvasTextField","boot",0x30db7f67,"openfl.display._internal.CanvasTextField.boot","openfl/display/_internal/CanvasTextField.hx",23,0x76b44b48)
 namespace openfl{
 namespace display{
@@ -67,15 +67,15 @@ void CanvasTextField_obj::render( ::openfl::text::TextField textField, ::openfl:
 STATIC_HX_DEFINE_DYNAMIC_FUNC3(CanvasTextField_obj,render,(void))
 
 void CanvasTextField_obj::renderDrawable( ::openfl::text::TextField textField, ::openfl::display::CanvasRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_3208549e91c46d80_385_renderDrawable)
+            	HX_STACKFRAME(&_hx_pos_3208549e91c46d80_382_renderDrawable)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(CanvasTextField_obj,renderDrawable,(void))
 
 void CanvasTextField_obj::renderDrawableMask( ::openfl::text::TextField textField, ::openfl::display::CanvasRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_3208549e91c46d80_445_renderDrawableMask)
-HXDLIN( 445)		::openfl::display::_internal::CanvasDisplayObject_obj::renderDrawableMask(textField,renderer);
+            	HX_STACKFRAME(&_hx_pos_3208549e91c46d80_443_renderDrawableMask)
+HXDLIN( 443)		::openfl::display::_internal::CanvasDisplayObject_obj::renderDrawableMask(textField,renderer);
             	}
 
 

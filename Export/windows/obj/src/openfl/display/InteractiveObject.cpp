@@ -94,7 +94,13 @@ HX_DEFINE_DYNAMIC_FUNC0(InteractiveObject_obj,requestSoftKeyboard,return )
 
 bool InteractiveObject_obj::_hx___allowMouseFocus(){
             	HX_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1258___allowMouseFocus)
-HXDLIN(1258)		return this->get_tabEnabled();
+HXDLIN(1258)		if (this->mouseEnabled) {
+HXDLIN(1258)			return this->get_tabEnabled();
+            		}
+            		else {
+HXDLIN(1258)			return false;
+            		}
+HXDLIN(1258)		return false;
             	}
 
 
@@ -188,7 +194,7 @@ int InteractiveObject_obj::set_tabIndex(int value){
             	HX_GC_STACKFRAME(&_hx_pos_762cd2e6f13bb015_1315_set_tabIndex)
 HXLINE(1316)		if ((this->_hx___tabIndex != value)) {
 HXLINE(1318)			if ((value < -1)) {
-HXLINE(1318)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::RangeError_obj::__alloc( HX_CTX ,(HX_("Parameter tabIndex must be a non-negative number; got ",9c,f8,24,a4) + value))));
+HXLINE(1318)				HX_STACK_DO_THROW( ::openfl::errors::RangeError_obj::__alloc( HX_CTX ,(HX_("Parameter tabIndex must be a non-negative number; got ",9c,f8,24,a4) + value)));
             			}
 HXLINE(1320)			this->_hx___tabIndex = value;
 HXLINE(1322)			this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("tabIndexChange",cd,1d,78,90),true,false));

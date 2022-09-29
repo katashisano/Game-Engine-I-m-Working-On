@@ -69,6 +69,7 @@ class HXCPP_CLASS_ATTRIBUTES AbstractHTTPRequest_obj : public ::hx::Object
 		::String uri;
 		::String userAgent;
 		bool withCredentials;
+		bool manageCookies;
 		 ::lime::_internal::backend::native::NativeHTTPRequest _hx___backend;
 		void cancel();
 		::Dynamic cancel_dyn();

@@ -10,7 +10,9 @@ class PlayerController extends Component {
         super();
     
     }
-
+    
+    //wip
+    
     var state:Int = 0;
     var pressed:Bool = false;
     override function update(e:Event) {

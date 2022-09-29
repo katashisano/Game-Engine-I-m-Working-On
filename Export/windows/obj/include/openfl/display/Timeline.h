@@ -79,6 +79,9 @@ class HXCPP_CLASS_ATTRIBUTES Timeline_obj : public ::hx::Object
 		void enterFrame(int frame);
 		::Dynamic enterFrame_dyn();
 
+		void initializeSprite( ::openfl::display::Sprite sprite);
+		::Dynamic initializeSprite_dyn();
+
 		void _hx___addFrameScript(int index, ::Dynamic method);
 		::Dynamic _hx___addFrameScript_dyn();
 

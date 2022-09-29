@@ -4,16 +4,16 @@
 #include <lime/_internal/backend/native/ClipboardEventInfo.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_45f117d879fd522d_635_new,"lime._internal.backend.native.ClipboardEventInfo","new",0x8e61fe76,"lime._internal.backend.native.ClipboardEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",635,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_45f117d879fd522d_640_clone,"lime._internal.backend.native.ClipboardEventInfo","clone",0x18e972f3,"lime._internal.backend.native.ClipboardEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",640,0xc1eba895)
+HX_DEFINE_STACK_FRAME(_hx_pos_45f117d879fd522d_648_new,"lime._internal.backend.native.ClipboardEventInfo","new",0x8e61fe76,"lime._internal.backend.native.ClipboardEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",648,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_45f117d879fd522d_653_clone,"lime._internal.backend.native.ClipboardEventInfo","clone",0x18e972f3,"lime._internal.backend.native.ClipboardEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",653,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
 namespace native{
 
 void ClipboardEventInfo_obj::__construct( ::Dynamic type){
-            	HX_STACKFRAME(&_hx_pos_45f117d879fd522d_635_new)
-HXDLIN( 635)		this->type = ( (int)(type) );
+            	HX_STACKFRAME(&_hx_pos_45f117d879fd522d_648_new)
+HXDLIN( 648)		this->type = ( (int)(type) );
             	}
 
 Dynamic ClipboardEventInfo_obj::__CreateEmpty() { return new ClipboardEventInfo_obj; }
@@ -32,8 +32,8 @@ bool ClipboardEventInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::ClipboardEventInfo ClipboardEventInfo_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_45f117d879fd522d_640_clone)
-HXDLIN( 640)		return  ::lime::_internal::backend::native::ClipboardEventInfo_obj::__alloc( HX_CTX ,this->type);
+            	HX_GC_STACKFRAME(&_hx_pos_45f117d879fd522d_653_clone)
+HXDLIN( 653)		return  ::lime::_internal::backend::native::ClipboardEventInfo_obj::__alloc( HX_CTX ,this->type);
             	}
 
 

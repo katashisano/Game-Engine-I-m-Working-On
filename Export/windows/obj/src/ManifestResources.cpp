@@ -19,7 +19,7 @@
 #include <lime/utils/Assets.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_6b0b98c45b3017d4_25_init,"ManifestResources","init",0xc8e10c68,"ManifestResources.init","ManifestResources.hx",25,0xf77aa668)
+HX_LOCAL_STACK_FRAME(_hx_pos_6b0b98c45b3017d4_36_init,"ManifestResources","init",0xc8e10c68,"ManifestResources.init","ManifestResources.hx",36,0xf77aa668)
 
 void ManifestResources_obj::__construct() { }
 
@@ -45,36 +45,36 @@ bool ManifestResources_obj::_hx_isInstanceOf(int inClassId) {
 ::String ManifestResources_obj::rootPath;
 
 void ManifestResources_obj::init( ::Dynamic config){
-            	HX_STACKFRAME(&_hx_pos_6b0b98c45b3017d4_25_init)
-HXLINE(  27)		::ManifestResources_obj::preloadLibraries = ::Array_obj< ::Dynamic>::__new();
-HXLINE(  28)		::ManifestResources_obj::preloadLibraryNames = ::Array_obj< ::String >::__new();
-HXLINE(  30)		::ManifestResources_obj::rootPath = null();
-HXLINE(  32)		bool _hx_tmp;
-HXDLIN(  32)		if (::hx::IsNotNull( config )) {
-HXLINE(  32)			_hx_tmp = ::Reflect_obj::hasField(config,HX_("rootPath",e7,b8,88,e1));
+            	HX_STACKFRAME(&_hx_pos_6b0b98c45b3017d4_36_init)
+HXLINE(  38)		::ManifestResources_obj::preloadLibraries = ::Array_obj< ::Dynamic>::__new();
+HXLINE(  39)		::ManifestResources_obj::preloadLibraryNames = ::Array_obj< ::String >::__new();
+HXLINE(  41)		::ManifestResources_obj::rootPath = null();
+HXLINE(  43)		bool _hx_tmp;
+HXDLIN(  43)		if (::hx::IsNotNull( config )) {
+HXLINE(  43)			_hx_tmp = ::Reflect_obj::hasField(config,HX_("rootPath",e7,b8,88,e1));
             		}
             		else {
-HXLINE(  32)			_hx_tmp = false;
+HXLINE(  43)			_hx_tmp = false;
             		}
-HXDLIN(  32)		if (_hx_tmp) {
-HXLINE(  34)			::ManifestResources_obj::rootPath = ( (::String)(::Reflect_obj::field(config,HX_("rootPath",e7,b8,88,e1))) );
+HXDLIN(  43)		if (_hx_tmp) {
+HXLINE(  45)			::ManifestResources_obj::rootPath = ( (::String)(::Reflect_obj::field(config,HX_("rootPath",e7,b8,88,e1))) );
             		}
-HXLINE(  38)		if (::hx::IsNull( ::ManifestResources_obj::rootPath )) {
-HXLINE(  47)			::ManifestResources_obj::rootPath = HX_("./",41,28,00,00);
+HXLINE(  49)		if (::hx::IsNull( ::ManifestResources_obj::rootPath )) {
+HXLINE(  58)			::ManifestResources_obj::rootPath = HX_("./",41,28,00,00);
             		}
-HXLINE(  56)		 ::Dynamic data;
-HXDLIN(  56)		 ::Dynamic manifest;
-HXDLIN(  56)		 ::Dynamic bundle;
-HXLINE(  69)		{
-HXLINE(  69)			::String v = (::ManifestResources_obj::rootPath + HX_("manifest/default.json",95,ea,cc,42));
-HXDLIN(  69)			::lime::utils::Assets_obj::libraryPaths->set(HX_("default",c1,d8,c3,9b),v);
+HXLINE(  67)		 ::Dynamic data;
+HXDLIN(  67)		 ::Dynamic manifest;
+HXDLIN(  67)		 ::Dynamic bundle;
+HXLINE(  80)		{
+HXLINE(  80)			::String v = (::ManifestResources_obj::rootPath + HX_("manifest/default.json",95,ea,cc,42));
+HXDLIN(  80)			::lime::utils::Assets_obj::libraryPaths->set(HX_("default",c1,d8,c3,9b),v);
             		}
-HXLINE(  56)		 ::lime::utils::AssetLibrary library = ::lime::utils::Assets_obj::getLibrary(HX_("default",c1,d8,c3,9b));
-HXLINE(  73)		if (::hx::IsNotNull( library )) {
-HXLINE(  73)			::ManifestResources_obj::preloadLibraries->push(library);
+HXLINE(  67)		 ::lime::utils::AssetLibrary library = ::lime::utils::Assets_obj::getLibrary(HX_("default",c1,d8,c3,9b));
+HXLINE(  84)		if (::hx::IsNotNull( library )) {
+HXLINE(  84)			::ManifestResources_obj::preloadLibraries->push(library);
             		}
             		else {
-HXLINE(  74)			::ManifestResources_obj::preloadLibraryNames->push(HX_("default",c1,d8,c3,9b));
+HXLINE(  85)			::ManifestResources_obj::preloadLibraryNames->push(HX_("default",c1,d8,c3,9b));
             		}
             	}
 

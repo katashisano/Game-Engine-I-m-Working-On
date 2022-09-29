@@ -336,6 +336,8 @@ class HXCPP_CLASS_ATTRIBUTES NativeCFFI_obj : public ::hx::Object
 		static Dynamic lime_window_set_resizable_dyn() { return lime_window_set_resizable;}
 		static ::cpp::Function< void  ( ::hx::Object *,bool) > lime_window_set_text_input_enabled;
 		static Dynamic lime_window_set_text_input_enabled_dyn() { return lime_window_set_text_input_enabled;}
+		static ::cpp::Function< void  ( ::hx::Object *, ::hx::Object *) > lime_window_set_text_input_rect;
+		static Dynamic lime_window_set_text_input_rect_dyn() { return lime_window_set_text_input_rect;}
 		static ::cpp::Function<  ::hx::Object *  ( ::hx::Object *,::String) > lime_window_set_title;
 		static Dynamic lime_window_set_title_dyn() { return lime_window_set_title;}
 		static ::cpp::Function<  ::hx::Object *  ( ::hx::Object *,int,int) > lime_window_warp_mouse;

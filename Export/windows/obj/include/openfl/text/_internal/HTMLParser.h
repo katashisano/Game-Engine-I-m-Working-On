@@ -8,6 +8,9 @@
 HX_DECLARE_CLASS0(EReg)
 HX_DECLARE_CLASS2(openfl,_Vector,IVector)
 HX_DECLARE_CLASS2(openfl,_Vector,ObjectVector)
+HX_DECLARE_CLASS2(openfl,events,EventDispatcher)
+HX_DECLARE_CLASS2(openfl,events,IEventDispatcher)
+HX_DECLARE_CLASS2(openfl,text,StyleSheet)
 HX_DECLARE_CLASS2(openfl,text,TextFormat)
 HX_DECLARE_CLASS3(openfl,text,_internal,HTMLParser)
 
@@ -61,8 +64,10 @@ class HXCPP_CLASS_ATTRIBUTES HTMLParser_obj : public ::hx::Object
 		static  ::EReg _hx___regexAlign;
 		static  ::EReg _hx___regexBreakTag;
 		static  ::EReg _hx___regexBlockIndent;
+		static  ::EReg _hx___regexClass;
 		static  ::EReg _hx___regexColor;
 		static ::Array< ::Dynamic> _hx___regexEntities;
+		static  ::EReg _hx___regexCharEntity;
 		static  ::EReg _hx___regexFace;
 		static  ::EReg _hx___regexHTMLTag;
 		static  ::EReg _hx___regexHref;
@@ -72,7 +77,7 @@ class HXCPP_CLASS_ATTRIBUTES HTMLParser_obj : public ::hx::Object
 		static  ::EReg _hx___regexRightMargin;
 		static  ::EReg _hx___regexSize;
 		static  ::EReg _hx___regexTabStops;
-		static ::String parse(::String value, ::openfl::text::TextFormat textFormat, ::openfl::_Vector::ObjectVector textFormatRanges);
+		static ::String parse(::String value,bool multiline, ::openfl::text::StyleSheet styleSheet, ::openfl::text::TextFormat textFormat, ::openfl::_Vector::ObjectVector textFormatRanges);
 		static ::Dynamic parse_dyn();
 
 		static ::String _hx___getAttributeMatch( ::EReg regex);

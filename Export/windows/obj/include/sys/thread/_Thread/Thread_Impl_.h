@@ -5,6 +5,8 @@
 #include <hxcpp.h>
 #endif
 
+HX_DECLARE_CLASS2(sys,thread,EventLoop)
+HX_DECLARE_CLASS3(sys,thread,_Thread,HaxeThread)
 HX_DECLARE_CLASS3(sys,thread,_Thread,Thread_Impl_)
 
 namespace sys{
@@ -50,6 +52,9 @@ class HXCPP_CLASS_ATTRIBUTES Thread_Impl__obj : public ::hx::Object
 		static void __register();
 		bool _hx_isInstanceOf(int inClassId);
 		::String __ToString() const { return HX_("Thread_Impl_",0a,37,9c,fe); }
+
+		static  ::sys::thread::EventLoop get_events( ::sys::thread::_Thread::HaxeThread this1);
+		static ::Dynamic get_events_dyn();
 
 		static void processEvents();
 		static ::Dynamic processEvents_dyn();

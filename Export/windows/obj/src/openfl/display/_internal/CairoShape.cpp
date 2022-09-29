@@ -64,8 +64,8 @@
 
 HX_LOCAL_STACK_FRAME(_hx_pos_b1fba0bba755bee2_27_render,"openfl.display._internal.CairoShape","render",0xf0c8232f,"openfl.display._internal.CairoShape.render","openfl/display/_internal/CairoShape.hx",27,0x7720bd06)
 HX_LOCAL_STACK_FRAME(_hx_pos_b1fba0bba755bee2_83_render,"openfl.display._internal.CairoShape","render",0xf0c8232f,"openfl.display._internal.CairoShape.render","openfl/display/_internal/CairoShape.hx",83,0x7720bd06)
-HX_LOCAL_STACK_FRAME(_hx_pos_b1fba0bba755bee2_172_renderDrawable,"openfl.display._internal.CairoShape","renderDrawable",0xf82011ed,"openfl.display._internal.CairoShape.renderDrawable","openfl/display/_internal/CairoShape.hx",172,0x7720bd06)
-HX_LOCAL_STACK_FRAME(_hx_pos_b1fba0bba755bee2_177_renderDrawableMask,"openfl.display._internal.CairoShape","renderDrawableMask",0x01237979,"openfl.display._internal.CairoShape.renderDrawableMask","openfl/display/_internal/CairoShape.hx",177,0x7720bd06)
+HX_LOCAL_STACK_FRAME(_hx_pos_b1fba0bba755bee2_178_renderDrawable,"openfl.display._internal.CairoShape","renderDrawable",0xf82011ed,"openfl.display._internal.CairoShape.renderDrawable","openfl/display/_internal/CairoShape.hx",178,0x7720bd06)
+HX_LOCAL_STACK_FRAME(_hx_pos_b1fba0bba755bee2_183_renderDrawableMask,"openfl.display._internal.CairoShape","renderDrawableMask",0x01237979,"openfl.display._internal.CairoShape.renderDrawableMask","openfl/display/_internal/CairoShape.hx",183,0x7720bd06)
 HX_LOCAL_STACK_FRAME(_hx_pos_b1fba0bba755bee2_20_boot,"openfl.display._internal.CairoShape","boot",0x5e1063cb,"openfl.display._internal.CairoShape.boot","openfl/display/_internal/CairoShape.hx",20,0x7720bd06)
 HX_LOCAL_STACK_FRAME(_hx_pos_b1fba0bba755bee2_23_boot,"openfl.display._internal.CairoShape","boot",0x5e1063cb,"openfl.display._internal.CairoShape.boot","openfl/display/_internal/CairoShape.hx",23,0x7720bd06)
 namespace openfl{
@@ -177,8 +177,8 @@ HXLINE(  54)					 ::openfl::geom::Rectangle bounds = graphics->_hx___bounds;
 HXLINE(  56)					 ::openfl::geom::Matrix renderTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
 HXLINE(  58)					Float scaleX = graphics->_hx___renderTransform->a;
 HXLINE(  59)					Float scaleY = graphics->_hx___renderTransform->d;
-HXLINE(  60)					Float renderScaleX = transform->a;
-HXLINE(  61)					Float renderScaleY = transform->d;
+HXLINE(  60)					Float renderScaleX = (transform->a / graphics->_hx___bitmapScale);
+HXLINE(  61)					Float renderScaleY = (transform->d / graphics->_hx___bitmapScale);
 HXLINE(  63)					int left = ::Math_obj::round((scale9Grid->x * scaleX));
 HXLINE(  64)					int top = ::Math_obj::round((scale9Grid->y * scaleY));
 HXLINE(  65)					Float right = bounds->get_right();
@@ -249,17 +249,21 @@ HXLINE( 143)								drawImage((left + centerWidth),0,right1,height,(renderLeft +
 HXLINE( 146)					::openfl::geom::Matrix_obj::_hx___pool->release(renderTransform);
             				}
             				else {
-HXLINE( 150)					renderer->applyMatrix(transform,cairo);
-HXLINE( 152)					 ::lime::graphics::cairo::Cairo cairo1 = cairo;
-HXDLIN( 152)					cairo1->setSourceSurface(graphics->_hx___cairo->get_target(),( (Float)(0) ),( (Float)(0) ));
-HXLINE( 154)					if ((alpha >= 1)) {
-HXLINE( 156)						cairo->paint();
+HXLINE( 150)					 ::openfl::geom::Matrix renderTransform = ::openfl::geom::Matrix_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Matrix >();
+HXLINE( 151)					renderTransform->scale((( (Float)(1) ) / graphics->_hx___bitmapScale),(( (Float)(1) ) / graphics->_hx___bitmapScale));
+HXLINE( 152)					renderTransform->concat(transform);
+HXLINE( 154)					renderer->applyMatrix(renderTransform,cairo);
+HXLINE( 156)					 ::lime::graphics::cairo::Cairo cairo1 = cairo;
+HXDLIN( 156)					cairo1->setSourceSurface(graphics->_hx___cairo->get_target(),( (Float)(0) ),( (Float)(0) ));
+HXLINE( 158)					if ((alpha >= 1)) {
+HXLINE( 160)						cairo->paint();
             					}
             					else {
-HXLINE( 160)						cairo->paintWithAlpha(alpha);
+HXLINE( 164)						cairo->paintWithAlpha(alpha);
             					}
+HXLINE( 167)					::openfl::geom::Matrix_obj::_hx___pool->release(renderTransform);
             				}
-HXLINE( 164)				renderer->_hx___popMaskObject(shape,null());
+HXLINE( 170)				renderer->_hx___popMaskObject(shape,null());
             			}
             		}
             	}
@@ -268,82 +272,82 @@ HXLINE( 164)				renderer->_hx___popMaskObject(shape,null());
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(CairoShape_obj,render,(void))
 
 void CairoShape_obj::renderDrawable( ::openfl::display::Shape shape, ::openfl::display::CairoRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_b1fba0bba755bee2_172_renderDrawable)
-HXDLIN( 172)		renderer->_hx___updateCacheBitmap(shape,false);
-HXDLIN( 172)		bool _hx_tmp;
-HXDLIN( 172)		if (::hx::IsNotNull( shape->_hx___cacheBitmap )) {
-HXDLIN( 172)			_hx_tmp = !(shape->_hx___isCacheBitmapRender);
+            	HX_STACKFRAME(&_hx_pos_b1fba0bba755bee2_178_renderDrawable)
+HXDLIN( 178)		renderer->_hx___updateCacheBitmap(shape,false);
+HXDLIN( 178)		bool _hx_tmp;
+HXDLIN( 178)		if (::hx::IsNotNull( shape->_hx___cacheBitmap )) {
+HXDLIN( 178)			_hx_tmp = !(shape->_hx___isCacheBitmapRender);
             		}
             		else {
-HXDLIN( 172)			_hx_tmp = false;
+HXDLIN( 178)			_hx_tmp = false;
             		}
-HXDLIN( 172)		if (_hx_tmp) {
-HXDLIN( 172)			 ::openfl::display::Bitmap bitmap = shape->_hx___cacheBitmap;
-HXDLIN( 172)			if (bitmap->_hx___renderable) {
-HXDLIN( 172)				Float alpha = renderer->_hx___getAlpha(bitmap->_hx___worldAlpha);
-HXDLIN( 172)				bool _hx_tmp;
-HXDLIN( 172)				bool _hx_tmp1;
-HXDLIN( 172)				if ((alpha > 0)) {
-HXDLIN( 172)					_hx_tmp1 = ::hx::IsNotNull( bitmap->_hx___bitmapData );
+HXDLIN( 178)		if (_hx_tmp) {
+HXDLIN( 178)			 ::openfl::display::Bitmap bitmap = shape->_hx___cacheBitmap;
+HXDLIN( 178)			if (bitmap->_hx___renderable) {
+HXDLIN( 178)				Float alpha = renderer->_hx___getAlpha(bitmap->_hx___worldAlpha);
+HXDLIN( 178)				bool _hx_tmp;
+HXDLIN( 178)				bool _hx_tmp1;
+HXDLIN( 178)				if ((alpha > 0)) {
+HXDLIN( 178)					_hx_tmp1 = ::hx::IsNotNull( bitmap->_hx___bitmapData );
             				}
             				else {
-HXDLIN( 172)					_hx_tmp1 = false;
+HXDLIN( 178)					_hx_tmp1 = false;
             				}
-HXDLIN( 172)				if (_hx_tmp1) {
-HXDLIN( 172)					_hx_tmp = bitmap->_hx___bitmapData->_hx___isValid;
+HXDLIN( 178)				if (_hx_tmp1) {
+HXDLIN( 178)					_hx_tmp = bitmap->_hx___bitmapData->_hx___isValid;
             				}
             				else {
-HXDLIN( 172)					_hx_tmp = false;
+HXDLIN( 178)					_hx_tmp = false;
             				}
-HXDLIN( 172)				if (_hx_tmp) {
-HXDLIN( 172)					 ::lime::graphics::cairo::Cairo cairo = renderer->cairo;
-HXDLIN( 172)					renderer->_hx___setBlendMode(bitmap->_hx___worldBlendMode);
-HXDLIN( 172)					renderer->_hx___pushMaskObject(bitmap,null());
-HXDLIN( 172)					renderer->applyMatrix(bitmap->_hx___renderTransform,cairo);
-HXDLIN( 172)					 ::Dynamic surface = bitmap->_hx___bitmapData->getSurface();
-HXDLIN( 172)					if (::hx::IsNotNull( surface )) {
-HXDLIN( 172)						 ::Dynamic pattern = ::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::createForSurface(surface);
-HXDLIN( 172)						int _hx_tmp;
-HXDLIN( 172)						bool _hx_tmp1;
-HXDLIN( 172)						if (renderer->_hx___allowSmoothing) {
-HXDLIN( 172)							_hx_tmp1 = bitmap->smoothing;
+HXDLIN( 178)				if (_hx_tmp) {
+HXDLIN( 178)					 ::lime::graphics::cairo::Cairo cairo = renderer->cairo;
+HXDLIN( 178)					renderer->_hx___setBlendMode(bitmap->_hx___worldBlendMode);
+HXDLIN( 178)					renderer->_hx___pushMaskObject(bitmap,null());
+HXDLIN( 178)					renderer->applyMatrix(bitmap->_hx___renderTransform,cairo);
+HXDLIN( 178)					 ::Dynamic surface = bitmap->_hx___bitmapData->getSurface();
+HXDLIN( 178)					if (::hx::IsNotNull( surface )) {
+HXDLIN( 178)						 ::Dynamic pattern = ::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::createForSurface(surface);
+HXDLIN( 178)						int _hx_tmp;
+HXDLIN( 178)						bool _hx_tmp1;
+HXDLIN( 178)						if (renderer->_hx___allowSmoothing) {
+HXDLIN( 178)							_hx_tmp1 = bitmap->smoothing;
             						}
             						else {
-HXDLIN( 172)							_hx_tmp1 = false;
+HXDLIN( 178)							_hx_tmp1 = false;
             						}
-HXDLIN( 172)						if (_hx_tmp1) {
-HXDLIN( 172)							_hx_tmp = 1;
-            						}
-            						else {
-HXDLIN( 172)							_hx_tmp = 3;
-            						}
-HXDLIN( 172)						::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::set_filter(pattern,_hx_tmp);
-HXDLIN( 172)						cairo->set_source(pattern);
-HXDLIN( 172)						if ((alpha == 1)) {
-HXDLIN( 172)							cairo->paint();
+HXDLIN( 178)						if (_hx_tmp1) {
+HXDLIN( 178)							_hx_tmp = 1;
             						}
             						else {
-HXDLIN( 172)							cairo->paintWithAlpha(alpha);
+HXDLIN( 178)							_hx_tmp = 3;
+            						}
+HXDLIN( 178)						::lime::graphics::cairo::_CairoPattern::CairoPattern_Impl__obj::set_filter(pattern,_hx_tmp);
+HXDLIN( 178)						cairo->set_source(pattern);
+HXDLIN( 178)						if ((alpha == 1)) {
+HXDLIN( 178)							cairo->paint();
+            						}
+            						else {
+HXDLIN( 178)							cairo->paintWithAlpha(alpha);
             						}
             					}
-HXDLIN( 172)					renderer->_hx___popMaskObject(bitmap,null());
-HXDLIN( 172)					renderer->_hx___setBlendMode(10);
+HXDLIN( 178)					renderer->_hx___popMaskObject(bitmap,null());
+HXDLIN( 178)					renderer->_hx___setBlendMode(10);
             				}
             			}
             		}
             		else {
-HXDLIN( 172)			::openfl::display::_internal::CairoDisplayObject_obj::render(shape,renderer);
+HXDLIN( 178)			::openfl::display::_internal::CairoDisplayObject_obj::render(shape,renderer);
             		}
-HXDLIN( 172)		renderer->_hx___renderEvent(shape);
+HXDLIN( 178)		renderer->_hx___renderEvent(shape);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(CairoShape_obj,renderDrawable,(void))
 
 void CairoShape_obj::renderDrawableMask( ::openfl::display::Shape shape, ::openfl::display::CairoRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_b1fba0bba755bee2_177_renderDrawableMask)
-HXDLIN( 177)		if (::hx::IsNotNull( shape->_hx___graphics )) {
-HXDLIN( 177)			::openfl::display::_internal::CairoGraphics_obj::renderMask(shape->_hx___graphics,renderer);
+            	HX_STACKFRAME(&_hx_pos_b1fba0bba755bee2_183_renderDrawableMask)
+HXDLIN( 183)		if (::hx::IsNotNull( shape->_hx___graphics )) {
+HXDLIN( 183)			::openfl::display::_internal::CairoGraphics_obj::renderMask(shape->_hx___graphics,renderer);
             		}
             	}
 

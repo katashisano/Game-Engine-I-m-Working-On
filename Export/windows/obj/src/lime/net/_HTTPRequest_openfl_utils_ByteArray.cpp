@@ -29,7 +29,7 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_62d462820a77e9f1_134_new,"lime.net._HTTPRequest_openfl_utils_ByteArray","new",0xb743fd13,"lime.net._HTTPRequest_openfl_utils_ByteArray.new","lime/_internal/macros/HTTPRequestMacro.hx",134,0xf82711de)
-HX_LOCAL_STACK_FRAME(_hx_pos_0170168071f82217_289_fromBytes,"lime.net._HTTPRequest_openfl_utils_ByteArray","fromBytes",0xc0fc2794,"lime.net._HTTPRequest_openfl_utils_ByteArray.fromBytes","openfl/net/URLLoader.hx",289,0x11daec0d)
+HX_LOCAL_STACK_FRAME(_hx_pos_0170168071f82217_293_fromBytes,"lime.net._HTTPRequest_openfl_utils_ByteArray","fromBytes",0xc0fc2794,"lime.net._HTTPRequest_openfl_utils_ByteArray.fromBytes","openfl/net/URLLoader.hx",293,0x11daec0d)
 namespace lime{
 namespace net{
 
@@ -62,8 +62,8 @@ bool _HTTPRequest_openfl_utils_ByteArray_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic _HTTPRequest_openfl_utils_ByteArray_obj::fromBytes( ::haxe::io::Bytes bytes){
-            	HX_STACKFRAME(&_hx_pos_0170168071f82217_289_fromBytes)
-HXDLIN( 289)		return ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(bytes);
+            	HX_STACKFRAME(&_hx_pos_0170168071f82217_293_fromBytes)
+HXDLIN( 293)		return ::openfl::utils::_ByteArray::ByteArray_Impl__obj::fromBytes(bytes);
             	}
 
 

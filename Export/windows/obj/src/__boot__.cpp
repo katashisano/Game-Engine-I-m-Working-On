@@ -1,5 +1,8 @@
 #include <hxcpp.h>
 
+#ifndef INCLUDED_sys_thread_NextEventTime
+#include <sys/thread/NextEventTime.h>
+#endif
 #ifndef INCLUDED_openfl_display3D__internal__AGALConverter_RegisterUsage
 #include <openfl/display3D/_internal/_AGALConverter/RegisterUsage.h>
 #endif
@@ -66,11 +69,14 @@
 #ifndef INCLUDED_ValueType
 #include <ValueType.h>
 #endif
-#ifndef INCLUDED_GameState
-#include <GameState.h>
+#ifndef INCLUDED_ObjectType
+#include <ObjectType.h>
 #endif
-#ifndef INCLUDED_sys_thread__Thread_HaxeThread
-#include <sys/thread/_Thread/HaxeThread.h>
+#ifndef INCLUDED_ImageBackgroundMoveType
+#include <ImageBackgroundMoveType.h>
+#endif
+#ifndef INCLUDED_BackgroundType
+#include <BackgroundType.h>
 #endif
 #ifndef INCLUDED_openfl_utils__internal_TouchData
 #include <openfl/utils/_internal/TouchData.h>
@@ -180,6 +186,9 @@
 #ifndef INCLUDED_openfl_text_TextField
 #include <openfl/text/TextField.h>
 #endif
+#ifndef INCLUDED_openfl_text_StyleSheet
+#include <openfl/text/StyleSheet.h>
+#endif
 #ifndef INCLUDED_openfl_text__GridFitType_GridFitType_Impl_
 #include <openfl/text/_GridFitType/GridFitType_Impl_.h>
 #endif
@@ -195,8 +204,17 @@
 #ifndef INCLUDED_openfl_text__AntiAliasType_AntiAliasType_Impl_
 #include <openfl/text/_AntiAliasType/AntiAliasType_Impl_.h>
 #endif
+#ifndef INCLUDED_openfl_system__TouchscreenType_TouchscreenType_Impl_
+#include <openfl/system/_TouchscreenType/TouchscreenType_Impl_.h>
+#endif
+#ifndef INCLUDED_openfl_system_System
+#include <openfl/system/System.h>
+#endif
 #ifndef INCLUDED_openfl_system_SecurityDomain
 #include <openfl/system/SecurityDomain.h>
+#endif
+#ifndef INCLUDED_openfl_system_Capabilities
+#include <openfl/system/Capabilities.h>
 #endif
 #ifndef INCLUDED_openfl_system_ApplicationDomain
 #include <openfl/system/ApplicationDomain.h>
@@ -206,6 +224,9 @@
 #endif
 #ifndef INCLUDED_openfl_net__URLLoaderDataFormat_URLLoaderDataFormat_Impl_
 #include <openfl/net/_URLLoaderDataFormat/URLLoaderDataFormat_Impl_.h>
+#endif
+#ifndef INCLUDED_openfl_net__ObjectEncoding_ObjectEncoding_Impl_
+#include <openfl/net/_ObjectEncoding/ObjectEncoding_Impl_.h>
 #endif
 #ifndef INCLUDED_openfl_net_NetStream
 #include <openfl/net/NetStream.h>
@@ -395,6 +416,9 @@
 #endif
 #ifndef INCLUDED_openfl_display__internal_DOMTextField
 #include <openfl/display/_internal/DOMTextField.h>
+#endif
+#ifndef INCLUDED_openfl_display__internal_DOMShape
+#include <openfl/display/_internal/DOMShape.h>
 #endif
 #ifndef INCLUDED_openfl_display__internal_DOMDisplayObject
 #include <openfl/display/_internal/DOMDisplayObject.h>
@@ -690,6 +714,12 @@
 #ifndef INCLUDED_lime_system_Sensor
 #include <lime/system/Sensor.h>
 #endif
+#ifndef INCLUDED_lime_system_JNISafetyTools
+#include <lime/system/JNISafetyTools.h>
+#endif
+#ifndef INCLUDED_sys_thread__Thread_HaxeThread
+#include <sys/thread/_Thread/HaxeThread.h>
+#endif
 #ifndef INCLUDED_lime_system_JNI
 #include <lime/system/JNI.h>
 #endif
@@ -783,17 +813,14 @@
 #ifndef INCLUDED_sys_thread__Thread_Thread_Impl_
 #include <sys/thread/_Thread/Thread_Impl_.h>
 #endif
-#ifndef INCLUDED_sys_thread_Mutex
-#include <sys/thread/Mutex.h>
+#ifndef INCLUDED_sys_thread_NoEventLoopException
+#include <sys/thread/NoEventLoopException.h>
 #endif
 #ifndef INCLUDED_sys_thread_Lock
 #include <sys/thread/Lock.h>
 #endif
 #ifndef INCLUDED_sys_thread__EventLoop_RegularEvent
 #include <sys/thread/_EventLoop/RegularEvent.h>
-#endif
-#ifndef INCLUDED_sys_thread_EventLoop
-#include <sys/thread/EventLoop.h>
 #endif
 #ifndef INCLUDED_sys_thread_Deque
 #include <sys/thread/Deque.h>
@@ -840,6 +867,12 @@
 #ifndef INCLUDED_openfl_text__internal_TextFormatRange
 #include <openfl/text/_internal/TextFormatRange.h>
 #endif
+#ifndef INCLUDED_openfl_text__internal__TextEngine_DefaultFontSet
+#include <openfl/text/_internal/_TextEngine/DefaultFontSet.h>
+#endif
+#ifndef INCLUDED_openfl_text__internal_CSSParser
+#include <openfl/text/_internal/CSSParser.h>
+#endif
 #ifndef INCLUDED_openfl_text_TextLineMetrics
 #include <openfl/text/TextLineMetrics.h>
 #endif
@@ -854,6 +887,12 @@
 #endif
 #ifndef INCLUDED_openfl_net_URLLoader
 #include <openfl/net/URLLoader.h>
+#endif
+#ifndef INCLUDED_openfl_net_IDynamicPropertyWriter
+#include <openfl/net/IDynamicPropertyWriter.h>
+#endif
+#ifndef INCLUDED_openfl_net_IDynamicPropertyOutput
+#include <openfl/net/IDynamicPropertyOutput.h>
 #endif
 #ifndef INCLUDED_openfl_media_SoundLoaderContext
 #include <openfl/media/SoundLoaderContext.h>
@@ -1196,6 +1235,18 @@
 #endif
 #ifndef INCLUDED_lime_system_ThreadPool
 #include <lime/system/ThreadPool.h>
+#endif
+#ifndef INCLUDED_lime_system__Locale_Locale_Impl_
+#include <lime/system/_Locale/Locale_Impl_.h>
+#endif
+#ifndef INCLUDED_sys_thread_EventLoop
+#include <sys/thread/EventLoop.h>
+#endif
+#ifndef INCLUDED_sys_thread_Mutex
+#include <sys/thread/Mutex.h>
+#endif
+#ifndef INCLUDED_lime_system_JNISafety
+#include <lime/system/JNISafety.h>
 #endif
 #ifndef INCLUDED_lime_system_JNIMethod
 #include <lime/system/JNIMethod.h>
@@ -2025,6 +2076,9 @@
 #ifndef INCLUDED_Type
 #include <Type.h>
 #endif
+#ifndef INCLUDED_TextObject
+#include <TextObject.h>
+#endif
 #ifndef INCLUDED_Sys
 #include <Sys.h>
 #endif
@@ -2040,14 +2094,20 @@
 #ifndef INCLUDED_Reflect
 #include <Reflect.h>
 #endif
-#ifndef INCLUDED_Player
-#include <Player.h>
+#ifndef INCLUDED_PlayerController
+#include <PlayerController.h>
+#endif
+#ifndef INCLUDED_PhysicsBody
+#include <PhysicsBody.h>
 #endif
 #ifndef INCLUDED_ManifestResources
 #include <ManifestResources.h>
 #endif
 #ifndef INCLUDED_Lambda
 #include <Lambda.h>
+#endif
+#ifndef INCLUDED_Input
+#include <Input.h>
 #endif
 #ifndef INCLUDED_Game
 #include <Game.h>
@@ -2058,6 +2118,9 @@
 #ifndef INCLUDED_Date
 #include <Date.h>
 #endif
+#ifndef INCLUDED_Collider
+#include <Collider.h>
+#endif
 #ifndef INCLUDED_Component
 #include <Component.h>
 #endif
@@ -2066,6 +2129,9 @@
 #endif
 #ifndef INCLUDED_GameObject
 #include <GameObject.h>
+#endif
+#ifndef INCLUDED_Behaviour
+#include <Behaviour.h>
 #endif
 #ifndef INCLUDED_DocumentClass
 #include <DocumentClass.h>
@@ -2119,6 +2185,7 @@ void __boot_all()
 {
 __files__boot();
 ::hx::RegisterResources( ::hx::GetResources() );
+::sys::thread::NextEventTime_obj::__register();
 ::openfl::display3D::_internal::_AGALConverter::RegisterUsage_obj::__register();
 ::openfl::display3D::_internal::_AGALConverter::ProgramType_obj::__register();
 ::openfl::display::_internal::DrawCommandType_obj::__register();
@@ -2141,8 +2208,9 @@ __files__boot();
 ::haxe::io::Encoding_obj::__register();
 ::haxe::StackItem_obj::__register();
 ::ValueType_obj::__register();
-::GameState_obj::__register();
-::sys::thread::_Thread::HaxeThread_obj::__register();
+::ObjectType_obj::__register();
+::ImageBackgroundMoveType_obj::__register();
+::BackgroundType_obj::__register();
 ::openfl::utils::_internal::TouchData_obj::__register();
 ::openfl::utils::_internal::Lib_obj::__register();
 ::haxe::lang::Iterable_obj::__register();
@@ -2179,15 +2247,20 @@ __files__boot();
 ::openfl::text::_TextFieldType::TextFieldType_Impl__obj::__register();
 ::openfl::text::_TextFieldAutoSize::TextFieldAutoSize_Impl__obj::__register();
 ::openfl::text::TextField_obj::__register();
+::openfl::text::StyleSheet_obj::__register();
 ::openfl::text::_GridFitType::GridFitType_Impl__obj::__register();
 ::openfl::text::_FontType::FontType_Impl__obj::__register();
 ::openfl::text::_FontStyle::FontStyle_Impl__obj::__register();
 ::openfl::text::Font_obj::__register();
 ::openfl::text::_AntiAliasType::AntiAliasType_Impl__obj::__register();
+::openfl::_hx_system::_TouchscreenType::TouchscreenType_Impl__obj::__register();
+::openfl::_hx_system::System_obj::__register();
 ::openfl::_hx_system::SecurityDomain_obj::__register();
+::openfl::_hx_system::Capabilities_obj::__register();
 ::openfl::_hx_system::ApplicationDomain_obj::__register();
 ::openfl::net::URLRequestDefaults_obj::__register();
 ::openfl::net::_URLLoaderDataFormat::URLLoaderDataFormat_Impl__obj::__register();
+::openfl::net::_ObjectEncoding::ObjectEncoding_Impl__obj::__register();
 ::openfl::net::NetStream_obj::__register();
 ::openfl::net::NetConnection_obj::__register();
 ::openfl::media::Video_obj::__register();
@@ -2251,6 +2324,7 @@ __files__boot();
 ::openfl::display::_internal::DOMVideo_obj::__register();
 ::openfl::display::_internal::DOMTilemap_obj::__register();
 ::openfl::display::_internal::DOMTextField_obj::__register();
+::openfl::display::_internal::DOMShape_obj::__register();
 ::openfl::display::_internal::DOMDisplayObject_obj::__register();
 ::openfl::display::_internal::DOMBitmap_obj::__register();
 ::openfl::display::_internal::Context3DVideo_obj::__register();
@@ -2349,6 +2423,8 @@ __files__boot();
 ::lime::ui::Gamepad_obj::__register();
 ::lime::_hx_system::System_obj::__register();
 ::lime::_hx_system::Sensor_obj::__register();
+::lime::_hx_system::JNISafetyTools_obj::__register();
+::sys::thread::_Thread::HaxeThread_obj::__register();
 ::lime::_hx_system::JNI_obj::__register();
 ::lime::_hx_system::Clipboard_obj::__register();
 ::lime::_hx_system::CFFI_obj::__register();
@@ -2380,10 +2456,9 @@ __files__boot();
 ::lime::_internal::backend::native::NativeApplication_obj::__register();
 ::lime::_internal::backend::native::NativeCFFI_obj::__register();
 ::sys::thread::_Thread::Thread_Impl__obj::__register();
-::sys::thread::Mutex_obj::__register();
+::sys::thread::NoEventLoopException_obj::__register();
 ::sys::thread::Lock_obj::__register();
 ::sys::thread::_EventLoop::RegularEvent_obj::__register();
-::sys::thread::EventLoop_obj::__register();
 ::sys::thread::Deque_obj::__register();
 ::sys::io::Process_obj::__register();
 ::sys::io::_Process::Stdout_obj::__register();
@@ -2399,11 +2474,15 @@ __files__boot();
 ::openfl::utils::IAssetCache_obj::__register();
 ::openfl::ui::GameInputControl_obj::__register();
 ::openfl::text::_internal::TextFormatRange_obj::__register();
+::openfl::text::_internal::_TextEngine::DefaultFontSet_obj::__register();
+::openfl::text::_internal::CSSParser_obj::__register();
 ::openfl::text::TextLineMetrics_obj::__register();
 ::openfl::_hx_system::LoaderContext_obj::__register();
 ::openfl::net::URLRequestHeader_obj::__register();
 ::openfl::net::URLRequest_obj::__register();
 ::openfl::net::URLLoader_obj::__register();
+::openfl::net::IDynamicPropertyWriter_obj::__register();
+::openfl::net::IDynamicPropertyOutput_obj::__register();
 ::openfl::media::SoundLoaderContext_obj::__register();
 ::openfl::media::SoundChannel_obj::__register();
 ::openfl::media::Sound_obj::__register();
@@ -2518,6 +2597,10 @@ __files__boot();
 ::lime::text::Font_obj::__register();
 ::lime::_hx_system::_ThreadPool::ThreadPoolMessage_obj::__register();
 ::lime::_hx_system::ThreadPool_obj::__register();
+::lime::_hx_system::_Locale::Locale_Impl__obj::__register();
+::sys::thread::EventLoop_obj::__register();
+::sys::thread::Mutex_obj::__register();
+::lime::_hx_system::JNISafety_obj::__register();
 ::lime::_hx_system::JNIMethod_obj::__register();
 ::lime::_hx_system::JNIStaticField_obj::__register();
 ::lime::_hx_system::JNIMemberField_obj::__register();
@@ -2794,20 +2877,25 @@ __files__boot();
 ::haxe::_CallStack::CallStack_Impl__obj::__register();
 ::cpp::Lib_obj::__register();
 ::Type_obj::__register();
+::TextObject_obj::__register();
 ::Sys_obj::__register();
 ::StringTools_obj::__register();
 ::StringBuf_obj::__register();
 ::Std_obj::__register();
 ::Reflect_obj::__register();
-::Player_obj::__register();
+::PlayerController_obj::__register();
+::PhysicsBody_obj::__register();
 ::ManifestResources_obj::__register();
 ::Lambda_obj::__register();
+::Input_obj::__register();
 ::Game_obj::__register();
 ::EReg_obj::__register();
 ::Date_obj::__register();
+::Collider_obj::__register();
 ::Component_obj::__register();
 ::Camera_obj::__register();
 ::GameObject_obj::__register();
+::Behaviour_obj::__register();
 ::DocumentClass_obj::__register();
 ::Main_obj::__register();
 ::openfl::display::Sprite_obj::__register();
@@ -2823,6 +2911,7 @@ __files__boot();
 ::cpp::Prime_obj::__register();
 ::lime::app::Module_obj::__register();
 ::lime::app::IModule_obj::__register();
+::sys::thread::NextEventTime_obj::__boot();
 ::openfl::display3D::_internal::_AGALConverter::RegisterUsage_obj::__boot();
 ::openfl::display3D::_internal::_AGALConverter::ProgramType_obj::__boot();
 ::openfl::display::_internal::DrawCommandType_obj::__boot();
@@ -2845,14 +2934,16 @@ __files__boot();
 ::haxe::io::Encoding_obj::__boot();
 ::haxe::StackItem_obj::__boot();
 ::ValueType_obj::__boot();
-::GameState_obj::__boot();
+::ObjectType_obj::__boot();
+::ImageBackgroundMoveType_obj::__boot();
+::BackgroundType_obj::__boot();
 ::lime::_internal::backend::native::NativeApplication_obj::__init__();
 ::lime::app::Application_obj::__init__();
 ::ApplicationMain_obj::__init__();
 ::lime::math::_RGBA::RGBA_Impl__obj::__init__();
 ::lime::_hx_system::CFFI_obj::__init__();
-::lime::utils::Log_obj::__init__();
 ::sys::thread::_Thread::HaxeThread_obj::__init__();
+::lime::utils::Log_obj::__init__();
 ::haxe::Log_obj::__boot();
 ::lime::_internal::backend::native::NativeCFFI_obj::__boot();
 ::lime::_internal::backend::native::NativeApplication_obj::__boot();
@@ -2883,6 +2974,8 @@ __files__boot();
 ::lime::_hx_system::CFFI_obj::__boot();
 ::lime::_hx_system::Clipboard_obj::__boot();
 ::lime::_hx_system::JNI_obj::__boot();
+::sys::thread::_Thread::HaxeThread_obj::__boot();
+::lime::_hx_system::JNISafetyTools_obj::__boot();
 ::lime::_hx_system::Sensor_obj::__boot();
 ::lime::_hx_system::System_obj::__boot();
 ::lime::ui::Gamepad_obj::__boot();
@@ -2981,6 +3074,7 @@ __files__boot();
 ::openfl::display::_internal::Context3DVideo_obj::__boot();
 ::openfl::display::_internal::DOMBitmap_obj::__boot();
 ::openfl::display::_internal::DOMDisplayObject_obj::__boot();
+::openfl::display::_internal::DOMShape_obj::__boot();
 ::openfl::display::_internal::DOMTextField_obj::__boot();
 ::openfl::display::_internal::DOMTilemap_obj::__boot();
 ::openfl::display::_internal::DOMVideo_obj::__boot();
@@ -3044,15 +3138,20 @@ __files__boot();
 ::openfl::media::Video_obj::__boot();
 ::openfl::net::NetConnection_obj::__boot();
 ::openfl::net::NetStream_obj::__boot();
+::openfl::net::_ObjectEncoding::ObjectEncoding_Impl__obj::__boot();
 ::openfl::net::_URLLoaderDataFormat::URLLoaderDataFormat_Impl__obj::__boot();
 ::openfl::net::URLRequestDefaults_obj::__boot();
 ::openfl::_hx_system::ApplicationDomain_obj::__boot();
+::openfl::_hx_system::Capabilities_obj::__boot();
 ::openfl::_hx_system::SecurityDomain_obj::__boot();
+::openfl::_hx_system::System_obj::__boot();
+::openfl::_hx_system::_TouchscreenType::TouchscreenType_Impl__obj::__boot();
 ::openfl::text::_AntiAliasType::AntiAliasType_Impl__obj::__boot();
 ::openfl::text::Font_obj::__boot();
 ::openfl::text::_FontStyle::FontStyle_Impl__obj::__boot();
 ::openfl::text::_FontType::FontType_Impl__obj::__boot();
 ::openfl::text::_GridFitType::GridFitType_Impl__obj::__boot();
+::openfl::text::StyleSheet_obj::__boot();
 ::openfl::text::TextField_obj::__boot();
 ::openfl::text::_TextFieldAutoSize::TextFieldAutoSize_Impl__obj::__boot();
 ::openfl::text::_TextFieldType::TextFieldType_Impl__obj::__boot();
@@ -3089,6 +3188,5 @@ __files__boot();
 ::haxe::lang::Iterable_obj::__boot();
 ::openfl::utils::_internal::Lib_obj::__boot();
 ::openfl::utils::_internal::TouchData_obj::__boot();
-::sys::thread::_Thread::HaxeThread_obj::__boot();
 }
 

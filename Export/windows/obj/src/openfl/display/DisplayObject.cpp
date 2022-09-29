@@ -1720,7 +1720,7 @@ HX_DEFINE_DYNAMIC_FUNC0(DisplayObject_obj,get_transform,return )
  ::openfl::geom::Transform DisplayObject_obj::set_transform( ::openfl::geom::Transform value){
             	HX_GC_STACKFRAME(&_hx_pos_26400284d5456c16_2254_set_transform)
 HXLINE(2255)		if (::hx::IsNull( value )) {
-HXLINE(2257)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::TypeError_obj::__alloc( HX_CTX ,HX_("Parameter transform must be non-null.",56,12,fe,6e))));
+HXLINE(2257)			HX_STACK_DO_THROW( ::openfl::errors::TypeError_obj::__alloc( HX_CTX ,HX_("Parameter transform must be non-null.",56,12,fe,6e)));
             		}
 HXLINE(2260)		if (::hx::IsNull( this->_hx___objectTransform )) {
 HXLINE(2262)			this->_hx___objectTransform =  ::openfl::geom::Transform_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));

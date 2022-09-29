@@ -222,6 +222,9 @@ class HXCPP_CLASS_ATTRIBUTES Window_obj : public ::hx::Object
 		bool set_textInputEnabled(bool value);
 		::Dynamic set_textInputEnabled_dyn();
 
+		 ::lime::math::Rectangle setTextInputRect( ::lime::math::Rectangle value);
+		::Dynamic setTextInputRect_dyn();
+
 		::String get_title();
 		::Dynamic get_title_dyn();
 

@@ -31,13 +31,13 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_9453f8fd92a21d0a_284_new,"DocumentClass","new",0x4aeb0a6f,"DocumentClass.new","ApplicationMain.hx",284,0x0780ded5)
+HX_DEFINE_STACK_FRAME(_hx_pos_9453f8fd92a21d0a_304_new,"DocumentClass","new",0x4aeb0a6f,"DocumentClass.new","ApplicationMain.hx",304,0x0780ded5)
 
 void DocumentClass_obj::__construct( ::openfl::display::DisplayObjectContainer current){
-            	HX_GC_STACKFRAME(&_hx_pos_9453f8fd92a21d0a_284_new)
-HXLINE( 285)		current->addChild(::hx::ObjectPtr<OBJ_>(this));
-HXLINE( 286)		super::__construct();
-HXLINE( 287)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("addedToStage",63,22,55,0c),false,false));
+            	HX_GC_STACKFRAME(&_hx_pos_9453f8fd92a21d0a_304_new)
+HXLINE( 305)		current->addChild(::hx::ObjectPtr<OBJ_>(this));
+HXLINE( 306)		super::__construct();
+HXLINE( 307)		this->dispatchEvent( ::openfl::events::Event_obj::__alloc( HX_CTX ,HX_("addedToStage",63,22,55,0c),false,false));
             	}
 
 Dynamic DocumentClass_obj::__CreateEmpty() { return new DocumentClass_obj; }

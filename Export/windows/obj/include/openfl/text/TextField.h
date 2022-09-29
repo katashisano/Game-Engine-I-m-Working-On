@@ -22,6 +22,7 @@ HX_DECLARE_CLASS2(openfl,events,KeyboardEvent)
 HX_DECLARE_CLASS2(openfl,events,MouseEvent)
 HX_DECLARE_CLASS2(openfl,geom,Matrix)
 HX_DECLARE_CLASS2(openfl,geom,Rectangle)
+HX_DECLARE_CLASS2(openfl,text,StyleSheet)
 HX_DECLARE_CLASS2(openfl,text,TextField)
 HX_DECLARE_CLASS2(openfl,text,TextFormat)
 HX_DECLARE_CLASS2(openfl,text,TextLineMetrics)
@@ -69,6 +70,7 @@ class HXCPP_CLASS_ATTRIBUTES TextField_obj : public  ::openfl::display::Interact
 		static void __boot();
 		static  ::openfl::text::TextFormat _hx___defaultTextFormat;
 		static  ::haxe::ds::StringMap _hx___missingFontWarning;
+		bool condenseWhite;
 		 ::openfl::geom::Rectangle _hx___bounds;
 		int _hx___caretIndex;
 		 ::haxe::Timer _hx___cursorTimer;
@@ -84,6 +86,7 @@ class HXCPP_CLASS_ATTRIBUTES TextField_obj : public  ::openfl::display::Interact
 		Float _hx___offsetY;
 		int _hx___selectionIndex;
 		bool _hx___showCursor;
+		 ::openfl::text::StyleSheet _hx___styleSheet;
 		::String _hx___text;
 		::String _hx___htmlText;
 		 ::openfl::text::_internal::TextEngine _hx___textEngine;
@@ -369,6 +372,12 @@ class HXCPP_CLASS_ATTRIBUTES TextField_obj : public  ::openfl::display::Interact
 
 		Float set_sharpness(Float value);
 		::Dynamic set_sharpness_dyn();
+
+		 ::openfl::text::StyleSheet get_styleSheet();
+		::Dynamic get_styleSheet_dyn();
+
+		 ::openfl::text::StyleSheet set_styleSheet( ::openfl::text::StyleSheet value);
+		::Dynamic set_styleSheet_dyn();
 
 		bool get_tabEnabled();
 

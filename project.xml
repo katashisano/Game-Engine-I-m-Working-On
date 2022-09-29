@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
 	
-	<meta title="CUsersAlkostoDocumentsHaxeProjectsGamesTheShortAdventuresOfMaloTheWizard" package="com.sample.cusersalkostodocumentshaxeprojectsgamestheshortadventuresofmalothewizard" version="1.0.0" company="Company Name" />
-	<app main="Main" path="Export" file="CUsersAlkostoDocumentsHaxeProjectsGamesTheShortAdventuresOfMaloTheWizard" />
+	<meta title="what" package="com.sample.what" version="1.0.0" company="me" />
+	<app main="Main" path="Export" file="what" />
 	
 	<source path="Source" />
 	

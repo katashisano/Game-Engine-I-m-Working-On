@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_e2a4e584e1f8ec25_807_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_e2a4e584e1f8ec25_820_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,RenderEventInfo)
 
 namespace lime{
@@ -40,8 +40,8 @@ class HXCPP_CLASS_ATTRIBUTES RenderEventInfo_obj : public ::hx::Object
 			RenderEventInfo_obj *__this = (RenderEventInfo_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(RenderEventInfo_obj), false, "lime._internal.backend.native.RenderEventInfo"));
 			*(void **)__this = RenderEventInfo_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_e2a4e584e1f8ec25_807_new)
-HXDLIN( 807)		( ( ::lime::_internal::backend::native::RenderEventInfo)(__this) )->type = ( (int)(type) );
+            	HX_STACKFRAME(&_hx_pos_e2a4e584e1f8ec25_820_new)
+HXDLIN( 820)		( ( ::lime::_internal::backend::native::RenderEventInfo)(__this) )->type = ( (int)(type) );
             	}
 		
 			return __this;

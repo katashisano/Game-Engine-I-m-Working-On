@@ -64,6 +64,9 @@ class HXCPP_CLASS_ATTRIBUTES Vector_Impl__obj : public ::hx::Object
 		static  ::openfl::_Vector::ObjectVector copy(::Dynamic this1);
 		static ::Dynamic copy_dyn();
 
+		static bool every(::Dynamic this1, ::Dynamic callback, ::Dynamic thisObject);
+		static ::Dynamic every_dyn();
+
 		static  ::openfl::_Vector::ObjectVector filter(::Dynamic this1, ::Dynamic callback);
 		static ::Dynamic filter_dyn();
 
@@ -106,10 +109,13 @@ class HXCPP_CLASS_ATTRIBUTES Vector_Impl__obj : public ::hx::Object
 		static  ::openfl::_Vector::ObjectVector slice(::Dynamic this1,::hx::Null< int >  startIndex, ::Dynamic endIndex);
 		static ::Dynamic slice_dyn();
 
+		static bool some(::Dynamic this1, ::Dynamic callback, ::Dynamic thisObject);
+		static ::Dynamic some_dyn();
+
 		static void sort(::Dynamic this1, ::Dynamic sortBehavior);
 		static ::Dynamic sort_dyn();
 
-		static  ::openfl::_Vector::ObjectVector splice(::Dynamic this1,int startIndex,int deleteCount);
+		static  ::openfl::_Vector::ObjectVector splice(::Dynamic this1,int startIndex,int deleteCount,::cpp::VirtualArray items);
 		static ::Dynamic splice_dyn();
 
 		static ::String toString(::Dynamic this1);

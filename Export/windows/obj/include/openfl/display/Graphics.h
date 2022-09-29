@@ -99,6 +99,7 @@ class HXCPP_CLASS_ATTRIBUTES Graphics_obj : public ::hx::Object
 		 ::openfl::geom::Matrix _hx___worldTransform;
 		 ::lime::graphics::cairo::Cairo _hx___cairo;
 		 ::openfl::display::BitmapData _hx___bitmap;
+		Float _hx___bitmapScale;
 		void beginBitmapFill( ::openfl::display::BitmapData bitmap, ::openfl::geom::Matrix matrix,::hx::Null< bool >  repeat,::hx::Null< bool >  smooth);
 		::Dynamic beginBitmapFill_dyn();
 

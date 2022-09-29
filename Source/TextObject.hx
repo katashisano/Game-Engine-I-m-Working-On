@@ -8,6 +8,8 @@ import openfl.Lib;
 
 class TextObject extends GameObject {
 
+    //game object but contains text
+
     public var textField:TextField = null;
     public var textFormat:TextFormat = null;
     var size:Int = 10;

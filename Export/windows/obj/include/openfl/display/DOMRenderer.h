@@ -57,7 +57,6 @@ class HXCPP_CLASS_ATTRIBUTES DOMRenderer_obj : public  ::openfl::display::Displa
 		static void __boot();
 		static  ::Dynamic __meta__;
 		 ::Dynamic element;
-		Float pixelRatio;
 		 ::openfl::display::CanvasRenderer _hx___canvasRenderer;
 		::Array< ::Dynamic> _hx___clipRects;
 		 ::openfl::geom::Rectangle _hx___currentClipRect;

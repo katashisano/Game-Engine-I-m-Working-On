@@ -10,66 +10,66 @@
 #include <openfl/events/Event.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_460ec5366bb20ab2_728_new,"openfl.events.Event","new",0x2731c6f5,"openfl.events.Event.new","openfl/events/Event.hx",728,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_759_clone,"openfl.events.Event","clone",0x5b9b9932,"openfl.events.Event.clone","openfl/events/Event.hx",759,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_792_formatToString,"openfl.events.Event","formatToString",0xed38428e,"openfl.events.Event.formatToString","openfl/events/Event.hx",792,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_813_isDefaultPrevented,"openfl.events.Event","isDefaultPrevented",0x5475e94b,"openfl.events.Event.isDefaultPrevented","openfl/events/Event.hx",813,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_824_preventDefault,"openfl.events.Event","preventDefault",0xdba9c454,"openfl.events.Event.preventDefault","openfl/events/Event.hx",824,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_842_stopImmediatePropagation,"openfl.events.Event","stopImmediatePropagation",0xa67252c8,"openfl.events.Event.stopImmediatePropagation","openfl/events/Event.hx",842,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_862_stopPropagation,"openfl.events.Event","stopPropagation",0xb07183ff,"openfl.events.Event.stopPropagation","openfl/events/Event.hx",862,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_876_toString,"openfl.events.Event","toString",0x6e61ddf7,"openfl.events.Event.toString","openfl/events/Event.hx",876,0x7220a03b)
+HX_DEFINE_STACK_FRAME(_hx_pos_460ec5366bb20ab2_735_new,"openfl.events.Event","new",0x2731c6f5,"openfl.events.Event.new","openfl/events/Event.hx",735,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_766_clone,"openfl.events.Event","clone",0x5b9b9932,"openfl.events.Event.clone","openfl/events/Event.hx",766,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_799_formatToString,"openfl.events.Event","formatToString",0xed38428e,"openfl.events.Event.formatToString","openfl/events/Event.hx",799,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_820_isDefaultPrevented,"openfl.events.Event","isDefaultPrevented",0x5475e94b,"openfl.events.Event.isDefaultPrevented","openfl/events/Event.hx",820,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_831_preventDefault,"openfl.events.Event","preventDefault",0xdba9c454,"openfl.events.Event.preventDefault","openfl/events/Event.hx",831,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_849_stopImmediatePropagation,"openfl.events.Event","stopImmediatePropagation",0xa67252c8,"openfl.events.Event.stopImmediatePropagation","openfl/events/Event.hx",849,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_869_stopPropagation,"openfl.events.Event","stopPropagation",0xb07183ff,"openfl.events.Event.stopPropagation","openfl/events/Event.hx",869,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_883_toString,"openfl.events.Event","toString",0x6e61ddf7,"openfl.events.Event.toString","openfl/events/Event.hx",883,0x7220a03b)
 static const ::String _hx_array_data_61c42883_8[] = {
 	HX_("type",ba,f2,08,4d),HX_("bubbles",67,bb,56,61),HX_("cancelable",14,a0,79,c4),
 };
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_880___formatToString,"openfl.events.Event","__formatToString",0x9d75066e,"openfl.events.Event.__formatToString","openfl/events/Event.hx",880,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_905___init,"openfl.events.Event","__init",0xb2f032bb,"openfl.events.Event.__init","openfl/events/Event.hx",905,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_71_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",71,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_85_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",85,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_99_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",99,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_115_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",115,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_129_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",129,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_157_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",157,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_171_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",171,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_185_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",185,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_199_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",199,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_208_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",208,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_232_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",232,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_256_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",256,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_277_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",277,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_295_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",295,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_313_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",313,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_331_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",331,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_349_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",349,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_363_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",363,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_377_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",377,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_391_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",391,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_405_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",405,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_419_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",419,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_444_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",444,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_458_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",458,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_472_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",472,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_490_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",490,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_504_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",504,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_518_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",518,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_532_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",532,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_557_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",557,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_571_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",571,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_585_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",585,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_599_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",599,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_613_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",613,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_622_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",622,0x7220a03b)
-HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_652_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",652,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_887___formatToString,"openfl.events.Event","__formatToString",0x9d75066e,"openfl.events.Event.__formatToString","openfl/events/Event.hx",887,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_912___init,"openfl.events.Event","__init",0xb2f032bb,"openfl.events.Event.__init","openfl/events/Event.hx",912,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_75_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",75,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_89_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",89,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_103_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",103,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_119_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",119,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_133_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",133,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_161_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",161,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_175_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",175,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_189_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",189,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_203_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",203,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_212_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",212,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_236_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",236,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_260_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",260,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_281_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",281,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_299_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",299,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_317_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",317,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_335_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",335,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_353_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",353,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_367_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",367,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_381_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",381,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_395_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",395,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_409_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",409,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_423_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",423,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_448_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",448,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_462_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",462,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_476_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",476,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_494_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",494,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_508_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",508,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_522_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",522,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_536_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",536,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_561_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",561,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_575_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",575,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_589_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",589,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_603_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",603,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_617_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",617,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_626_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",626,0x7220a03b)
+HX_LOCAL_STACK_FRAME(_hx_pos_460ec5366bb20ab2_656_boot,"openfl.events.Event","boot",0x1c754ffd,"openfl.events.Event.boot","openfl/events/Event.hx",656,0x7220a03b)
 namespace openfl{
 namespace events{
 
 void Event_obj::__construct(::String type,::hx::Null< bool >  __o_bubbles,::hx::Null< bool >  __o_cancelable){
             		bool bubbles = __o_bubbles.Default(false);
             		bool cancelable = __o_cancelable.Default(false);
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_728_new)
-HXLINE( 729)		this->type = type;
-HXLINE( 730)		this->bubbles = bubbles;
-HXLINE( 731)		this->cancelable = cancelable;
-HXLINE( 732)		this->eventPhase = 2;
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_735_new)
+HXLINE( 736)		this->type = type;
+HXLINE( 737)		this->bubbles = bubbles;
+HXLINE( 738)		this->cancelable = cancelable;
+HXLINE( 739)		this->eventPhase = 2;
             	}
 
 Dynamic Event_obj::__CreateEmpty() { return new Event_obj; }
@@ -88,53 +88,53 @@ bool Event_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::openfl::events::Event Event_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_460ec5366bb20ab2_759_clone)
-HXLINE( 760)		 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable);
-HXLINE( 761)		event->eventPhase = this->eventPhase;
-HXLINE( 762)		event->target = this->target;
-HXLINE( 763)		event->currentTarget = this->currentTarget;
-HXLINE( 764)		return event;
+            	HX_GC_STACKFRAME(&_hx_pos_460ec5366bb20ab2_766_clone)
+HXLINE( 767)		 ::openfl::events::Event event =  ::openfl::events::Event_obj::__alloc( HX_CTX ,this->type,this->bubbles,this->cancelable);
+HXLINE( 768)		event->eventPhase = this->eventPhase;
+HXLINE( 769)		event->target = this->target;
+HXLINE( 770)		event->currentTarget = this->currentTarget;
+HXLINE( 771)		return event;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Event_obj,clone,return )
 
 ::String Event_obj::formatToString(::String className,::String p1,::String p2,::String p3,::String p4,::String p5){
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_792_formatToString)
-HXLINE( 793)		::Array< ::String > parameters = ::Array_obj< ::String >::__new(0);
-HXLINE( 794)		if (::hx::IsNotNull( p1 )) {
-HXLINE( 794)			parameters->push(p1);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_799_formatToString)
+HXLINE( 800)		::Array< ::String > parameters = ::Array_obj< ::String >::__new(0);
+HXLINE( 801)		if (::hx::IsNotNull( p1 )) {
+HXLINE( 801)			parameters->push(p1);
             		}
-HXLINE( 795)		if (::hx::IsNotNull( p2 )) {
-HXLINE( 795)			parameters->push(p2);
+HXLINE( 802)		if (::hx::IsNotNull( p2 )) {
+HXLINE( 802)			parameters->push(p2);
             		}
-HXLINE( 796)		if (::hx::IsNotNull( p3 )) {
-HXLINE( 796)			parameters->push(p3);
+HXLINE( 803)		if (::hx::IsNotNull( p3 )) {
+HXLINE( 803)			parameters->push(p3);
             		}
-HXLINE( 797)		if (::hx::IsNotNull( p4 )) {
-HXLINE( 797)			parameters->push(p4);
+HXLINE( 804)		if (::hx::IsNotNull( p4 )) {
+HXLINE( 804)			parameters->push(p4);
             		}
-HXLINE( 798)		if (::hx::IsNotNull( p5 )) {
-HXLINE( 798)			parameters->push(p5);
+HXLINE( 805)		if (::hx::IsNotNull( p5 )) {
+HXLINE( 805)			parameters->push(p5);
             		}
-HXLINE( 800)		return ( (::String)(::Reflect_obj::callMethod(::hx::ObjectPtr<OBJ_>(this),this->_hx___formatToString_dyn(),::cpp::VirtualArray_obj::__new(2)->init(0,className)->init(1,parameters))) );
+HXLINE( 807)		return ( (::String)(::Reflect_obj::callMethod(::hx::ObjectPtr<OBJ_>(this),this->_hx___formatToString_dyn(),::cpp::VirtualArray_obj::__new(2)->init(0,className)->init(1,parameters))) );
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC6(Event_obj,formatToString,return )
 
 bool Event_obj::isDefaultPrevented(){
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_813_isDefaultPrevented)
-HXDLIN( 813)		return this->_hx___preventDefault;
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_820_isDefaultPrevented)
+HXDLIN( 820)		return this->_hx___preventDefault;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Event_obj,isDefaultPrevented,return )
 
 void Event_obj::preventDefault(){
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_824_preventDefault)
-HXDLIN( 824)		if (this->cancelable) {
-HXLINE( 826)			this->_hx___preventDefault = true;
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_831_preventDefault)
+HXDLIN( 831)		if (this->cancelable) {
+HXLINE( 833)			this->_hx___preventDefault = true;
             		}
             	}
 
@@ -142,65 +142,65 @@ HXLINE( 826)			this->_hx___preventDefault = true;
 HX_DEFINE_DYNAMIC_FUNC0(Event_obj,preventDefault,(void))
 
 void Event_obj::stopImmediatePropagation(){
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_842_stopImmediatePropagation)
-HXLINE( 843)		this->_hx___isCanceled = true;
-HXLINE( 844)		this->_hx___isCanceledNow = true;
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_849_stopImmediatePropagation)
+HXLINE( 850)		this->_hx___isCanceled = true;
+HXLINE( 851)		this->_hx___isCanceledNow = true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Event_obj,stopImmediatePropagation,(void))
 
 void Event_obj::stopPropagation(){
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_862_stopPropagation)
-HXDLIN( 862)		this->_hx___isCanceled = true;
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_869_stopPropagation)
+HXDLIN( 869)		this->_hx___isCanceled = true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Event_obj,stopPropagation,(void))
 
 ::String Event_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_876_toString)
-HXDLIN( 876)		return this->_hx___formatToString(HX_("Event",fa,37,f2,08),::Array_obj< ::String >::fromData( _hx_array_data_61c42883_8,3));
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_883_toString)
+HXDLIN( 883)		return this->_hx___formatToString(HX_("Event",fa,37,f2,08),::Array_obj< ::String >::fromData( _hx_array_data_61c42883_8,3));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Event_obj,toString,return )
 
 ::String Event_obj::_hx___formatToString(::String className,::Array< ::String > parameters){
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_880___formatToString)
-HXLINE( 883)		::String output = (HX_("[",5b,00,00,00) + className);
-HXLINE( 884)		 ::Dynamic arg = null();
-HXLINE( 886)		{
-HXLINE( 886)			int _g = 0;
-HXDLIN( 886)			while((_g < parameters->length)){
-HXLINE( 886)				::String param = parameters->__get(_g);
-HXDLIN( 886)				_g = (_g + 1);
-HXLINE( 888)				arg = ::Reflect_obj::field(::hx::ObjectPtr<OBJ_>(this),param);
-HXLINE( 890)				if (::Std_obj::isOfType(arg,::hx::ClassOf< ::String >())) {
-HXLINE( 892)					output = (output + ((((HX_(" ",20,00,00,00) + param) + HX_("=\"",45,35,00,00)) + ::Std_obj::string(arg)) + HX_("\"",22,00,00,00)));
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_887___formatToString)
+HXLINE( 890)		::String output = (HX_("[",5b,00,00,00) + className);
+HXLINE( 891)		 ::Dynamic arg = null();
+HXLINE( 893)		{
+HXLINE( 893)			int _g = 0;
+HXDLIN( 893)			while((_g < parameters->length)){
+HXLINE( 893)				::String param = parameters->__get(_g);
+HXDLIN( 893)				_g = (_g + 1);
+HXLINE( 895)				arg = ::Reflect_obj::field(::hx::ObjectPtr<OBJ_>(this),param);
+HXLINE( 897)				if (::Std_obj::isOfType(arg,::hx::ClassOf< ::String >())) {
+HXLINE( 899)					output = (output + ((((HX_(" ",20,00,00,00) + param) + HX_("=\"",45,35,00,00)) + ::Std_obj::string(arg)) + HX_("\"",22,00,00,00)));
             				}
             				else {
-HXLINE( 896)					output = (output + (((HX_(" ",20,00,00,00) + param) + HX_("=",3d,00,00,00)) + ::Std_obj::string(arg)));
+HXLINE( 903)					output = (output + (((HX_(" ",20,00,00,00) + param) + HX_("=",3d,00,00,00)) + ::Std_obj::string(arg)));
             				}
             			}
             		}
-HXLINE( 900)		output = (output + HX_("]",5d,00,00,00));
-HXLINE( 901)		return output;
+HXLINE( 907)		output = (output + HX_("]",5d,00,00,00));
+HXLINE( 908)		return output;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Event_obj,_hx___formatToString,return )
 
 void Event_obj::_hx___init(){
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_905___init)
-HXLINE( 907)		this->target = null();
-HXLINE( 908)		this->currentTarget = null();
-HXLINE( 909)		this->bubbles = false;
-HXLINE( 910)		this->cancelable = false;
-HXLINE( 911)		this->eventPhase = 2;
-HXLINE( 912)		this->_hx___isCanceled = false;
-HXLINE( 913)		this->_hx___isCanceledNow = false;
-HXLINE( 914)		this->_hx___preventDefault = false;
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_912___init)
+HXLINE( 914)		this->target = null();
+HXLINE( 915)		this->currentTarget = null();
+HXLINE( 916)		this->bubbles = false;
+HXLINE( 917)		this->cancelable = false;
+HXLINE( 918)		this->eventPhase = 2;
+HXLINE( 919)		this->_hx___isCanceled = false;
+HXLINE( 920)		this->_hx___isCanceledNow = false;
+HXLINE( 921)		this->_hx___preventDefault = false;
             	}
 
 
@@ -647,148 +647,148 @@ void Event_obj::__register()
 void Event_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_71_boot)
-HXDLIN(  71)		ACTIVATE = HX_("activate",b3,1b,ac,e5);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_75_boot)
+HXDLIN(  75)		ACTIVATE = HX_("activate",b3,1b,ac,e5);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_85_boot)
-HXDLIN(  85)		ADDED = HX_("added",c0,d4,43,1c);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_89_boot)
+HXDLIN(  89)		ADDED = HX_("added",c0,d4,43,1c);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_99_boot)
-HXDLIN(  99)		ADDED_TO_STAGE = HX_("addedToStage",63,22,55,0c);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_103_boot)
+HXDLIN( 103)		ADDED_TO_STAGE = HX_("addedToStage",63,22,55,0c);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_115_boot)
-HXDLIN( 115)		CANCEL = HX_("cancel",7a,ed,33,b8);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_119_boot)
+HXDLIN( 119)		CANCEL = HX_("cancel",7a,ed,33,b8);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_129_boot)
-HXDLIN( 129)		CHANGE = HX_("change",70,91,72,b7);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_133_boot)
+HXDLIN( 133)		CHANGE = HX_("change",70,91,72,b7);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_157_boot)
-HXDLIN( 157)		CLEAR = HX_("clear",8d,71,5b,48);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_161_boot)
+HXDLIN( 161)		CLEAR = HX_("clear",8d,71,5b,48);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_171_boot)
-HXDLIN( 171)		CLOSE = HX_("close",b8,17,63,48);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_175_boot)
+HXDLIN( 175)		CLOSE = HX_("close",b8,17,63,48);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_185_boot)
-HXDLIN( 185)		COMPLETE = HX_("complete",b9,00,c8,7f);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_189_boot)
+HXDLIN( 189)		COMPLETE = HX_("complete",b9,00,c8,7f);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_199_boot)
-HXDLIN( 199)		CONNECT = HX_("connect",ea,3b,80,15);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_203_boot)
+HXDLIN( 203)		CONNECT = HX_("connect",ea,3b,80,15);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_208_boot)
-HXDLIN( 208)		CONTEXT3D_CREATE = HX_("context3DCreate",7c,bf,59,7b);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_212_boot)
+HXDLIN( 212)		CONTEXT3D_CREATE = HX_("context3DCreate",7c,bf,59,7b);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_232_boot)
-HXDLIN( 232)		COPY = HX_("copy",b5,bb,c4,41);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_236_boot)
+HXDLIN( 236)		COPY = HX_("copy",b5,bb,c4,41);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_256_boot)
-HXDLIN( 256)		CUT = HX_("cut",82,85,4b,00);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_260_boot)
+HXDLIN( 260)		CUT = HX_("cut",82,85,4b,00);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_277_boot)
-HXDLIN( 277)		DEACTIVATE = HX_("deactivate",34,5c,01,3c);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_281_boot)
+HXDLIN( 281)		DEACTIVATE = HX_("deactivate",34,5c,01,3c);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_295_boot)
-HXDLIN( 295)		ENTER_FRAME = HX_("enterFrame",f5,03,50,02);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_299_boot)
+HXDLIN( 299)		ENTER_FRAME = HX_("enterFrame",f5,03,50,02);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_313_boot)
-HXDLIN( 313)		EXIT_FRAME = HX_("exitFrame",2f,64,48,12);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_317_boot)
+HXDLIN( 317)		EXIT_FRAME = HX_("exitFrame",2f,64,48,12);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_331_boot)
-HXDLIN( 331)		FRAME_CONSTRUCTED = HX_("frameConstructed",09,89,5d,98);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_335_boot)
+HXDLIN( 335)		FRAME_CONSTRUCTED = HX_("frameConstructed",09,89,5d,98);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_349_boot)
-HXDLIN( 349)		FRAME_LABEL = HX_("frameLabel",87,42,d5,52);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_353_boot)
+HXDLIN( 353)		FRAME_LABEL = HX_("frameLabel",87,42,d5,52);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_363_boot)
-HXDLIN( 363)		FULLSCREEN = HX_("fullScreen",5b,ae,48,2e);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_367_boot)
+HXDLIN( 367)		FULLSCREEN = HX_("fullScreen",5b,ae,48,2e);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_377_boot)
-HXDLIN( 377)		ID3 = HX_("id3",f8,03,50,00);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_381_boot)
+HXDLIN( 381)		ID3 = HX_("id3",f8,03,50,00);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_391_boot)
-HXDLIN( 391)		INIT = HX_("init",10,3b,bb,45);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_395_boot)
+HXDLIN( 395)		INIT = HX_("init",10,3b,bb,45);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_405_boot)
-HXDLIN( 405)		MOUSE_LEAVE = HX_("mouseLeave",92,28,20,90);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_409_boot)
+HXDLIN( 409)		MOUSE_LEAVE = HX_("mouseLeave",92,28,20,90);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_419_boot)
-HXDLIN( 419)		OPEN = HX_("open",ca,03,b4,49);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_423_boot)
+HXDLIN( 423)		OPEN = HX_("open",ca,03,b4,49);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_444_boot)
-HXDLIN( 444)		PASTE = HX_("paste",53,53,56,bd);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_448_boot)
+HXDLIN( 448)		PASTE = HX_("paste",53,53,56,bd);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_458_boot)
-HXDLIN( 458)		REMOVED = HX_("removed",a0,1f,00,f3);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_462_boot)
+HXDLIN( 462)		REMOVED = HX_("removed",a0,1f,00,f3);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_472_boot)
-HXDLIN( 472)		REMOVED_FROM_STAGE = HX_("removedFromStage",34,21,76,ba);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_476_boot)
+HXDLIN( 476)		REMOVED_FROM_STAGE = HX_("removedFromStage",34,21,76,ba);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_490_boot)
-HXDLIN( 490)		RENDER = HX_("render",56,6b,29,05);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_494_boot)
+HXDLIN( 494)		RENDER = HX_("render",56,6b,29,05);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_504_boot)
-HXDLIN( 504)		RESIZE = HX_("resize",f4,59,7b,08);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_508_boot)
+HXDLIN( 508)		RESIZE = HX_("resize",f4,59,7b,08);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_518_boot)
-HXDLIN( 518)		SCROLL = HX_("scroll",0d,d8,64,47);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_522_boot)
+HXDLIN( 522)		SCROLL = HX_("scroll",0d,d8,64,47);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_532_boot)
-HXDLIN( 532)		SELECT = HX_("select",fc,1a,33,6a);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_536_boot)
+HXDLIN( 536)		SELECT = HX_("select",fc,1a,33,6a);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_557_boot)
-HXDLIN( 557)		SELECT_ALL = HX_("selectAll",85,9b,fc,8d);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_561_boot)
+HXDLIN( 561)		SELECT_ALL = HX_("selectAll",85,9b,fc,8d);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_571_boot)
-HXDLIN( 571)		SOUND_COMPLETE = HX_("soundComplete",a8,30,e6,1c);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_575_boot)
+HXDLIN( 575)		SOUND_COMPLETE = HX_("soundComplete",a8,30,e6,1c);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_585_boot)
-HXDLIN( 585)		TAB_CHILDREN_CHANGE = HX_("tabChildrenChange",44,91,b5,de);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_589_boot)
+HXDLIN( 589)		TAB_CHILDREN_CHANGE = HX_("tabChildrenChange",44,91,b5,de);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_599_boot)
-HXDLIN( 599)		TAB_ENABLED_CHANGE = HX_("tabEnabledChange",3c,45,98,72);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_603_boot)
+HXDLIN( 603)		TAB_ENABLED_CHANGE = HX_("tabEnabledChange",3c,45,98,72);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_613_boot)
-HXDLIN( 613)		TAB_INDEX_CHANGE = HX_("tabIndexChange",cd,1d,78,90);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_617_boot)
+HXDLIN( 617)		TAB_INDEX_CHANGE = HX_("tabIndexChange",cd,1d,78,90);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_622_boot)
-HXDLIN( 622)		TEXTURE_READY = HX_("textureReady",88,4d,5a,df);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_626_boot)
+HXDLIN( 626)		TEXTURE_READY = HX_("textureReady",88,4d,5a,df);
             	}
 {
-            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_652_boot)
-HXDLIN( 652)		UNLOAD = HX_("unload",ff,a0,8c,65);
+            	HX_STACKFRAME(&_hx_pos_460ec5366bb20ab2_656_boot)
+HXDLIN( 656)		UNLOAD = HX_("unload",ff,a0,8c,65);
             	}
 }
 

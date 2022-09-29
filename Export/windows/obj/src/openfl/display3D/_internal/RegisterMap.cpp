@@ -186,7 +186,7 @@ HXLINE( 609)					_hx_tmp = false;
             				}
 HXDLIN( 609)				if (_hx_tmp) {
 HXLINE( 611)					if (::hx::IsPointerNotEq( entry->usage,usage )) {
-HXLINE( 613)						HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Cannot use register in multiple ways yet (mat4/vec4)",5e,30,e0,74))));
+HXLINE( 613)						HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,HX_("Cannot use register in multiple ways yet (mat4/vec4)",5e,30,e0,74)));
             					}
 HXLINE( 616)					return;
             				}
@@ -406,7 +406,7 @@ HXLINE( 726)							sb->b->push(HX_("uniform ",6c,cc,54,02));
             					}
             					break;
             					default:{
-HXLINE( 729)						HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,null())));
+HXLINE( 729)						HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,null()));
             					}
             				}
 HXLINE( 732)				switch((int)(entry->usage->_hx_getIndex())){

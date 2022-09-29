@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_241b089bf20ccbef_232_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_241b089bf20ccbef_265_new)
 HX_DECLARE_CLASS2(lime,_hx_system,JNIStaticField)
 
 namespace lime{
@@ -38,8 +38,8 @@ class HXCPP_CLASS_ATTRIBUTES JNIStaticField_obj : public ::hx::Object
 			JNIStaticField_obj *__this = (JNIStaticField_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(JNIStaticField_obj), true, "lime.system.JNIStaticField"));
 			*(void **)__this = JNIStaticField_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_241b089bf20ccbef_232_new)
-HXDLIN( 232)		( ( ::lime::_hx_system::JNIStaticField)(__this) )->field = field;
+            	HX_STACKFRAME(&_hx_pos_241b089bf20ccbef_265_new)
+HXDLIN( 265)		( ( ::lime::_hx_system::JNIStaticField)(__this) )->field = field;
             	}
 		
 			return __this;

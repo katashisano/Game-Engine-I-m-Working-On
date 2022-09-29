@@ -1,5 +1,8 @@
 #include <hxcpp.h>
 
+#ifndef INCLUDED_haxe_Exception
+#include <haxe/Exception.h>
+#endif
 #ifndef INCLUDED_openfl_errors_Error
 #include <openfl/errors/Error.h>
 #endif
@@ -31,10 +34,14 @@ Dynamic RangeError_obj::__Create(::hx::DynamicArray inArgs)
 }
 
 bool RangeError_obj::_hx_isInstanceOf(int inClassId) {
-	if (inClassId<=(int)0x3495c9c5) {
-		return inClassId==(int)0x00000001 || inClassId==(int)0x3495c9c5;
+	if (inClassId<=(int)0x5467b8e6) {
+		if (inClassId<=(int)0x3495c9c5) {
+			return inClassId==(int)0x00000001 || inClassId==(int)0x3495c9c5;
+		} else {
+			return inClassId==(int)0x5467b8e6;
+		}
 	} else {
-		return inClassId==(int)0x5467b8e6;
+		return inClassId==(int)0x677ddc49;
 	}
 }
 

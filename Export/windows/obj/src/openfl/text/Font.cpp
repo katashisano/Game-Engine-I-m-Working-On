@@ -1,5 +1,8 @@
 #include <hxcpp.h>
 
+#ifndef INCLUDED_Sys
+#include <Sys.h>
+#endif
 #ifndef INCLUDED_Type
 #include <Type.h>
 #endif
@@ -14,6 +17,9 @@
 #endif
 #ifndef INCLUDED_lime_app_Future
 #include <lime/app/Future.h>
+#endif
+#ifndef INCLUDED_lime_system_System
+#include <lime/system/System.h>
 #endif
 #ifndef INCLUDED_lime_text_Font
 #include <lime/text/Font.h>
@@ -36,22 +42,25 @@
 #ifndef INCLUDED_openfl_utils__ByteArray_ByteArray_Impl_
 #include <openfl/utils/_ByteArray/ByteArray_Impl_.h>
 #endif
+#ifndef INCLUDED_sys_FileSystem
+#include <sys/FileSystem.h>
+#endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_60_new,"openfl.text.Font","new",0xe13d5ce4,"openfl.text.Font.new","openfl/text/Font.hx",60,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_244___fromLimeFont,"openfl.text.Font","__fromLimeFont",0x57c4282a,"openfl.text.Font.__fromLimeFont","openfl/text/Font.hx",244,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_249___initialize,"openfl.text.Font","__initialize",0x3f396f6c,"openfl.text.Font.__initialize","openfl/text/Font.hx",249,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_274_get_fontName,"openfl.text.Font","get_fontName",0x9a8206bf,"openfl.text.Font.get_fontName","openfl/text/Font.hx",274,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_283_set_fontName,"openfl.text.Font","set_fontName",0xaf7b2a33,"openfl.text.Font.set_fontName","openfl/text/Font.hx",283,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_79_enumerateFonts,"openfl.text.Font","enumerateFonts",0x792ac3fc,"openfl.text.Font.enumerateFonts","openfl/text/Font.hx",79,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_91_fromBytes,"openfl.text.Font","fromBytes",0x95ccba25,"openfl.text.Font.fromBytes","openfl/text/Font.hx",91,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_112_fromFile,"openfl.text.Font","fromFile",0x919e3202,"openfl.text.Font.fromFile","openfl/text/Font.hx",112,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_150_loadFromBytes,"openfl.text.Font","loadFromBytes",0x88069d1f,"openfl.text.Font.loadFromBytes","openfl/text/Font.hx",150,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_149_loadFromBytes,"openfl.text.Font","loadFromBytes",0x88069d1f,"openfl.text.Font.loadFromBytes","openfl/text/Font.hx",149,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_174_loadFromFile,"openfl.text.Font","loadFromFile",0x74db4c48,"openfl.text.Font.loadFromFile","openfl/text/Font.hx",174,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_173_loadFromFile,"openfl.text.Font","loadFromFile",0x74db4c48,"openfl.text.Font.loadFromFile","openfl/text/Font.hx",173,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_200_loadFromName,"openfl.text.Font","loadFromName",0x7a1ef017,"openfl.text.Font.loadFromName","openfl/text/Font.hx",200,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_199_loadFromName,"openfl.text.Font","loadFromName",0x7a1ef017,"openfl.text.Font.loadFromName","openfl/text/Font.hx",199,0x076bbaac)
-HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_216_registerFont,"openfl.text.Font","registerFont",0xd99a60ce,"openfl.text.Font.registerFont","openfl/text/Font.hx",216,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_274___fromLimeFont,"openfl.text.Font","__fromLimeFont",0x57c4282a,"openfl.text.Font.__fromLimeFont","openfl/text/Font.hx",274,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_279___initialize,"openfl.text.Font","__initialize",0x3f396f6c,"openfl.text.Font.__initialize","openfl/text/Font.hx",279,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_304_get_fontName,"openfl.text.Font","get_fontName",0x9a8206bf,"openfl.text.Font.get_fontName","openfl/text/Font.hx",304,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_313_set_fontName,"openfl.text.Font","set_fontName",0xaf7b2a33,"openfl.text.Font.set_fontName","openfl/text/Font.hx",313,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_78_enumerateFonts,"openfl.text.Font","enumerateFonts",0x792ac3fc,"openfl.text.Font.enumerateFonts","openfl/text/Font.hx",78,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_121_fromBytes,"openfl.text.Font","fromBytes",0x95ccba25,"openfl.text.Font.fromBytes","openfl/text/Font.hx",121,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_142_fromFile,"openfl.text.Font","fromFile",0x919e3202,"openfl.text.Font.fromFile","openfl/text/Font.hx",142,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_180_loadFromBytes,"openfl.text.Font","loadFromBytes",0x88069d1f,"openfl.text.Font.loadFromBytes","openfl/text/Font.hx",180,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_179_loadFromBytes,"openfl.text.Font","loadFromBytes",0x88069d1f,"openfl.text.Font.loadFromBytes","openfl/text/Font.hx",179,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_204_loadFromFile,"openfl.text.Font","loadFromFile",0x74db4c48,"openfl.text.Font.loadFromFile","openfl/text/Font.hx",204,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_203_loadFromFile,"openfl.text.Font","loadFromFile",0x74db4c48,"openfl.text.Font.loadFromFile","openfl/text/Font.hx",203,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_230_loadFromName,"openfl.text.Font","loadFromName",0x7a1ef017,"openfl.text.Font.loadFromName","openfl/text/Font.hx",230,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_229_loadFromName,"openfl.text.Font","loadFromName",0x7a1ef017,"openfl.text.Font.loadFromName","openfl/text/Font.hx",229,0x076bbaac)
+HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_246_registerFont,"openfl.text.Font","registerFont",0xd99a60ce,"openfl.text.Font.registerFont","openfl/text/Font.hx",246,0x076bbaac)
 HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_42_boot,"openfl.text.Font","boot",0x2c8ceb2e,"openfl.text.Font.boot","openfl/text/Font.hx",42,0x076bbaac)
 HX_LOCAL_STACK_FRAME(_hx_pos_bf5c0d6977753a1b_43_boot,"openfl.text.Font","boot",0x2c8ceb2e,"openfl.text.Font.boot","openfl/text/Font.hx",43,0x076bbaac)
 namespace openfl{
@@ -82,60 +91,60 @@ bool Font_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Font_obj::_hx___fromLimeFont( ::lime::text::Font font){
-            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_244___fromLimeFont)
-HXDLIN( 244)		this->_hx___copyFrom(font);
+            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_274___fromLimeFont)
+HXDLIN( 274)		this->_hx___copyFrom(font);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Font_obj,_hx___fromLimeFont,(void))
 
 bool Font_obj::_hx___initialize(){
-            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_249___initialize)
-HXLINE( 251)		if (!(this->_hx___initialized)) {
-HXLINE( 253)			if (::hx::IsNotNull( this->src )) {
-HXLINE( 256)				if ((this->unitsPerEM == 0)) {
-HXLINE( 256)					this->_hx___initializeSource();
+            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_279___initialize)
+HXLINE( 281)		if (!(this->_hx___initialized)) {
+HXLINE( 283)			if (::hx::IsNotNull( this->src )) {
+HXLINE( 286)				if ((this->unitsPerEM == 0)) {
+HXLINE( 286)					this->_hx___initializeSource();
             				}
-HXLINE( 257)				this->_hx___initialized = true;
+HXLINE( 287)				this->_hx___initialized = true;
             			}
             			else {
-HXLINE( 259)				bool _hx_tmp;
-HXDLIN( 259)				bool _hx_tmp1;
-HXDLIN( 259)				if (::hx::IsNull( this->src )) {
-HXLINE( 259)					_hx_tmp1 = ::hx::IsNotNull( this->_hx___fontID );
+HXLINE( 289)				bool _hx_tmp;
+HXDLIN( 289)				bool _hx_tmp1;
+HXDLIN( 289)				if (::hx::IsNull( this->src )) {
+HXLINE( 289)					_hx_tmp1 = ::hx::IsNotNull( this->_hx___fontID );
             				}
             				else {
-HXLINE( 259)					_hx_tmp1 = false;
+HXLINE( 289)					_hx_tmp1 = false;
             				}
-HXDLIN( 259)				if (_hx_tmp1) {
-HXLINE( 259)					_hx_tmp = ::openfl::utils::Assets_obj::isLocal(this->_hx___fontID,null(),null());
+HXDLIN( 289)				if (_hx_tmp1) {
+HXLINE( 289)					_hx_tmp = ::openfl::utils::Assets_obj::isLocal(this->_hx___fontID,null(),null());
             				}
             				else {
-HXLINE( 259)					_hx_tmp = false;
+HXLINE( 289)					_hx_tmp = false;
             				}
-HXDLIN( 259)				if (_hx_tmp) {
-HXLINE( 261)					this->_hx___fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytes(::openfl::utils::Assets_obj::getBytes(this->_hx___fontID)));
-HXLINE( 262)					this->_hx___initialized = true;
+HXDLIN( 289)				if (_hx_tmp) {
+HXLINE( 291)					this->_hx___fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytes(::openfl::utils::Assets_obj::getBytes(this->_hx___fontID)));
+HXLINE( 292)					this->_hx___initialized = true;
             				}
             			}
             		}
-HXLINE( 267)		return this->_hx___initialized;
+HXLINE( 297)		return this->_hx___initialized;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Font_obj,_hx___initialize,return )
 
 ::String Font_obj::get_fontName(){
-            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_274_get_fontName)
-HXDLIN( 274)		return this->name;
+            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_304_get_fontName)
+HXDLIN( 304)		return this->name;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Font_obj,get_fontName,return )
 
 ::String Font_obj::set_fontName(::String value){
-            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_283_set_fontName)
-HXDLIN( 283)		return (this->name = value);
+            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_313_set_fontName)
+HXDLIN( 313)		return (this->name = value);
             	}
 
 
@@ -147,40 +156,69 @@ HX_DEFINE_DYNAMIC_FUNC1(Font_obj,set_fontName,return )
 
 ::Array< ::Dynamic> Font_obj::enumerateFonts(::hx::Null< bool >  __o_enumerateDeviceFonts){
             		bool enumerateDeviceFonts = __o_enumerateDeviceFonts.Default(false);
-            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_79_enumerateFonts)
-HXDLIN(  79)		return ::openfl::text::Font_obj::_hx___registeredFonts;
+            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_78_enumerateFonts)
+HXLINE(  80)		if (enumerateDeviceFonts) {
+HXLINE(  82)			::Array< ::Dynamic> _allFonts = ::openfl::text::Font_obj::_hx___registeredFonts->copy();
+HXLINE(  83)			::Array< ::String > files = ::sys::FileSystem_obj::readDirectory(::lime::_hx_system::System_obj::get_fontsDirectory());
+HXLINE(  84)			{
+HXLINE(  84)				int _g = 0;
+HXDLIN(  84)				while((_g < files->length)){
+HXLINE(  84)					::String file = files->__get(_g);
+HXDLIN(  84)					_g = (_g + 1);
+HXLINE(  86)					if ((file.toLowerCase().indexOf(HX_(".ttf",78,3b,c0,1e),null()) != -1)) {
+HXLINE(  87)						_allFonts->push(::openfl::text::Font_obj::fromFile((::lime::_hx_system::System_obj::get_fontsDirectory() + file)));
+            					}
+            				}
+            			}
+HXLINE(  94)			::String alternateFontsDirectory = ((HX_("",00,00,00,00) + ::Sys_obj::getEnv(HX_("LocalAppData",60,61,db,d1))) + HX_("\\Microsoft\\Windows\\Fonts",01,0e,94,9c));
+HXLINE(  95)			if (::sys::FileSystem_obj::exists(alternateFontsDirectory)) {
+HXLINE(  97)				files = ::sys::FileSystem_obj::readDirectory(alternateFontsDirectory);
+HXLINE(  98)				{
+HXLINE(  98)					int _g = 0;
+HXDLIN(  98)					while((_g < files->length)){
+HXLINE(  98)						::String file = files->__get(_g);
+HXDLIN(  98)						_g = (_g + 1);
+HXLINE( 100)						if ((file.toLowerCase().indexOf(HX_(".ttf",78,3b,c0,1e),null()) != -1)) {
+HXLINE( 101)							_allFonts->push(::openfl::text::Font_obj::fromFile((alternateFontsDirectory + file)));
+            						}
+            					}
+            				}
+            			}
+HXLINE( 106)			return _allFonts;
+            		}
+HXLINE( 109)		return ::openfl::text::Font_obj::_hx___registeredFonts;
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Font_obj,enumerateFonts,return )
 
  ::openfl::text::Font Font_obj::fromBytes( ::openfl::utils::ByteArrayData bytes){
-            	HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_91_fromBytes)
-HXLINE(  92)		 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
-HXLINE(  94)		font->_hx___fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytes(bytes));
-HXLINE(  98)		if (::hx::IsNotNull( font->src )) {
-HXLINE(  98)			return font;
+            	HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_121_fromBytes)
+HXLINE( 122)		 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
+HXLINE( 124)		font->_hx___fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytes(bytes));
+HXLINE( 128)		if (::hx::IsNotNull( font->src )) {
+HXLINE( 128)			return font;
             		}
             		else {
-HXLINE(  98)			return null();
+HXLINE( 128)			return null();
             		}
-HXDLIN(  98)		return null();
+HXDLIN( 128)		return null();
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Font_obj,fromBytes,return )
 
  ::openfl::text::Font Font_obj::fromFile(::String path){
-            	HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_112_fromFile)
-HXLINE( 113)		 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
-HXLINE( 115)		font->_hx___fromFile(path);
-HXLINE( 119)		if (::hx::IsNotNull( font->src )) {
-HXLINE( 119)			return font;
+            	HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_142_fromFile)
+HXLINE( 143)		 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
+HXLINE( 145)		font->_hx___fromFile(path);
+HXLINE( 149)		if (::hx::IsNotNull( font->src )) {
+HXLINE( 149)			return font;
             		}
             		else {
-HXLINE( 119)			return null();
+HXLINE( 149)			return null();
             		}
-HXDLIN( 119)		return null();
+HXDLIN( 149)		return null();
             	}
 
 
@@ -189,15 +227,15 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(Font_obj,fromFile,return )
  ::lime::app::Future Font_obj::loadFromBytes( ::openfl::utils::ByteArrayData bytes){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::text::Font limeFont){
-            			HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_150_loadFromBytes)
-HXLINE( 151)			 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
-HXLINE( 152)			font->_hx___fromLimeFont(limeFont);
-HXLINE( 154)			return ::lime::app::Future_obj::withValue(font);
+            			HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_180_loadFromBytes)
+HXLINE( 181)			 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
+HXLINE( 182)			font->_hx___fromLimeFont(limeFont);
+HXLINE( 184)			return ::lime::app::Future_obj::withValue(font);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_149_loadFromBytes)
-HXDLIN( 149)		return ::lime::text::Font_obj::loadFromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytes(bytes))->then( ::Dynamic(new _hx_Closure_0()));
+            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_179_loadFromBytes)
+HXDLIN( 179)		return ::lime::text::Font_obj::loadFromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toBytes(bytes))->then( ::Dynamic(new _hx_Closure_0()));
             	}
 
 
@@ -206,15 +244,15 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(Font_obj,loadFromBytes,return )
  ::lime::app::Future Font_obj::loadFromFile(::String path){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::text::Font limeFont){
-            			HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_174_loadFromFile)
-HXLINE( 175)			 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
-HXLINE( 176)			font->_hx___fromLimeFont(limeFont);
-HXLINE( 178)			return ::lime::app::Future_obj::withValue(font);
+            			HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_204_loadFromFile)
+HXLINE( 205)			 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
+HXLINE( 206)			font->_hx___fromLimeFont(limeFont);
+HXLINE( 208)			return ::lime::app::Future_obj::withValue(font);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_173_loadFromFile)
-HXDLIN( 173)		return ::lime::text::Font_obj::loadFromFile(path)->then( ::Dynamic(new _hx_Closure_0()));
+            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_203_loadFromFile)
+HXDLIN( 203)		return ::lime::text::Font_obj::loadFromFile(path)->then( ::Dynamic(new _hx_Closure_0()));
             	}
 
 
@@ -223,32 +261,32 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(Font_obj,loadFromFile,return )
  ::lime::app::Future Font_obj::loadFromName(::String path){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::text::Font limeFont){
-            			HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_200_loadFromName)
-HXLINE( 201)			 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
-HXLINE( 202)			font->_hx___fromLimeFont(limeFont);
-HXLINE( 204)			return ::lime::app::Future_obj::withValue(font);
+            			HX_GC_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_230_loadFromName)
+HXLINE( 231)			 ::openfl::text::Font font =  ::openfl::text::Font_obj::__alloc( HX_CTX ,null());
+HXLINE( 232)			font->_hx___fromLimeFont(limeFont);
+HXLINE( 234)			return ::lime::app::Future_obj::withValue(font);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_199_loadFromName)
-HXDLIN( 199)		return ::lime::text::Font_obj::loadFromName(path)->then( ::Dynamic(new _hx_Closure_0()));
+            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_229_loadFromName)
+HXDLIN( 229)		return ::lime::text::Font_obj::loadFromName(path)->then( ::Dynamic(new _hx_Closure_0()));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC1(Font_obj,loadFromName,return )
 
 void Font_obj::registerFont( ::Dynamic font){
-            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_216_registerFont)
-HXLINE( 217)		 ::openfl::text::Font instance = null();
-HXLINE( 219)		if (::hx::IsNull( ::Type_obj::getClass(font) )) {
-HXLINE( 221)			instance = ::hx::TCast<  ::openfl::text::Font >::cast(::Type_obj::createInstance(font,::cpp::VirtualArray_obj::__new(0)));
+            	HX_STACKFRAME(&_hx_pos_bf5c0d6977753a1b_246_registerFont)
+HXLINE( 247)		 ::openfl::text::Font instance = null();
+HXLINE( 249)		if (::hx::IsNull( ::Type_obj::getClass(font) )) {
+HXLINE( 251)			instance = ::hx::TCast<  ::openfl::text::Font >::cast(::Type_obj::createInstance(font,::cpp::VirtualArray_obj::__new(0)));
             		}
             		else {
-HXLINE( 225)			instance = ::hx::TCast<  ::openfl::text::Font >::cast(font);
+HXLINE( 255)			instance = ::hx::TCast<  ::openfl::text::Font >::cast(font);
             		}
-HXLINE( 228)		if (::hx::IsNotNull( instance )) {
-HXLINE( 236)			::openfl::text::Font_obj::_hx___registeredFonts->push(instance);
-HXLINE( 237)			::openfl::text::Font_obj::_hx___fontByName->set(instance->name,instance);
+HXLINE( 258)		if (::hx::IsNotNull( instance )) {
+HXLINE( 266)			::openfl::text::Font_obj::_hx___registeredFonts->push(instance);
+HXLINE( 267)			::openfl::text::Font_obj::_hx___fontByName->set(instance->name,instance);
             		}
             	}
 

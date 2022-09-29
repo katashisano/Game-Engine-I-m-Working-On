@@ -3,6 +3,8 @@ package;
 import openfl.events.Event;
 import openfl.display.Sprite;
 
+// not in use (will probably never be used tbh, imagine copying unity lol)
+
 class Behaviour extends Sprite {
 
     public function new() {

@@ -17,21 +17,23 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_12_new,"lime.media.AudioSource","new",0xf0422400,"lime.media.AudioSource.new","lime/media/AudioSource.hx",12,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_47_dispose,"lime.media.AudioSource","dispose",0x9c7d243f,"lime.media.AudioSource.dispose","lime/media/AudioSource.hx",47,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_52_init,"lime.media.AudioSource","init",0x46561370,"lime.media.AudioSource.init","lime/media/AudioSource.hx",52,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_57_play,"lime.media.AudioSource","play",0x4af50654,"lime.media.AudioSource.play","lime/media/AudioSource.hx",57,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_62_pause,"lime.media.AudioSource","pause",0x443a5296,"lime.media.AudioSource.pause","lime/media/AudioSource.hx",62,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_67_stop,"lime.media.AudioSource","stop",0x4cf6c862,"lime.media.AudioSource.stop","lime/media/AudioSource.hx",67,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_73_get_currentTime,"lime.media.AudioSource","get_currentTime",0x645da01d,"lime.media.AudioSource.get_currentTime","lime/media/AudioSource.hx",73,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_78_set_currentTime,"lime.media.AudioSource","set_currentTime",0x60291d29,"lime.media.AudioSource.set_currentTime","lime/media/AudioSource.hx",78,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_83_get_gain,"lime.media.AudioSource","get_gain",0xed783468,"lime.media.AudioSource.get_gain","lime/media/AudioSource.hx",83,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_88_set_gain,"lime.media.AudioSource","set_gain",0x9bd58ddc,"lime.media.AudioSource.set_gain","lime/media/AudioSource.hx",88,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_93_get_length,"lime.media.AudioSource","get_length",0xb3e8650f,"lime.media.AudioSource.get_length","lime/media/AudioSource.hx",93,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_98_set_length,"lime.media.AudioSource","set_length",0xb7660383,"lime.media.AudioSource.set_length","lime/media/AudioSource.hx",98,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_103_get_loops,"lime.media.AudioSource","get_loops",0xc5fc1986,"lime.media.AudioSource.get_loops","lime/media/AudioSource.hx",103,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_108_set_loops,"lime.media.AudioSource","set_loops",0xa94d0592,"lime.media.AudioSource.set_loops","lime/media/AudioSource.hx",108,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_113_get_position,"lime.media.AudioSource","get_position",0x75ce8d12,"lime.media.AudioSource.get_position","lime/media/AudioSource.hx",113,0xae7961b2)
-HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_118_set_position,"lime.media.AudioSource","set_position",0x8ac7b086,"lime.media.AudioSource.set_position","lime/media/AudioSource.hx",118,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_48_dispose,"lime.media.AudioSource","dispose",0x9c7d243f,"lime.media.AudioSource.dispose","lime/media/AudioSource.hx",48,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_53_init,"lime.media.AudioSource","init",0x46561370,"lime.media.AudioSource.init","lime/media/AudioSource.hx",53,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_58_play,"lime.media.AudioSource","play",0x4af50654,"lime.media.AudioSource.play","lime/media/AudioSource.hx",58,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_63_pause,"lime.media.AudioSource","pause",0x443a5296,"lime.media.AudioSource.pause","lime/media/AudioSource.hx",63,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_68_stop,"lime.media.AudioSource","stop",0x4cf6c862,"lime.media.AudioSource.stop","lime/media/AudioSource.hx",68,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_74_get_currentTime,"lime.media.AudioSource","get_currentTime",0x645da01d,"lime.media.AudioSource.get_currentTime","lime/media/AudioSource.hx",74,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_79_set_currentTime,"lime.media.AudioSource","set_currentTime",0x60291d29,"lime.media.AudioSource.set_currentTime","lime/media/AudioSource.hx",79,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_84_get_gain,"lime.media.AudioSource","get_gain",0xed783468,"lime.media.AudioSource.get_gain","lime/media/AudioSource.hx",84,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_89_set_gain,"lime.media.AudioSource","set_gain",0x9bd58ddc,"lime.media.AudioSource.set_gain","lime/media/AudioSource.hx",89,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_94_get_length,"lime.media.AudioSource","get_length",0xb3e8650f,"lime.media.AudioSource.get_length","lime/media/AudioSource.hx",94,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_99_set_length,"lime.media.AudioSource","set_length",0xb7660383,"lime.media.AudioSource.set_length","lime/media/AudioSource.hx",99,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_104_get_loops,"lime.media.AudioSource","get_loops",0xc5fc1986,"lime.media.AudioSource.get_loops","lime/media/AudioSource.hx",104,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_109_set_loops,"lime.media.AudioSource","set_loops",0xa94d0592,"lime.media.AudioSource.set_loops","lime/media/AudioSource.hx",109,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_114_get_pitch,"lime.media.AudioSource","get_pitch",0x0fa2e3b7,"lime.media.AudioSource.get_pitch","lime/media/AudioSource.hx",114,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_119_set_pitch,"lime.media.AudioSource","set_pitch",0xf2f3cfc3,"lime.media.AudioSource.set_pitch","lime/media/AudioSource.hx",119,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_124_get_position,"lime.media.AudioSource","get_position",0x75ce8d12,"lime.media.AudioSource.get_position","lime/media/AudioSource.hx",124,0xae7961b2)
+HX_LOCAL_STACK_FRAME(_hx_pos_4f77a643dd1d25a9_129_set_position,"lime.media.AudioSource","set_position",0x8ac7b086,"lime.media.AudioSource.set_position","lime/media/AudioSource.hx",129,0xae7961b2)
 namespace lime{
 namespace media{
 
@@ -40,22 +42,22 @@ void AudioSource_obj::__construct( ::lime::media::AudioBuffer buffer,::hx::Null<
             		int loops = __o_loops.Default(0);
             	HX_GC_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_12_new)
 HXLINE(  14)		this->onComplete =  ::lime::app::_Event_Void_Void_obj::__alloc( HX_CTX );
-HXLINE(  27)		this->buffer = buffer;
-HXLINE(  28)		this->offset = offset;
-HXLINE(  30)		this->_hx___backend =  ::lime::_internal::backend::native::NativeAudioSource_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
-HXLINE(  32)		bool _hx_tmp;
-HXDLIN(  32)		if (::hx::IsNotNull( length )) {
-HXLINE(  32)			_hx_tmp = ::hx::IsNotEq( length,0 );
+HXLINE(  28)		this->buffer = buffer;
+HXLINE(  29)		this->offset = offset;
+HXLINE(  31)		this->_hx___backend =  ::lime::_internal::backend::native::NativeAudioSource_obj::__alloc( HX_CTX ,::hx::ObjectPtr<OBJ_>(this));
+HXLINE(  33)		bool _hx_tmp;
+HXDLIN(  33)		if (::hx::IsNotNull( length )) {
+HXLINE(  33)			_hx_tmp = ::hx::IsNotEq( length,0 );
             		}
             		else {
-HXLINE(  32)			_hx_tmp = false;
+HXLINE(  33)			_hx_tmp = false;
             		}
-HXDLIN(  32)		if (_hx_tmp) {
-HXLINE(  34)			this->set_length(( (int)(length) ));
+HXDLIN(  33)		if (_hx_tmp) {
+HXLINE(  35)			this->set_length(( (int)(length) ));
             		}
-HXLINE(  37)		this->set_loops(loops);
-HXLINE(  39)		if (::hx::IsNotNull( buffer )) {
-HXLINE(  41)			this->init();
+HXLINE(  38)		this->set_loops(loops);
+HXLINE(  40)		if (::hx::IsNotNull( buffer )) {
+HXLINE(  42)			this->init();
             		}
             	}
 
@@ -75,120 +77,136 @@ bool AudioSource_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void AudioSource_obj::dispose(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_47_dispose)
-HXDLIN(  47)		this->_hx___backend->dispose();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_48_dispose)
+HXDLIN(  48)		this->_hx___backend->dispose();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,dispose,(void))
 
 void AudioSource_obj::init(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_52_init)
-HXDLIN(  52)		this->_hx___backend->init();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_53_init)
+HXDLIN(  53)		this->_hx___backend->init();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,init,(void))
 
 void AudioSource_obj::play(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_57_play)
-HXDLIN(  57)		this->_hx___backend->play();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_58_play)
+HXDLIN(  58)		this->_hx___backend->play();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,play,(void))
 
 void AudioSource_obj::pause(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_62_pause)
-HXDLIN(  62)		this->_hx___backend->pause();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_63_pause)
+HXDLIN(  63)		this->_hx___backend->pause();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,pause,(void))
 
 void AudioSource_obj::stop(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_67_stop)
-HXDLIN(  67)		this->_hx___backend->stop();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_68_stop)
+HXDLIN(  68)		this->_hx___backend->stop();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,stop,(void))
 
 int AudioSource_obj::get_currentTime(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_73_get_currentTime)
-HXDLIN(  73)		return this->_hx___backend->getCurrentTime();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_74_get_currentTime)
+HXDLIN(  74)		return this->_hx___backend->getCurrentTime();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,get_currentTime,return )
 
 int AudioSource_obj::set_currentTime(int value){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_78_set_currentTime)
-HXDLIN(  78)		return this->_hx___backend->setCurrentTime(value);
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_79_set_currentTime)
+HXDLIN(  79)		return this->_hx___backend->setCurrentTime(value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AudioSource_obj,set_currentTime,return )
 
 Float AudioSource_obj::get_gain(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_83_get_gain)
-HXDLIN(  83)		return this->_hx___backend->getGain();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_84_get_gain)
+HXDLIN(  84)		return this->_hx___backend->getGain();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,get_gain,return )
 
 Float AudioSource_obj::set_gain(Float value){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_88_set_gain)
-HXDLIN(  88)		return this->_hx___backend->setGain(value);
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_89_set_gain)
+HXDLIN(  89)		return this->_hx___backend->setGain(value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AudioSource_obj,set_gain,return )
 
 int AudioSource_obj::get_length(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_93_get_length)
-HXDLIN(  93)		return this->_hx___backend->getLength();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_94_get_length)
+HXDLIN(  94)		return this->_hx___backend->getLength();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,get_length,return )
 
 int AudioSource_obj::set_length(int value){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_98_set_length)
-HXDLIN(  98)		return this->_hx___backend->setLength(value);
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_99_set_length)
+HXDLIN(  99)		return this->_hx___backend->setLength(value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AudioSource_obj,set_length,return )
 
 int AudioSource_obj::get_loops(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_103_get_loops)
-HXDLIN( 103)		return this->_hx___backend->getLoops();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_104_get_loops)
+HXDLIN( 104)		return this->_hx___backend->getLoops();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,get_loops,return )
 
 int AudioSource_obj::set_loops(int value){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_108_set_loops)
-HXDLIN( 108)		return this->_hx___backend->setLoops(value);
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_109_set_loops)
+HXDLIN( 109)		return this->_hx___backend->setLoops(value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AudioSource_obj,set_loops,return )
 
+Float AudioSource_obj::get_pitch(){
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_114_get_pitch)
+HXDLIN( 114)		return this->_hx___backend->getPitch();
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,get_pitch,return )
+
+Float AudioSource_obj::set_pitch(Float value){
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_119_set_pitch)
+HXDLIN( 119)		return this->_hx___backend->setPitch(value);
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(AudioSource_obj,set_pitch,return )
+
  ::lime::math::Vector4 AudioSource_obj::get_position(){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_113_get_position)
-HXDLIN( 113)		return this->_hx___backend->getPosition();
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_124_get_position)
+HXDLIN( 124)		return this->_hx___backend->getPosition();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AudioSource_obj,get_position,return )
 
  ::lime::math::Vector4 AudioSource_obj::set_position( ::lime::math::Vector4 value){
-            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_118_set_position)
-HXDLIN( 118)		return this->_hx___backend->setPosition(value);
+            	HX_STACKFRAME(&_hx_pos_4f77a643dd1d25a9_129_set_position)
+HXDLIN( 129)		return this->_hx___backend->setPosition(value);
             	}
 
 
@@ -241,6 +259,7 @@ void AudioSource_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 5:
 		if (HX_FIELD_EQ(inName,"loops") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_loops() ); }
+		if (HX_FIELD_EQ(inName,"pitch") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( get_pitch() ); }
 		if (HX_FIELD_EQ(inName,"pause") ) { return ::hx::Val( pause_dyn() ); }
 		break;
 	case 6:
@@ -260,6 +279,8 @@ void AudioSource_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"__backend") ) { return ::hx::Val( _hx___backend ); }
 		if (HX_FIELD_EQ(inName,"get_loops") ) { return ::hx::Val( get_loops_dyn() ); }
 		if (HX_FIELD_EQ(inName,"set_loops") ) { return ::hx::Val( set_loops_dyn() ); }
+		if (HX_FIELD_EQ(inName,"get_pitch") ) { return ::hx::Val( get_pitch_dyn() ); }
+		if (HX_FIELD_EQ(inName,"set_pitch") ) { return ::hx::Val( set_pitch_dyn() ); }
 		break;
 	case 10:
 		if (HX_FIELD_EQ(inName,"onComplete") ) { return ::hx::Val( onComplete ); }
@@ -288,6 +309,7 @@ void AudioSource_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 5:
 		if (HX_FIELD_EQ(inName,"loops") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_loops(inValue.Cast< int >()) ); }
+		if (HX_FIELD_EQ(inName,"pitch") ) { if (inCallProp == ::hx::paccAlways) return ::hx::Val( set_pitch(inValue.Cast< Float >()) ); }
 		break;
 	case 6:
 		if (HX_FIELD_EQ(inName,"buffer") ) { buffer=inValue.Cast<  ::lime::media::AudioBuffer >(); return inValue; }
@@ -317,6 +339,7 @@ void AudioSource_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("gain",7f,f0,5e,44));
 	outFields->push(HX_("length",e6,94,07,9f));
 	outFields->push(HX_("loops",8f,f1,f9,78));
+	outFields->push(HX_("pitch",c0,bb,a0,c2));
 	outFields->push(HX_("offset",93,97,3f,60));
 	outFields->push(HX_("position",a9,a0,fa,ca));
 	outFields->push(HX_("__backend",f4,0c,d6,7c));
@@ -352,6 +375,8 @@ static ::String AudioSource_obj_sMemberFields[] = {
 	HX_("set_length",23,a3,0c,93),
 	HX_("get_loops",e6,4d,a3,bc),
 	HX_("set_loops",f2,39,f4,9f),
+	HX_("get_pitch",17,18,4a,06),
+	HX_("set_pitch",23,04,9b,e9),
 	HX_("get_position",b2,54,14,80),
 	HX_("set_position",26,78,0d,95),
 	::String(null()) };

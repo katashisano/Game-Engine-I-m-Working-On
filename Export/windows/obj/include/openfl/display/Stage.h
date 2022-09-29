@@ -34,6 +34,7 @@ HX_DECLARE_CLASS2(openfl,display3D,Context3D)
 HX_DECLARE_CLASS2(openfl,events,Event)
 HX_DECLARE_CLASS2(openfl,events,EventDispatcher)
 HX_DECLARE_CLASS2(openfl,events,IEventDispatcher)
+HX_DECLARE_CLASS2(openfl,events,UncaughtErrorEvents)
 HX_DECLARE_CLASS2(openfl,geom,Matrix)
 HX_DECLARE_CLASS2(openfl,geom,Point)
 HX_DECLARE_CLASS2(openfl,geom,Rectangle)
@@ -133,6 +134,7 @@ class HXCPP_CLASS_ATTRIBUTES Stage_obj : public  ::openfl::display::DisplayObjec
 		::Array< ::Dynamic> _hx___stack;
 		 ::haxe::ds::IntMap _hx___touchData;
 		bool _hx___transparent;
+		 ::openfl::events::UncaughtErrorEvents _hx___uncaughtErrorEvents;
 		bool _hx___wasDirty;
 		bool _hx___wasFullscreen;
 		 ::lime::ui::Touch _hx___primaryTouch;

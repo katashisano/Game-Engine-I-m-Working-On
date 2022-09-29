@@ -54,12 +54,13 @@ class Camera extends GameObject {
         for (object in 0...Main.game.activeObjects.length) {
             
             if (Main.game.activeObjects[object].isVisible) {
-
+                
+                //tells if the visible object is inside of the screen
                 var left:Bool = false;
                 var right:Bool = false;
                 var up:Bool = false;
                 var down:Bool = false;
-    
+
                 if (Main.game.activeObjects[object].worldPosition.x + Main.game.activeObjects[object].worldWidth > this.worldPosition.x - fov.x - displayEnableDistance) left = true; else left = false;
                 if (Main.game.activeObjects[object].worldPosition.x - Main.game.activeObjects[object].worldWidth < this.worldPosition.x + fov.x + displayEnableDistance) right = true; else right = false;
                 if (Main.game.activeObjects[object].worldPosition.y + Main.game.activeObjects[object].worldHeight > this.worldPosition.y - fov.y - displayEnableDistance) down = true; else down = false;
@@ -69,6 +70,7 @@ class Camera extends GameObject {
     
                 if (left && right && up && down) inCameraView = true;
     
+                //removes or adds the visible object to the array to be rendered
                 if (inCameraView)
                     if (!objectsInDisplay.contains(Main.game.activeObjects[object]))
                         objectsInDisplay.push(Main.game.activeObjects[object]);
@@ -89,6 +91,7 @@ class Camera extends GameObject {
 
         }
 
+        //layer sorting
         for (d in 0...objectsInDisplay.length) {
             
             for (rLayer in Main.game.lowestRenderLayer...Main.game.highestRenderLayer + 1) {
@@ -110,6 +113,7 @@ class Camera extends GameObject {
     
         }
 
+        //sets on-screen position of objects
         for (d in 0...objectsInDisplay.length) {
 
             if (objectsInDisplay[d].objectType == SIMPLE) {
@@ -150,6 +154,7 @@ class Camera extends GameObject {
 
     }
     
+    //background system
     var bg:Array<GameObject> = [];
     function updateBackground() {
         
@@ -161,7 +166,7 @@ class Camera extends GameObject {
             
             case GRADIENT:
 
-                return;
+                return; //wip
 
             case IMAGE:
 

@@ -50,23 +50,45 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(GLShader_Impl__obj,fromInt,return )
 HXLINE(  26)		 ::lime::graphics::opengl::GLObject shader = gl->createShader(type);
 HXLINE(  27)		gl->shaderSource(shader,source);
 HXLINE(  28)		gl->compileShader(shader);
-HXLINE(  30)		if (::hx::IsEq( gl->getShaderParameter(shader,gl->COMPILE_STATUS),0 )) {
-HXLINE(  32)			::String message;
-HXLINE(  34)			if ((type == gl->VERTEX_SHADER)) {
-HXLINE(  34)				message = HX_("Error compiling vertex shader",39,c9,c1,b2);
+HXLINE(  29)		::String shaderInfoLog = gl->getShaderInfoLog(shader);
+HXLINE(  30)		int compileStatus = ( (int)(gl->getShaderParameter(shader,gl->COMPILE_STATUS)) );
+HXLINE(  32)		bool _hx_tmp;
+HXDLIN(  32)		if (::hx::IsNull( shaderInfoLog )) {
+HXLINE(  32)			_hx_tmp = (compileStatus == 0);
+            		}
+            		else {
+HXLINE(  32)			_hx_tmp = true;
+            		}
+HXDLIN(  32)		if (_hx_tmp) {
+HXLINE(  34)			::String message;
+HXLINE(  36)			if ((compileStatus == 0)) {
+HXLINE(  36)				message = HX_("Error ",78,f7,fc,85);
             			}
             			else {
-HXLINE(  35)				if ((type == gl->FRAGMENT_SHADER)) {
-HXLINE(  35)					message = HX_("Error compiling fragment shader",4d,d0,be,e3);
+HXLINE(  38)				message = HX_("Info ",d2,97,43,51);
+            			}
+HXLINE(  40)			if ((type == gl->VERTEX_SHADER)) {
+HXLINE(  40)				message = HX_("compiling vertex shader",b1,d1,76,80);
+            			}
+            			else {
+HXLINE(  41)				if ((type == gl->FRAGMENT_SHADER)) {
+HXLINE(  41)					message = HX_("compiling fragment shader",c5,e6,20,4f);
             				}
             				else {
-HXLINE(  37)					message = HX_("Error compiling unknown shader type",d7,06,f2,00);
+HXLINE(  43)					message = HX_("compiling unknown shader type",4f,b9,2c,ae);
             				}
             			}
-HXLINE(  39)			message = (message + (HX_("\n",0a,00,00,00) + gl->getShaderInfoLog(shader)));
-HXLINE(  40)			::lime::utils::Log_obj::error(message,::hx::SourceInfo(HX_("lime/graphics/opengl/GLShader.hx",be,a5,56,4f),40,HX_("lime.graphics.opengl._GLShader.GLShader_Impl_",44,46,91,94),HX_("fromSource",e5,b5,75,75)));
+HXLINE(  45)			message = (message + (HX_("\n",0a,00,00,00) + shaderInfoLog));
+HXLINE(  47)			if ((compileStatus == 0)) {
+HXLINE(  47)				::lime::utils::Log_obj::error(message,::hx::SourceInfo(HX_("lime/graphics/opengl/GLShader.hx",be,a5,56,4f),47,HX_("lime.graphics.opengl._GLShader.GLShader_Impl_",44,46,91,94),HX_("fromSource",e5,b5,75,75)));
+            			}
+            			else {
+HXLINE(  48)				if (::hx::IsNotNull( shaderInfoLog )) {
+HXLINE(  48)					::lime::utils::Log_obj::debug(message,::hx::SourceInfo(HX_("lime/graphics/opengl/GLShader.hx",be,a5,56,4f),48,HX_("lime.graphics.opengl._GLShader.GLShader_Impl_",44,46,91,94),HX_("fromSource",e5,b5,75,75)));
+            				}
+            			}
             		}
-HXLINE(  43)		return shader;
+HXLINE(  51)		return shader;
             	}
 
 

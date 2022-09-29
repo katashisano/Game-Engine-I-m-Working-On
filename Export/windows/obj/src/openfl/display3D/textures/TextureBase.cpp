@@ -327,7 +327,7 @@ HXLINE( 333)				wrapModeT = gl->CLAMP_TO_EDGE;
 HXLINE( 331)				goto _hx_goto_5;
             			}
             			/* default */{
-HXLINE( 335)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("wrap bad enum",52,1c,4c,59),null())));
+HXLINE( 335)				HX_STACK_DO_THROW( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("wrap bad enum",52,1c,4c,59),null()));
             			}
             			_hx_goto_5:;
 HXLINE( 338)			int magFilter = 0;
@@ -367,7 +367,7 @@ HXLINE( 355)					minFilter = gl->LINEAR;
 HXDLIN( 355)				goto _hx_goto_6;
             			}
             			/* default */{
-HXLINE( 357)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("mipfiter bad enum",b2,1b,09,c4),null())));
+HXLINE( 357)				HX_STACK_DO_THROW( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("mipfiter bad enum",b2,1b,09,c4),null()));
             			}
             			_hx_goto_6:;
 HXLINE( 360)			gl->texParameteri(this->_hx___textureTarget,gl->TEXTURE_MIN_FILTER,minFilter);

@@ -10,46 +10,46 @@
 #include <openfl/_Vector/IVector.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_640_new,"openfl._Vector.BoolVector","new",0x3a8665a9,"openfl._Vector.BoolVector.new","openfl/Vector.hx",640,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_654_concat,"openfl._Vector.BoolVector","concat",0x25e9276b,"openfl._Vector.BoolVector.concat","openfl/Vector.hx",654,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_675_copy,"openfl._Vector.BoolVector","copy",0xf3d4c64c,"openfl._Vector.BoolVector.copy","openfl/Vector.hx",675,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_680_filter,"openfl._Vector.BoolVector","filter",0xe34e3e0f,"openfl._Vector.BoolVector.filter","openfl/Vector.hx",680,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_685_get,"openfl._Vector.BoolVector","get",0x3a8115df,"openfl._Vector.BoolVector.get","openfl/Vector.hx",685,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_696_indexOf,"openfl._Vector.BoolVector","indexOf",0xd8a0b692,"openfl._Vector.BoolVector.indexOf","openfl/Vector.hx",696,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_710_insertAt,"openfl._Vector.BoolVector","insertAt",0xaf7e1ea3,"openfl._Vector.BoolVector.insertAt","openfl/Vector.hx",710,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_718_iterator,"openfl._Vector.BoolVector","iterator",0x80f8ec05,"openfl._Vector.BoolVector.iterator","openfl/Vector.hx",718,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_723_join,"openfl._Vector.BoolVector","join",0xf8753e81,"openfl._Vector.BoolVector.join","openfl/Vector.hx",723,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_727_lastIndexOf,"openfl._Vector.BoolVector","lastIndexOf",0xfa91835c,"openfl._Vector.BoolVector.lastIndexOf","openfl/Vector.hx",727,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_741_pop,"openfl._Vector.BoolVector","pop",0x3a87f2da,"openfl._Vector.BoolVector.pop","openfl/Vector.hx",741,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_753_push,"openfl._Vector.BoolVector","push",0xfc711c71,"openfl._Vector.BoolVector.push","openfl/Vector.hx",753,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_764_removeAt,"openfl._Vector.BoolVector","removeAt",0x9a7a106e,"openfl._Vector.BoolVector.removeAt","openfl/Vector.hx",764,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_774_reverse,"openfl._Vector.BoolVector","reverse",0x12dda6eb,"openfl._Vector.BoolVector.reverse","openfl/Vector.hx",774,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_781_set,"openfl._Vector.BoolVector","set",0x3a8a30eb,"openfl._Vector.BoolVector.set","openfl/Vector.hx",781,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_793_shift,"openfl._Vector.BoolVector","shift",0x981c260b,"openfl._Vector.BoolVector.shift","openfl/Vector.hx",793,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_804_slice,"openfl._Vector.BoolVector","slice",0x9ac0fddb,"openfl._Vector.BoolVector.slice","openfl/Vector.hx",804,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_811_sort,"openfl._Vector.BoolVector","sort",0xfe6831f5,"openfl._Vector.BoolVector.sort","openfl/Vector.hx",811,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_816_splice,"openfl._Vector.BoolVector","splice",0x1db7a3d3,"openfl._Vector.BoolVector.splice","openfl/Vector.hx",816,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_822_toJSON,"openfl._Vector.BoolVector","toJSON",0xda22677a,"openfl._Vector.BoolVector.toJSON","openfl/Vector.hx",822,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_827_toString,"openfl._Vector.BoolVector","toString",0x25cd72c3,"openfl._Vector.BoolVector.toString","openfl/Vector.hx",827,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_832_unshift,"openfl._Vector.BoolVector","unshift",0x70955152,"openfl._Vector.BoolVector.unshift","openfl/Vector.hx",832,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_841_get_length,"openfl._Vector.BoolVector","get_length",0x8b6b9a86,"openfl._Vector.BoolVector.get_length","openfl/Vector.hx",841,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_845_set_length,"openfl._Vector.BoolVector","set_length",0x8ee938fa,"openfl._Vector.BoolVector.set_length","openfl/Vector.hx",845,0x4a01873c)
-HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_632_boot,"openfl._Vector.BoolVector","boot",0xf32b8ec9,"openfl._Vector.BoolVector.boot","openfl/Vector.hx",632,0x4a01873c)
+HX_DEFINE_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_727_new,"openfl._Vector.BoolVector","new",0x3a8665a9,"openfl._Vector.BoolVector.new","openfl/Vector.hx",727,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_741_concat,"openfl._Vector.BoolVector","concat",0x25e9276b,"openfl._Vector.BoolVector.concat","openfl/Vector.hx",741,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_762_copy,"openfl._Vector.BoolVector","copy",0xf3d4c64c,"openfl._Vector.BoolVector.copy","openfl/Vector.hx",762,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_767_filter,"openfl._Vector.BoolVector","filter",0xe34e3e0f,"openfl._Vector.BoolVector.filter","openfl/Vector.hx",767,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_772_get,"openfl._Vector.BoolVector","get",0x3a8115df,"openfl._Vector.BoolVector.get","openfl/Vector.hx",772,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_783_indexOf,"openfl._Vector.BoolVector","indexOf",0xd8a0b692,"openfl._Vector.BoolVector.indexOf","openfl/Vector.hx",783,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_797_insertAt,"openfl._Vector.BoolVector","insertAt",0xaf7e1ea3,"openfl._Vector.BoolVector.insertAt","openfl/Vector.hx",797,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_805_iterator,"openfl._Vector.BoolVector","iterator",0x80f8ec05,"openfl._Vector.BoolVector.iterator","openfl/Vector.hx",805,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_810_join,"openfl._Vector.BoolVector","join",0xf8753e81,"openfl._Vector.BoolVector.join","openfl/Vector.hx",810,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_814_lastIndexOf,"openfl._Vector.BoolVector","lastIndexOf",0xfa91835c,"openfl._Vector.BoolVector.lastIndexOf","openfl/Vector.hx",814,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_828_pop,"openfl._Vector.BoolVector","pop",0x3a87f2da,"openfl._Vector.BoolVector.pop","openfl/Vector.hx",828,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_840_push,"openfl._Vector.BoolVector","push",0xfc711c71,"openfl._Vector.BoolVector.push","openfl/Vector.hx",840,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_851_removeAt,"openfl._Vector.BoolVector","removeAt",0x9a7a106e,"openfl._Vector.BoolVector.removeAt","openfl/Vector.hx",851,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_861_reverse,"openfl._Vector.BoolVector","reverse",0x12dda6eb,"openfl._Vector.BoolVector.reverse","openfl/Vector.hx",861,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_868_set,"openfl._Vector.BoolVector","set",0x3a8a30eb,"openfl._Vector.BoolVector.set","openfl/Vector.hx",868,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_880_shift,"openfl._Vector.BoolVector","shift",0x981c260b,"openfl._Vector.BoolVector.shift","openfl/Vector.hx",880,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_891_slice,"openfl._Vector.BoolVector","slice",0x9ac0fddb,"openfl._Vector.BoolVector.slice","openfl/Vector.hx",891,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_898_sort,"openfl._Vector.BoolVector","sort",0xfe6831f5,"openfl._Vector.BoolVector.sort","openfl/Vector.hx",898,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_903_splice,"openfl._Vector.BoolVector","splice",0x1db7a3d3,"openfl._Vector.BoolVector.splice","openfl/Vector.hx",903,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_909_toJSON,"openfl._Vector.BoolVector","toJSON",0xda22677a,"openfl._Vector.BoolVector.toJSON","openfl/Vector.hx",909,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_914_toString,"openfl._Vector.BoolVector","toString",0x25cd72c3,"openfl._Vector.BoolVector.toString","openfl/Vector.hx",914,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_919_unshift,"openfl._Vector.BoolVector","unshift",0x70955152,"openfl._Vector.BoolVector.unshift","openfl/Vector.hx",919,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_928_get_length,"openfl._Vector.BoolVector","get_length",0x8b6b9a86,"openfl._Vector.BoolVector.get_length","openfl/Vector.hx",928,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_932_set_length,"openfl._Vector.BoolVector","set_length",0x8ee938fa,"openfl._Vector.BoolVector.set_length","openfl/Vector.hx",932,0x4a01873c)
+HX_LOCAL_STACK_FRAME(_hx_pos_dd7a5ba250c0e821_718_boot,"openfl._Vector.BoolVector","boot",0xf32b8ec9,"openfl._Vector.BoolVector.boot","openfl/Vector.hx",718,0x4a01873c)
 namespace openfl{
 namespace _Vector{
 
 void BoolVector_obj::__construct(::hx::Null< int >  __o_length,::hx::Null< bool >  __o_fixed,::Array< bool > array){
             		int length = __o_length.Default(0);
             		bool fixed = __o_fixed.Default(false);
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_640_new)
-HXLINE( 641)		if (::hx::IsNull( array )) {
-HXLINE( 641)			array = ::Array_obj< bool >::__new();
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_727_new)
+HXLINE( 728)		if (::hx::IsNull( array )) {
+HXLINE( 728)			array = ::Array_obj< bool >::__new();
             		}
-HXLINE( 642)		this->_hx___array = array;
-HXLINE( 644)		if ((length > 0)) {
-HXLINE( 646)			this->set_length(length);
+HXLINE( 729)		this->_hx___array = array;
+HXLINE( 731)		if ((length > 0)) {
+HXLINE( 733)			this->set_length(length);
             		}
-HXLINE( 649)		this->fixed = fixed;
+HXLINE( 736)		this->fixed = fixed;
             	}
 
 Dynamic BoolVector_obj::__CreateEmpty() { return new BoolVector_obj; }
@@ -135,64 +135,64 @@ void *BoolVector_obj::_hx_getInterface(int inHash) {
 }
 
 ::Dynamic BoolVector_obj::concat(::Dynamic a){
-            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_654_concat)
-HXDLIN( 654)		if (::hx::IsNull( a )) {
-HXLINE( 656)			return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->copy());
+            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_741_concat)
+HXDLIN( 741)		if (::hx::IsNull( a )) {
+HXLINE( 743)			return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->copy());
             		}
             		else {
-HXLINE( 660)			 ::openfl::_Vector::BoolVector other = ( ( ::openfl::_Vector::BoolVector)(a) );
-HXLINE( 662)			if ((other->_hx___array->length > 0)) {
-HXLINE( 664)				return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->concat(other->_hx___array));
+HXLINE( 747)			 ::openfl::_Vector::BoolVector other = ( ( ::openfl::_Vector::BoolVector)(a) );
+HXLINE( 749)			if ((other->_hx___array->length > 0)) {
+HXLINE( 751)				return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->concat(other->_hx___array));
             			}
             			else {
-HXLINE( 668)				return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->copy());
+HXLINE( 755)				return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->copy());
             			}
             		}
-HXLINE( 654)		return null();
+HXLINE( 741)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BoolVector_obj,concat,return )
 
 ::Dynamic BoolVector_obj::copy(){
-            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_675_copy)
-HXDLIN( 675)		bool _hx_tmp = this->fixed;
-HXDLIN( 675)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,_hx_tmp,this->_hx___array->copy());
+            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_762_copy)
+HXDLIN( 762)		bool _hx_tmp = this->fixed;
+HXDLIN( 762)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,_hx_tmp,this->_hx___array->copy());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BoolVector_obj,copy,return )
 
 ::Dynamic BoolVector_obj::filter( ::Dynamic callback){
-            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_680_filter)
-HXDLIN( 680)		bool _hx_tmp = this->fixed;
-HXDLIN( 680)		::Array< bool > _g = ::Array_obj< bool >::__new(0);
-HXDLIN( 680)		{
-HXDLIN( 680)			int _g1 = 0;
-HXDLIN( 680)			::Array< bool > _g2 = this->_hx___array;
-HXDLIN( 680)			while((_g1 < _g2->length)){
-HXDLIN( 680)				bool v = _g2->__get(_g1);
-HXDLIN( 680)				_g1 = (_g1 + 1);
-HXDLIN( 680)				if (( (bool)(callback(v)) )) {
-HXDLIN( 680)					_g->push(v);
+            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_767_filter)
+HXDLIN( 767)		bool _hx_tmp = this->fixed;
+HXDLIN( 767)		::Array< bool > _g = ::Array_obj< bool >::__new(0);
+HXDLIN( 767)		{
+HXDLIN( 767)			int _g1 = 0;
+HXDLIN( 767)			::Array< bool > _g2 = this->_hx___array;
+HXDLIN( 767)			while((_g1 < _g2->length)){
+HXDLIN( 767)				bool v = _g2->__get(_g1);
+HXDLIN( 767)				_g1 = (_g1 + 1);
+HXDLIN( 767)				if (( (bool)(callback(v)) )) {
+HXDLIN( 767)					_g->push(v);
             				}
             			}
             		}
-HXDLIN( 680)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,_hx_tmp,_g);
+HXDLIN( 767)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,_hx_tmp,_g);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BoolVector_obj,filter,return )
 
 bool BoolVector_obj::get(int index){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_685_get)
-HXDLIN( 685)		if ((index >= this->_hx___array->length)) {
-HXLINE( 687)			return false;
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_772_get)
+HXDLIN( 772)		if ((index >= this->_hx___array->length)) {
+HXLINE( 774)			return false;
             		}
             		else {
-HXLINE( 691)			return this->_hx___array->__get(index);
+HXLINE( 778)			return this->_hx___array->__get(index);
             		}
-HXLINE( 685)		return false;
+HXLINE( 772)		return false;
             	}
 
 
@@ -200,35 +200,35 @@ HX_DEFINE_DYNAMIC_FUNC1(BoolVector_obj,get,return )
 
 int BoolVector_obj::indexOf(bool x,::hx::Null< int >  __o_from){
             		int from = __o_from.Default(0);
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_696_indexOf)
-HXLINE( 697)		{
-HXLINE( 697)			int _g = from;
-HXDLIN( 697)			int _g1 = this->_hx___array->length;
-HXDLIN( 697)			while((_g < _g1)){
-HXLINE( 697)				_g = (_g + 1);
-HXDLIN( 697)				int i = (_g - 1);
-HXLINE( 699)				if ((this->_hx___array->__get(i) == x)) {
-HXLINE( 701)					return i;
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_783_indexOf)
+HXLINE( 784)		{
+HXLINE( 784)			int _g = from;
+HXDLIN( 784)			int _g1 = this->_hx___array->length;
+HXDLIN( 784)			while((_g < _g1)){
+HXLINE( 784)				_g = (_g + 1);
+HXDLIN( 784)				int i = (_g - 1);
+HXLINE( 786)				if ((this->_hx___array->__get(i) == x)) {
+HXLINE( 788)					return i;
             				}
             			}
             		}
-HXLINE( 705)		return -1;
+HXLINE( 792)		return -1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BoolVector_obj,indexOf,return )
 
 void BoolVector_obj::insertAt(int index,bool element){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_710_insertAt)
-HXDLIN( 710)		bool _hx_tmp;
-HXDLIN( 710)		if (this->fixed) {
-HXDLIN( 710)			_hx_tmp = (index < this->_hx___array->length);
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_797_insertAt)
+HXDLIN( 797)		bool _hx_tmp;
+HXDLIN( 797)		if (this->fixed) {
+HXDLIN( 797)			_hx_tmp = (index < this->_hx___array->length);
             		}
             		else {
-HXDLIN( 710)			_hx_tmp = true;
+HXDLIN( 797)			_hx_tmp = true;
             		}
-HXDLIN( 710)		if (_hx_tmp) {
-HXLINE( 712)			this->_hx___array->insert(index,element);
+HXDLIN( 797)		if (_hx_tmp) {
+HXLINE( 799)			this->_hx___array->insert(index,element);
             		}
             	}
 
@@ -236,8 +236,8 @@ HXLINE( 712)			this->_hx___array->insert(index,element);
 HX_DEFINE_DYNAMIC_FUNC2(BoolVector_obj,insertAt,(void))
 
  ::Dynamic BoolVector_obj::iterator(){
-            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_718_iterator)
-HXDLIN( 718)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,this->_hx___array);
+            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_805_iterator)
+HXDLIN( 805)		return  ::haxe::iterators::ArrayIterator_obj::__alloc( HX_CTX ,this->_hx___array);
             	}
 
 
@@ -246,126 +246,126 @@ HX_DEFINE_DYNAMIC_FUNC0(BoolVector_obj,iterator,return )
 ::String BoolVector_obj::join(::String __o_sep){
             		::String sep = __o_sep;
             		if (::hx::IsNull(__o_sep)) sep = HX_(",",2c,00,00,00);
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_723_join)
-HXDLIN( 723)		return this->_hx___array->join(sep);
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_810_join)
+HXDLIN( 810)		return this->_hx___array->join(sep);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BoolVector_obj,join,return )
 
 int BoolVector_obj::lastIndexOf(bool x, ::Dynamic from){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_727_lastIndexOf)
-HXLINE( 728)		 ::Dynamic i;
-HXDLIN( 728)		bool i1;
-HXDLIN( 728)		if (::hx::IsNotNull( from )) {
-HXLINE( 728)			i1 = ::hx::IsGreaterEq( from,this->_hx___array->length );
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_814_lastIndexOf)
+HXLINE( 815)		 ::Dynamic i;
+HXDLIN( 815)		bool i1;
+HXDLIN( 815)		if (::hx::IsNotNull( from )) {
+HXLINE( 815)			i1 = ::hx::IsGreaterEq( from,this->_hx___array->length );
             		}
             		else {
-HXLINE( 728)			i1 = true;
+HXLINE( 815)			i1 = true;
             		}
-HXDLIN( 728)		if (i1) {
-HXLINE( 728)			i = (this->_hx___array->length - 1);
+HXDLIN( 815)		if (i1) {
+HXLINE( 815)			i = (this->_hx___array->length - 1);
             		}
             		else {
-HXLINE( 728)			i = from;
+HXLINE( 815)			i = from;
             		}
-HXLINE( 730)		while(::hx::IsGreaterEq( i,0 )){
-HXLINE( 732)			if ((this->_hx___array->__get(( (int)(i) )) == x)) {
-HXLINE( 732)				return ( (int)(i) );
+HXLINE( 817)		while(::hx::IsGreaterEq( i,0 )){
+HXLINE( 819)			if ((this->_hx___array->__get(( (int)(i) )) == x)) {
+HXLINE( 819)				return ( (int)(i) );
             			}
-HXLINE( 733)			i = (( (int)(i) ) - 1);
+HXLINE( 820)			i = (( (int)(i) ) - 1);
             		}
-HXLINE( 736)		return -1;
+HXLINE( 823)		return -1;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BoolVector_obj,lastIndexOf,return )
 
  ::Dynamic BoolVector_obj::pop(){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_741_pop)
-HXDLIN( 741)		if (!(this->fixed)) {
-HXLINE( 743)			return this->_hx___array->pop();
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_828_pop)
+HXDLIN( 828)		if (!(this->fixed)) {
+HXLINE( 830)			return this->_hx___array->pop();
             		}
             		else {
-HXLINE( 747)			return null();
+HXLINE( 834)			return null();
             		}
-HXLINE( 741)		return false;
+HXLINE( 828)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BoolVector_obj,pop,return )
 
 int BoolVector_obj::push(bool x){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_753_push)
-HXDLIN( 753)		if (!(this->fixed)) {
-HXLINE( 755)			return this->_hx___array->push(x);
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_840_push)
+HXDLIN( 840)		if (!(this->fixed)) {
+HXLINE( 842)			return this->_hx___array->push(x);
             		}
             		else {
-HXLINE( 759)			return this->_hx___array->length;
+HXLINE( 846)			return this->_hx___array->length;
             		}
-HXLINE( 753)		return 0;
+HXLINE( 840)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BoolVector_obj,push,return )
 
 bool BoolVector_obj::removeAt(int index){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_764_removeAt)
-HXLINE( 765)		bool _hx_tmp;
-HXDLIN( 765)		if (this->fixed) {
-HXLINE( 765)			_hx_tmp = (index < this->_hx___array->length);
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_851_removeAt)
+HXLINE( 852)		bool _hx_tmp;
+HXDLIN( 852)		if (this->fixed) {
+HXLINE( 852)			_hx_tmp = (index < this->_hx___array->length);
             		}
             		else {
-HXLINE( 765)			_hx_tmp = true;
+HXLINE( 852)			_hx_tmp = true;
             		}
-HXDLIN( 765)		if (_hx_tmp) {
-HXLINE( 767)			return this->_hx___array->splice(index,1)->__get(0);
+HXDLIN( 852)		if (_hx_tmp) {
+HXLINE( 854)			return this->_hx___array->splice(index,1)->__get(0);
             		}
-HXLINE( 770)		return false;
+HXLINE( 857)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BoolVector_obj,removeAt,return )
 
 ::Dynamic BoolVector_obj::reverse(){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_774_reverse)
-HXLINE( 775)		this->_hx___array->reverse();
-HXLINE( 776)		return ::hx::ObjectPtr<OBJ_>(this);
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_861_reverse)
+HXLINE( 862)		this->_hx___array->reverse();
+HXLINE( 863)		return ::hx::ObjectPtr<OBJ_>(this);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BoolVector_obj,reverse,return )
 
 bool BoolVector_obj::set(int index,bool value){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_781_set)
-HXDLIN( 781)		bool _hx_tmp;
-HXDLIN( 781)		if (this->fixed) {
-HXDLIN( 781)			_hx_tmp = (index < this->_hx___array->length);
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_868_set)
+HXDLIN( 868)		bool _hx_tmp;
+HXDLIN( 868)		if (this->fixed) {
+HXDLIN( 868)			_hx_tmp = (index < this->_hx___array->length);
             		}
             		else {
-HXDLIN( 781)			_hx_tmp = true;
+HXDLIN( 868)			_hx_tmp = true;
             		}
-HXDLIN( 781)		if (_hx_tmp) {
-HXLINE( 783)			return (this->_hx___array[index] = value);
+HXDLIN( 868)		if (_hx_tmp) {
+HXLINE( 870)			return (this->_hx___array[index] = value);
             		}
             		else {
-HXLINE( 787)			return value;
+HXLINE( 874)			return value;
             		}
-HXLINE( 781)		return false;
+HXLINE( 868)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BoolVector_obj,set,return )
 
  ::Dynamic BoolVector_obj::shift(){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_793_shift)
-HXDLIN( 793)		if (!(this->fixed)) {
-HXLINE( 795)			return this->_hx___array->shift();
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_880_shift)
+HXDLIN( 880)		if (!(this->fixed)) {
+HXLINE( 882)			return this->_hx___array->shift();
             		}
             		else {
-HXLINE( 799)			return null();
+HXLINE( 886)			return null();
             		}
-HXLINE( 793)		return false;
+HXLINE( 880)		return false;
             	}
 
 
@@ -373,58 +373,58 @@ HX_DEFINE_DYNAMIC_FUNC0(BoolVector_obj,shift,return )
 
 ::Dynamic BoolVector_obj::slice(::hx::Null< int >  __o_startIndex, ::Dynamic endIndex){
             		int startIndex = __o_startIndex.Default(0);
-            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_804_slice)
-HXLINE( 805)		if (::hx::IsNull( endIndex )) {
-HXLINE( 805)			endIndex = 16777215;
+            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_891_slice)
+HXLINE( 892)		if (::hx::IsNull( endIndex )) {
+HXLINE( 892)			endIndex = 16777215;
             		}
-HXLINE( 806)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->slice(startIndex,endIndex));
+HXLINE( 893)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->slice(startIndex,endIndex));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BoolVector_obj,slice,return )
 
 void BoolVector_obj::sort( ::Dynamic f){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_811_sort)
-HXDLIN( 811)		this->_hx___array->sort(f);
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_898_sort)
+HXDLIN( 898)		this->_hx___array->sort(f);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(BoolVector_obj,sort,(void))
 
 ::Dynamic BoolVector_obj::splice(int pos,int len){
-            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_816_splice)
-HXDLIN( 816)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->splice(pos,len));
+            	HX_GC_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_903_splice)
+HXDLIN( 903)		return  ::openfl::_Vector::BoolVector_obj::__alloc( HX_CTX ,0,false,this->_hx___array->splice(pos,len));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(BoolVector_obj,splice,return )
 
  ::Dynamic BoolVector_obj::toJSON(){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_822_toJSON)
-HXDLIN( 822)		return this->_hx___array;
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_909_toJSON)
+HXDLIN( 909)		return this->_hx___array;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BoolVector_obj,toJSON,return )
 
 ::String BoolVector_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_827_toString)
-HXDLIN( 827)		if (::hx::IsNotNull( this->_hx___array )) {
-HXDLIN( 827)			return this->_hx___array->toString();
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_914_toString)
+HXDLIN( 914)		if (::hx::IsNotNull( this->_hx___array )) {
+HXDLIN( 914)			return this->_hx___array->toString();
             		}
             		else {
-HXDLIN( 827)			return null();
+HXDLIN( 914)			return null();
             		}
-HXDLIN( 827)		return null();
+HXDLIN( 914)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BoolVector_obj,toString,return )
 
 void BoolVector_obj::unshift(bool x){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_832_unshift)
-HXDLIN( 832)		if (!(this->fixed)) {
-HXLINE( 834)			this->_hx___array->unshift(x);
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_919_unshift)
+HXDLIN( 919)		if (!(this->fixed)) {
+HXLINE( 921)			this->_hx___array->unshift(x);
             		}
             	}
 
@@ -432,19 +432,19 @@ HXLINE( 834)			this->_hx___array->unshift(x);
 HX_DEFINE_DYNAMIC_FUNC1(BoolVector_obj,unshift,(void))
 
 int BoolVector_obj::get_length(){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_841_get_length)
-HXDLIN( 841)		return this->_hx___array->length;
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_928_get_length)
+HXDLIN( 928)		return this->_hx___array->length;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(BoolVector_obj,get_length,return )
 
 int BoolVector_obj::set_length(int value){
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_845_set_length)
-HXLINE( 846)		if (!(this->fixed)) {
-HXLINE( 849)			_hx_array_set_size_exact(this->_hx___array,value);
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_932_set_length)
+HXLINE( 933)		if (!(this->fixed)) {
+HXLINE( 936)			_hx_array_set_size_exact(this->_hx___array,value);
             		}
-HXLINE( 871)		return this->_hx___array->length;
+HXLINE( 958)		return this->_hx___array->length;
             	}
 
 
@@ -473,6 +473,7 @@ void BoolVector_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_BEGIN_CLASS(BoolVector);
 	HX_MARK_MEMBER_NAME(fixed,"fixed");
 	HX_MARK_MEMBER_NAME(_hx___array,"__array");
+	HX_MARK_MEMBER_NAME(_hx___tempIndex,"__tempIndex");
 	HX_MARK_END_CLASS();
 }
 
@@ -480,6 +481,7 @@ void BoolVector_obj::__Visit(HX_VISIT_PARAMS)
 {
 	HX_VISIT_MEMBER_NAME(fixed,"fixed");
 	HX_VISIT_MEMBER_NAME(_hx___array,"__array");
+	HX_VISIT_MEMBER_NAME(_hx___tempIndex,"__tempIndex");
 }
 
 ::hx::Val BoolVector_obj::__Field(const ::String &inName,::hx::PropertyAccess inCallProp)
@@ -525,6 +527,7 @@ void BoolVector_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"set_length") ) { return ::hx::Val( set_length_dyn() ); }
 		break;
 	case 11:
+		if (HX_FIELD_EQ(inName,"__tempIndex") ) { return ::hx::Val( _hx___tempIndex ); }
 		if (HX_FIELD_EQ(inName,"lastIndexOf") ) { return ::hx::Val( lastIndexOf_dyn() ); }
 	}
 	return super::__Field(inName,inCallProp);
@@ -541,6 +544,9 @@ void BoolVector_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"__array") ) { _hx___array=inValue.Cast< ::Array< bool > >(); return inValue; }
+		break;
+	case 11:
+		if (HX_FIELD_EQ(inName,"__tempIndex") ) { _hx___tempIndex=inValue.Cast< int >(); return inValue; }
 	}
 	return super::__SetField(inName,inValue,inCallProp);
 }
@@ -550,6 +556,7 @@ void BoolVector_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("fixed",74,f9,a1,00));
 	outFields->push(HX_("length",e6,94,07,9f));
 	outFields->push(HX_("__array",79,c6,ed,8f));
+	outFields->push(HX_("__tempIndex",3e,e8,54,22));
 	super::__GetFields(outFields);
 };
 
@@ -557,6 +564,7 @@ void BoolVector_obj::__GetFields(Array< ::String> &outFields)
 static ::hx::StorageInfo BoolVector_obj_sMemberStorageInfo[] = {
 	{::hx::fsBool,(int)offsetof(BoolVector_obj,fixed),HX_("fixed",74,f9,a1,00)},
 	{::hx::fsObject /* ::Array< bool > */ ,(int)offsetof(BoolVector_obj,_hx___array),HX_("__array",79,c6,ed,8f)},
+	{::hx::fsInt,(int)offsetof(BoolVector_obj,_hx___tempIndex),HX_("__tempIndex",3e,e8,54,22)},
 	{ ::hx::fsUnknown, 0, null()}
 };
 static ::hx::StaticInfo *BoolVector_obj_sStaticStorageInfo = 0;
@@ -565,6 +573,7 @@ static ::hx::StaticInfo *BoolVector_obj_sStaticStorageInfo = 0;
 static ::String BoolVector_obj_sMemberFields[] = {
 	HX_("fixed",74,f9,a1,00),
 	HX_("__array",79,c6,ed,8f),
+	HX_("__tempIndex",3e,e8,54,22),
 	HX_("concat",14,09,d0,c7),
 	HX_("copy",b5,bb,c4,41),
 	HX_("filter",b8,1f,35,85),
@@ -618,8 +627,8 @@ void BoolVector_obj::__register()
 void BoolVector_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_632_boot)
-HXDLIN( 632)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(2)
+            	HX_STACKFRAME(&_hx_pos_dd7a5ba250c0e821_718_boot)
+HXDLIN( 718)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(2)
             			->setFixed(0,HX_("fields",79,8e,8e,80), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("toJSON",23,49,09,7c), ::Dynamic(::hx::Anon_obj::Create(1)
             					->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:Dynamic",ce,ea,47,3c)))))))

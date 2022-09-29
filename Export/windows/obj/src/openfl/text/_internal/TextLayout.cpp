@@ -50,17 +50,17 @@
 HX_DEFINE_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_24_new,"openfl.text._internal.TextLayout","new",0xa41075de,"openfl.text._internal.TextLayout.new","openfl/text/_internal/TextLayout.hx",24,0xf9c6f251)
 HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_89___create,"openfl.text._internal.TextLayout","__create",0xba8383de,"openfl.text._internal.TextLayout.__create","openfl/text/_internal/TextLayout.hx",89,0xf9c6f251)
 HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_101___position,"openfl.text._internal.TextLayout","__position",0xa4593a0b,"openfl.text._internal.TextLayout.__position","openfl/text/_internal/TextLayout.hx",101,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_188_get_positions,"openfl.text._internal.TextLayout","get_positions",0x810b767f,"openfl.text._internal.TextLayout.get_positions","openfl/text/_internal/TextLayout.hx",188,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_200_get_direction,"openfl.text._internal.TextLayout","get_direction",0xc0f9e514,"openfl.text._internal.TextLayout.get_direction","openfl/text/_internal/TextLayout.hx",200,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_204_set_direction,"openfl.text._internal.TextLayout","set_direction",0x05ffc720,"openfl.text._internal.TextLayout.set_direction","openfl/text/_internal/TextLayout.hx",204,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_214_set_font,"openfl.text._internal.TextLayout","set_font",0x081d248e,"openfl.text._internal.TextLayout.set_font","openfl/text/_internal/TextLayout.hx",214,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_225_get_glyphs,"openfl.text._internal.TextLayout","get_glyphs",0xd5068f52,"openfl.text._internal.TextLayout.get_glyphs","openfl/text/_internal/TextLayout.hx",225,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_238_get_language,"openfl.text._internal.TextLayout","get_language",0xd7d8ef23,"openfl.text._internal.TextLayout.get_language","openfl/text/_internal/TextLayout.hx",238,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_242_set_language,"openfl.text._internal.TextLayout","set_language",0xecd21297,"openfl.text._internal.TextLayout.set_language","openfl/text/_internal/TextLayout.hx",242,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_253_get_script,"openfl.text._internal.TextLayout","get_script",0x6e0de416,"openfl.text._internal.TextLayout.get_script","openfl/text/_internal/TextLayout.hx",253,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_257_set_script,"openfl.text._internal.TextLayout","set_script",0x718b828a,"openfl.text._internal.TextLayout.set_script","openfl/text/_internal/TextLayout.hx",257,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_267_set_size,"openfl.text._internal.TextLayout","set_size",0x10b06780,"openfl.text._internal.TextLayout.set_size","openfl/text/_internal/TextLayout.hx",267,0xf9c6f251)
-HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_276_set_text,"openfl.text._internal.TextLayout","set_text",0x1156936c,"openfl.text._internal.TextLayout.set_text","openfl/text/_internal/TextLayout.hx",276,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_191_get_positions,"openfl.text._internal.TextLayout","get_positions",0x810b767f,"openfl.text._internal.TextLayout.get_positions","openfl/text/_internal/TextLayout.hx",191,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_203_get_direction,"openfl.text._internal.TextLayout","get_direction",0xc0f9e514,"openfl.text._internal.TextLayout.get_direction","openfl/text/_internal/TextLayout.hx",203,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_207_set_direction,"openfl.text._internal.TextLayout","set_direction",0x05ffc720,"openfl.text._internal.TextLayout.set_direction","openfl/text/_internal/TextLayout.hx",207,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_217_set_font,"openfl.text._internal.TextLayout","set_font",0x081d248e,"openfl.text._internal.TextLayout.set_font","openfl/text/_internal/TextLayout.hx",217,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_228_get_glyphs,"openfl.text._internal.TextLayout","get_glyphs",0xd5068f52,"openfl.text._internal.TextLayout.get_glyphs","openfl/text/_internal/TextLayout.hx",228,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_241_get_language,"openfl.text._internal.TextLayout","get_language",0xd7d8ef23,"openfl.text._internal.TextLayout.get_language","openfl/text/_internal/TextLayout.hx",241,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_245_set_language,"openfl.text._internal.TextLayout","set_language",0xecd21297,"openfl.text._internal.TextLayout.set_language","openfl/text/_internal/TextLayout.hx",245,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_256_get_script,"openfl.text._internal.TextLayout","get_script",0x6e0de416,"openfl.text._internal.TextLayout.get_script","openfl/text/_internal/TextLayout.hx",256,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_260_set_script,"openfl.text._internal.TextLayout","set_script",0x718b828a,"openfl.text._internal.TextLayout.set_script","openfl/text/_internal/TextLayout.hx",260,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_270_set_size,"openfl.text._internal.TextLayout","set_size",0x10b06780,"openfl.text._internal.TextLayout.set_size","openfl/text/_internal/TextLayout.hx",270,0xf9c6f251)
+HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_279_set_text,"openfl.text._internal.TextLayout","set_text",0x1156936c,"openfl.text._internal.TextLayout.set_text","openfl/text/_internal/TextLayout.hx",279,0xf9c6f251)
 HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_24_boot,"openfl.text._internal.TextLayout","boot",0xe26facf4,"openfl.text._internal.TextLayout.boot","openfl/text/_internal/TextLayout.hx",24,0xf9c6f251)
 HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_26_boot,"openfl.text._internal.TextLayout","boot",0xe26facf4,"openfl.text._internal.TextLayout.boot","openfl/text/_internal/TextLayout.hx",26,0xf9c6f251)
 HX_LOCAL_STACK_FRAME(_hx_pos_ccdf12459bd3b0e0_27_boot,"openfl.text._internal.TextLayout","boot",0xe26facf4,"openfl.text._internal.TextLayout.boot","openfl/text/_internal/TextLayout.hx",27,0xf9c6f251)
@@ -202,101 +202,101 @@ HXLINE( 115)				this->_hx___font = this->font;
 HXLINE( 117)				this->font->_hx___setSize(this->size);
 HXLINE( 118)				this->_hx___hbFont = ::lime::text::harfbuzz::_HBFTFont::HBFTFont_Impl__obj::_new(this->font);
 HXLINE( 120)				if (this->autoHint) {
-HXLINE( 122)					::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_ft_font_set_load_flags(::hx::DynamicPtr(this->_hx___hbFont),32);
+HXLINE( 125)					::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_ft_font_set_load_flags(::hx::DynamicPtr(this->_hx___hbFont),0);
             				}
             			}
             			else {
-HXLINE( 127)				this->font->_hx___setSize(this->size);
+HXLINE( 130)				this->font->_hx___setSize(this->size);
             			}
-HXLINE( 130)			if (::hx::IsNull( this->_hx___hbBuffer )) {
-HXLINE( 132)				this->_hx___hbBuffer = ::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::_new();
+HXLINE( 133)			if (::hx::IsNull( this->_hx___hbBuffer )) {
+HXLINE( 135)				this->_hx___hbBuffer = ::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::_new();
             			}
             			else {
-HXLINE( 136)				::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::reset(this->_hx___hbBuffer);
+HXLINE( 139)				::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::reset(this->_hx___hbBuffer);
             			}
-HXLINE( 139)			{
-HXLINE( 139)				 ::Dynamic this1 = this->_hx___hbBuffer;
-HXDLIN( 139)				int value;
-HXDLIN( 139)				switch((int)(this->get_direction())){
+HXLINE( 142)			{
+HXLINE( 142)				 ::Dynamic this1 = this->_hx___hbBuffer;
+HXDLIN( 142)				int value;
+HXDLIN( 142)				switch((int)(this->get_direction())){
             					case (int)4: {
-HXLINE( 139)						value = 4;
+HXLINE( 142)						value = 4;
             					}
             					break;
             					case (int)5: {
-HXLINE( 139)						value = 5;
+HXLINE( 142)						value = 5;
             					}
             					break;
             					case (int)6: {
-HXLINE( 139)						value = 6;
+HXLINE( 142)						value = 6;
             					}
             					break;
             					case (int)7: {
-HXLINE( 139)						value = 7;
+HXLINE( 142)						value = 7;
             					}
             					break;
             					default:{
-HXLINE( 139)						value = 0;
+HXLINE( 142)						value = 0;
             					}
             				}
-HXDLIN( 139)				::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_buffer_set_direction(::hx::DynamicPtr(this1),value);
+HXDLIN( 142)				::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_buffer_set_direction(::hx::DynamicPtr(this1),value);
             			}
-HXLINE( 140)			{
-HXLINE( 140)				 ::Dynamic this2 = this->_hx___hbBuffer;
-HXDLIN( 140)				::String this3 = this->get_script();
-HXDLIN( 140)				int value1 = (int)1517910393;
-HXDLIN( 140)				::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_buffer_set_script(::hx::DynamicPtr(this2),value1);
+HXLINE( 143)			{
+HXLINE( 143)				 ::Dynamic this2 = this->_hx___hbBuffer;
+HXDLIN( 143)				::String this3 = this->get_script();
+HXDLIN( 143)				int value1 = (int)1517910393;
+HXDLIN( 143)				::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_buffer_set_script(::hx::DynamicPtr(this2),value1);
             			}
-HXLINE( 141)			{
-HXLINE( 141)				 ::Dynamic this4 = this->_hx___hbBuffer;
-HXDLIN( 141)				 ::Dynamic value2 = ::lime::text::harfbuzz::_HBLanguage::HBLanguage_Impl__obj::_new(this->get_language());
-HXDLIN( 141)				::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_buffer_set_language(::hx::DynamicPtr(this4),::hx::DynamicPtr(value2));
+HXLINE( 144)			{
+HXLINE( 144)				 ::Dynamic this4 = this->_hx___hbBuffer;
+HXDLIN( 144)				 ::Dynamic value2 = ::lime::text::harfbuzz::_HBLanguage::HBLanguage_Impl__obj::_new(this->get_language());
+HXDLIN( 144)				::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_buffer_set_language(::hx::DynamicPtr(this4),::hx::DynamicPtr(value2));
             			}
-HXLINE( 142)			{
-HXLINE( 142)				int value3 = 2;
-HXDLIN( 142)				::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_buffer_set_cluster_level(::hx::DynamicPtr(this->_hx___hbBuffer),value3);
+HXLINE( 145)			{
+HXLINE( 145)				int value3 = 2;
+HXDLIN( 145)				::lime::_internal::backend::native::NativeCFFI_obj::lime_hb_buffer_set_cluster_level(::hx::DynamicPtr(this->_hx___hbBuffer),value3);
             			}
-HXLINE( 150)			 ::Dynamic _hx_tmp = this->_hx___hbBuffer;
-HXDLIN( 150)			Float _hx_tmp1 = (uintptr_t)this->text.wc_str();
-HXDLIN( 150)			::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::addUTF16(_hx_tmp,_hx_tmp1,this->text.length,0,-1);
-HXLINE( 153)			::lime::text::harfbuzz::HB_obj::shape(this->_hx___hbFont,this->_hx___hbBuffer,null());
-HXLINE( 155)			::Array< ::Dynamic> _info = ::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::getGlyphInfo(this->_hx___hbBuffer);
-HXLINE( 156)			::Array< ::Dynamic> _positions = ::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::getGlyphPositions(this->_hx___hbBuffer);
-HXLINE( 158)			bool _hx_tmp2;
-HXDLIN( 158)			if (::hx::IsNotNull( _info )) {
-HXLINE( 158)				_hx_tmp2 = ::hx::IsNotNull( _positions );
+HXLINE( 153)			 ::Dynamic _hx_tmp = this->_hx___hbBuffer;
+HXDLIN( 153)			Float _hx_tmp1 = (uintptr_t)this->text.wc_str();
+HXDLIN( 153)			::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::addUTF16(_hx_tmp,_hx_tmp1,this->text.length,0,-1);
+HXLINE( 156)			::lime::text::harfbuzz::HB_obj::shape(this->_hx___hbFont,this->_hx___hbBuffer,null());
+HXLINE( 158)			::Array< ::Dynamic> _info = ::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::getGlyphInfo(this->_hx___hbBuffer);
+HXLINE( 159)			::Array< ::Dynamic> _positions = ::lime::text::harfbuzz::_HBBuffer::HBBuffer_Impl__obj::getGlyphPositions(this->_hx___hbBuffer);
+HXLINE( 161)			bool _hx_tmp2;
+HXDLIN( 161)			if (::hx::IsNotNull( _info )) {
+HXLINE( 161)				_hx_tmp2 = ::hx::IsNotNull( _positions );
             			}
             			else {
-HXLINE( 158)				_hx_tmp2 = false;
+HXLINE( 161)				_hx_tmp2 = false;
             			}
-HXDLIN( 158)			if (_hx_tmp2) {
-HXLINE( 160)				 ::lime::text::harfbuzz::HBGlyphInfo info;
-HXDLIN( 160)				 ::lime::text::harfbuzz::HBGlyphPosition position;
-HXLINE( 161)				int lastCluster = -1;
-HXLINE( 163)				int length = ::Std_obj::_hx_int(::Math_obj::min(( (Float)(_info->length) ),( (Float)(_positions->length) )));
-HXLINE( 165)				{
-HXLINE( 165)					int _g = 0;
-HXDLIN( 165)					int _g1 = length;
-HXDLIN( 165)					while((_g < _g1)){
-HXLINE( 165)						_g = (_g + 1);
-HXDLIN( 165)						int i = (_g - 1);
-HXLINE( 167)						info = _info->__get(i).StaticCast<  ::lime::text::harfbuzz::HBGlyphInfo >();
-HXLINE( 168)						position = _positions->__get(i).StaticCast<  ::lime::text::harfbuzz::HBGlyphPosition >();
-HXLINE( 170)						{
-HXLINE( 170)							int _g1 = (lastCluster + 1);
-HXDLIN( 170)							int _g2 = info->cluster;
-HXDLIN( 170)							while((_g1 < _g2)){
-HXLINE( 170)								_g1 = (_g1 + 1);
-HXDLIN( 170)								int j = (_g1 - 1);
-HXLINE( 174)								::Array< ::Dynamic> _hx_tmp = this->get_positions();
-HXDLIN( 174)								 ::lime::math::Vector2 _hx_tmp1 =  ::lime::math::Vector2_obj::__alloc( HX_CTX ,0,0);
-HXDLIN( 174)								_hx_tmp->push( ::openfl::text::_internal::GlyphPosition_obj::__alloc( HX_CTX ,0,_hx_tmp1, ::lime::math::Vector2_obj::__alloc( HX_CTX ,0,0)));
+HXDLIN( 161)			if (_hx_tmp2) {
+HXLINE( 163)				 ::lime::text::harfbuzz::HBGlyphInfo info;
+HXDLIN( 163)				 ::lime::text::harfbuzz::HBGlyphPosition position;
+HXLINE( 164)				int lastCluster = -1;
+HXLINE( 166)				int length = ::Std_obj::_hx_int(::Math_obj::min(( (Float)(_info->length) ),( (Float)(_positions->length) )));
+HXLINE( 168)				{
+HXLINE( 168)					int _g = 0;
+HXDLIN( 168)					int _g1 = length;
+HXDLIN( 168)					while((_g < _g1)){
+HXLINE( 168)						_g = (_g + 1);
+HXDLIN( 168)						int i = (_g - 1);
+HXLINE( 170)						info = _info->__get(i).StaticCast<  ::lime::text::harfbuzz::HBGlyphInfo >();
+HXLINE( 171)						position = _positions->__get(i).StaticCast<  ::lime::text::harfbuzz::HBGlyphPosition >();
+HXLINE( 173)						{
+HXLINE( 173)							int _g1 = (lastCluster + 1);
+HXDLIN( 173)							int _g2 = info->cluster;
+HXDLIN( 173)							while((_g1 < _g2)){
+HXLINE( 173)								_g1 = (_g1 + 1);
+HXDLIN( 173)								int j = (_g1 - 1);
+HXLINE( 177)								::Array< ::Dynamic> _hx_tmp = this->get_positions();
+HXDLIN( 177)								 ::lime::math::Vector2 _hx_tmp1 =  ::lime::math::Vector2_obj::__alloc( HX_CTX ,0,0);
+HXDLIN( 177)								_hx_tmp->push( ::openfl::text::_internal::GlyphPosition_obj::__alloc( HX_CTX ,0,_hx_tmp1, ::lime::math::Vector2_obj::__alloc( HX_CTX ,0,0)));
             							}
             						}
-HXLINE( 177)						::Array< ::Dynamic> _hx_tmp = this->get_positions();
-HXDLIN( 177)						int info1 = info->codepoint;
-HXDLIN( 177)						 ::lime::math::Vector2 _hx_tmp1 =  ::lime::math::Vector2_obj::__alloc( HX_CTX ,((( (Float)(position->xAdvance) ) / ( (Float)(64) )) + this->letterSpacing),(( (Float)(position->yAdvance) ) / ( (Float)(64) )));
-HXDLIN( 177)						_hx_tmp->push( ::openfl::text::_internal::GlyphPosition_obj::__alloc( HX_CTX ,info1,_hx_tmp1, ::lime::math::Vector2_obj::__alloc( HX_CTX ,(( (Float)(position->xOffset) ) / ( (Float)(64) )),(( (Float)(position->yOffset) ) / ( (Float)(64) )))));
-HXLINE( 179)						lastCluster = info->cluster;
+HXLINE( 180)						::Array< ::Dynamic> _hx_tmp = this->get_positions();
+HXDLIN( 180)						int info1 = info->codepoint;
+HXDLIN( 180)						 ::lime::math::Vector2 _hx_tmp1 =  ::lime::math::Vector2_obj::__alloc( HX_CTX ,((( (Float)(position->xAdvance) ) / ( (Float)(64) )) + this->letterSpacing),(( (Float)(position->yAdvance) ) / ( (Float)(64) )));
+HXDLIN( 180)						_hx_tmp->push( ::openfl::text::_internal::GlyphPosition_obj::__alloc( HX_CTX ,info1,_hx_tmp1, ::lime::math::Vector2_obj::__alloc( HX_CTX ,(( (Float)(position->xOffset) ) / ( (Float)(64) )),(( (Float)(position->yOffset) ) / ( (Float)(64) )))));
+HXLINE( 182)						lastCluster = info->cluster;
             					}
             				}
             			}
@@ -307,132 +307,132 @@ HXLINE( 179)						lastCluster = info->cluster;
 HX_DEFINE_DYNAMIC_FUNC0(TextLayout_obj,_hx___position,(void))
 
 ::Array< ::Dynamic> TextLayout_obj::get_positions(){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_188_get_positions)
-HXLINE( 189)		if (this->_hx___dirty) {
-HXLINE( 191)			this->_hx___dirty = false;
-HXLINE( 192)			this->_hx___position();
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_191_get_positions)
+HXLINE( 192)		if (this->_hx___dirty) {
+HXLINE( 194)			this->_hx___dirty = false;
+HXLINE( 195)			this->_hx___position();
             		}
-HXLINE( 195)		return this->positions;
+HXLINE( 198)		return this->positions;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextLayout_obj,get_positions,return )
 
 int TextLayout_obj::get_direction(){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_200_get_direction)
-HXDLIN( 200)		return this->_hx___direction;
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_203_get_direction)
+HXDLIN( 203)		return this->_hx___direction;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextLayout_obj,get_direction,return )
 
 int TextLayout_obj::set_direction(int value){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_204_set_direction)
-HXLINE( 205)		if ((value == this->_hx___direction)) {
-HXLINE( 205)			return value;
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_207_set_direction)
+HXLINE( 208)		if ((value == this->_hx___direction)) {
+HXLINE( 208)			return value;
             		}
-HXLINE( 207)		this->_hx___direction = value;
-HXLINE( 208)		this->_hx___dirty = true;
-HXLINE( 210)		return value;
+HXLINE( 210)		this->_hx___direction = value;
+HXLINE( 211)		this->_hx___dirty = true;
+HXLINE( 213)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextLayout_obj,set_direction,return )
 
  ::lime::text::Font TextLayout_obj::set_font( ::lime::text::Font value){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_214_set_font)
-HXLINE( 215)		if (::hx::IsInstanceEq( value,this->font )) {
-HXLINE( 215)			return value;
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_217_set_font)
+HXLINE( 218)		if (::hx::IsInstanceEq( value,this->font )) {
+HXLINE( 218)			return value;
             		}
-HXLINE( 217)		this->font = value;
-HXLINE( 218)		this->_hx___dirty = true;
-HXLINE( 219)		return value;
+HXLINE( 220)		this->font = value;
+HXLINE( 221)		this->_hx___dirty = true;
+HXLINE( 222)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextLayout_obj,set_font,return )
 
 ::Array< int > TextLayout_obj::get_glyphs(){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_225_get_glyphs)
-HXLINE( 226)		::Array< int > glyphs = ::Array_obj< int >::__new(0);
-HXLINE( 228)		{
-HXLINE( 228)			int _g = 0;
-HXDLIN( 228)			::Array< ::Dynamic> _g1 = this->get_positions();
-HXDLIN( 228)			while((_g < _g1->length)){
-HXLINE( 228)				 ::openfl::text::_internal::GlyphPosition position = _g1->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
-HXDLIN( 228)				_g = (_g + 1);
-HXLINE( 230)				glyphs->push(position->glyph);
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_228_get_glyphs)
+HXLINE( 229)		::Array< int > glyphs = ::Array_obj< int >::__new(0);
+HXLINE( 231)		{
+HXLINE( 231)			int _g = 0;
+HXDLIN( 231)			::Array< ::Dynamic> _g1 = this->get_positions();
+HXDLIN( 231)			while((_g < _g1->length)){
+HXLINE( 231)				 ::openfl::text::_internal::GlyphPosition position = _g1->__get(_g).StaticCast<  ::openfl::text::_internal::GlyphPosition >();
+HXDLIN( 231)				_g = (_g + 1);
+HXLINE( 233)				glyphs->push(position->glyph);
             			}
             		}
-HXLINE( 233)		return glyphs;
+HXLINE( 236)		return glyphs;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextLayout_obj,get_glyphs,return )
 
 ::String TextLayout_obj::get_language(){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_238_get_language)
-HXDLIN( 238)		return this->_hx___language;
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_241_get_language)
+HXDLIN( 241)		return this->_hx___language;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextLayout_obj,get_language,return )
 
 ::String TextLayout_obj::set_language(::String value){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_242_set_language)
-HXLINE( 243)		if ((value == this->_hx___language)) {
-HXLINE( 243)			return value;
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_245_set_language)
+HXLINE( 246)		if ((value == this->_hx___language)) {
+HXLINE( 246)			return value;
             		}
-HXLINE( 245)		this->_hx___language = value;
-HXLINE( 246)		this->_hx___dirty = true;
-HXLINE( 248)		return value;
+HXLINE( 248)		this->_hx___language = value;
+HXLINE( 249)		this->_hx___dirty = true;
+HXLINE( 251)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextLayout_obj,set_language,return )
 
 ::String TextLayout_obj::get_script(){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_253_get_script)
-HXDLIN( 253)		return this->_hx___script;
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_256_get_script)
+HXDLIN( 256)		return this->_hx___script;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(TextLayout_obj,get_script,return )
 
 ::String TextLayout_obj::set_script(::String value){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_257_set_script)
-HXLINE( 258)		if ((value == this->_hx___script)) {
-HXLINE( 258)			return value;
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_260_set_script)
+HXLINE( 261)		if ((value == this->_hx___script)) {
+HXLINE( 261)			return value;
             		}
-HXLINE( 260)		this->_hx___script = value;
-HXLINE( 261)		this->_hx___dirty = true;
-HXLINE( 263)		return value;
+HXLINE( 263)		this->_hx___script = value;
+HXLINE( 264)		this->_hx___dirty = true;
+HXLINE( 266)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextLayout_obj,set_script,return )
 
 int TextLayout_obj::set_size(int value){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_267_set_size)
-HXLINE( 268)		if ((value == this->size)) {
-HXLINE( 268)			return value;
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_270_set_size)
+HXLINE( 271)		if ((value == this->size)) {
+HXLINE( 271)			return value;
             		}
-HXLINE( 270)		this->size = value;
-HXLINE( 271)		this->_hx___dirty = true;
-HXLINE( 272)		return value;
+HXLINE( 273)		this->size = value;
+HXLINE( 274)		this->_hx___dirty = true;
+HXLINE( 275)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(TextLayout_obj,set_size,return )
 
 ::String TextLayout_obj::set_text(::String value){
-            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_276_set_text)
-HXLINE( 277)		if ((value == this->text)) {
-HXLINE( 277)			return value;
+            	HX_STACKFRAME(&_hx_pos_ccdf12459bd3b0e0_279_set_text)
+HXLINE( 280)		if ((value == this->text)) {
+HXLINE( 280)			return value;
             		}
-HXLINE( 279)		this->text = value;
-HXLINE( 280)		this->_hx___dirty = true;
-HXLINE( 281)		return value;
+HXLINE( 282)		this->text = value;
+HXLINE( 283)		this->_hx___dirty = true;
+HXLINE( 284)		return value;
             	}
 
 

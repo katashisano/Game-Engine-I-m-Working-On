@@ -62,38 +62,40 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d8cb40cd2da03698_31_new,"openfl.display.Timeline","new",0x7cf7cf5d,"openfl.display.Timeline.new","openfl/display/Timeline.hx",31,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_42_attachMovieClip,"openfl.display.Timeline","attachMovieClip",0x2db9cc98,"openfl.display.Timeline.attachMovieClip","openfl/display/Timeline.hx",42,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_44_enterFrame,"openfl.display.Timeline","enterFrame",0x44228e98,"openfl.display.Timeline.enterFrame","openfl/display/Timeline.hx",44,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_47___addFrameScript,"openfl.display.Timeline","__addFrameScript",0x673f537a,"openfl.display.Timeline.__addFrameScript","openfl/display/Timeline.hx",47,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_61___addFrameScript,"openfl.display.Timeline","__addFrameScript",0x673f537a,"openfl.display.Timeline.__addFrameScript","openfl/display/Timeline.hx",61,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_71___attachMovieClip,"openfl.display.Timeline","__attachMovieClip",0x794056b8,"openfl.display.Timeline.__attachMovieClip","openfl/display/Timeline.hx",71,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_107___enterFrame,"openfl.display.Timeline","__enterFrame",0x7e683878,"openfl.display.Timeline.__enterFrame","openfl/display/Timeline.hx",107,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_144___evaluateFrameScripts,"openfl.display.Timeline","__evaluateFrameScripts",0x677f1f97,"openfl.display.Timeline.__evaluateFrameScripts","openfl/display/Timeline.hx",144,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_176___getNextFrame,"openfl.display.Timeline","__getNextFrame",0x970fca07,"openfl.display.Timeline.__getNextFrame","openfl/display/Timeline.hx",176,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_197___goto,"openfl.display.Timeline","__goto",0x4a0bb9e6,"openfl.display.Timeline.__goto","openfl/display/Timeline.hx",197,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_209___gotoAndPlay,"openfl.display.Timeline","__gotoAndPlay",0x089a2325,"openfl.display.Timeline.__gotoAndPlay","openfl/display/Timeline.hx",209,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_215___gotoAndStop,"openfl.display.Timeline","__gotoAndStop",0x0a9be533,"openfl.display.Timeline.__gotoAndStop","openfl/display/Timeline.hx",215,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_221___nextFrame,"openfl.display.Timeline","__nextFrame",0x325b9f17,"openfl.display.Timeline.__nextFrame","openfl/display/Timeline.hx",221,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_227___nextScene,"openfl.display.Timeline","__nextScene",0xa4aa0036,"openfl.display.Timeline.__nextScene","openfl/display/Timeline.hx",227,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_232___play,"openfl.display.Timeline","__play",0x4ffc4e37,"openfl.display.Timeline.__play","openfl/display/Timeline.hx",232,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_245___prevFrame,"openfl.display.Timeline","__prevFrame",0x766d2517,"openfl.display.Timeline.__prevFrame","openfl/display/Timeline.hx",245,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_251___prevScene,"openfl.display.Timeline","__prevScene",0xe8bb8636,"openfl.display.Timeline.__prevScene","openfl/display/Timeline.hx",251,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_257___stop,"openfl.display.Timeline","__stop",0x51fe1045,"openfl.display.Timeline.__stop","openfl/display/Timeline.hx",257,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_262___resolveFrameReference,"openfl.display.Timeline","__resolveFrameReference",0x58065247,"openfl.display.Timeline.__resolveFrameReference","openfl/display/Timeline.hx",262,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_287___updateFrameLabel,"openfl.display.Timeline","__updateFrameLabel",0xde740ab3,"openfl.display.Timeline.__updateFrameLabel","openfl/display/Timeline.hx",287,0xb67a1cf1)
-HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_313___updateSymbol,"openfl.display.Timeline","__updateSymbol",0xc891f184,"openfl.display.Timeline.__updateSymbol","openfl/display/Timeline.hx",313,0xb67a1cf1)
+HX_DEFINE_STACK_FRAME(_hx_pos_d8cb40cd2da03698_67_new,"openfl.display.Timeline","new",0x7cf7cf5d,"openfl.display.Timeline.new","openfl/display/Timeline.hx",67,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_89_attachMovieClip,"openfl.display.Timeline","attachMovieClip",0x2db9cc98,"openfl.display.Timeline.attachMovieClip","openfl/display/Timeline.hx",89,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_98_enterFrame,"openfl.display.Timeline","enterFrame",0x44228e98,"openfl.display.Timeline.enterFrame","openfl/display/Timeline.hx",98,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_112_initializeSprite,"openfl.display.Timeline","initializeSprite",0xb5160458,"openfl.display.Timeline.initializeSprite","openfl/display/Timeline.hx",112,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_115___addFrameScript,"openfl.display.Timeline","__addFrameScript",0x673f537a,"openfl.display.Timeline.__addFrameScript","openfl/display/Timeline.hx",115,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_129___addFrameScript,"openfl.display.Timeline","__addFrameScript",0x673f537a,"openfl.display.Timeline.__addFrameScript","openfl/display/Timeline.hx",129,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_139___attachMovieClip,"openfl.display.Timeline","__attachMovieClip",0x794056b8,"openfl.display.Timeline.__attachMovieClip","openfl/display/Timeline.hx",139,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_172___attachMovieClip,"openfl.display.Timeline","__attachMovieClip",0x794056b8,"openfl.display.Timeline.__attachMovieClip","openfl/display/Timeline.hx",172,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_188___enterFrame,"openfl.display.Timeline","__enterFrame",0x7e683878,"openfl.display.Timeline.__enterFrame","openfl/display/Timeline.hx",188,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_225___evaluateFrameScripts,"openfl.display.Timeline","__evaluateFrameScripts",0x677f1f97,"openfl.display.Timeline.__evaluateFrameScripts","openfl/display/Timeline.hx",225,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_257___getNextFrame,"openfl.display.Timeline","__getNextFrame",0x970fca07,"openfl.display.Timeline.__getNextFrame","openfl/display/Timeline.hx",257,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_278___goto,"openfl.display.Timeline","__goto",0x4a0bb9e6,"openfl.display.Timeline.__goto","openfl/display/Timeline.hx",278,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_290___gotoAndPlay,"openfl.display.Timeline","__gotoAndPlay",0x089a2325,"openfl.display.Timeline.__gotoAndPlay","openfl/display/Timeline.hx",290,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_296___gotoAndStop,"openfl.display.Timeline","__gotoAndStop",0x0a9be533,"openfl.display.Timeline.__gotoAndStop","openfl/display/Timeline.hx",296,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_302___nextFrame,"openfl.display.Timeline","__nextFrame",0x325b9f17,"openfl.display.Timeline.__nextFrame","openfl/display/Timeline.hx",302,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_308___nextScene,"openfl.display.Timeline","__nextScene",0xa4aa0036,"openfl.display.Timeline.__nextScene","openfl/display/Timeline.hx",308,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_313___play,"openfl.display.Timeline","__play",0x4ffc4e37,"openfl.display.Timeline.__play","openfl/display/Timeline.hx",313,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_326___prevFrame,"openfl.display.Timeline","__prevFrame",0x766d2517,"openfl.display.Timeline.__prevFrame","openfl/display/Timeline.hx",326,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_332___prevScene,"openfl.display.Timeline","__prevScene",0xe8bb8636,"openfl.display.Timeline.__prevScene","openfl/display/Timeline.hx",332,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_338___stop,"openfl.display.Timeline","__stop",0x51fe1045,"openfl.display.Timeline.__stop","openfl/display/Timeline.hx",338,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_343___resolveFrameReference,"openfl.display.Timeline","__resolveFrameReference",0x58065247,"openfl.display.Timeline.__resolveFrameReference","openfl/display/Timeline.hx",343,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_368___updateFrameLabel,"openfl.display.Timeline","__updateFrameLabel",0xde740ab3,"openfl.display.Timeline.__updateFrameLabel","openfl/display/Timeline.hx",368,0xb67a1cf1)
+HX_LOCAL_STACK_FRAME(_hx_pos_d8cb40cd2da03698_394___updateSymbol,"openfl.display.Timeline","__updateSymbol",0xc891f184,"openfl.display.Timeline.__updateSymbol","openfl/display/Timeline.hx",394,0xb67a1cf1)
 namespace openfl{
 namespace display{
 
 void Timeline_obj::__construct(){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_31_new)
-HXLINE(  32)		this->_hx___framesLoaded = 1;
-HXLINE(  33)		this->_hx___totalFrames = 1;
-HXLINE(  34)		this->_hx___currentLabels = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(  36)		this->_hx___currentFrame = 1;
-HXLINE(  38)		this->_hx___lastFrameScriptEval = -1;
-HXLINE(  39)		this->_hx___lastFrameUpdate = -1;
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_67_new)
+HXLINE(  68)		this->_hx___framesLoaded = 1;
+HXLINE(  69)		this->_hx___totalFrames = 1;
+HXLINE(  70)		this->_hx___currentLabels = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(  72)		this->_hx___currentFrame = 1;
+HXLINE(  74)		this->_hx___lastFrameScriptEval = -1;
+HXLINE(  75)		this->_hx___lastFrameUpdate = -1;
             	}
 
 Dynamic Timeline_obj::__CreateEmpty() { return new Timeline_obj; }
@@ -112,41 +114,48 @@ bool Timeline_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void Timeline_obj::attachMovieClip( ::openfl::display::MovieClip movieClip){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_42_attachMovieClip)
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_89_attachMovieClip)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Timeline_obj,attachMovieClip,(void))
 
 void Timeline_obj::enterFrame(int frame){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_44_enterFrame)
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_98_enterFrame)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Timeline_obj,enterFrame,(void))
 
+void Timeline_obj::initializeSprite( ::openfl::display::Sprite sprite){
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_112_initializeSprite)
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(Timeline_obj,initializeSprite,(void))
+
 void Timeline_obj::_hx___addFrameScript(int index, ::Dynamic method){
-            	HX_GC_STACKFRAME(&_hx_pos_d8cb40cd2da03698_47___addFrameScript)
-HXLINE(  48)		if ((index < 0)) {
-HXLINE(  48)			return;
+            	HX_GC_STACKFRAME(&_hx_pos_d8cb40cd2da03698_115___addFrameScript)
+HXLINE( 116)		if ((index < 0)) {
+HXLINE( 116)			return;
             		}
-HXLINE(  50)		int frame = (index + 1);
-HXLINE(  52)		if (::hx::IsNotNull( method )) {
+HXLINE( 118)		int frame = (index + 1);
+HXLINE( 120)		if (::hx::IsNotNull( method )) {
             			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::Dynamic,method) HXARGC(1)
             			void _hx_run( ::openfl::display::MovieClip scope){
-            				HX_GC_STACKFRAME(&_hx_pos_d8cb40cd2da03698_61___addFrameScript)
-HXLINE(  61)				method();
+            				HX_GC_STACKFRAME(&_hx_pos_d8cb40cd2da03698_129___addFrameScript)
+HXLINE( 129)				method();
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE(  54)			if (::hx::IsNull( this->_hx___frameScripts )) {
-HXLINE(  56)				this->_hx___frameScripts =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+HXLINE( 122)			if (::hx::IsNull( this->_hx___frameScripts )) {
+HXLINE( 124)				this->_hx___frameScripts =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
             			}
-HXLINE(  59)			this->_hx___frameScripts->set(frame, ::Dynamic(new _hx_Closure_0(method)));
+HXLINE( 127)			this->_hx___frameScripts->set(frame, ::Dynamic(new _hx_Closure_0(method)));
             		}
             		else {
-HXLINE(  64)			if (::hx::IsNotNull( this->_hx___frameScripts )) {
-HXLINE(  66)				this->_hx___frameScripts->remove(frame);
+HXLINE( 132)			if (::hx::IsNotNull( this->_hx___frameScripts )) {
+HXLINE( 134)				this->_hx___frameScripts->remove(frame);
             			}
             		}
             	}
@@ -155,219 +164,234 @@ HXLINE(  66)				this->_hx___frameScripts->remove(frame);
 HX_DEFINE_DYNAMIC_FUNC2(Timeline_obj,_hx___addFrameScript,(void))
 
 void Timeline_obj::_hx___attachMovieClip( ::openfl::display::MovieClip movieClip){
-            	HX_GC_STACKFRAME(&_hx_pos_d8cb40cd2da03698_71___attachMovieClip)
-HXLINE(  72)		this->_hx___scope = movieClip;
-HXLINE(  74)		this->_hx___totalFrames = 0;
-HXLINE(  75)		this->_hx___framesLoaded = 0;
-HXLINE(  77)		bool _hx_tmp;
-HXDLIN(  77)		if (::hx::IsNotNull( this->scenes )) {
-HXLINE(  77)			_hx_tmp = (this->scenes->length > 0);
+            	HX_GC_STACKFRAME(&_hx_pos_d8cb40cd2da03698_139___attachMovieClip)
+HXLINE( 140)		this->_hx___scope = movieClip;
+HXLINE( 142)		this->_hx___totalFrames = 0;
+HXLINE( 143)		this->_hx___framesLoaded = 0;
+HXLINE( 145)		bool _hx_tmp;
+HXDLIN( 145)		if (::hx::IsNotNull( this->scenes )) {
+HXLINE( 145)			_hx_tmp = (this->scenes->length > 0);
             		}
             		else {
-HXLINE(  77)			_hx_tmp = false;
+HXLINE( 145)			_hx_tmp = false;
             		}
-HXDLIN(  77)		if (_hx_tmp) {
-HXLINE(  79)			{
-HXLINE(  79)				int _g = 0;
-HXDLIN(  79)				::Array< ::Dynamic> _g1 = this->scenes;
-HXDLIN(  79)				while((_g < _g1->length)){
-HXLINE(  79)					 ::openfl::display::Scene scene = _g1->__get(_g).StaticCast<  ::openfl::display::Scene >();
-HXDLIN(  79)					_g = (_g + 1);
-HXLINE(  81)					 ::openfl::display::Timeline _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(  81)					_hx_tmp->_hx___totalFrames = (_hx_tmp->_hx___totalFrames + scene->numFrames);
-HXLINE(  82)					 ::openfl::display::Timeline _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN(  82)					_hx_tmp1->_hx___framesLoaded = (_hx_tmp1->_hx___framesLoaded + scene->numFrames);
-HXLINE(  83)					if (::hx::IsNotNull( scene->labels )) {
-HXLINE(  86)						this->_hx___currentLabels = this->_hx___currentLabels->concat(scene->labels);
+HXDLIN( 145)		if (_hx_tmp) {
+HXLINE( 147)			{
+HXLINE( 147)				int _g = 0;
+HXDLIN( 147)				::Array< ::Dynamic> _g1 = this->scenes;
+HXDLIN( 147)				while((_g < _g1->length)){
+HXLINE( 147)					 ::openfl::display::Scene scene = _g1->__get(_g).StaticCast<  ::openfl::display::Scene >();
+HXDLIN( 147)					_g = (_g + 1);
+HXLINE( 149)					 ::openfl::display::Timeline _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 149)					_hx_tmp->_hx___totalFrames = (_hx_tmp->_hx___totalFrames + scene->numFrames);
+HXLINE( 150)					 ::openfl::display::Timeline _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 150)					_hx_tmp1->_hx___framesLoaded = (_hx_tmp1->_hx___framesLoaded + scene->numFrames);
+HXLINE( 151)					if (::hx::IsNotNull( scene->labels )) {
+HXLINE( 154)						this->_hx___currentLabels = this->_hx___currentLabels->concat(scene->labels);
             					}
             				}
             			}
-HXLINE(  90)			this->_hx___currentScene = this->scenes->__get(0).StaticCast<  ::openfl::display::Scene >();
+HXLINE( 158)			this->_hx___currentScene = this->scenes->__get(0).StaticCast<  ::openfl::display::Scene >();
             		}
-HXLINE(  93)		bool _hx_tmp1;
-HXDLIN(  93)		if (::hx::IsNotNull( this->scripts )) {
-HXLINE(  93)			_hx_tmp1 = (this->scripts->length > 0);
+HXLINE( 161)		bool _hx_tmp1;
+HXDLIN( 161)		if (::hx::IsNotNull( this->scripts )) {
+HXLINE( 161)			_hx_tmp1 = (this->scripts->length > 0);
             		}
             		else {
-HXLINE(  93)			_hx_tmp1 = false;
+HXLINE( 161)			_hx_tmp1 = false;
             		}
-HXDLIN(  93)		if (_hx_tmp1) {
-HXLINE(  95)			this->_hx___frameScripts =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
-HXLINE(  96)			{
-HXLINE(  96)				int _g = 0;
-HXDLIN(  96)				::Array< ::Dynamic> _g1 = this->scripts;
-HXDLIN(  96)				while((_g < _g1->length)){
-HXLINE(  96)					 ::openfl::display::FrameScript script = _g1->__get(_g).StaticCast<  ::openfl::display::FrameScript >();
-HXDLIN(  96)					_g = (_g + 1);
-HXLINE(  99)					this->_hx___frameScripts->set(script->frame,script->script);
+HXDLIN( 161)		if (_hx_tmp1) {
+HXLINE( 163)			this->_hx___frameScripts =  ::haxe::ds::IntMap_obj::__alloc( HX_CTX );
+HXLINE( 164)			{
+HXLINE( 164)				int _g = 0;
+HXDLIN( 164)				::Array< ::Dynamic> _g1 = this->scripts;
+HXDLIN( 164)				while((_g < _g1->length)){
+HXLINE( 164)					 ::openfl::display::FrameScript script = _g1->__get(_g).StaticCast<  ::openfl::display::FrameScript >();
+HXDLIN( 164)					_g = (_g + 1);
+HXLINE( 166)					if (this->_hx___frameScripts->exists(script->frame)) {
+            						HX_BEGIN_LOCAL_FUNC_S2(::hx::LocalFunc,_hx_Closure_0, ::Dynamic,append, ::Dynamic,existing) HXARGC(1)
+            						void _hx_run( ::openfl::display::MovieClip clip){
+            							HX_GC_STACKFRAME(&_hx_pos_d8cb40cd2da03698_172___attachMovieClip)
+HXLINE( 173)							existing(clip);
+HXLINE( 174)							append(clip);
+            						}
+            						HX_END_LOCAL_FUNC1((void))
+
+HXLINE( 169)						 ::Dynamic existing = this->_hx___frameScripts->get(script->frame);
+HXLINE( 170)						 ::Dynamic append = script->script;
+HXLINE( 171)						this->_hx___frameScripts->set(script->frame, ::Dynamic(new _hx_Closure_0(append,existing)));
+            					}
+            					else {
+HXLINE( 179)						this->_hx___frameScripts->set(script->frame,script->script);
+            					}
             				}
             			}
             		}
-HXLINE( 103)		this->attachMovieClip(movieClip);
+HXLINE( 184)		this->attachMovieClip(movieClip);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Timeline_obj,_hx___attachMovieClip,(void))
 
 void Timeline_obj::_hx___enterFrame(int deltaTime){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_107___enterFrame)
-HXLINE( 108)		if (this->_hx___isPlaying) {
-HXLINE( 110)			int nextFrame = this->_hx___getNextFrame(deltaTime);
-HXLINE( 112)			if ((this->_hx___lastFrameScriptEval == nextFrame)) {
-HXLINE( 114)				return;
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_188___enterFrame)
+HXLINE( 189)		if (this->_hx___isPlaying) {
+HXLINE( 191)			int nextFrame = this->_hx___getNextFrame(deltaTime);
+HXLINE( 193)			if ((this->_hx___lastFrameScriptEval == nextFrame)) {
+HXLINE( 195)				return;
             			}
-HXLINE( 117)			if (::hx::IsNotNull( this->_hx___frameScripts )) {
-HXLINE( 119)				if ((nextFrame < this->_hx___currentFrame)) {
-HXLINE( 121)					if (!(this->_hx___evaluateFrameScripts(this->_hx___totalFrames))) {
-HXLINE( 123)						return;
+HXLINE( 198)			if (::hx::IsNotNull( this->_hx___frameScripts )) {
+HXLINE( 200)				if ((nextFrame < this->_hx___currentFrame)) {
+HXLINE( 202)					if (!(this->_hx___evaluateFrameScripts(this->_hx___totalFrames))) {
+HXLINE( 204)						return;
             					}
-HXLINE( 126)					this->_hx___currentFrame = 1;
+HXLINE( 207)					this->_hx___currentFrame = 1;
             				}
-HXLINE( 129)				if (!(this->_hx___evaluateFrameScripts(nextFrame))) {
-HXLINE( 131)					return;
+HXLINE( 210)				if (!(this->_hx___evaluateFrameScripts(nextFrame))) {
+HXLINE( 212)					return;
             				}
             			}
             			else {
-HXLINE( 136)				this->_hx___currentFrame = nextFrame;
+HXLINE( 217)				this->_hx___currentFrame = nextFrame;
             			}
             		}
-HXLINE( 140)		this->_hx___updateSymbol(this->_hx___currentFrame);
+HXLINE( 221)		this->_hx___updateSymbol(this->_hx___currentFrame);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Timeline_obj,_hx___enterFrame,(void))
 
 bool Timeline_obj::_hx___evaluateFrameScripts(int advanceToFrame){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_144___evaluateFrameScripts)
-HXLINE( 145)		if (::hx::IsNull( this->_hx___frameScripts )) {
-HXLINE( 145)			return true;
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_225___evaluateFrameScripts)
+HXLINE( 226)		if (::hx::IsNull( this->_hx___frameScripts )) {
+HXLINE( 226)			return true;
             		}
-HXLINE( 147)		{
-HXLINE( 147)			int _g = this->_hx___currentFrame;
-HXDLIN( 147)			int _g1 = (advanceToFrame + 1);
-HXDLIN( 147)			while((_g < _g1)){
-HXLINE( 147)				_g = (_g + 1);
-HXDLIN( 147)				int frame = (_g - 1);
-HXLINE( 149)				if ((frame == this->_hx___lastFrameScriptEval)) {
-HXLINE( 149)					continue;
+HXLINE( 228)		{
+HXLINE( 228)			int _g = this->_hx___currentFrame;
+HXDLIN( 228)			int _g1 = (advanceToFrame + 1);
+HXDLIN( 228)			while((_g < _g1)){
+HXLINE( 228)				_g = (_g + 1);
+HXDLIN( 228)				int frame = (_g - 1);
+HXLINE( 230)				if ((frame == this->_hx___lastFrameScriptEval)) {
+HXLINE( 230)					continue;
             				}
-HXLINE( 151)				this->_hx___lastFrameScriptEval = frame;
-HXLINE( 152)				this->_hx___currentFrame = frame;
-HXLINE( 154)				if (this->_hx___frameScripts->exists(frame)) {
-HXLINE( 156)					this->_hx___updateSymbol(frame);
-HXLINE( 157)					 ::Dynamic script = this->_hx___frameScripts->get(frame);
-HXLINE( 158)					script(this->_hx___scope);
-HXLINE( 160)					if ((this->_hx___currentFrame != frame)) {
-HXLINE( 162)						return false;
+HXLINE( 232)				this->_hx___lastFrameScriptEval = frame;
+HXLINE( 233)				this->_hx___currentFrame = frame;
+HXLINE( 235)				if (this->_hx___frameScripts->exists(frame)) {
+HXLINE( 237)					this->_hx___updateSymbol(frame);
+HXLINE( 238)					 ::Dynamic script = this->_hx___frameScripts->get(frame);
+HXLINE( 239)					script(this->_hx___scope);
+HXLINE( 241)					if ((this->_hx___currentFrame != frame)) {
+HXLINE( 243)						return false;
             					}
             				}
-HXLINE( 166)				if (!(this->_hx___isPlaying)) {
-HXLINE( 168)					return false;
+HXLINE( 247)				if (!(this->_hx___isPlaying)) {
+HXLINE( 249)					return false;
             				}
             			}
             		}
-HXLINE( 172)		return true;
+HXLINE( 253)		return true;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Timeline_obj,_hx___evaluateFrameScripts,return )
 
 int Timeline_obj::_hx___getNextFrame(int deltaTime){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_176___getNextFrame)
-HXLINE( 177)		int nextFrame = 0;
-HXLINE( 179)		if (::hx::IsNotNull( this->frameRate )) {
-HXLINE( 181)			 ::openfl::display::Timeline _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 181)			_hx_tmp->_hx___timeElapsed = (_hx_tmp->_hx___timeElapsed + deltaTime);
-HXLINE( 182)			nextFrame = (this->_hx___currentFrame + ::Math_obj::floor((( (Float)(this->_hx___timeElapsed) ) / ( (Float)(this->_hx___frameTime) ))));
-HXLINE( 183)			if ((nextFrame < 1)) {
-HXLINE( 183)				nextFrame = 1;
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_257___getNextFrame)
+HXLINE( 258)		int nextFrame = 0;
+HXLINE( 260)		if (::hx::IsNotNull( this->frameRate )) {
+HXLINE( 262)			 ::openfl::display::Timeline _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 262)			_hx_tmp->_hx___timeElapsed = (_hx_tmp->_hx___timeElapsed + deltaTime);
+HXLINE( 263)			nextFrame = (this->_hx___currentFrame + ::Math_obj::floor((( (Float)(this->_hx___timeElapsed) ) / ( (Float)(this->_hx___frameTime) ))));
+HXLINE( 264)			if ((nextFrame < 1)) {
+HXLINE( 264)				nextFrame = 1;
             			}
-HXLINE( 184)			if ((nextFrame > this->_hx___totalFrames)) {
-HXLINE( 184)				nextFrame = (::Math_obj::floor(( (Float)(::hx::Mod((nextFrame - 1),this->_hx___totalFrames)) )) + 1);
+HXLINE( 265)			if ((nextFrame > this->_hx___totalFrames)) {
+HXLINE( 265)				nextFrame = (::Math_obj::floor(( (Float)(::hx::Mod((nextFrame - 1),this->_hx___totalFrames)) )) + 1);
             			}
-HXLINE( 185)			this->_hx___timeElapsed = ::hx::Mod(this->_hx___timeElapsed,this->_hx___frameTime);
+HXLINE( 266)			this->_hx___timeElapsed = ::hx::Mod(this->_hx___timeElapsed,this->_hx___frameTime);
             		}
             		else {
-HXLINE( 189)			nextFrame = (this->_hx___currentFrame + 1);
-HXLINE( 190)			if ((nextFrame > this->_hx___totalFrames)) {
-HXLINE( 190)				nextFrame = 1;
+HXLINE( 270)			nextFrame = (this->_hx___currentFrame + 1);
+HXLINE( 271)			if ((nextFrame > this->_hx___totalFrames)) {
+HXLINE( 271)				nextFrame = 1;
             			}
             		}
-HXLINE( 193)		return nextFrame;
+HXLINE( 274)		return nextFrame;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Timeline_obj,_hx___getNextFrame,return )
 
 void Timeline_obj::_hx___goto(int frame){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_197___goto)
-HXLINE( 198)		if ((frame < 1)) {
-HXLINE( 198)			frame = 1;
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_278___goto)
+HXLINE( 279)		if ((frame < 1)) {
+HXLINE( 279)			frame = 1;
             		}
             		else {
-HXLINE( 199)			if ((frame > this->_hx___totalFrames)) {
-HXLINE( 199)				frame = this->_hx___totalFrames;
+HXLINE( 280)			if ((frame > this->_hx___totalFrames)) {
+HXLINE( 280)				frame = this->_hx___totalFrames;
             			}
             		}
-HXLINE( 201)		this->_hx___lastFrameScriptEval = -1;
-HXLINE( 202)		this->_hx___currentFrame = frame;
-HXLINE( 204)		this->_hx___updateSymbol(this->_hx___currentFrame);
-HXLINE( 205)		this->_hx___evaluateFrameScripts(this->_hx___currentFrame);
+HXLINE( 282)		this->_hx___lastFrameScriptEval = -1;
+HXLINE( 283)		this->_hx___currentFrame = frame;
+HXLINE( 285)		this->_hx___updateSymbol(this->_hx___currentFrame);
+HXLINE( 286)		this->_hx___evaluateFrameScripts(this->_hx___currentFrame);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Timeline_obj,_hx___goto,(void))
 
 void Timeline_obj::_hx___gotoAndPlay( ::Dynamic frame,::String scene){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_209___gotoAndPlay)
-HXLINE( 210)		this->_hx___play();
-HXLINE( 211)		this->_hx___goto(this->_hx___resolveFrameReference(frame));
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_290___gotoAndPlay)
+HXLINE( 291)		this->_hx___play();
+HXLINE( 292)		this->_hx___goto(this->_hx___resolveFrameReference(frame));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Timeline_obj,_hx___gotoAndPlay,(void))
 
 void Timeline_obj::_hx___gotoAndStop( ::Dynamic frame,::String scene){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_215___gotoAndStop)
-HXLINE( 216)		this->_hx___stop();
-HXLINE( 217)		this->_hx___goto(this->_hx___resolveFrameReference(frame));
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_296___gotoAndStop)
+HXLINE( 297)		this->_hx___stop();
+HXLINE( 298)		this->_hx___goto(this->_hx___resolveFrameReference(frame));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Timeline_obj,_hx___gotoAndStop,(void))
 
 void Timeline_obj::_hx___nextFrame(){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_221___nextFrame)
-HXLINE( 222)		this->_hx___stop();
-HXLINE( 223)		this->_hx___goto((this->_hx___currentFrame + 1));
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_302___nextFrame)
+HXLINE( 303)		this->_hx___stop();
+HXLINE( 304)		this->_hx___goto((this->_hx___currentFrame + 1));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Timeline_obj,_hx___nextFrame,(void))
 
 void Timeline_obj::_hx___nextScene(){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_227___nextScene)
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_308___nextScene)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Timeline_obj,_hx___nextScene,(void))
 
 void Timeline_obj::_hx___play(){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_232___play)
-HXLINE( 233)		bool _hx_tmp;
-HXDLIN( 233)		if (!(this->_hx___isPlaying)) {
-HXLINE( 233)			_hx_tmp = (this->_hx___totalFrames < 2);
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_313___play)
+HXLINE( 314)		bool _hx_tmp;
+HXDLIN( 314)		if (!(this->_hx___isPlaying)) {
+HXLINE( 314)			_hx_tmp = (this->_hx___totalFrames < 2);
             		}
             		else {
-HXLINE( 233)			_hx_tmp = true;
+HXLINE( 314)			_hx_tmp = true;
             		}
-HXDLIN( 233)		if (_hx_tmp) {
-HXLINE( 233)			return;
+HXDLIN( 314)		if (_hx_tmp) {
+HXLINE( 314)			return;
             		}
-HXLINE( 235)		this->_hx___isPlaying = true;
-HXLINE( 237)		if (::hx::IsNotNull( this->frameRate )) {
-HXLINE( 239)			this->_hx___frameTime = ::Std_obj::_hx_int((( (Float)(1000) ) / ( (Float)(this->frameRate) )));
-HXLINE( 240)			this->_hx___timeElapsed = 0;
+HXLINE( 316)		this->_hx___isPlaying = true;
+HXLINE( 318)		if (::hx::IsNotNull( this->frameRate )) {
+HXLINE( 320)			this->_hx___frameTime = ::Std_obj::_hx_int((( (Float)(1000) ) / ( (Float)(this->frameRate) )));
+HXLINE( 321)			this->_hx___timeElapsed = 0;
             		}
             	}
 
@@ -375,84 +399,84 @@ HXLINE( 240)			this->_hx___timeElapsed = 0;
 HX_DEFINE_DYNAMIC_FUNC0(Timeline_obj,_hx___play,(void))
 
 void Timeline_obj::_hx___prevFrame(){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_245___prevFrame)
-HXLINE( 246)		this->_hx___stop();
-HXLINE( 247)		this->_hx___goto((this->_hx___currentFrame - 1));
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_326___prevFrame)
+HXLINE( 327)		this->_hx___stop();
+HXLINE( 328)		this->_hx___goto((this->_hx___currentFrame - 1));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Timeline_obj,_hx___prevFrame,(void))
 
 void Timeline_obj::_hx___prevScene(){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_251___prevScene)
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_332___prevScene)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Timeline_obj,_hx___prevScene,(void))
 
 void Timeline_obj::_hx___stop(){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_257___stop)
-HXDLIN( 257)		this->_hx___isPlaying = false;
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_338___stop)
+HXDLIN( 338)		this->_hx___isPlaying = false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Timeline_obj,_hx___stop,(void))
 
 int Timeline_obj::_hx___resolveFrameReference( ::Dynamic frame){
-            	HX_GC_STACKFRAME(&_hx_pos_d8cb40cd2da03698_262___resolveFrameReference)
-HXDLIN( 262)		if (::Std_obj::isOfType(frame,::hx::ClassOf< int >())) {
-HXLINE( 264)			return ( (int)(frame) );
+            	HX_GC_STACKFRAME(&_hx_pos_d8cb40cd2da03698_343___resolveFrameReference)
+HXDLIN( 343)		if (::Std_obj::isOfType(frame,::hx::ClassOf< int >())) {
+HXLINE( 345)			return ( (int)(frame) );
             		}
             		else {
-HXLINE( 266)			if (::Std_obj::isOfType(frame,::hx::ClassOf< ::String >())) {
-HXLINE( 268)				::String label = ( (::String)(frame) );
-HXLINE( 270)				{
-HXLINE( 270)					int _g = 0;
-HXDLIN( 270)					::Array< ::Dynamic> _g1 = this->_hx___currentLabels;
-HXDLIN( 270)					while((_g < _g1->length)){
-HXLINE( 270)						 ::openfl::display::FrameLabel frameLabel = _g1->__get(_g).StaticCast<  ::openfl::display::FrameLabel >();
-HXDLIN( 270)						_g = (_g + 1);
-HXLINE( 272)						if ((frameLabel->name == label)) {
-HXLINE( 274)							return frameLabel->frame;
+HXLINE( 347)			if (::Std_obj::isOfType(frame,::hx::ClassOf< ::String >())) {
+HXLINE( 349)				::String label = ( (::String)(frame) );
+HXLINE( 351)				{
+HXLINE( 351)					int _g = 0;
+HXDLIN( 351)					::Array< ::Dynamic> _g1 = this->_hx___currentLabels;
+HXDLIN( 351)					while((_g < _g1->length)){
+HXLINE( 351)						 ::openfl::display::FrameLabel frameLabel = _g1->__get(_g).StaticCast<  ::openfl::display::FrameLabel >();
+HXDLIN( 351)						_g = (_g + 1);
+HXLINE( 353)						if ((frameLabel->name == label)) {
+HXLINE( 355)							return frameLabel->frame;
             						}
             					}
             				}
-HXLINE( 278)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::ArgumentError_obj::__alloc( HX_CTX ,((HX_("Error #2109: Frame label ",f8,f0,5a,8a) + label) + HX_(" not found in scene.",b2,87,08,ff)))));
+HXLINE( 359)				HX_STACK_DO_THROW( ::openfl::errors::ArgumentError_obj::__alloc( HX_CTX ,((HX_("Error #2109: Frame label ",f8,f0,5a,8a) + label) + HX_(" not found in scene.",b2,87,08,ff))));
             			}
             			else {
-HXLINE( 282)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Invalid type for frame ",e7,83,86,d5) + ::Type_obj::getClassName(frame))));
+HXLINE( 363)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown((HX_("Invalid type for frame ",e7,83,86,d5) + ::Type_obj::getClassName(frame))));
             			}
             		}
-HXLINE( 262)		return 0;
+HXLINE( 343)		return 0;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Timeline_obj,_hx___resolveFrameReference,return )
 
 void Timeline_obj::_hx___updateFrameLabel(){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_287___updateFrameLabel)
-HXLINE( 288)		this->_hx___currentLabel = null();
-HXLINE( 289)		this->_hx___currentFrameLabel = null();
-HXLINE( 293)		{
-HXLINE( 293)			int _g = 0;
-HXDLIN( 293)			::Array< ::Dynamic> _g1 = this->_hx___currentLabels;
-HXDLIN( 293)			while((_g < _g1->length)){
-HXLINE( 293)				 ::openfl::display::FrameLabel label = _g1->__get(_g).StaticCast<  ::openfl::display::FrameLabel >();
-HXDLIN( 293)				_g = (_g + 1);
-HXLINE( 295)				if ((label->frame < this->_hx___currentFrame)) {
-HXLINE( 297)					this->_hx___currentLabel = label->name;
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_368___updateFrameLabel)
+HXLINE( 369)		this->_hx___currentLabel = null();
+HXLINE( 370)		this->_hx___currentFrameLabel = null();
+HXLINE( 374)		{
+HXLINE( 374)			int _g = 0;
+HXDLIN( 374)			::Array< ::Dynamic> _g1 = this->_hx___currentLabels;
+HXDLIN( 374)			while((_g < _g1->length)){
+HXLINE( 374)				 ::openfl::display::FrameLabel label = _g1->__get(_g).StaticCast<  ::openfl::display::FrameLabel >();
+HXDLIN( 374)				_g = (_g + 1);
+HXLINE( 376)				if ((label->frame < this->_hx___currentFrame)) {
+HXLINE( 378)					this->_hx___currentLabel = label->name;
             				}
             				else {
-HXLINE( 299)					if ((label->frame == this->_hx___currentFrame)) {
-HXLINE( 301)						this->_hx___currentLabel = label->name;
-HXLINE( 302)						this->_hx___currentFrameLabel = label->name;
+HXLINE( 380)					if ((label->frame == this->_hx___currentFrame)) {
+HXLINE( 382)						this->_hx___currentLabel = label->name;
+HXLINE( 383)						this->_hx___currentFrameLabel = label->name;
             					}
             					else {
-HXLINE( 306)						goto _hx_goto_23;
+HXLINE( 387)						goto _hx_goto_25;
             					}
             				}
             			}
-            			_hx_goto_23:;
+            			_hx_goto_25:;
             		}
             	}
 
@@ -460,11 +484,11 @@ HXLINE( 306)						goto _hx_goto_23;
 HX_DEFINE_DYNAMIC_FUNC0(Timeline_obj,_hx___updateFrameLabel,(void))
 
 void Timeline_obj::_hx___updateSymbol(int targetFrame){
-            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_313___updateSymbol)
-HXDLIN( 313)		if ((this->_hx___currentFrame != this->_hx___lastFrameUpdate)) {
-HXLINE( 315)			this->_hx___updateFrameLabel();
-HXLINE( 316)			this->enterFrame(targetFrame);
-HXLINE( 317)			this->_hx___lastFrameUpdate = this->_hx___currentFrame;
+            	HX_STACKFRAME(&_hx_pos_d8cb40cd2da03698_394___updateSymbol)
+HXDLIN( 394)		if ((this->_hx___currentFrame != this->_hx___lastFrameUpdate)) {
+HXLINE( 396)			this->_hx___updateFrameLabel();
+HXLINE( 397)			this->enterFrame(targetFrame);
+HXLINE( 398)			this->_hx___lastFrameUpdate = this->_hx___currentFrame;
             		}
             	}
 
@@ -583,6 +607,7 @@ void Timeline_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"attachMovieClip") ) { return ::hx::Val( attachMovieClip_dyn() ); }
 		break;
 	case 16:
+		if (HX_FIELD_EQ(inName,"initializeSprite") ) { return ::hx::Val( initializeSprite_dyn() ); }
 		if (HX_FIELD_EQ(inName,"__addFrameScript") ) { return ::hx::Val( _hx___addFrameScript_dyn() ); }
 		break;
 	case 17:
@@ -716,6 +741,7 @@ static ::String Timeline_obj_sMemberFields[] = {
 	HX_("__totalFrames",6a,e3,33,bb),
 	HX_("attachMovieClip",1b,c6,d4,dc),
 	HX_("enterFrame",f5,03,50,02),
+	HX_("initializeSprite",75,5d,95,3d),
 	HX_("__addFrameScript",97,ac,be,ef),
 	HX_("__attachMovieClip",fb,f6,2e,60),
 	HX_("__enterFrame",15,7f,e3,3a),

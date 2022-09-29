@@ -43,11 +43,11 @@
 #include <openfl/events/IEventDispatcher.h>
 #endif
 
-HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_18_clear,"openfl.display._internal.DOMTilemap","clear",0x74ca2867,"openfl.display._internal.DOMTilemap.clear","openfl/display/_internal/DOMTilemap.hx",18,0xd46d0293)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_35_render,"openfl.display._internal.DOMTilemap","render",0xb99ab33c,"openfl.display._internal.DOMTilemap.render","openfl/display/_internal/DOMTilemap.hx",35,0xd46d0293)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_68_renderDrawable,"openfl.display._internal.DOMTilemap","renderDrawable",0x6444f6fa,"openfl.display._internal.DOMTilemap.renderDrawable","openfl/display/_internal/DOMTilemap.hx",68,0xd46d0293)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_89_renderDrawableClear,"openfl.display._internal.DOMTilemap","renderDrawableClear",0x40c06033,"openfl.display._internal.DOMTilemap.renderDrawableClear","openfl/display/_internal/DOMTilemap.hx",89,0xd46d0293)
-HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_15_boot,"openfl.display._internal.DOMTilemap","boot",0xdb22e698,"openfl.display._internal.DOMTilemap.boot","openfl/display/_internal/DOMTilemap.hx",15,0xd46d0293)
+HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_20_clear,"openfl.display._internal.DOMTilemap","clear",0x74ca2867,"openfl.display._internal.DOMTilemap.clear","openfl/display/_internal/DOMTilemap.hx",20,0xd46d0293)
+HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_34_render,"openfl.display._internal.DOMTilemap","render",0xb99ab33c,"openfl.display._internal.DOMTilemap.render","openfl/display/_internal/DOMTilemap.hx",34,0xd46d0293)
+HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_71_renderDrawable,"openfl.display._internal.DOMTilemap","renderDrawable",0x6444f6fa,"openfl.display._internal.DOMTilemap.renderDrawable","openfl/display/_internal/DOMTilemap.hx",71,0xd46d0293)
+HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_92_renderDrawableClear,"openfl.display._internal.DOMTilemap","renderDrawableClear",0x40c06033,"openfl.display._internal.DOMTilemap.renderDrawableClear","openfl/display/_internal/DOMTilemap.hx",92,0xd46d0293)
+HX_LOCAL_STACK_FRAME(_hx_pos_5d17d441f5636d23_17_boot,"openfl.display._internal.DOMTilemap","boot",0xdb22e698,"openfl.display._internal.DOMTilemap.boot","openfl/display/_internal/DOMTilemap.hx",17,0xd46d0293)
 namespace openfl{
 namespace display{
 namespace _internal{
@@ -70,42 +70,42 @@ bool DOMTilemap_obj::_hx_isInstanceOf(int inClassId) {
 }
 
 void DOMTilemap_obj::clear( ::openfl::display::Tilemap tilemap, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_18_clear)
+            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_20_clear)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMTilemap_obj,clear,(void))
 
 void DOMTilemap_obj::render( ::openfl::display::Tilemap tilemap, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_35_render)
+            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_34_render)
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMTilemap_obj,render,(void))
 
 void DOMTilemap_obj::renderDrawable( ::openfl::display::Tilemap tilemap, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_68_renderDrawable)
-HXLINE(  69)		renderer->_hx___updateCacheBitmap(tilemap,false);
-HXLINE(  71)		bool _hx_tmp;
-HXDLIN(  71)		if (::hx::IsNotNull( tilemap->_hx___cacheBitmap )) {
-HXLINE(  71)			_hx_tmp = !(tilemap->_hx___isCacheBitmapRender);
+            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_71_renderDrawable)
+HXLINE(  72)		renderer->_hx___updateCacheBitmap(tilemap,false);
+HXLINE(  74)		bool _hx_tmp;
+HXDLIN(  74)		if (::hx::IsNotNull( tilemap->_hx___cacheBitmap )) {
+HXLINE(  74)			_hx_tmp = !(tilemap->_hx___isCacheBitmapRender);
             		}
             		else {
-HXLINE(  71)			_hx_tmp = false;
+HXLINE(  74)			_hx_tmp = false;
             		}
-HXDLIN(  71)		if (_hx_tmp) {
-HXLINE(  73)			renderer->_hx___renderDrawableClear(tilemap);
-HXLINE(  74)			tilemap->_hx___cacheBitmap->stage = tilemap->stage;
+HXDLIN(  74)		if (_hx_tmp) {
+HXLINE(  76)			renderer->_hx___renderDrawableClear(tilemap);
+HXLINE(  77)			tilemap->_hx___cacheBitmap->stage = tilemap->stage;
             		}
-HXLINE(  84)		renderer->_hx___renderEvent(tilemap);
+HXLINE(  87)		renderer->_hx___renderEvent(tilemap);
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMTilemap_obj,renderDrawable,(void))
 
 void DOMTilemap_obj::renderDrawableClear( ::openfl::display::Tilemap tilemap, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_89_renderDrawableClear)
-HXDLIN(  89)		::openfl::display::_internal::DOMTilemap_obj::clear(tilemap,renderer);
+            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_92_renderDrawableClear)
+HXDLIN(  92)		::openfl::display::_internal::DOMTilemap_obj::clear(tilemap,renderer);
             	}
 
 
@@ -175,8 +175,8 @@ void DOMTilemap_obj::__register()
 void DOMTilemap_obj::__boot()
 {
 {
-            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_15_boot)
-HXDLIN(  15)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
+            	HX_STACKFRAME(&_hx_pos_5d17d441f5636d23_17_boot)
+HXDLIN(  17)		__mClass->__meta__ =  ::Dynamic(::hx::Anon_obj::Create(1)
             			->setFixed(0,HX_("obj",f7,8f,54,00), ::Dynamic(::hx::Anon_obj::Create(1)
             				->setFixed(0,HX_("SuppressWarnings",0c,d3,d2,00),::cpp::VirtualArray_obj::__new(1)->init(0,HX_("checkstyle:FieldDocComment",70,56,1b,20))))));
             	}

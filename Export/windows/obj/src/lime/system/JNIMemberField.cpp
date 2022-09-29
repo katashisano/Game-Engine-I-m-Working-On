@@ -4,15 +4,15 @@
 #include <lime/system/JNIMemberField.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_6a03f50885e20814_200_new,"lime.system.JNIMemberField","new",0x7a00f0f3,"lime.system.JNIMemberField.new","lime/system/JNI.hx",200,0x21970b7f)
-HX_LOCAL_STACK_FRAME(_hx_pos_6a03f50885e20814_208_get,"lime.system.JNIMemberField","get",0x79fba129,"lime.system.JNIMemberField.get","lime/system/JNI.hx",208,0x21970b7f)
-HX_LOCAL_STACK_FRAME(_hx_pos_6a03f50885e20814_217_set,"lime.system.JNIMemberField","set",0x7a04bc35,"lime.system.JNIMemberField.set","lime/system/JNI.hx",217,0x21970b7f)
+HX_DEFINE_STACK_FRAME(_hx_pos_6a03f50885e20814_233_new,"lime.system.JNIMemberField","new",0x7a00f0f3,"lime.system.JNIMemberField.new","lime/system/JNI.hx",233,0x21970b7f)
+HX_LOCAL_STACK_FRAME(_hx_pos_6a03f50885e20814_241_get,"lime.system.JNIMemberField","get",0x79fba129,"lime.system.JNIMemberField.get","lime/system/JNI.hx",241,0x21970b7f)
+HX_LOCAL_STACK_FRAME(_hx_pos_6a03f50885e20814_250_set,"lime.system.JNIMemberField","set",0x7a04bc35,"lime.system.JNIMemberField.set","lime/system/JNI.hx",250,0x21970b7f)
 namespace lime{
 namespace _hx_system{
 
 void JNIMemberField_obj::__construct( ::Dynamic field){
-            	HX_STACKFRAME(&_hx_pos_6a03f50885e20814_200_new)
-HXDLIN( 200)		this->field = field;
+            	HX_STACKFRAME(&_hx_pos_6a03f50885e20814_233_new)
+HXDLIN( 233)		this->field = field;
             	}
 
 Dynamic JNIMemberField_obj::__CreateEmpty() { return new JNIMemberField_obj; }
@@ -31,16 +31,16 @@ bool JNIMemberField_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::Dynamic JNIMemberField_obj::get( ::Dynamic jobject){
-            	HX_STACKFRAME(&_hx_pos_6a03f50885e20814_208_get)
-HXDLIN( 208)		return null();
+            	HX_STACKFRAME(&_hx_pos_6a03f50885e20814_241_get)
+HXDLIN( 241)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(JNIMemberField_obj,get,return )
 
  ::Dynamic JNIMemberField_obj::set( ::Dynamic jobject, ::Dynamic value){
-            	HX_STACKFRAME(&_hx_pos_6a03f50885e20814_217_set)
-HXDLIN( 217)		return value;
+            	HX_STACKFRAME(&_hx_pos_6a03f50885e20814_250_set)
+HXDLIN( 250)		return value;
             	}
 
 

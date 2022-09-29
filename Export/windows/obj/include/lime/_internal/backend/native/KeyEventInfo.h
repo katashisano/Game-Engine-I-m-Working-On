@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_cef4a471e9b9c478_747_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_cef4a471e9b9c478_760_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,KeyEventInfo)
 
 namespace lime{
@@ -24,30 +24,30 @@ class HXCPP_CLASS_ATTRIBUTES KeyEventInfo_obj : public ::hx::Object
 	public:
 		enum { _hx_ClassId = 0x0253d569 };
 
-		void __construct( ::Dynamic type,::hx::Null< int >  __o_windowID,::hx::Null< int >  __o_keyCode,::hx::Null< int >  __o_modifier);
+		void __construct( ::Dynamic type,::hx::Null< int >  __o_windowID,::hx::Null< Float >  __o_keyCode,::hx::Null< int >  __o_modifier);
 		inline void *operator new(size_t inSize, bool inContainer=false,const char *inName="lime._internal.backend.native.KeyEventInfo")
 			{ return ::hx::Object::operator new(inSize,inContainer,inName); }
 		inline void *operator new(size_t inSize, int extra)
 			{ return ::hx::Object::operator new(inSize+extra,false,"lime._internal.backend.native.KeyEventInfo"); }
 
-		inline static ::hx::ObjectPtr< KeyEventInfo_obj > __new( ::Dynamic type,::hx::Null< int >  __o_windowID,::hx::Null< int >  __o_keyCode,::hx::Null< int >  __o_modifier) {
+		inline static ::hx::ObjectPtr< KeyEventInfo_obj > __new( ::Dynamic type,::hx::Null< int >  __o_windowID,::hx::Null< Float >  __o_keyCode,::hx::Null< int >  __o_modifier) {
 			::hx::ObjectPtr< KeyEventInfo_obj > __this = new KeyEventInfo_obj();
 			__this->__construct(type,__o_windowID,__o_keyCode,__o_modifier);
 			return __this;
 		}
 
-		inline static ::hx::ObjectPtr< KeyEventInfo_obj > __alloc(::hx::Ctx *_hx_ctx, ::Dynamic type,::hx::Null< int >  __o_windowID,::hx::Null< int >  __o_keyCode,::hx::Null< int >  __o_modifier) {
+		inline static ::hx::ObjectPtr< KeyEventInfo_obj > __alloc(::hx::Ctx *_hx_ctx, ::Dynamic type,::hx::Null< int >  __o_windowID,::hx::Null< Float >  __o_keyCode,::hx::Null< int >  __o_modifier) {
 			KeyEventInfo_obj *__this = (KeyEventInfo_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(KeyEventInfo_obj), false, "lime._internal.backend.native.KeyEventInfo"));
 			*(void **)__this = KeyEventInfo_obj::_hx_vtable;
 {
             		int windowID = __o_windowID.Default(0);
-            		int keyCode = __o_keyCode.Default(0);
+            		Float keyCode = __o_keyCode.Default(0);
             		int modifier = __o_modifier.Default(0);
-            	HX_STACKFRAME(&_hx_pos_cef4a471e9b9c478_747_new)
-HXLINE( 748)		( ( ::lime::_internal::backend::native::KeyEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 749)		( ( ::lime::_internal::backend::native::KeyEventInfo)(__this) )->windowID = windowID;
-HXLINE( 750)		( ( ::lime::_internal::backend::native::KeyEventInfo)(__this) )->keyCode = keyCode;
-HXLINE( 751)		( ( ::lime::_internal::backend::native::KeyEventInfo)(__this) )->modifier = modifier;
+            	HX_STACKFRAME(&_hx_pos_cef4a471e9b9c478_760_new)
+HXLINE( 761)		( ( ::lime::_internal::backend::native::KeyEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 762)		( ( ::lime::_internal::backend::native::KeyEventInfo)(__this) )->windowID = windowID;
+HXLINE( 763)		( ( ::lime::_internal::backend::native::KeyEventInfo)(__this) )->keyCode = keyCode;
+HXLINE( 764)		( ( ::lime::_internal::backend::native::KeyEventInfo)(__this) )->modifier = modifier;
             	}
 		
 			return __this;
@@ -66,7 +66,7 @@ HXLINE( 751)		( ( ::lime::_internal::backend::native::KeyEventInfo)(__this) )->m
 		bool _hx_isInstanceOf(int inClassId);
 		::String __ToString() const { return HX_("KeyEventInfo",29,38,a3,94); }
 
-		int keyCode;
+		Float keyCode;
 		int modifier;
 		int type;
 		int windowID;

@@ -48,32 +48,32 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_1cbb708783dfd99e_117_new,"openfl.display.Tilemap","new",0x34c22ff6,"openfl.display.Tilemap.new","openfl/display/Tilemap.hx",117,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_151_addTile,"openfl.display.Tilemap","addTile",0xfbdef085,"openfl.display.Tilemap.addTile","openfl/display/Tilemap.hx",151,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_173_addTileAt,"openfl.display.Tilemap","addTileAt",0xe5e014d8,"openfl.display.Tilemap.addTileAt","openfl/display/Tilemap.hx",173,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_186_addTiles,"openfl.display.Tilemap","addTiles",0x6733844e,"openfl.display.Tilemap.addTiles","openfl/display/Tilemap.hx",186,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_201_contains,"openfl.display.Tilemap","contains",0x0a1cbac9,"openfl.display.Tilemap.contains","openfl/display/Tilemap.hx",201,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_212_getTileAt,"openfl.display.Tilemap","getTileAt",0xaa12690d,"openfl.display.Tilemap.getTileAt","openfl/display/Tilemap.hx",212,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_223_getTileIndex,"openfl.display.Tilemap","getTileIndex",0x74b69338,"openfl.display.Tilemap.getTileIndex","openfl/display/Tilemap.hx",223,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_234_getTiles,"openfl.display.Tilemap","getTiles",0x4dad6db9,"openfl.display.Tilemap.getTiles","openfl/display/Tilemap.hx",234,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_247_removeTile,"openfl.display.Tilemap","removeTile",0x5b5664bc,"openfl.display.Tilemap.removeTile","openfl/display/Tilemap.hx",247,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_260_removeTileAt,"openfl.display.Tilemap","removeTileAt",0xa94644cf,"openfl.display.Tilemap.removeTileAt","openfl/display/Tilemap.hx",260,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_271_removeTiles,"openfl.display.Tilemap","removeTiles",0x9041c037,"openfl.display.Tilemap.removeTiles","openfl/display/Tilemap.hx",271,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_307_setTileIndex,"openfl.display.Tilemap","setTileIndex",0x89afb6ac,"openfl.display.Tilemap.setTileIndex","openfl/display/Tilemap.hx",307,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_317_setTiles,"openfl.display.Tilemap","setTiles",0xfc0ac72d,"openfl.display.Tilemap.setTiles","openfl/display/Tilemap.hx",317,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_347_sortTiles,"openfl.display.Tilemap","sortTiles",0x283c055d,"openfl.display.Tilemap.sortTiles","openfl/display/Tilemap.hx",347,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_360_swapTiles,"openfl.display.Tilemap","swapTiles",0x95754208,"openfl.display.Tilemap.swapTiles","openfl/display/Tilemap.hx",360,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_373_swapTilesAt,"openfl.display.Tilemap","swapTilesAt",0xced00d1b,"openfl.display.Tilemap.swapTilesAt","openfl/display/Tilemap.hx",373,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_379___enterFrame,"openfl.display.Tilemap","__enterFrame",0x56d37cbf,"openfl.display.Tilemap.__enterFrame","openfl/display/Tilemap.hx",379,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_388___getBounds,"openfl.display.Tilemap","__getBounds",0x92793e21,"openfl.display.Tilemap.__getBounds","openfl/display/Tilemap.hx",388,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_402___hitTest,"openfl.display.Tilemap","__hitTest",0x7360e53b,"openfl.display.Tilemap.__hitTest","openfl/display/Tilemap.hx",402,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_427___renderFlash,"openfl.display.Tilemap","__renderFlash",0x6cc39a70,"openfl.display.Tilemap.__renderFlash","openfl/display/Tilemap.hx",427,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_434_get_height,"openfl.display.Tilemap","get_height",0x840dd6da,"openfl.display.Tilemap.get_height","openfl/display/Tilemap.hx",434,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_440_set_height,"openfl.display.Tilemap","set_height",0x878b754e,"openfl.display.Tilemap.set_height","openfl/display/Tilemap.hx",440,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_458_get_numTiles,"openfl.display.Tilemap","get_numTiles",0x9e4ec312,"openfl.display.Tilemap.get_numTiles","openfl/display/Tilemap.hx",458,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_463_get_tileset,"openfl.display.Tilemap","get_tileset",0x4d66c6e1,"openfl.display.Tilemap.get_tileset","openfl/display/Tilemap.hx",463,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_467_set_tileset,"openfl.display.Tilemap","set_tileset",0x57d3cded,"openfl.display.Tilemap.set_tileset","openfl/display/Tilemap.hx",467,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_485_get_width,"openfl.display.Tilemap","get_width",0x1d9f4673,"openfl.display.Tilemap.get_width","openfl/display/Tilemap.hx",485,0xd55dffbc)
-HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_491_set_width,"openfl.display.Tilemap","set_width",0x00f0327f,"openfl.display.Tilemap.set_width","openfl/display/Tilemap.hx",491,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_153_addTile,"openfl.display.Tilemap","addTile",0xfbdef085,"openfl.display.Tilemap.addTile","openfl/display/Tilemap.hx",153,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_175_addTileAt,"openfl.display.Tilemap","addTileAt",0xe5e014d8,"openfl.display.Tilemap.addTileAt","openfl/display/Tilemap.hx",175,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_188_addTiles,"openfl.display.Tilemap","addTiles",0x6733844e,"openfl.display.Tilemap.addTiles","openfl/display/Tilemap.hx",188,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_203_contains,"openfl.display.Tilemap","contains",0x0a1cbac9,"openfl.display.Tilemap.contains","openfl/display/Tilemap.hx",203,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_214_getTileAt,"openfl.display.Tilemap","getTileAt",0xaa12690d,"openfl.display.Tilemap.getTileAt","openfl/display/Tilemap.hx",214,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_225_getTileIndex,"openfl.display.Tilemap","getTileIndex",0x74b69338,"openfl.display.Tilemap.getTileIndex","openfl/display/Tilemap.hx",225,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_236_getTiles,"openfl.display.Tilemap","getTiles",0x4dad6db9,"openfl.display.Tilemap.getTiles","openfl/display/Tilemap.hx",236,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_249_removeTile,"openfl.display.Tilemap","removeTile",0x5b5664bc,"openfl.display.Tilemap.removeTile","openfl/display/Tilemap.hx",249,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_262_removeTileAt,"openfl.display.Tilemap","removeTileAt",0xa94644cf,"openfl.display.Tilemap.removeTileAt","openfl/display/Tilemap.hx",262,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_273_removeTiles,"openfl.display.Tilemap","removeTiles",0x9041c037,"openfl.display.Tilemap.removeTiles","openfl/display/Tilemap.hx",273,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_309_setTileIndex,"openfl.display.Tilemap","setTileIndex",0x89afb6ac,"openfl.display.Tilemap.setTileIndex","openfl/display/Tilemap.hx",309,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_319_setTiles,"openfl.display.Tilemap","setTiles",0xfc0ac72d,"openfl.display.Tilemap.setTiles","openfl/display/Tilemap.hx",319,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_349_sortTiles,"openfl.display.Tilemap","sortTiles",0x283c055d,"openfl.display.Tilemap.sortTiles","openfl/display/Tilemap.hx",349,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_362_swapTiles,"openfl.display.Tilemap","swapTiles",0x95754208,"openfl.display.Tilemap.swapTiles","openfl/display/Tilemap.hx",362,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_375_swapTilesAt,"openfl.display.Tilemap","swapTilesAt",0xced00d1b,"openfl.display.Tilemap.swapTilesAt","openfl/display/Tilemap.hx",375,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_381___enterFrame,"openfl.display.Tilemap","__enterFrame",0x56d37cbf,"openfl.display.Tilemap.__enterFrame","openfl/display/Tilemap.hx",381,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_390___getBounds,"openfl.display.Tilemap","__getBounds",0x92793e21,"openfl.display.Tilemap.__getBounds","openfl/display/Tilemap.hx",390,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_404___hitTest,"openfl.display.Tilemap","__hitTest",0x7360e53b,"openfl.display.Tilemap.__hitTest","openfl/display/Tilemap.hx",404,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_429___renderFlash,"openfl.display.Tilemap","__renderFlash",0x6cc39a70,"openfl.display.Tilemap.__renderFlash","openfl/display/Tilemap.hx",429,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_436_get_height,"openfl.display.Tilemap","get_height",0x840dd6da,"openfl.display.Tilemap.get_height","openfl/display/Tilemap.hx",436,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_442_set_height,"openfl.display.Tilemap","set_height",0x878b754e,"openfl.display.Tilemap.set_height","openfl/display/Tilemap.hx",442,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_460_get_numTiles,"openfl.display.Tilemap","get_numTiles",0x9e4ec312,"openfl.display.Tilemap.get_numTiles","openfl/display/Tilemap.hx",460,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_465_get_tileset,"openfl.display.Tilemap","get_tileset",0x4d66c6e1,"openfl.display.Tilemap.get_tileset","openfl/display/Tilemap.hx",465,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_469_set_tileset,"openfl.display.Tilemap","set_tileset",0x57d3cded,"openfl.display.Tilemap.set_tileset","openfl/display/Tilemap.hx",469,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_487_get_width,"openfl.display.Tilemap","get_width",0x1d9f4673,"openfl.display.Tilemap.get_width","openfl/display/Tilemap.hx",487,0xd55dffbc)
+HX_LOCAL_STACK_FRAME(_hx_pos_1cbb708783dfd99e_493_set_width,"openfl.display.Tilemap","set_width",0x00f0327f,"openfl.display.Tilemap.set_width","openfl/display/Tilemap.hx",493,0xd55dffbc)
 namespace openfl{
 namespace display{
 
@@ -81,16 +81,16 @@ void Tilemap_obj::__construct(int width,int height, ::openfl::display::Tileset t
             		bool smoothing = __o_smoothing.Default(true);
             	HX_GC_STACKFRAME(&_hx_pos_1cbb708783dfd99e_117_new)
 HXLINE( 118)		super::__construct();
-HXLINE( 120)		this->_hx___drawableType = 9;
-HXLINE( 121)		this->_hx___tileset = tileset;
-HXLINE( 122)		this->smoothing = smoothing;
-HXLINE( 124)		this->tileAlphaEnabled = true;
-HXLINE( 125)		this->tileBlendModeEnabled = true;
-HXLINE( 126)		this->tileColorTransformEnabled = true;
-HXLINE( 128)		this->_hx___group =  ::openfl::display::TileContainer_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null());
-HXLINE( 129)		this->_hx___group->set_tileset(tileset);
-HXLINE( 131)		this->_hx___width = width;
-HXLINE( 132)		this->_hx___height = height;
+HXLINE( 121)		this->_hx___drawableType = 9;
+HXLINE( 123)		this->_hx___tileset = tileset;
+HXLINE( 124)		this->smoothing = smoothing;
+HXLINE( 126)		this->tileAlphaEnabled = true;
+HXLINE( 127)		this->tileBlendModeEnabled = true;
+HXLINE( 128)		this->tileColorTransformEnabled = true;
+HXLINE( 130)		this->_hx___group =  ::openfl::display::TileContainer_obj::__alloc( HX_CTX ,null(),null(),null(),null(),null(),null(),null());
+HXLINE( 131)		this->_hx___group->set_tileset(tileset);
+HXLINE( 133)		this->_hx___width = width;
+HXLINE( 134)		this->_hx___height = height;
             	}
 
 Dynamic Tilemap_obj::__CreateEmpty() { return new Tilemap_obj; }
@@ -141,72 +141,72 @@ void *Tilemap_obj::_hx_getInterface(int inHash) {
 }
 
  ::openfl::display::Tile Tilemap_obj::addTile( ::openfl::display::Tile tile){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_151_addTile)
-HXDLIN( 151)		return this->_hx___group->addTile(tile);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_153_addTile)
+HXDLIN( 153)		return this->_hx___group->addTile(tile);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,addTile,return )
 
  ::openfl::display::Tile Tilemap_obj::addTileAt( ::openfl::display::Tile tile,int index){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_173_addTileAt)
-HXDLIN( 173)		return this->_hx___group->addTileAt(tile,index);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_175_addTileAt)
+HXDLIN( 175)		return this->_hx___group->addTileAt(tile,index);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Tilemap_obj,addTileAt,return )
 
 ::Array< ::Dynamic> Tilemap_obj::addTiles(::Array< ::Dynamic> tiles){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_186_addTiles)
-HXDLIN( 186)		return this->_hx___group->addTiles(tiles);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_188_addTiles)
+HXDLIN( 188)		return this->_hx___group->addTiles(tiles);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,addTiles,return )
 
 bool Tilemap_obj::contains( ::openfl::display::Tile tile){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_201_contains)
-HXDLIN( 201)		return this->_hx___group->contains(tile);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_203_contains)
+HXDLIN( 203)		return this->_hx___group->contains(tile);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,contains,return )
 
  ::openfl::display::Tile Tilemap_obj::getTileAt(int index){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_212_getTileAt)
-HXDLIN( 212)		return this->_hx___group->getTileAt(index);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_214_getTileAt)
+HXDLIN( 214)		return this->_hx___group->getTileAt(index);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,getTileAt,return )
 
 int Tilemap_obj::getTileIndex( ::openfl::display::Tile tile){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_223_getTileIndex)
-HXDLIN( 223)		return this->_hx___group->getTileIndex(tile);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_225_getTileIndex)
+HXDLIN( 225)		return this->_hx___group->getTileIndex(tile);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,getTileIndex,return )
 
  ::openfl::display::TileContainer Tilemap_obj::getTiles(){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_234_getTiles)
-HXDLIN( 234)		return Dynamic( this->_hx___group->clone()).StaticCast<  ::openfl::display::TileContainer >();
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_236_getTiles)
+HXDLIN( 236)		return Dynamic( this->_hx___group->clone()).StaticCast<  ::openfl::display::TileContainer >();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Tilemap_obj,getTiles,return )
 
  ::openfl::display::Tile Tilemap_obj::removeTile( ::openfl::display::Tile tile){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_247_removeTile)
-HXDLIN( 247)		return this->_hx___group->removeTile(tile);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_249_removeTile)
+HXDLIN( 249)		return this->_hx___group->removeTile(tile);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,removeTile,return )
 
  ::openfl::display::Tile Tilemap_obj::removeTileAt(int index){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_260_removeTileAt)
-HXDLIN( 260)		return this->_hx___group->removeTileAt(index);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_262_removeTileAt)
+HXDLIN( 262)		return this->_hx___group->removeTileAt(index);
             	}
 
 
@@ -215,39 +215,39 @@ HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,removeTileAt,return )
 void Tilemap_obj::removeTiles(::hx::Null< int >  __o_beginIndex,::hx::Null< int >  __o_endIndex){
             		int beginIndex = __o_beginIndex.Default(0);
             		int endIndex = __o_endIndex.Default(2147483647);
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_271_removeTiles)
-HXDLIN( 271)		this->_hx___group->removeTiles(beginIndex,endIndex);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_273_removeTiles)
+HXDLIN( 273)		this->_hx___group->removeTiles(beginIndex,endIndex);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Tilemap_obj,removeTiles,(void))
 
 void Tilemap_obj::setTileIndex( ::openfl::display::Tile tile,int index){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_307_setTileIndex)
-HXDLIN( 307)		this->_hx___group->setTileIndex(tile,index);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_309_setTileIndex)
+HXDLIN( 309)		this->_hx___group->setTileIndex(tile,index);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Tilemap_obj,setTileIndex,(void))
 
 void Tilemap_obj::setTiles( ::openfl::display::TileContainer group){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_317_setTiles)
-HXLINE( 318)		{
-HXLINE( 318)			int _g = 0;
-HXDLIN( 318)			::Array< ::Dynamic> _g1 = this->_hx___group->_hx___tiles;
-HXDLIN( 318)			while((_g < _g1->length)){
-HXLINE( 318)				 ::openfl::display::Tile tile = _g1->__get(_g).StaticCast<  ::openfl::display::Tile >();
-HXDLIN( 318)				_g = (_g + 1);
-HXLINE( 320)				this->removeTile(tile);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_319_setTiles)
+HXLINE( 320)		{
+HXLINE( 320)			int _g = 0;
+HXDLIN( 320)			::Array< ::Dynamic> _g1 = this->_hx___group->_hx___tiles;
+HXDLIN( 320)			while((_g < _g1->length)){
+HXLINE( 320)				 ::openfl::display::Tile tile = _g1->__get(_g).StaticCast<  ::openfl::display::Tile >();
+HXDLIN( 320)				_g = (_g + 1);
+HXLINE( 322)				this->removeTile(tile);
             			}
             		}
-HXLINE( 323)		{
-HXLINE( 323)			int _g2 = 0;
-HXDLIN( 323)			::Array< ::Dynamic> _g3 = group->_hx___tiles;
-HXDLIN( 323)			while((_g2 < _g3->length)){
-HXLINE( 323)				 ::openfl::display::Tile tile = _g3->__get(_g2).StaticCast<  ::openfl::display::Tile >();
-HXDLIN( 323)				_g2 = (_g2 + 1);
-HXLINE( 325)				this->addTile(tile);
+HXLINE( 325)		{
+HXLINE( 325)			int _g2 = 0;
+HXDLIN( 325)			::Array< ::Dynamic> _g3 = group->_hx___tiles;
+HXDLIN( 325)			while((_g2 < _g3->length)){
+HXLINE( 325)				 ::openfl::display::Tile tile = _g3->__get(_g2).StaticCast<  ::openfl::display::Tile >();
+HXDLIN( 325)				_g2 = (_g2 + 1);
+HXLINE( 327)				this->addTile(tile);
             			}
             		}
             	}
@@ -256,194 +256,194 @@ HXLINE( 325)				this->addTile(tile);
 HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,setTiles,(void))
 
 void Tilemap_obj::sortTiles( ::Dynamic compareFunction){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_347_sortTiles)
-HXDLIN( 347)		this->_hx___group->sortTiles(compareFunction);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_349_sortTiles)
+HXDLIN( 349)		this->_hx___group->sortTiles(compareFunction);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,sortTiles,(void))
 
 void Tilemap_obj::swapTiles( ::openfl::display::Tile tile1, ::openfl::display::Tile tile2){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_360_swapTiles)
-HXDLIN( 360)		this->_hx___group->swapTiles(tile1,tile2);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_362_swapTiles)
+HXDLIN( 362)		this->_hx___group->swapTiles(tile1,tile2);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Tilemap_obj,swapTiles,(void))
 
 void Tilemap_obj::swapTilesAt(int index1,int index2){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_373_swapTilesAt)
-HXDLIN( 373)		this->_hx___group->swapTilesAt(index1,index2);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_375_swapTilesAt)
+HXDLIN( 375)		this->_hx___group->swapTilesAt(index1,index2);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(Tilemap_obj,swapTilesAt,(void))
 
 void Tilemap_obj::_hx___enterFrame(int deltaTime){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_379___enterFrame)
-HXDLIN( 379)		if (this->_hx___group->_hx___dirty) {
-HXLINE( 381)			if (!(this->_hx___renderDirty)) {
-HXLINE( 381)				this->_hx___renderDirty = true;
-HXDLIN( 381)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_381___enterFrame)
+HXDLIN( 381)		if (this->_hx___group->_hx___dirty) {
+HXLINE( 383)			if (!(this->_hx___renderDirty)) {
+HXLINE( 383)				this->_hx___renderDirty = true;
+HXDLIN( 383)				this->_hx___setParentRenderDirty();
             			}
             		}
             	}
 
 
 void Tilemap_obj::_hx___getBounds( ::openfl::geom::Rectangle rect, ::openfl::geom::Matrix matrix){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_388___getBounds)
-HXLINE( 389)		 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
-HXLINE( 390)		bounds->setTo(( (Float)(0) ),( (Float)(0) ),( (Float)(this->_hx___width) ),( (Float)(this->_hx___height) ));
-HXLINE( 391)		bounds->_hx___transform(bounds,matrix);
-HXLINE( 393)		rect->_hx___expand(bounds->x,bounds->y,bounds->width,bounds->height);
-HXLINE( 395)		::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_390___getBounds)
+HXLINE( 391)		 ::openfl::geom::Rectangle bounds = ::openfl::geom::Rectangle_obj::_hx___pool->get().StaticCast<  ::openfl::geom::Rectangle >();
+HXLINE( 392)		bounds->setTo(( (Float)(0) ),( (Float)(0) ),( (Float)(this->_hx___width) ),( (Float)(this->_hx___height) ));
+HXLINE( 393)		bounds->_hx___transform(bounds,matrix);
+HXLINE( 395)		rect->_hx___expand(bounds->x,bounds->y,bounds->width,bounds->height);
+HXLINE( 397)		::openfl::geom::Rectangle_obj::_hx___pool->release(bounds);
             	}
 
 
 bool Tilemap_obj::_hx___hitTest(Float x,Float y,bool shapeFlag,::Array< ::Dynamic> stack,bool interactiveOnly, ::openfl::display::DisplayObject hitObject){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_402___hitTest)
-HXLINE( 403)		bool _hx_tmp;
-HXDLIN( 403)		if (hitObject->get_visible()) {
-HXLINE( 403)			_hx_tmp = this->_hx___isMask;
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_404___hitTest)
+HXLINE( 405)		bool _hx_tmp;
+HXDLIN( 405)		if (hitObject->get_visible()) {
+HXLINE( 405)			_hx_tmp = this->_hx___isMask;
             		}
             		else {
-HXLINE( 403)			_hx_tmp = true;
+HXLINE( 405)			_hx_tmp = true;
             		}
-HXDLIN( 403)		if (_hx_tmp) {
-HXLINE( 403)			return false;
+HXDLIN( 405)		if (_hx_tmp) {
+HXLINE( 405)			return false;
             		}
-HXLINE( 404)		bool _hx_tmp1;
-HXDLIN( 404)		if (::hx::IsNotNull( this->get_mask() )) {
-HXLINE( 404)			_hx_tmp1 = !(this->get_mask()->_hx___hitTestMask(x,y));
-            		}
-            		else {
-HXLINE( 404)			_hx_tmp1 = false;
-            		}
-HXDLIN( 404)		if (_hx_tmp1) {
-HXLINE( 404)			return false;
-            		}
-HXLINE( 406)		this->_hx___getRenderTransform();
-HXLINE( 408)		 ::openfl::geom::Matrix _this = this->_hx___renderTransform;
-HXDLIN( 408)		Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
-HXDLIN( 408)		Float px;
-HXDLIN( 408)		if ((norm == 0)) {
-HXLINE( 408)			px = -(_this->tx);
+HXLINE( 406)		bool _hx_tmp1;
+HXDLIN( 406)		if (::hx::IsNotNull( this->get_mask() )) {
+HXLINE( 406)			_hx_tmp1 = !(this->get_mask()->_hx___hitTestMask(x,y));
             		}
             		else {
-HXLINE( 408)			px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - y)) + (_this->d * (x - _this->tx))));
+HXLINE( 406)			_hx_tmp1 = false;
             		}
-HXLINE( 409)		 ::openfl::geom::Matrix _this1 = this->_hx___renderTransform;
-HXDLIN( 409)		Float norm1 = ((_this1->a * _this1->d) - (_this1->b * _this1->c));
-HXDLIN( 409)		Float py;
-HXDLIN( 409)		if ((norm1 == 0)) {
-HXLINE( 409)			py = -(_this1->ty);
+HXDLIN( 406)		if (_hx_tmp1) {
+HXLINE( 406)			return false;
             		}
-            		else {
-HXLINE( 409)			py = ((((Float)1.0) / norm1) * ((_this1->a * (y - _this1->ty)) + (_this1->b * (_this1->tx - x))));
-            		}
-HXLINE( 411)		bool _hx_tmp2;
-HXDLIN( 411)		bool _hx_tmp3;
-HXDLIN( 411)		bool _hx_tmp4;
-HXDLIN( 411)		if ((px > 0)) {
-HXLINE( 411)			_hx_tmp4 = (py > 0);
+HXLINE( 408)		this->_hx___getRenderTransform();
+HXLINE( 410)		 ::openfl::geom::Matrix _this = this->_hx___renderTransform;
+HXDLIN( 410)		Float norm = ((_this->a * _this->d) - (_this->b * _this->c));
+HXDLIN( 410)		Float px;
+HXDLIN( 410)		if ((norm == 0)) {
+HXLINE( 410)			px = -(_this->tx);
             		}
             		else {
-HXLINE( 411)			_hx_tmp4 = false;
+HXLINE( 410)			px = ((((Float)1.0) / norm) * ((_this->c * (_this->ty - y)) + (_this->d * (x - _this->tx))));
             		}
-HXDLIN( 411)		if (_hx_tmp4) {
-HXLINE( 411)			_hx_tmp3 = (px <= this->_hx___width);
-            		}
-            		else {
-HXLINE( 411)			_hx_tmp3 = false;
-            		}
-HXDLIN( 411)		if (_hx_tmp3) {
-HXLINE( 411)			_hx_tmp2 = (py <= this->_hx___height);
+HXLINE( 411)		 ::openfl::geom::Matrix _this1 = this->_hx___renderTransform;
+HXDLIN( 411)		Float norm1 = ((_this1->a * _this1->d) - (_this1->b * _this1->c));
+HXDLIN( 411)		Float py;
+HXDLIN( 411)		if ((norm1 == 0)) {
+HXLINE( 411)			py = -(_this1->ty);
             		}
             		else {
-HXLINE( 411)			_hx_tmp2 = false;
+HXLINE( 411)			py = ((((Float)1.0) / norm1) * ((_this1->a * (y - _this1->ty)) + (_this1->b * (_this1->tx - x))));
             		}
-HXDLIN( 411)		if (_hx_tmp2) {
-HXLINE( 413)			bool _hx_tmp;
-HXDLIN( 413)			if (::hx::IsNotNull( stack )) {
-HXLINE( 413)				_hx_tmp = !(interactiveOnly);
+HXLINE( 413)		bool _hx_tmp2;
+HXDLIN( 413)		bool _hx_tmp3;
+HXDLIN( 413)		bool _hx_tmp4;
+HXDLIN( 413)		if ((px > 0)) {
+HXLINE( 413)			_hx_tmp4 = (py > 0);
+            		}
+            		else {
+HXLINE( 413)			_hx_tmp4 = false;
+            		}
+HXDLIN( 413)		if (_hx_tmp4) {
+HXLINE( 413)			_hx_tmp3 = (px <= this->_hx___width);
+            		}
+            		else {
+HXLINE( 413)			_hx_tmp3 = false;
+            		}
+HXDLIN( 413)		if (_hx_tmp3) {
+HXLINE( 413)			_hx_tmp2 = (py <= this->_hx___height);
+            		}
+            		else {
+HXLINE( 413)			_hx_tmp2 = false;
+            		}
+HXDLIN( 413)		if (_hx_tmp2) {
+HXLINE( 415)			bool _hx_tmp;
+HXDLIN( 415)			if (::hx::IsNotNull( stack )) {
+HXLINE( 415)				_hx_tmp = !(interactiveOnly);
             			}
             			else {
-HXLINE( 413)				_hx_tmp = false;
+HXLINE( 415)				_hx_tmp = false;
             			}
-HXDLIN( 413)			if (_hx_tmp) {
-HXLINE( 415)				stack->push(hitObject);
+HXDLIN( 415)			if (_hx_tmp) {
+HXLINE( 417)				stack->push(hitObject);
             			}
-HXLINE( 418)			return true;
+HXLINE( 420)			return true;
             		}
-HXLINE( 421)		return false;
+HXLINE( 423)		return false;
             	}
 
 
 void Tilemap_obj::_hx___renderFlash(){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_427___renderFlash)
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_429___renderFlash)
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Tilemap_obj,_hx___renderFlash,(void))
 
 Float Tilemap_obj::get_height(){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_434_get_height)
-HXDLIN( 434)		int _hx_tmp = this->_hx___height;
-HXDLIN( 434)		return (( (Float)(_hx_tmp) ) * ::Math_obj::abs(this->get_scaleY()));
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_436_get_height)
+HXDLIN( 436)		int _hx_tmp = this->_hx___height;
+HXDLIN( 436)		return (( (Float)(_hx_tmp) ) * ::Math_obj::abs(this->get_scaleY()));
             	}
 
 
 Float Tilemap_obj::set_height(Float value){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_440_set_height)
-HXLINE( 441)		this->_hx___height = ::Std_obj::_hx_int(value);
-HXLINE( 442)		int _hx_tmp = this->_hx___height;
-HXDLIN( 442)		return (( (Float)(_hx_tmp) ) * ::Math_obj::abs(this->get_scaleY()));
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_442_set_height)
+HXLINE( 443)		this->_hx___height = ::Std_obj::_hx_int(value);
+HXLINE( 444)		int _hx_tmp = this->_hx___height;
+HXDLIN( 444)		return (( (Float)(_hx_tmp) ) * ::Math_obj::abs(this->get_scaleY()));
             	}
 
 
 int Tilemap_obj::get_numTiles(){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_458_get_numTiles)
-HXDLIN( 458)		return this->_hx___group->__length;
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_460_get_numTiles)
+HXDLIN( 460)		return this->_hx___group->__length;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Tilemap_obj,get_numTiles,return )
 
  ::openfl::display::Tileset Tilemap_obj::get_tileset(){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_463_get_tileset)
-HXDLIN( 463)		return this->_hx___tileset;
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_465_get_tileset)
+HXDLIN( 465)		return this->_hx___tileset;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Tilemap_obj,get_tileset,return )
 
  ::openfl::display::Tileset Tilemap_obj::set_tileset( ::openfl::display::Tileset value){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_467_set_tileset)
-HXLINE( 468)		if (::hx::IsInstanceNotEq( value,this->_hx___tileset )) {
-HXLINE( 470)			this->_hx___tileset = value;
-HXLINE( 471)			this->_hx___group->set_tileset(value);
-HXLINE( 472)			this->_hx___group->_hx___dirty = true;
-HXLINE( 475)			if (!(this->_hx___renderDirty)) {
-HXLINE( 475)				this->_hx___renderDirty = true;
-HXDLIN( 475)				this->_hx___setParentRenderDirty();
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_469_set_tileset)
+HXLINE( 470)		if (::hx::IsInstanceNotEq( value,this->_hx___tileset )) {
+HXLINE( 472)			this->_hx___tileset = value;
+HXLINE( 473)			this->_hx___group->set_tileset(value);
+HXLINE( 474)			this->_hx___group->_hx___dirty = true;
+HXLINE( 477)			if (!(this->_hx___renderDirty)) {
+HXLINE( 477)				this->_hx___renderDirty = true;
+HXDLIN( 477)				this->_hx___setParentRenderDirty();
             			}
             		}
-HXLINE( 479)		return value;
+HXLINE( 481)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(Tilemap_obj,set_tileset,return )
 
 Float Tilemap_obj::get_width(){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_485_get_width)
-HXDLIN( 485)		return (( (Float)(this->_hx___width) ) * ::Math_obj::abs(this->_hx___scaleX));
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_487_get_width)
+HXDLIN( 487)		return (( (Float)(this->_hx___width) ) * ::Math_obj::abs(this->_hx___scaleX));
             	}
 
 
 Float Tilemap_obj::set_width(Float value){
-            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_491_set_width)
-HXLINE( 492)		this->_hx___width = ::Std_obj::_hx_int(value);
-HXLINE( 493)		return (( (Float)(this->_hx___width) ) * ::Math_obj::abs(this->_hx___scaleX));
+            	HX_STACKFRAME(&_hx_pos_1cbb708783dfd99e_493_set_width)
+HXLINE( 494)		this->_hx___width = ::Std_obj::_hx_int(value);
+HXLINE( 495)		return (( (Float)(this->_hx___width) ) * ::Math_obj::abs(this->_hx___scaleX));
             	}
 
 

@@ -2883,7 +2883,7 @@ HXLINE(2910)			_hx_tmp1 = (((Float)4294967296.0) + _hx_int);
 HXLINE(2910)			_hx_tmp1 = (_hx_int + ((Float)0.0));
             		}
 HXDLIN(2910)		if ((_hx_tmp1 < length)) {
-HXLINE(2910)			HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("End of file was encountered.",d3,7b,d9,4f),2030)));
+HXLINE(2910)			HX_STACK_DO_THROW( ::openfl::errors::Error_obj::__alloc( HX_CTX ,HX_("End of file was encountered.",d3,7b,d9,4f),2030));
             		}
 HXLINE(2913)		 ::lime::graphics::Image _hx_tmp2 = this->image;
 HXDLIN(2913)		 ::lime::math::Rectangle _hx_tmp3 = rect->_hx___toLimeRectangle();

@@ -1,5 +1,8 @@
 #include <hxcpp.h>
 
+#ifndef INCLUDED_haxe_Exception
+#include <haxe/Exception.h>
+#endif
 #ifndef INCLUDED_haxe_StackItem
 #include <haxe/StackItem.h>
 #endif
@@ -10,9 +13,9 @@
 #include <openfl/errors/Error.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_7c7ee06d9b3544d2_54_new,"openfl.errors.Error","new",0xefad98b5,"openfl.errors.Error.new","openfl/errors/Error.hx",54,0x5096467b)
-HX_LOCAL_STACK_FRAME(_hx_pos_7c7ee06d9b3544d2_96_getStackTrace,"openfl.errors.Error","getStackTrace",0x0bedf2e8,"openfl.errors.Error.getStackTrace","openfl/errors/Error.hx",96,0x5096467b)
-HX_LOCAL_STACK_FRAME(_hx_pos_7c7ee06d9b3544d2_109_toString,"openfl.errors.Error","toString",0x62f5b437,"openfl.errors.Error.toString","openfl/errors/Error.hx",109,0x5096467b)
+HX_DEFINE_STACK_FRAME(_hx_pos_7c7ee06d9b3544d2_56_new,"openfl.errors.Error","new",0xefad98b5,"openfl.errors.Error.new","openfl/errors/Error.hx",56,0x5096467b)
+HX_LOCAL_STACK_FRAME(_hx_pos_7c7ee06d9b3544d2_103_getStackTrace,"openfl.errors.Error","getStackTrace",0x0bedf2e8,"openfl.errors.Error.getStackTrace","openfl/errors/Error.hx",103,0x5096467b)
+HX_LOCAL_STACK_FRAME(_hx_pos_7c7ee06d9b3544d2_116_toString,"openfl.errors.Error","toString",0x62f5b437,"openfl.errors.Error.toString","openfl/errors/Error.hx",116,0x5096467b)
 HX_LOCAL_STACK_FRAME(_hx_pos_7c7ee06d9b3544d2_22_boot,"openfl.errors.Error","boot",0xc051063d,"openfl.errors.Error.boot","openfl/errors/Error.hx",22,0x5096467b)
 namespace openfl{
 namespace errors{
@@ -21,10 +24,10 @@ void Error_obj::__construct(::String __o_message,::hx::Null< int >  __o_id){
             		::String message = __o_message;
             		if (::hx::IsNull(__o_message)) message = HX_("",00,00,00,00);
             		int id = __o_id.Default(0);
-            	HX_STACKFRAME(&_hx_pos_7c7ee06d9b3544d2_54_new)
-HXLINE(  55)		this->message = message;
-HXLINE(  56)		this->errorID = id;
-HXLINE(  57)		this->name = HX_("Error",a8,3b,57,06);
+            	HX_STACKFRAME(&_hx_pos_7c7ee06d9b3544d2_56_new)
+HXLINE(  58)		super::__construct(message,null(),null());
+HXLINE(  63)		this->errorID = id;
+HXLINE(  64)		this->name = HX_("Error",a8,3b,57,06);
             	}
 
 Dynamic Error_obj::__CreateEmpty() { return new Error_obj; }
@@ -39,30 +42,32 @@ Dynamic Error_obj::__Create(::hx::DynamicArray inArgs)
 }
 
 bool Error_obj::_hx_isInstanceOf(int inClassId) {
-	return inClassId==(int)0x00000001 || inClassId==(int)0x3495c9c5;
+	if (inClassId<=(int)0x3495c9c5) {
+		return inClassId==(int)0x00000001 || inClassId==(int)0x3495c9c5;
+	} else {
+		return inClassId==(int)0x677ddc49;
+	}
 }
 
 ::String Error_obj::getStackTrace(){
-            	HX_STACKFRAME(&_hx_pos_7c7ee06d9b3544d2_96_getStackTrace)
-HXDLIN(  96)		return ::haxe::_CallStack::CallStack_Impl__obj::toString(::haxe::_CallStack::CallStack_Impl__obj::exceptionStack(null()));
+            	HX_STACKFRAME(&_hx_pos_7c7ee06d9b3544d2_103_getStackTrace)
+HXDLIN( 103)		return ::haxe::_CallStack::CallStack_Impl__obj::toString(::haxe::_CallStack::CallStack_Impl__obj::exceptionStack(null()));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(Error_obj,getStackTrace,return )
 
 ::String Error_obj::toString(){
-            	HX_STACKFRAME(&_hx_pos_7c7ee06d9b3544d2_109_toString)
-HXDLIN( 109)		if (::hx::IsNotNull( this->message )) {
-HXLINE( 111)			return this->message;
+            	HX_STACKFRAME(&_hx_pos_7c7ee06d9b3544d2_116_toString)
+HXDLIN( 116)		if (::hx::IsNotNull( this->get_message() )) {
+HXLINE( 118)			return this->get_message();
             		}
             		else {
-HXLINE( 115)			return HX_("Error",a8,3b,57,06);
+HXLINE( 122)			return HX_("Error",a8,3b,57,06);
             		}
-HXLINE( 109)		return null();
+HXLINE( 116)		return null();
             	}
 
-
-HX_DEFINE_DYNAMIC_FUNC0(Error_obj,toString,return )
 
 ::String Error_obj::DEFAULT_TO_STRING;
 
@@ -88,16 +93,16 @@ void Error_obj::__Mark(HX_MARK_PARAMS)
 {
 	HX_MARK_BEGIN_CLASS(Error);
 	HX_MARK_MEMBER_NAME(errorID,"errorID");
-	HX_MARK_MEMBER_NAME(message,"message");
 	HX_MARK_MEMBER_NAME(name,"name");
+	 ::haxe::Exception_obj::__Mark(HX_MARK_ARG);
 	HX_MARK_END_CLASS();
 }
 
 void Error_obj::__Visit(HX_VISIT_PARAMS)
 {
 	HX_VISIT_MEMBER_NAME(errorID,"errorID");
-	HX_VISIT_MEMBER_NAME(message,"message");
 	HX_VISIT_MEMBER_NAME(name,"name");
+	 ::haxe::Exception_obj::__Visit(HX_VISIT_ARG);
 }
 
 ::hx::Val Error_obj::__Field(const ::String &inName,::hx::PropertyAccess inCallProp)
@@ -108,7 +113,6 @@ void Error_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"errorID") ) { return ::hx::Val( errorID ); }
-		if (HX_FIELD_EQ(inName,"message") ) { return ::hx::Val( message ); }
 		break;
 	case 8:
 		if (HX_FIELD_EQ(inName,"toString") ) { return ::hx::Val( toString_dyn() ); }
@@ -127,7 +131,6 @@ void Error_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 7:
 		if (HX_FIELD_EQ(inName,"errorID") ) { errorID=inValue.Cast< int >(); return inValue; }
-		if (HX_FIELD_EQ(inName,"message") ) { message=inValue.Cast< ::String >(); return inValue; }
 	}
 	return super::__SetField(inName,inValue,inCallProp);
 }
@@ -135,7 +138,6 @@ void Error_obj::__Visit(HX_VISIT_PARAMS)
 void Error_obj::__GetFields(Array< ::String> &outFields)
 {
 	outFields->push(HX_("errorID",a3,8d,0a,ea));
-	outFields->push(HX_("message",c7,35,11,9a));
 	outFields->push(HX_("name",4b,72,ff,48));
 	super::__GetFields(outFields);
 };
@@ -143,7 +145,6 @@ void Error_obj::__GetFields(Array< ::String> &outFields)
 #ifdef HXCPP_SCRIPTABLE
 static ::hx::StorageInfo Error_obj_sMemberStorageInfo[] = {
 	{::hx::fsInt,(int)offsetof(Error_obj,errorID),HX_("errorID",a3,8d,0a,ea)},
-	{::hx::fsString,(int)offsetof(Error_obj,message),HX_("message",c7,35,11,9a)},
 	{::hx::fsString,(int)offsetof(Error_obj,name),HX_("name",4b,72,ff,48)},
 	{ ::hx::fsUnknown, 0, null()}
 };
@@ -155,7 +156,6 @@ static ::hx::StaticInfo Error_obj_sStaticStorageInfo[] = {
 
 static ::String Error_obj_sMemberFields[] = {
 	HX_("errorID",a3,8d,0a,ea),
-	HX_("message",c7,35,11,9a),
 	HX_("name",4b,72,ff,48),
 	HX_("getStackTrace",53,8e,b0,85),
 	HX_("toString",ac,d0,6e,38),

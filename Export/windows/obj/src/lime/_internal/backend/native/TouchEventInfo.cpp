@@ -4,8 +4,8 @@
 #include <lime/_internal/backend/native/TouchEventInfo.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_dc6fd8f0bbdab31a_893_new,"lime._internal.backend.native.TouchEventInfo","new",0xc006dded,"lime._internal.backend.native.TouchEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",893,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_dc6fd8f0bbdab31a_906_clone,"lime._internal.backend.native.TouchEventInfo","clone",0xa51e5e2a,"lime._internal.backend.native.TouchEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",906,0xc1eba895)
+HX_DEFINE_STACK_FRAME(_hx_pos_dc6fd8f0bbdab31a_906_new,"lime._internal.backend.native.TouchEventInfo","new",0xc006dded,"lime._internal.backend.native.TouchEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",906,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_dc6fd8f0bbdab31a_919_clone,"lime._internal.backend.native.TouchEventInfo","clone",0xa51e5e2a,"lime._internal.backend.native.TouchEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",919,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
@@ -19,15 +19,15 @@ void TouchEventInfo_obj::__construct( ::Dynamic type,::hx::Null< Float >  __o_x,
             		Float dy = __o_dy.Default(0);
             		Float pressure = __o_pressure.Default(0);
             		int device = __o_device.Default(0);
-            	HX_STACKFRAME(&_hx_pos_dc6fd8f0bbdab31a_893_new)
-HXLINE( 894)		this->type = ( (int)(type) );
-HXLINE( 895)		this->x = x;
-HXLINE( 896)		this->y = y;
-HXLINE( 897)		this->id = id;
-HXLINE( 898)		this->dx = dx;
-HXLINE( 899)		this->dy = dy;
-HXLINE( 900)		this->pressure = pressure;
-HXLINE( 901)		this->device = device;
+            	HX_STACKFRAME(&_hx_pos_dc6fd8f0bbdab31a_906_new)
+HXLINE( 907)		this->type = ( (int)(type) );
+HXLINE( 908)		this->x = x;
+HXLINE( 909)		this->y = y;
+HXLINE( 910)		this->id = id;
+HXLINE( 911)		this->dx = dx;
+HXLINE( 912)		this->dy = dy;
+HXLINE( 913)		this->pressure = pressure;
+HXLINE( 914)		this->device = device;
             	}
 
 Dynamic TouchEventInfo_obj::__CreateEmpty() { return new TouchEventInfo_obj; }
@@ -46,8 +46,8 @@ bool TouchEventInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::TouchEventInfo TouchEventInfo_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_dc6fd8f0bbdab31a_906_clone)
-HXDLIN( 906)		return  ::lime::_internal::backend::native::TouchEventInfo_obj::__alloc( HX_CTX ,this->type,this->x,this->y,this->id,this->dx,this->dy,this->pressure,this->device);
+            	HX_GC_STACKFRAME(&_hx_pos_dc6fd8f0bbdab31a_919_clone)
+HXDLIN( 919)		return  ::lime::_internal::backend::native::TouchEventInfo_obj::__alloc( HX_CTX ,this->type,this->x,this->y,this->id,this->dx,this->dy,this->pressure,this->device);
             	}
 
 

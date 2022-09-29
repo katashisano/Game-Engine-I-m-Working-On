@@ -635,7 +635,7 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(ByteArray_Impl__obj,get_length,return )
 
 int ByteArray_Impl__obj::set_length( ::openfl::utils::ByteArrayData this1,int value){
             	HX_STACKFRAME(&_hx_pos_67382ab39e6adff2_1018_set_length)
-HXLINE(1025)		if ((value > 0)) {
+HXLINE(1025)		if ((value >= 0)) {
 HXLINE(1027)			this1->_hx___resize(value);
 HXLINE(1028)			if ((value < this1->position)) {
 HXLINE(1028)				this1->position = value;

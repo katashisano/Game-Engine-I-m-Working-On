@@ -4,8 +4,8 @@
 #include <lime/_internal/backend/native/GamepadEventInfo.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_d0c0bd38b1c3a1bc_680_new,"lime._internal.backend.native.GamepadEventInfo","new",0x77bbf84b,"lime._internal.backend.native.GamepadEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",680,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_d0c0bd38b1c3a1bc_690_clone,"lime._internal.backend.native.GamepadEventInfo","clone",0x88154c08,"lime._internal.backend.native.GamepadEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",690,0xc1eba895)
+HX_DEFINE_STACK_FRAME(_hx_pos_d0c0bd38b1c3a1bc_693_new,"lime._internal.backend.native.GamepadEventInfo","new",0x77bbf84b,"lime._internal.backend.native.GamepadEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",693,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_d0c0bd38b1c3a1bc_703_clone,"lime._internal.backend.native.GamepadEventInfo","clone",0x88154c08,"lime._internal.backend.native.GamepadEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",703,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
@@ -16,12 +16,12 @@ void GamepadEventInfo_obj::__construct( ::Dynamic type,::hx::Null< int >  __o_id
             		int button = __o_button.Default(0);
             		int axis = __o_axis.Default(0);
             		Float value = __o_value.Default(0);
-            	HX_STACKFRAME(&_hx_pos_d0c0bd38b1c3a1bc_680_new)
-HXLINE( 681)		this->type = ( (int)(type) );
-HXLINE( 682)		this->id = id;
-HXLINE( 683)		this->button = button;
-HXLINE( 684)		this->axis = axis;
-HXLINE( 685)		this->axisValue = value;
+            	HX_STACKFRAME(&_hx_pos_d0c0bd38b1c3a1bc_693_new)
+HXLINE( 694)		this->type = ( (int)(type) );
+HXLINE( 695)		this->id = id;
+HXLINE( 696)		this->button = button;
+HXLINE( 697)		this->axis = axis;
+HXLINE( 698)		this->axisValue = value;
             	}
 
 Dynamic GamepadEventInfo_obj::__CreateEmpty() { return new GamepadEventInfo_obj; }
@@ -40,8 +40,8 @@ bool GamepadEventInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::GamepadEventInfo GamepadEventInfo_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_d0c0bd38b1c3a1bc_690_clone)
-HXDLIN( 690)		return  ::lime::_internal::backend::native::GamepadEventInfo_obj::__alloc( HX_CTX ,this->type,this->id,this->button,this->axis,this->axisValue);
+            	HX_GC_STACKFRAME(&_hx_pos_d0c0bd38b1c3a1bc_703_clone)
+HXDLIN( 703)		return  ::lime::_internal::backend::native::GamepadEventInfo_obj::__alloc( HX_CTX ,this->type,this->id,this->button,this->axis,this->axisValue);
             	}
 
 

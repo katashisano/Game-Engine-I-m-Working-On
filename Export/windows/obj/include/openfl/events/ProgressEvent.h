@@ -48,6 +48,8 @@ class HXCPP_CLASS_ATTRIBUTES ProgressEvent_obj : public  ::openfl::events::Event
 		static void __boot();
 		static ::String PROGRESS;
 		static ::String SOCKET_DATA;
+		static ::String STANDARD_OUTPUT_DATA;
+		static ::String STANDARD_ERROR_DATA;
 		Float bytesLoaded;
 		Float bytesTotal;
 		 ::openfl::events::Event clone();

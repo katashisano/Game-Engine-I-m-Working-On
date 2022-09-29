@@ -67,6 +67,7 @@ class HXCPP_CLASS_ATTRIBUTES BoolVector_obj : public ::hx::Object
 		static  ::Dynamic __meta__;
 		bool fixed;
 		::Array< bool > _hx___array;
+		int _hx___tempIndex;
 		::Dynamic concat(::Dynamic a);
 		::Dynamic concat_dyn();
 

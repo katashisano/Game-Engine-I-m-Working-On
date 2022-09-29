@@ -9,6 +9,7 @@ HX_DECLARE_CLASS1(haxe,IMap)
 HX_DECLARE_CLASS1(haxe,Timer)
 HX_DECLARE_CLASS2(haxe,ds,ObjectMap)
 HX_DECLARE_CLASS2(haxe,io,Bytes)
+HX_DECLARE_CLASS2(haxe,io,BytesBuffer)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,NativeHTTPRequest)
 HX_DECLARE_CLASS2(lime,app,Future)
 HX_DECLARE_CLASS2(lime,app,Promise_haxe_io_Bytes)
@@ -66,6 +67,7 @@ class HXCPP_CLASS_ATTRIBUTES NativeHTTPRequest_obj : public ::hx::Object
 		static  ::lime::_hx_system::ThreadPool multiThreadPool;
 		static bool multiThreadPoolRunning;
 		static  ::sys::thread::Deque multiAddHandle;
+		static ::Array< ::String > cookieList;
 		static void localThreadPool_doWork( ::Dynamic state);
 		static ::Dynamic localThreadPool_doWork_dyn();
 
@@ -90,6 +92,7 @@ class HXCPP_CLASS_ATTRIBUTES NativeHTTPRequest_obj : public ::hx::Object
 		static void multiProgressTimer_onRun();
 		static ::Dynamic multiProgressTimer_onRun_dyn();
 
+		 ::haxe::io::BytesBuffer buffer;
 		 ::haxe::io::Bytes bytes;
 		int bytesLoaded;
 		int bytesTotal;
@@ -99,7 +102,6 @@ class HXCPP_CLASS_ATTRIBUTES NativeHTTPRequest_obj : public ::hx::Object
 		 ::lime::app::Promise_haxe_io_Bytes promise;
 		int writeBytesLoaded;
 		int writeBytesTotal;
-		int writePosition;
 		 ::haxe::Timer timeout;
 		void cancel();
 		::Dynamic cancel_dyn();
@@ -116,8 +118,8 @@ class HXCPP_CLASS_ATTRIBUTES NativeHTTPRequest_obj : public ::hx::Object
 		 ::lime::app::Future loadText(::String uri);
 		::Dynamic loadText_dyn();
 
-		void growBuffer(int length);
-		::Dynamic growBuffer_dyn();
+		 ::haxe::io::Bytes buildBuffer();
+		::Dynamic buildBuffer_dyn();
 
 		void curl_onHeader( ::lime::net::curl::CURL curl,::String header);
 		::Dynamic curl_onHeader_dyn();

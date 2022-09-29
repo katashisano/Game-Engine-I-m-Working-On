@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_a21879e7650910f2_655_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_a21879e7650910f2_668_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,DropEventInfo)
 
 namespace lime{
@@ -40,9 +40,9 @@ class HXCPP_CLASS_ATTRIBUTES DropEventInfo_obj : public ::hx::Object
 			DropEventInfo_obj *__this = (DropEventInfo_obj*)(::hx::Ctx::alloc(_hx_ctx, sizeof(DropEventInfo_obj), true, "lime._internal.backend.native.DropEventInfo"));
 			*(void **)__this = DropEventInfo_obj::_hx_vtable;
 {
-            	HX_STACKFRAME(&_hx_pos_a21879e7650910f2_655_new)
-HXLINE( 656)		( ( ::lime::_internal::backend::native::DropEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 657)		( ( ::lime::_internal::backend::native::DropEventInfo)(__this) )->file = file;
+            	HX_STACKFRAME(&_hx_pos_a21879e7650910f2_668_new)
+HXLINE( 669)		( ( ::lime::_internal::backend::native::DropEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 670)		( ( ::lime::_internal::backend::native::DropEventInfo)(__this) )->file = file;
             	}
 		
 			return __this;

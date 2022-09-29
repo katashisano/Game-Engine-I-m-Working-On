@@ -18,6 +18,9 @@
 #ifndef INCLUDED_lime_text_Font
 #include <lime/text/Font.h>
 #endif
+#ifndef INCLUDED_lime_utils_AssetBundle
+#include <lime/utils/AssetBundle.h>
+#endif
 #ifndef INCLUDED_lime_utils_AssetLibrary
 #include <lime/utils/AssetLibrary.h>
 #endif
@@ -65,35 +68,37 @@
 #endif
 
 HX_DEFINE_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_26_new,"openfl.utils.AssetLibrary","new",0x69b47d78,"openfl.utils.AssetLibrary.new","openfl/utils/AssetLibrary.hx",26,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_33_exists,"openfl.utils.AssetLibrary","exists",0xdc46afc4,"openfl.utils.AssetLibrary.exists","openfl/utils/AssetLibrary.hx",33,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_92_getAsset,"openfl.utils.AssetLibrary","getAsset",0x76ad5562,"openfl.utils.AssetLibrary.getAsset","openfl/utils/AssetLibrary.hx",92,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_106_getAudioBuffer,"openfl.utils.AssetLibrary","getAudioBuffer",0x0089fb68,"openfl.utils.AssetLibrary.getAudioBuffer","openfl/utils/AssetLibrary.hx",106,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_120_getBytes,"openfl.utils.AssetLibrary","getBytes",0x0e0bf3dd,"openfl.utils.AssetLibrary.getBytes","openfl/utils/AssetLibrary.hx",120,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_134_getFont,"openfl.utils.AssetLibrary","getFont",0xd39c269d,"openfl.utils.AssetLibrary.getFont","openfl/utils/AssetLibrary.hx",134,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_148_getImage,"openfl.utils.AssetLibrary","getImage",0x0ddd0acd,"openfl.utils.AssetLibrary.getImage","openfl/utils/AssetLibrary.hx",148,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_161_getMovieClip,"openfl.utils.AssetLibrary","getMovieClip",0xec0e8f12,"openfl.utils.AssetLibrary.getMovieClip","openfl/utils/AssetLibrary.hx",161,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_167_getPath,"openfl.utils.AssetLibrary","getPath",0xda2dae73,"openfl.utils.AssetLibrary.getPath","openfl/utils/AssetLibrary.hx",167,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_181_getText,"openfl.utils.AssetLibrary","getText",0xdcd5957b,"openfl.utils.AssetLibrary.getText","openfl/utils/AssetLibrary.hx",181,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_195_isLocal,"openfl.utils.AssetLibrary","isLocal",0xd2cf8639,"openfl.utils.AssetLibrary.isLocal","openfl/utils/AssetLibrary.hx",195,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_209_list,"openfl.utils.AssetLibrary","list",0x12e9e446,"openfl.utils.AssetLibrary.list","openfl/utils/AssetLibrary.hx",209,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_223_loadAsset,"openfl.utils.AssetLibrary","loadAsset",0xda144502,"openfl.utils.AssetLibrary.loadAsset","openfl/utils/AssetLibrary.hx",223,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_237_load,"openfl.utils.AssetLibrary","load",0x12ee620e,"openfl.utils.AssetLibrary.load","openfl/utils/AssetLibrary.hx",237,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_251_loadAudioBuffer,"openfl.utils.AssetLibrary","loadAudioBuffer",0x7bb86308,"openfl.utils.AssetLibrary.loadAudioBuffer","openfl/utils/AssetLibrary.hx",251,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_265_loadBytes,"openfl.utils.AssetLibrary","loadBytes",0x7172e37d,"openfl.utils.AssetLibrary.loadBytes","openfl/utils/AssetLibrary.hx",265,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_279_loadFont,"openfl.utils.AssetLibrary","loadFont",0xa4fd0afd,"openfl.utils.AssetLibrary.loadFont","openfl/utils/AssetLibrary.hx",279,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_338_loadImage,"openfl.utils.AssetLibrary","loadImage",0x7143fa6d,"openfl.utils.AssetLibrary.loadImage","openfl/utils/AssetLibrary.hx",338,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_351_loadMovieClip,"openfl.utils.AssetLibrary","loadMovieClip",0xdf35ceb2,"openfl.utils.AssetLibrary.loadMovieClip","openfl/utils/AssetLibrary.hx",351,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_357_loadText,"openfl.utils.AssetLibrary","loadText",0xae3679db,"openfl.utils.AssetLibrary.loadText","openfl/utils/AssetLibrary.hx",357,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_371_unload,"openfl.utils.AssetLibrary","unload",0x81f332e7,"openfl.utils.AssetLibrary.unload","openfl/utils/AssetLibrary.hx",371,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_47_fromBytes,"openfl.utils.AssetLibrary","fromBytes",0x0ac481b9,"openfl.utils.AssetLibrary.fromBytes","openfl/utils/AssetLibrary.hx",47,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_56_fromFile,"openfl.utils.AssetLibrary","fromFile",0x922478ee,"openfl.utils.AssetLibrary.fromFile","openfl/utils/AssetLibrary.hx",56,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_63_fromManifest,"openfl.utils.AssetLibrary","fromManifest",0x34ddc721,"openfl.utils.AssetLibrary.fromManifest","openfl/utils/AssetLibrary.hx",63,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_295_loadFromBytes,"openfl.utils.AssetLibrary","loadFromBytes",0x393bbeb3,"openfl.utils.AssetLibrary.loadFromBytes","openfl/utils/AssetLibrary.hx",295,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_293_loadFromBytes,"openfl.utils.AssetLibrary","loadFromBytes",0x393bbeb3,"openfl.utils.AssetLibrary.loadFromBytes","openfl/utils/AssetLibrary.hx",293,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_307_loadFromFile,"openfl.utils.AssetLibrary","loadFromFile",0x1f8d7934,"openfl.utils.AssetLibrary.loadFromFile","openfl/utils/AssetLibrary.hx",307,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_305_loadFromFile,"openfl.utils.AssetLibrary","loadFromFile",0x1f8d7934,"openfl.utils.AssetLibrary.loadFromFile","openfl/utils/AssetLibrary.hx",305,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_315_loadFromManifest,"openfl.utils.AssetLibrary","loadFromManifest",0x78d36267,"openfl.utils.AssetLibrary.loadFromManifest","openfl/utils/AssetLibrary.hx",315,0x41ec4c76)
-HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_323_loadFromManifest,"openfl.utils.AssetLibrary","loadFromManifest",0x78d36267,"openfl.utils.AssetLibrary.loadFromManifest","openfl/utils/AssetLibrary.hx",323,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_32_bind,"openfl.utils.AssetLibrary","bind",0x0c4dbda5,"openfl.utils.AssetLibrary.bind","openfl/utils/AssetLibrary.hx",32,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_38_exists,"openfl.utils.AssetLibrary","exists",0xdc46afc4,"openfl.utils.AssetLibrary.exists","openfl/utils/AssetLibrary.hx",38,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_124_getAsset,"openfl.utils.AssetLibrary","getAsset",0x76ad5562,"openfl.utils.AssetLibrary.getAsset","openfl/utils/AssetLibrary.hx",124,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_138_getAudioBuffer,"openfl.utils.AssetLibrary","getAudioBuffer",0x0089fb68,"openfl.utils.AssetLibrary.getAudioBuffer","openfl/utils/AssetLibrary.hx",138,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_152_getBytes,"openfl.utils.AssetLibrary","getBytes",0x0e0bf3dd,"openfl.utils.AssetLibrary.getBytes","openfl/utils/AssetLibrary.hx",152,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_166_getFont,"openfl.utils.AssetLibrary","getFont",0xd39c269d,"openfl.utils.AssetLibrary.getFont","openfl/utils/AssetLibrary.hx",166,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_180_getImage,"openfl.utils.AssetLibrary","getImage",0x0ddd0acd,"openfl.utils.AssetLibrary.getImage","openfl/utils/AssetLibrary.hx",180,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_193_getMovieClip,"openfl.utils.AssetLibrary","getMovieClip",0xec0e8f12,"openfl.utils.AssetLibrary.getMovieClip","openfl/utils/AssetLibrary.hx",193,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_199_getPath,"openfl.utils.AssetLibrary","getPath",0xda2dae73,"openfl.utils.AssetLibrary.getPath","openfl/utils/AssetLibrary.hx",199,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_213_getText,"openfl.utils.AssetLibrary","getText",0xdcd5957b,"openfl.utils.AssetLibrary.getText","openfl/utils/AssetLibrary.hx",213,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_227_isLocal,"openfl.utils.AssetLibrary","isLocal",0xd2cf8639,"openfl.utils.AssetLibrary.isLocal","openfl/utils/AssetLibrary.hx",227,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_241_list,"openfl.utils.AssetLibrary","list",0x12e9e446,"openfl.utils.AssetLibrary.list","openfl/utils/AssetLibrary.hx",241,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_255_loadAsset,"openfl.utils.AssetLibrary","loadAsset",0xda144502,"openfl.utils.AssetLibrary.loadAsset","openfl/utils/AssetLibrary.hx",255,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_269_load,"openfl.utils.AssetLibrary","load",0x12ee620e,"openfl.utils.AssetLibrary.load","openfl/utils/AssetLibrary.hx",269,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_283_loadAudioBuffer,"openfl.utils.AssetLibrary","loadAudioBuffer",0x7bb86308,"openfl.utils.AssetLibrary.loadAudioBuffer","openfl/utils/AssetLibrary.hx",283,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_297_loadBytes,"openfl.utils.AssetLibrary","loadBytes",0x7172e37d,"openfl.utils.AssetLibrary.loadBytes","openfl/utils/AssetLibrary.hx",297,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_311_loadFont,"openfl.utils.AssetLibrary","loadFont",0xa4fd0afd,"openfl.utils.AssetLibrary.loadFont","openfl/utils/AssetLibrary.hx",311,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_370_loadImage,"openfl.utils.AssetLibrary","loadImage",0x7143fa6d,"openfl.utils.AssetLibrary.loadImage","openfl/utils/AssetLibrary.hx",370,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_383_loadMovieClip,"openfl.utils.AssetLibrary","loadMovieClip",0xdf35ceb2,"openfl.utils.AssetLibrary.loadMovieClip","openfl/utils/AssetLibrary.hx",383,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_389_loadText,"openfl.utils.AssetLibrary","loadText",0xae3679db,"openfl.utils.AssetLibrary.loadText","openfl/utils/AssetLibrary.hx",389,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_403_unload,"openfl.utils.AssetLibrary","unload",0x81f332e7,"openfl.utils.AssetLibrary.unload","openfl/utils/AssetLibrary.hx",403,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_50_fromBundle,"openfl.utils.AssetLibrary","fromBundle",0x0f9a9e74,"openfl.utils.AssetLibrary.fromBundle","openfl/utils/AssetLibrary.hx",50,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_79_fromBytes,"openfl.utils.AssetLibrary","fromBytes",0x0ac481b9,"openfl.utils.AssetLibrary.fromBytes","openfl/utils/AssetLibrary.hx",79,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_88_fromFile,"openfl.utils.AssetLibrary","fromFile",0x922478ee,"openfl.utils.AssetLibrary.fromFile","openfl/utils/AssetLibrary.hx",88,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_95_fromManifest,"openfl.utils.AssetLibrary","fromManifest",0x34ddc721,"openfl.utils.AssetLibrary.fromManifest","openfl/utils/AssetLibrary.hx",95,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_327_loadFromBytes,"openfl.utils.AssetLibrary","loadFromBytes",0x393bbeb3,"openfl.utils.AssetLibrary.loadFromBytes","openfl/utils/AssetLibrary.hx",327,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_325_loadFromBytes,"openfl.utils.AssetLibrary","loadFromBytes",0x393bbeb3,"openfl.utils.AssetLibrary.loadFromBytes","openfl/utils/AssetLibrary.hx",325,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_339_loadFromFile,"openfl.utils.AssetLibrary","loadFromFile",0x1f8d7934,"openfl.utils.AssetLibrary.loadFromFile","openfl/utils/AssetLibrary.hx",339,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_337_loadFromFile,"openfl.utils.AssetLibrary","loadFromFile",0x1f8d7934,"openfl.utils.AssetLibrary.loadFromFile","openfl/utils/AssetLibrary.hx",337,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_347_loadFromManifest,"openfl.utils.AssetLibrary","loadFromManifest",0x78d36267,"openfl.utils.AssetLibrary.loadFromManifest","openfl/utils/AssetLibrary.hx",347,0x41ec4c76)
+HX_LOCAL_STACK_FRAME(_hx_pos_547ec2a4bdcd47c7_355_loadFromManifest,"openfl.utils.AssetLibrary","loadFromManifest",0x78d36267,"openfl.utils.AssetLibrary.loadFromManifest","openfl/utils/AssetLibrary.hx",355,0x41ec4c76)
 namespace openfl{
 namespace utils{
 
@@ -121,272 +126,302 @@ bool AssetLibrary_obj::_hx_isInstanceOf(int inClassId) {
 	}
 }
 
+bool AssetLibrary_obj::bind(::String className, ::Dynamic instance){
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_32_bind)
+HXDLIN(  32)		return false;
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC2(AssetLibrary_obj,bind,return )
+
 bool AssetLibrary_obj::exists(::String id,::String type){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_33_exists)
-HXDLIN(  33)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE(  35)			return this->_hx___proxy->exists(id,type);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_38_exists)
+HXDLIN(  38)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE(  40)			return this->_hx___proxy->exists(id,type);
             		}
             		else {
-HXLINE(  39)			return this->super::exists(id,type);
+HXLINE(  44)			return this->super::exists(id,type);
             		}
-HXLINE(  33)		return false;
+HXLINE(  38)		return false;
             	}
 
 
  ::Dynamic AssetLibrary_obj::getAsset(::String id,::String type){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_92_getAsset)
-HXDLIN(  92)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE(  94)			return this->_hx___proxy->getAsset(id,type);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_124_getAsset)
+HXDLIN( 124)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 126)			return this->_hx___proxy->getAsset(id,type);
             		}
             		else {
-HXLINE(  98)			return this->super::getAsset(id,type);
+HXLINE( 130)			return this->super::getAsset(id,type);
             		}
-HXLINE(  92)		return null();
+HXLINE( 124)		return null();
             	}
 
 
  ::lime::media::AudioBuffer AssetLibrary_obj::getAudioBuffer(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_106_getAudioBuffer)
-HXDLIN( 106)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 108)			return this->_hx___proxy->getAudioBuffer(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_138_getAudioBuffer)
+HXDLIN( 138)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 140)			return this->_hx___proxy->getAudioBuffer(id);
             		}
             		else {
-HXLINE( 112)			return this->super::getAudioBuffer(id);
+HXLINE( 144)			return this->super::getAudioBuffer(id);
             		}
-HXLINE( 106)		return null();
+HXLINE( 138)		return null();
             	}
 
 
  ::haxe::io::Bytes AssetLibrary_obj::getBytes(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_120_getBytes)
-HXDLIN( 120)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 122)			return this->_hx___proxy->getBytes(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_152_getBytes)
+HXDLIN( 152)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 154)			return this->_hx___proxy->getBytes(id);
             		}
             		else {
-HXLINE( 126)			return this->super::getBytes(id);
+HXLINE( 158)			return this->super::getBytes(id);
             		}
-HXLINE( 120)		return null();
+HXLINE( 152)		return null();
             	}
 
 
  ::lime::text::Font AssetLibrary_obj::getFont(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_134_getFont)
-HXDLIN( 134)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 136)			return this->_hx___proxy->getFont(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_166_getFont)
+HXDLIN( 166)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 168)			return this->_hx___proxy->getFont(id);
             		}
             		else {
-HXLINE( 140)			return this->super::getFont(id);
+HXLINE( 172)			return this->super::getFont(id);
             		}
-HXLINE( 134)		return null();
+HXLINE( 166)		return null();
             	}
 
 
  ::lime::graphics::Image AssetLibrary_obj::getImage(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_148_getImage)
-HXDLIN( 148)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 150)			return this->_hx___proxy->getImage(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_180_getImage)
+HXDLIN( 180)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 182)			return this->_hx___proxy->getImage(id);
             		}
             		else {
-HXLINE( 154)			return this->super::getImage(id);
+HXLINE( 186)			return this->super::getImage(id);
             		}
-HXLINE( 148)		return null();
+HXLINE( 180)		return null();
             	}
 
 
  ::openfl::display::MovieClip AssetLibrary_obj::getMovieClip(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_161_getMovieClip)
-HXDLIN( 161)		return null();
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_193_getMovieClip)
+HXDLIN( 193)		return null();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetLibrary_obj,getMovieClip,return )
 
 ::String AssetLibrary_obj::getPath(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_167_getPath)
-HXDLIN( 167)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 169)			return this->_hx___proxy->getPath(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_199_getPath)
+HXDLIN( 199)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 201)			return this->_hx___proxy->getPath(id);
             		}
             		else {
-HXLINE( 173)			return this->super::getPath(id);
+HXLINE( 205)			return this->super::getPath(id);
             		}
-HXLINE( 167)		return null();
+HXLINE( 199)		return null();
             	}
 
 
 ::String AssetLibrary_obj::getText(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_181_getText)
-HXDLIN( 181)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 183)			return this->_hx___proxy->getText(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_213_getText)
+HXDLIN( 213)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 215)			return this->_hx___proxy->getText(id);
             		}
             		else {
-HXLINE( 187)			return this->super::getText(id);
+HXLINE( 219)			return this->super::getText(id);
             		}
-HXLINE( 181)		return null();
+HXLINE( 213)		return null();
             	}
 
 
 bool AssetLibrary_obj::isLocal(::String id,::String type){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_195_isLocal)
-HXDLIN( 195)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 197)			return this->_hx___proxy->isLocal(id,type);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_227_isLocal)
+HXDLIN( 227)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 229)			return this->_hx___proxy->isLocal(id,type);
             		}
             		else {
-HXLINE( 201)			return this->super::isLocal(id,type);
+HXLINE( 233)			return this->super::isLocal(id,type);
             		}
-HXLINE( 195)		return false;
+HXLINE( 227)		return false;
             	}
 
 
 ::Array< ::String > AssetLibrary_obj::list(::String type){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_209_list)
-HXDLIN( 209)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 211)			return this->_hx___proxy->list(type);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_241_list)
+HXDLIN( 241)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 243)			return this->_hx___proxy->list(type);
             		}
             		else {
-HXLINE( 215)			return this->super::list(type);
+HXLINE( 247)			return this->super::list(type);
             		}
-HXLINE( 209)		return null();
+HXLINE( 241)		return null();
             	}
 
 
  ::lime::app::Future AssetLibrary_obj::loadAsset(::String id,::String type){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_223_loadAsset)
-HXDLIN( 223)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 225)			return this->_hx___proxy->loadAsset(id,type);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_255_loadAsset)
+HXDLIN( 255)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 257)			return this->_hx___proxy->loadAsset(id,type);
             		}
             		else {
-HXLINE( 229)			return this->super::loadAsset(id,type);
+HXLINE( 261)			return this->super::loadAsset(id,type);
             		}
-HXLINE( 223)		return null();
+HXLINE( 255)		return null();
             	}
 
 
  ::lime::app::Future AssetLibrary_obj::load(){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_237_load)
-HXDLIN( 237)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 239)			return this->_hx___proxy->load();
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_269_load)
+HXDLIN( 269)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 271)			return this->_hx___proxy->load();
             		}
             		else {
-HXLINE( 243)			return this->super::load();
+HXLINE( 275)			return this->super::load();
             		}
-HXLINE( 237)		return null();
+HXLINE( 269)		return null();
             	}
 
 
  ::lime::app::Future AssetLibrary_obj::loadAudioBuffer(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_251_loadAudioBuffer)
-HXDLIN( 251)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 253)			return this->_hx___proxy->loadAudioBuffer(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_283_loadAudioBuffer)
+HXDLIN( 283)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 285)			return this->_hx___proxy->loadAudioBuffer(id);
             		}
             		else {
-HXLINE( 257)			return this->super::loadAudioBuffer(id);
+HXLINE( 289)			return this->super::loadAudioBuffer(id);
             		}
-HXLINE( 251)		return null();
+HXLINE( 283)		return null();
             	}
 
 
  ::lime::app::Future AssetLibrary_obj::loadBytes(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_265_loadBytes)
-HXDLIN( 265)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 267)			return this->_hx___proxy->loadBytes(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_297_loadBytes)
+HXDLIN( 297)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 299)			return this->_hx___proxy->loadBytes(id);
             		}
             		else {
-HXLINE( 271)			return this->super::loadBytes(id);
+HXLINE( 303)			return this->super::loadBytes(id);
             		}
-HXLINE( 265)		return null();
+HXLINE( 297)		return null();
             	}
 
 
  ::lime::app::Future AssetLibrary_obj::loadFont(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_279_loadFont)
-HXDLIN( 279)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 281)			return this->_hx___proxy->loadFont(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_311_loadFont)
+HXDLIN( 311)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 313)			return this->_hx___proxy->loadFont(id);
             		}
             		else {
-HXLINE( 285)			return this->super::loadFont(id);
+HXLINE( 317)			return this->super::loadFont(id);
             		}
-HXLINE( 279)		return null();
+HXLINE( 311)		return null();
             	}
 
 
  ::lime::app::Future AssetLibrary_obj::loadImage(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_338_loadImage)
-HXDLIN( 338)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 340)			return this->_hx___proxy->loadImage(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_370_loadImage)
+HXDLIN( 370)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 372)			return this->_hx___proxy->loadImage(id);
             		}
             		else {
-HXLINE( 344)			return this->super::loadImage(id);
+HXLINE( 376)			return this->super::loadImage(id);
             		}
-HXLINE( 338)		return null();
+HXLINE( 370)		return null();
             	}
 
 
  ::lime::app::Future AssetLibrary_obj::loadMovieClip(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_351_loadMovieClip)
-HXDLIN( 351)		return ::lime::app::Future_obj::withValue(this->getMovieClip(id));
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_383_loadMovieClip)
+HXDLIN( 383)		return ::lime::app::Future_obj::withValue(this->getMovieClip(id));
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(AssetLibrary_obj,loadMovieClip,return )
 
  ::lime::app::Future AssetLibrary_obj::loadText(::String id){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_357_loadText)
-HXDLIN( 357)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 359)			return this->_hx___proxy->loadText(id);
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_389_loadText)
+HXDLIN( 389)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 391)			return this->_hx___proxy->loadText(id);
             		}
             		else {
-HXLINE( 363)			return this->super::loadText(id);
+HXLINE( 395)			return this->super::loadText(id);
             		}
-HXLINE( 357)		return null();
+HXLINE( 389)		return null();
             	}
 
 
 void AssetLibrary_obj::unload(){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_371_unload)
-HXDLIN( 371)		if (::hx::IsNotNull( this->_hx___proxy )) {
-HXLINE( 373)			this->_hx___proxy->unload();
-HXDLIN( 373)			return;
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_403_unload)
+HXDLIN( 403)		if (::hx::IsNotNull( this->_hx___proxy )) {
+HXLINE( 405)			this->_hx___proxy->unload();
+HXDLIN( 405)			return;
             		}
             		else {
-HXLINE( 377)			this->super::unload();
-HXDLIN( 377)			return;
+HXLINE( 409)			this->super::unload();
+HXDLIN( 409)			return;
             		}
             	}
 
 
+ ::openfl::utils::AssetLibrary AssetLibrary_obj::fromBundle( ::lime::utils::AssetBundle bundle){
+            	HX_GC_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_50_fromBundle)
+HXLINE(  52)		 ::lime::utils::AssetLibrary library = ::lime::utils::AssetLibrary_obj::fromBundle(bundle);
+HXLINE(  54)		if (::hx::IsNotNull( library )) {
+HXLINE(  56)			if (::Std_obj::isOfType(library,::hx::ClassOf< ::openfl::utils::AssetLibrary >())) {
+HXLINE(  58)				return ( ( ::openfl::utils::AssetLibrary)(library) );
+            			}
+            			else {
+HXLINE(  62)				 ::openfl::utils::AssetLibrary _library =  ::openfl::utils::AssetLibrary_obj::__alloc( HX_CTX );
+HXLINE(  63)				_library->_hx___proxy = library;
+HXLINE(  64)				return _library;
+            			}
+            		}
+            		else {
+HXLINE(  69)			return null();
+            		}
+HXLINE(  54)		return null();
+            	}
+
+
+STATIC_HX_DEFINE_DYNAMIC_FUNC1(AssetLibrary_obj,fromBundle,return )
+
  ::openfl::utils::AssetLibrary AssetLibrary_obj::fromBytes( ::openfl::utils::ByteArrayData bytes,::String rootPath){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_47_fromBytes)
-HXDLIN(  47)		return ::openfl::utils::AssetLibrary_obj::fromManifest(::lime::utils::AssetManifest_obj::fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toLimeBytes(bytes),rootPath));
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_79_fromBytes)
+HXDLIN(  79)		return ::openfl::utils::AssetLibrary_obj::fromManifest(::lime::utils::AssetManifest_obj::fromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toLimeBytes(bytes),rootPath));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(AssetLibrary_obj,fromBytes,return )
 
  ::openfl::utils::AssetLibrary AssetLibrary_obj::fromFile(::String path,::String rootPath){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_56_fromFile)
-HXDLIN(  56)		return ::openfl::utils::AssetLibrary_obj::fromManifest(::lime::utils::AssetManifest_obj::fromFile(path,rootPath));
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_88_fromFile)
+HXDLIN(  88)		return ::openfl::utils::AssetLibrary_obj::fromManifest(::lime::utils::AssetManifest_obj::fromFile(path,rootPath));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(AssetLibrary_obj,fromFile,return )
 
  ::openfl::utils::AssetLibrary AssetLibrary_obj::fromManifest( ::lime::utils::AssetManifest manifest){
-            	HX_GC_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_63_fromManifest)
-HXLINE(  65)		 ::lime::utils::AssetLibrary library = ::lime::utils::AssetLibrary_obj::fromManifest(manifest);
-HXLINE(  67)		if (::hx::IsNotNull( library )) {
-HXLINE(  69)			if (::Std_obj::isOfType(library,::hx::ClassOf< ::openfl::utils::AssetLibrary >())) {
-HXLINE(  71)				return ( ( ::openfl::utils::AssetLibrary)(library) );
+            	HX_GC_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_95_fromManifest)
+HXLINE(  97)		 ::lime::utils::AssetLibrary library = ::lime::utils::AssetLibrary_obj::fromManifest(manifest);
+HXLINE(  99)		if (::hx::IsNotNull( library )) {
+HXLINE( 101)			if (::Std_obj::isOfType(library,::hx::ClassOf< ::openfl::utils::AssetLibrary >())) {
+HXLINE( 103)				return ( ( ::openfl::utils::AssetLibrary)(library) );
             			}
             			else {
-HXLINE(  75)				 ::openfl::utils::AssetLibrary _library =  ::openfl::utils::AssetLibrary_obj::__alloc( HX_CTX );
-HXLINE(  76)				_library->_hx___proxy = library;
-HXLINE(  77)				return _library;
+HXLINE( 107)				 ::openfl::utils::AssetLibrary _library =  ::openfl::utils::AssetLibrary_obj::__alloc( HX_CTX );
+HXLINE( 108)				_library->_hx___proxy = library;
+HXLINE( 109)				return _library;
             			}
             		}
             		else {
-HXLINE(  82)			return null();
+HXLINE( 114)			return null();
             		}
-HXLINE(  67)		return null();
+HXLINE(  99)		return null();
             	}
 
 
@@ -395,13 +430,13 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC1(AssetLibrary_obj,fromManifest,return )
  ::lime::app::Future AssetLibrary_obj::loadFromBytes( ::openfl::utils::ByteArrayData bytes,::String rootPath){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::utils::AssetManifest manifest){
-            			HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_295_loadFromBytes)
-HXLINE( 295)			return ::openfl::utils::AssetLibrary_obj::loadFromManifest(manifest);
+            			HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_327_loadFromBytes)
+HXLINE( 327)			return ::openfl::utils::AssetLibrary_obj::loadFromManifest(manifest);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_293_loadFromBytes)
-HXDLIN( 293)		return ::lime::utils::AssetManifest_obj::loadFromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toLimeBytes(bytes),rootPath)->then( ::Dynamic(new _hx_Closure_0()));
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_325_loadFromBytes)
+HXDLIN( 325)		return ::lime::utils::AssetManifest_obj::loadFromBytes(::openfl::utils::_ByteArray::ByteArray_Impl__obj::toLimeBytes(bytes),rootPath)->then( ::Dynamic(new _hx_Closure_0()));
             	}
 
 
@@ -410,35 +445,35 @@ STATIC_HX_DEFINE_DYNAMIC_FUNC2(AssetLibrary_obj,loadFromBytes,return )
  ::lime::app::Future AssetLibrary_obj::loadFromFile(::String path,::String rootPath){
             		HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             		 ::lime::app::Future _hx_run( ::lime::utils::AssetManifest manifest){
-            			HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_307_loadFromFile)
-HXLINE( 307)			return ::openfl::utils::AssetLibrary_obj::loadFromManifest(manifest);
+            			HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_339_loadFromFile)
+HXLINE( 339)			return ::openfl::utils::AssetLibrary_obj::loadFromManifest(manifest);
             		}
             		HX_END_LOCAL_FUNC1(return)
 
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_305_loadFromFile)
-HXDLIN( 305)		return ::lime::utils::AssetManifest_obj::loadFromFile(path,rootPath)->then( ::Dynamic(new _hx_Closure_0()));
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_337_loadFromFile)
+HXDLIN( 337)		return ::lime::utils::AssetManifest_obj::loadFromFile(path,rootPath)->then( ::Dynamic(new _hx_Closure_0()));
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(AssetLibrary_obj,loadFromFile,return )
 
  ::lime::app::Future AssetLibrary_obj::loadFromManifest( ::lime::utils::AssetManifest manifest){
-            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_315_loadFromManifest)
-HXLINE( 317)		 ::openfl::utils::AssetLibrary library = ::openfl::utils::AssetLibrary_obj::fromManifest(manifest);
-HXLINE( 319)		if (::hx::IsNotNull( library )) {
+            	HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_347_loadFromManifest)
+HXLINE( 349)		 ::openfl::utils::AssetLibrary library = ::openfl::utils::AssetLibrary_obj::fromManifest(manifest);
+HXLINE( 351)		if (::hx::IsNotNull( library )) {
             			HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             			 ::lime::app::Future _hx_run( ::lime::utils::AssetLibrary library){
-            				HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_323_loadFromManifest)
-HXLINE( 323)				return ::lime::app::Future_obj::withValue(( ( ::openfl::utils::AssetLibrary)(library) ));
+            				HX_STACKFRAME(&_hx_pos_547ec2a4bdcd47c7_355_loadFromManifest)
+HXLINE( 355)				return ::lime::app::Future_obj::withValue(( ( ::openfl::utils::AssetLibrary)(library) ));
             			}
             			HX_END_LOCAL_FUNC1(return)
 
-HXLINE( 321)			return library->load()->then( ::Dynamic(new _hx_Closure_0()));
+HXLINE( 353)			return library->load()->then( ::Dynamic(new _hx_Closure_0()));
             		}
             		else {
-HXLINE( 328)			return ::lime::app::Future_obj::withError(HX_("Could not load asset manifest",cd,c6,09,7f));
+HXLINE( 360)			return ::lime::app::Future_obj::withError(HX_("Could not load asset manifest",cd,c6,09,7f));
             		}
-HXLINE( 319)		return null();
+HXLINE( 351)		return null();
             	}
 
 
@@ -480,6 +515,7 @@ void AssetLibrary_obj::__Visit(HX_VISIT_PARAMS)
 {
 	switch(inName.length) {
 	case 4:
+		if (HX_FIELD_EQ(inName,"bind") ) { return ::hx::Val( bind_dyn() ); }
 		if (HX_FIELD_EQ(inName,"list") ) { return ::hx::Val( list_dyn() ); }
 		if (HX_FIELD_EQ(inName,"load") ) { return ::hx::Val( load_dyn() ); }
 		break;
@@ -530,6 +566,9 @@ bool AssetLibrary_obj::__GetStatic(const ::String &inName, Dynamic &outValue, ::
 	case 9:
 		if (HX_FIELD_EQ(inName,"fromBytes") ) { outValue = fromBytes_dyn(); return true; }
 		break;
+	case 10:
+		if (HX_FIELD_EQ(inName,"fromBundle") ) { outValue = fromBundle_dyn(); return true; }
+		break;
 	case 12:
 		if (HX_FIELD_EQ(inName,"fromManifest") ) { outValue = fromManifest_dyn(); return true; }
 		if (HX_FIELD_EQ(inName,"loadFromFile") ) { outValue = loadFromFile_dyn(); return true; }
@@ -568,6 +607,7 @@ static ::hx::StaticInfo *AssetLibrary_obj_sStaticStorageInfo = 0;
 
 static ::String AssetLibrary_obj_sMemberFields[] = {
 	HX_("__proxy",4e,47,ee,32),
+	HX_("bind",bd,f5,16,41),
 	HX_("exists",dc,1d,e0,bf),
 	HX_("getAsset",7a,79,10,86),
 	HX_("getAudioBuffer",80,41,e3,26),
@@ -593,6 +633,7 @@ static ::String AssetLibrary_obj_sMemberFields[] = {
 ::hx::Class AssetLibrary_obj::__mClass;
 
 static ::String AssetLibrary_obj_sStaticFields[] = {
+	HX_("fromBundle",8c,f8,20,19),
 	HX_("fromBytes",a1,f2,20,72),
 	HX_("fromFile",06,9d,87,a1),
 	HX_("fromManifest",39,d7,40,70),

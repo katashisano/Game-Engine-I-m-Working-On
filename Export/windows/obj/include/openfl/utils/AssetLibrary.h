@@ -13,6 +13,7 @@ HX_DECLARE_CLASS2(lime,app,Future)
 HX_DECLARE_CLASS2(lime,graphics,Image)
 HX_DECLARE_CLASS2(lime,media,AudioBuffer)
 HX_DECLARE_CLASS2(lime,text,Font)
+HX_DECLARE_CLASS2(lime,utils,AssetBundle)
 HX_DECLARE_CLASS2(lime,utils,AssetLibrary)
 HX_DECLARE_CLASS2(lime,utils,AssetManifest)
 HX_DECLARE_CLASS2(openfl,display,DisplayObject)
@@ -65,6 +66,9 @@ class HXCPP_CLASS_ATTRIBUTES AssetLibrary_obj : public  ::lime::utils::AssetLibr
 		bool _hx_isInstanceOf(int inClassId);
 		::String __ToString() const { return HX_("AssetLibrary",0b,4f,d4,27); }
 
+		static  ::openfl::utils::AssetLibrary fromBundle( ::lime::utils::AssetBundle bundle);
+		static ::Dynamic fromBundle_dyn();
+
 		static  ::openfl::utils::AssetLibrary fromBytes( ::openfl::utils::ByteArrayData bytes,::String rootPath);
 		static ::Dynamic fromBytes_dyn();
 
@@ -84,6 +88,9 @@ class HXCPP_CLASS_ATTRIBUTES AssetLibrary_obj : public  ::lime::utils::AssetLibr
 		static ::Dynamic loadFromManifest_dyn();
 
 		 ::lime::utils::AssetLibrary _hx___proxy;
+		bool bind(::String className, ::Dynamic instance);
+		::Dynamic bind_dyn();
+
 		bool exists(::String id,::String type);
 
 		 ::Dynamic getAsset(::String id,::String type);

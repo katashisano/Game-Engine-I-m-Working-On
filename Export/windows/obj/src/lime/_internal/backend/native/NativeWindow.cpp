@@ -126,14 +126,15 @@ HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_465_setCursor,"lime._internal.back
 HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_504_setDisplayMode,"lime._internal.backend.native.NativeWindow","setDisplayMode",0xe4418518,"lime._internal.backend.native.NativeWindow.setDisplayMode","lime/_internal/backend/native/NativeWindow.hx",504,0x10f0f707)
 HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_524_setMouseLock,"lime._internal.backend.native.NativeWindow","setMouseLock",0x550b1c43,"lime._internal.backend.native.NativeWindow.setMouseLock","lime/_internal/backend/native/NativeWindow.hx",524,0x10f0f707)
 HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_538_setTextInputEnabled,"lime._internal.backend.native.NativeWindow","setTextInputEnabled",0xad6fe6b1,"lime._internal.backend.native.NativeWindow.setTextInputEnabled","lime/_internal/backend/native/NativeWindow.hx",538,0x10f0f707)
-HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_550_setFrameRate,"lime._internal.backend.native.NativeWindow","setFrameRate",0x9a23d940,"lime._internal.backend.native.NativeWindow.setFrameRate","lime/_internal/backend/native/NativeWindow.hx",550,0x10f0f707)
-HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_564_setFullscreen,"lime._internal.backend.native.NativeWindow","setFullscreen",0x77a41348,"lime._internal.backend.native.NativeWindow.setFullscreen","lime/_internal/backend/native/NativeWindow.hx",564,0x10f0f707)
-HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_587_setIcon,"lime._internal.backend.native.NativeWindow","setIcon",0xbaaf48c6,"lime._internal.backend.native.NativeWindow.setIcon","lime/_internal/backend/native/NativeWindow.hx",587,0x10f0f707)
-HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_596_setMaximized,"lime._internal.backend.native.NativeWindow","setMaximized",0x5fdfd5ab,"lime._internal.backend.native.NativeWindow.setMaximized","lime/_internal/backend/native/NativeWindow.hx",596,0x10f0f707)
-HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_608_setMinimized,"lime._internal.backend.native.NativeWindow","setMinimized",0x899cc319,"lime._internal.backend.native.NativeWindow.setMinimized","lime/_internal/backend/native/NativeWindow.hx",608,0x10f0f707)
-HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_620_setResizable,"lime._internal.backend.native.NativeWindow","setResizable",0x0a4efefe,"lime._internal.backend.native.NativeWindow.setResizable","lime/_internal/backend/native/NativeWindow.hx",620,0x10f0f707)
-HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_637_setTitle,"lime._internal.backend.native.NativeWindow","setTitle",0xf813d7ab,"lime._internal.backend.native.NativeWindow.setTitle","lime/_internal/backend/native/NativeWindow.hx",637,0x10f0f707)
-HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_651_warpMouse,"lime._internal.backend.native.NativeWindow","warpMouse",0x3c987808,"lime._internal.backend.native.NativeWindow.warpMouse","lime/_internal/backend/native/NativeWindow.hx",651,0x10f0f707)
+HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_550_setTextInputRect,"lime._internal.backend.native.NativeWindow","setTextInputRect",0xe3ba2cf4,"lime._internal.backend.native.NativeWindow.setTextInputRect","lime/_internal/backend/native/NativeWindow.hx",550,0x10f0f707)
+HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_562_setFrameRate,"lime._internal.backend.native.NativeWindow","setFrameRate",0x9a23d940,"lime._internal.backend.native.NativeWindow.setFrameRate","lime/_internal/backend/native/NativeWindow.hx",562,0x10f0f707)
+HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_576_setFullscreen,"lime._internal.backend.native.NativeWindow","setFullscreen",0x77a41348,"lime._internal.backend.native.NativeWindow.setFullscreen","lime/_internal/backend/native/NativeWindow.hx",576,0x10f0f707)
+HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_599_setIcon,"lime._internal.backend.native.NativeWindow","setIcon",0xbaaf48c6,"lime._internal.backend.native.NativeWindow.setIcon","lime/_internal/backend/native/NativeWindow.hx",599,0x10f0f707)
+HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_608_setMaximized,"lime._internal.backend.native.NativeWindow","setMaximized",0x5fdfd5ab,"lime._internal.backend.native.NativeWindow.setMaximized","lime/_internal/backend/native/NativeWindow.hx",608,0x10f0f707)
+HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_620_setMinimized,"lime._internal.backend.native.NativeWindow","setMinimized",0x899cc319,"lime._internal.backend.native.NativeWindow.setMinimized","lime/_internal/backend/native/NativeWindow.hx",620,0x10f0f707)
+HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_632_setResizable,"lime._internal.backend.native.NativeWindow","setResizable",0x0a4efefe,"lime._internal.backend.native.NativeWindow.setResizable","lime/_internal/backend/native/NativeWindow.hx",632,0x10f0f707)
+HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_649_setTitle,"lime._internal.backend.native.NativeWindow","setTitle",0xf813d7ab,"lime._internal.backend.native.NativeWindow.setTitle","lime/_internal/backend/native/NativeWindow.hx",649,0x10f0f707)
+HX_LOCAL_STACK_FRAME(_hx_pos_b81205d558ca9a41_663_warpMouse,"lime._internal.backend.native.NativeWindow","warpMouse",0x3c987808,"lime._internal.backend.native.NativeWindow.warpMouse","lime/_internal/backend/native/NativeWindow.hx",663,0x10f0f707)
 namespace lime{
 namespace _internal{
 namespace backend{
@@ -961,39 +962,50 @@ HXLINE( 546)		return value;
 
 HX_DEFINE_DYNAMIC_FUNC1(NativeWindow_obj,setTextInputEnabled,return )
 
-Float NativeWindow_obj::setFrameRate(Float value){
-            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_550_setFrameRate)
-HXLINE( 553)		if (::hx::IsNotNull( this->handle )) {
-HXLINE( 556)			::lime::_internal::backend::native::NativeCFFI_obj::lime_application_set_frame_rate(::hx::DynamicPtr(this->parent->application->_hx___backend->handle),value);
+ ::lime::math::Rectangle NativeWindow_obj::setTextInputRect( ::lime::math::Rectangle value){
+            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_550_setTextInputRect)
+HXLINE( 551)		if (::hx::IsNotNull( this->handle )) {
+HXLINE( 554)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_text_input_rect(::hx::DynamicPtr(this->handle),::hx::DynamicPtr(value));
             		}
-HXLINE( 560)		return (this->frameRate = value);
+HXLINE( 558)		return value;
+            	}
+
+
+HX_DEFINE_DYNAMIC_FUNC1(NativeWindow_obj,setTextInputRect,return )
+
+Float NativeWindow_obj::setFrameRate(Float value){
+            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_562_setFrameRate)
+HXLINE( 565)		if (::hx::IsNotNull( this->handle )) {
+HXLINE( 568)			::lime::_internal::backend::native::NativeCFFI_obj::lime_application_set_frame_rate(::hx::DynamicPtr(this->parent->application->_hx___backend->handle),value);
+            		}
+HXLINE( 572)		return (this->frameRate = value);
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(NativeWindow_obj,setFrameRate,return )
 
 bool NativeWindow_obj::setFullscreen(bool value){
-            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_564_setFullscreen)
-HXLINE( 565)		if (::hx::IsNotNull( this->handle )) {
-HXLINE( 568)			value = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_fullscreen(::hx::DynamicPtr(this->handle),value);
-HXLINE( 570)			this->parent->_hx___width = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_get_width(::hx::DynamicPtr(this->handle));
-HXLINE( 571)			this->parent->_hx___height = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_get_height(::hx::DynamicPtr(this->handle));
-HXLINE( 572)			this->parent->_hx___x = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_get_x(::hx::DynamicPtr(this->handle));
-HXLINE( 573)			this->parent->_hx___y = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_get_y(::hx::DynamicPtr(this->handle));
-HXLINE( 576)			if (value) {
-HXLINE( 578)				this->parent->onFullscreen->dispatch();
+            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_576_setFullscreen)
+HXLINE( 577)		if (::hx::IsNotNull( this->handle )) {
+HXLINE( 580)			value = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_fullscreen(::hx::DynamicPtr(this->handle),value);
+HXLINE( 582)			this->parent->_hx___width = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_get_width(::hx::DynamicPtr(this->handle));
+HXLINE( 583)			this->parent->_hx___height = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_get_height(::hx::DynamicPtr(this->handle));
+HXLINE( 584)			this->parent->_hx___x = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_get_x(::hx::DynamicPtr(this->handle));
+HXLINE( 585)			this->parent->_hx___y = ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_get_y(::hx::DynamicPtr(this->handle));
+HXLINE( 588)			if (value) {
+HXLINE( 590)				this->parent->onFullscreen->dispatch();
             			}
             		}
-HXLINE( 582)		return value;
+HXLINE( 594)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(NativeWindow_obj,setFullscreen,return )
 
 void NativeWindow_obj::setIcon( ::lime::graphics::Image image){
-            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_587_setIcon)
-HXDLIN( 587)		if (::hx::IsNotNull( this->handle )) {
-HXLINE( 590)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_icon(::hx::DynamicPtr(this->handle),::hx::DynamicPtr(image->buffer));
+            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_599_setIcon)
+HXDLIN( 599)		if (::hx::IsNotNull( this->handle )) {
+HXLINE( 602)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_icon(::hx::DynamicPtr(this->handle),::hx::DynamicPtr(image->buffer));
             		}
             	}
 
@@ -1001,54 +1013,54 @@ HXLINE( 590)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_s
 HX_DEFINE_DYNAMIC_FUNC1(NativeWindow_obj,setIcon,(void))
 
 bool NativeWindow_obj::setMaximized(bool value){
-            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_596_setMaximized)
-HXLINE( 597)		if (::hx::IsNotNull( this->handle )) {
-HXLINE( 600)			return ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_maximized(::hx::DynamicPtr(this->handle),value);
+            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_608_setMaximized)
+HXLINE( 609)		if (::hx::IsNotNull( this->handle )) {
+HXLINE( 612)			return ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_maximized(::hx::DynamicPtr(this->handle),value);
             		}
-HXLINE( 604)		return value;
+HXLINE( 616)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(NativeWindow_obj,setMaximized,return )
 
 bool NativeWindow_obj::setMinimized(bool value){
-            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_608_setMinimized)
-HXLINE( 609)		if (::hx::IsNotNull( this->handle )) {
-HXLINE( 612)			return ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_minimized(::hx::DynamicPtr(this->handle),value);
+            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_620_setMinimized)
+HXLINE( 621)		if (::hx::IsNotNull( this->handle )) {
+HXLINE( 624)			return ::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_minimized(::hx::DynamicPtr(this->handle),value);
             		}
-HXLINE( 616)		return value;
+HXLINE( 628)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(NativeWindow_obj,setMinimized,return )
 
 bool NativeWindow_obj::setResizable(bool value){
-            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_620_setResizable)
-HXLINE( 621)		if (::hx::IsNotNull( this->handle )) {
-HXLINE( 624)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_resizable(::hx::DynamicPtr(this->handle),value);
-HXLINE( 628)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_borderless(::hx::DynamicPtr(this->handle),!(this->parent->_hx___borderless));
-HXLINE( 629)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_borderless(::hx::DynamicPtr(this->handle),this->parent->_hx___borderless);
+            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_632_setResizable)
+HXLINE( 633)		if (::hx::IsNotNull( this->handle )) {
+HXLINE( 636)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_resizable(::hx::DynamicPtr(this->handle),value);
+HXLINE( 640)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_borderless(::hx::DynamicPtr(this->handle),!(this->parent->_hx___borderless));
+HXLINE( 641)			::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_borderless(::hx::DynamicPtr(this->handle),this->parent->_hx___borderless);
             		}
-HXLINE( 633)		return value;
+HXLINE( 645)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(NativeWindow_obj,setResizable,return )
 
 ::String NativeWindow_obj::setTitle(::String value){
-            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_637_setTitle)
-HXLINE( 638)		if (::hx::IsNotNull( this->handle )) {
-HXLINE( 641)			return ( ( ::Dynamic)(::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_title(::hx::DynamicPtr(this->handle),value)) );
+            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_649_setTitle)
+HXLINE( 650)		if (::hx::IsNotNull( this->handle )) {
+HXLINE( 653)			return ( ( ::Dynamic)(::lime::_internal::backend::native::NativeCFFI_obj::lime_window_set_title(::hx::DynamicPtr(this->handle),value)) );
             		}
-HXLINE( 645)		return value;
+HXLINE( 657)		return value;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(NativeWindow_obj,setTitle,return )
 
 void NativeWindow_obj::warpMouse(int x,int y){
-            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_651_warpMouse)
-HXDLIN( 651)		::lime::_internal::backend::native::NativeCFFI_obj::lime_window_warp_mouse(::hx::DynamicPtr(this->handle),x,y);
+            	HX_STACKFRAME(&_hx_pos_b81205d558ca9a41_663_warpMouse)
+HXDLIN( 663)		::lime::_internal::backend::native::NativeCFFI_obj::lime_window_warp_mouse(::hx::DynamicPtr(this->handle),x,y);
             	}
 
 
@@ -1165,6 +1177,9 @@ void NativeWindow_obj::__Visit(HX_VISIT_PARAMS)
 		if (HX_FIELD_EQ(inName,"getDisplayMode") ) { return ::hx::Val( getDisplayMode_dyn() ); }
 		if (HX_FIELD_EQ(inName,"setDisplayMode") ) { return ::hx::Val( setDisplayMode_dyn() ); }
 		break;
+	case 16:
+		if (HX_FIELD_EQ(inName,"setTextInputRect") ) { return ::hx::Val( setTextInputRect_dyn() ); }
+		break;
 	case 19:
 		if (HX_FIELD_EQ(inName,"getTextInputEnabled") ) { return ::hx::Val( getTextInputEnabled_dyn() ); }
 		if (HX_FIELD_EQ(inName,"setTextInputEnabled") ) { return ::hx::Val( setTextInputEnabled_dyn() ); }
@@ -1266,6 +1281,7 @@ static ::String NativeWindow_obj_sMemberFields[] = {
 	HX_("setDisplayMode",43,ae,11,d8),
 	HX_("setMouseLock",ae,14,5c,18),
 	HX_("setTextInputEnabled",a6,a1,c3,ba),
+	HX_("setTextInputRect",df,36,c7,8a),
 	HX_("setFrameRate",ab,d1,74,5d),
 	HX_("setFullscreen",7d,78,2c,9b),
 	HX_("setIcon",3b,28,37,0b),

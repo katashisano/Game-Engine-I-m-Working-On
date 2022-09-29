@@ -70,6 +70,7 @@ class HXCPP_CLASS_ATTRIBUTES Lib_obj : public ::hx::Object
 		static int _hx___lastTimerID;
 		static  ::haxe::ds::StringMap _hx___sentWarnings;
 		static  ::haxe::ds::IntMap _hx___timers;
+		static  ::haxe::ds::StringMap _hx___registeredClassAliases;
 		static  ::Dynamic as( ::Dynamic v,::hx::Class c);
 		static ::Dynamic as_dyn();
 
@@ -117,6 +118,15 @@ class HXCPP_CLASS_ATTRIBUTES Lib_obj : public ::hx::Object
 
 		static void trace( ::Dynamic arg);
 		static ::Dynamic trace_dyn();
+
+		static bool isXMLName(::String name);
+		static ::Dynamic isXMLName_dyn();
+
+		static ::hx::Class getClassByAlias(::String aliasName);
+		static ::Dynamic getClassByAlias_dyn();
+
+		static void registerClassAlias(::String aliasName,::hx::Class classObject);
+		static ::Dynamic registerClassAlias_dyn();
 
 		static  ::openfl::display::Application get_application();
 		static ::Dynamic get_application_dyn();

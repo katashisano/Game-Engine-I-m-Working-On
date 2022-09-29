@@ -693,7 +693,7 @@ HXLINE( 463)			return ::lime::app::Future_obj::withValue(this->cachedAudioBuffer
             		}
             		else {
 HXLINE( 465)			if (this->classTypes->exists(id)) {
-HXLINE( 467)				return ::lime::app::Future_obj::withValue(::Type_obj::createInstance(this->classTypes->get(id),::cpp::VirtualArray_obj::__new(0)));
+HXLINE( 467)				return ::lime::app::Future_obj::withValue(::lime::media::AudioBuffer_obj::fromBytes(::hx::TCast<  ::haxe::io::Bytes >::cast(::Type_obj::createInstance(this->classTypes->get(id),::cpp::VirtualArray_obj::__new(0)))));
             			}
             			else {
 HXLINE( 471)				if (this->pathGroups->exists(id)) {

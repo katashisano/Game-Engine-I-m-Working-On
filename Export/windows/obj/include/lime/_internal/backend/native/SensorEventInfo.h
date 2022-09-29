@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_60e5fd49cce3a06e_832_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_60e5fd49cce3a06e_845_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,SensorEventInfo)
 
 namespace lime{
@@ -44,12 +44,12 @@ class HXCPP_CLASS_ATTRIBUTES SensorEventInfo_obj : public ::hx::Object
             		Float x = __o_x.Default(0);
             		Float y = __o_y.Default(0);
             		Float z = __o_z.Default(0);
-            	HX_STACKFRAME(&_hx_pos_60e5fd49cce3a06e_832_new)
-HXLINE( 833)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 834)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->id = id;
-HXLINE( 835)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->x = x;
-HXLINE( 836)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->y = y;
-HXLINE( 837)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->z = z;
+            	HX_STACKFRAME(&_hx_pos_60e5fd49cce3a06e_845_new)
+HXLINE( 846)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 847)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->id = id;
+HXLINE( 848)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->x = x;
+HXLINE( 849)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->y = y;
+HXLINE( 850)		( ( ::lime::_internal::backend::native::SensorEventInfo)(__this) )->z = z;
             	}
 		
 			return __this;

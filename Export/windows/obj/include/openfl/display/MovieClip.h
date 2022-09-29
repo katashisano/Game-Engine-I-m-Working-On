@@ -52,7 +52,6 @@ class HXCPP_CLASS_ATTRIBUTES MovieClip_obj : public  ::openfl::display::Sprite_o
 		::hx::Val __Field(const ::String &inString, ::hx::PropertyAccess inCallProp);
 		static bool __GetStatic(const ::String &inString, Dynamic &outValue, ::hx::PropertyAccess inCallProp);
 		::hx::Val __SetField(const ::String &inString,const ::hx::Val &inValue, ::hx::PropertyAccess inCallProp);
-		static bool __SetStatic(const ::String &inString, Dynamic &ioValue, ::hx::PropertyAccess inCallProp);
 		void __GetFields(Array< ::String> &outFields);
 		static void __register();
 		void __Mark(HX_MARK_PARAMS);
@@ -60,8 +59,6 @@ class HXCPP_CLASS_ATTRIBUTES MovieClip_obj : public  ::openfl::display::Sprite_o
 		bool _hx_isInstanceOf(int inClassId);
 		::String __ToString() const { return HX_("MovieClip",80,e2,ed,b9); }
 
-		static  ::Dynamic _hx___constructor;
-		static Dynamic _hx___constructor_dyn() { return _hx___constructor;}
 		static  ::openfl::display::MovieClip fromTimeline( ::openfl::display::Timeline timeline);
 		static ::Dynamic fromTimeline_dyn();
 

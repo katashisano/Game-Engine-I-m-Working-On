@@ -39,6 +39,9 @@
 #ifndef INCLUDED_openfl_display__internal_DOMDisplayObjectContainer
 #include <openfl/display/_internal/DOMDisplayObjectContainer.h>
 #endif
+#ifndef INCLUDED_openfl_display__internal_DOMShape
+#include <openfl/display/_internal/DOMShape.h>
+#endif
 #ifndef INCLUDED_openfl_events_EventDispatcher
 #include <openfl/events/EventDispatcher.h>
 #endif
@@ -47,7 +50,7 @@
 #endif
 
 HX_LOCAL_STACK_FRAME(_hx_pos_8d5a21e4727bbbb1_8_renderDrawable,"openfl.display._internal.DOMDisplayObjectContainer","renderDrawable",0x78f8d07c,"openfl.display._internal.DOMDisplayObjectContainer.renderDrawable","openfl/display/_internal/DOMDisplayObjectContainer.hx",8,0x52e3047b)
-HX_LOCAL_STACK_FRAME(_hx_pos_8d5a21e4727bbbb1_47_renderDrawableClear,"openfl.display._internal.DOMDisplayObjectContainer","renderDrawableClear",0xaedecf71,"openfl.display._internal.DOMDisplayObjectContainer.renderDrawableClear","openfl/display/_internal/DOMDisplayObjectContainer.hx",47,0x52e3047b)
+HX_LOCAL_STACK_FRAME(_hx_pos_8d5a21e4727bbbb1_57_renderDrawableClear,"openfl.display._internal.DOMDisplayObjectContainer","renderDrawableClear",0xaedecf71,"openfl.display._internal.DOMDisplayObjectContainer.renderDrawableClear","openfl/display/_internal/DOMDisplayObjectContainer.hx",57,0x52e3047b)
 namespace openfl{
 namespace display{
 namespace _internal{
@@ -101,69 +104,81 @@ HXLINE(  21)			_hx_tmp = !(displayObjectContainer->_hx___isCacheBitmapRender);
 HXLINE(  21)			_hx_tmp = false;
             		}
 HXDLIN(  21)		if (_hx_tmp) {
-HXLINE(  21)			return;
-            		}
-HXLINE(  23)		renderer->_hx___pushMaskObject(displayObjectContainer,null());
-HXLINE(  25)		if (::hx::IsNotNull( renderer->_hx___stage )) {
-HXLINE(  27)			{
-HXLINE(  27)				int _g = 0;
-HXDLIN(  27)				::Array< ::Dynamic> _g1 = displayObjectContainer->_hx___children;
-HXDLIN(  27)				while((_g < _g1->length)){
-HXLINE(  27)					 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN(  27)					_g = (_g + 1);
-HXLINE(  29)					renderer->_hx___renderDrawable(child);
-HXLINE(  30)					child->_hx___renderDirty = false;
+HXLINE(  23)			{
+HXLINE(  23)				int _g = 0;
+HXDLIN(  23)				::Array< ::Dynamic> _g1 = displayObjectContainer->_hx___children;
+HXDLIN(  23)				while((_g < _g1->length)){
+HXLINE(  23)					 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN(  23)					_g = (_g + 1);
+HXLINE(  25)					renderer->_hx___renderDrawableClear(child);
             				}
             			}
-HXLINE(  33)			displayObjectContainer->_hx___renderDirty = false;
+HXLINE(  28)			::openfl::display::_internal::DOMShape_obj::clear(displayObjectContainer,renderer);
+HXLINE(  29)			displayObjectContainer->_hx___cacheBitmap->stage = displayObjectContainer->stage;
+HXLINE(  30)			return;
+            		}
+HXLINE(  33)		renderer->_hx___pushMaskObject(displayObjectContainer,null());
+HXLINE(  35)		if (::hx::IsNotNull( renderer->_hx___stage )) {
+HXLINE(  37)			{
+HXLINE(  37)				int _g = 0;
+HXDLIN(  37)				::Array< ::Dynamic> _g1 = displayObjectContainer->_hx___children;
+HXDLIN(  37)				while((_g < _g1->length)){
+HXLINE(  37)					 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN(  37)					_g = (_g + 1);
+HXLINE(  39)					renderer->_hx___renderDrawable(child);
+HXLINE(  40)					child->_hx___renderDirty = false;
+            				}
+            			}
+HXLINE(  43)			displayObjectContainer->_hx___renderDirty = false;
             		}
             		else {
-HXLINE(  37)			int _g = 0;
-HXDLIN(  37)			::Array< ::Dynamic> _g1 = displayObjectContainer->_hx___children;
-HXDLIN(  37)			while((_g < _g1->length)){
-HXLINE(  37)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN(  37)				_g = (_g + 1);
-HXLINE(  39)				renderer->_hx___renderDrawable(child);
+HXLINE(  47)			int _g = 0;
+HXDLIN(  47)			::Array< ::Dynamic> _g1 = displayObjectContainer->_hx___children;
+HXDLIN(  47)			while((_g < _g1->length)){
+HXLINE(  47)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN(  47)				_g = (_g + 1);
+HXLINE(  49)				renderer->_hx___renderDrawable(child);
             			}
             		}
-HXLINE(  43)		renderer->_hx___popMaskObject(displayObjectContainer,null());
+HXLINE(  53)		renderer->_hx___popMaskObject(displayObjectContainer,null());
             	}
 
 
 STATIC_HX_DEFINE_DYNAMIC_FUNC2(DOMDisplayObjectContainer_obj,renderDrawable,(void))
 
 void DOMDisplayObjectContainer_obj::renderDrawableClear( ::openfl::display::DisplayObjectContainer displayObjectContainer, ::openfl::display::DOMRenderer renderer){
-            	HX_STACKFRAME(&_hx_pos_8d5a21e4727bbbb1_47_renderDrawableClear)
-HXLINE(  48)		{
-HXLINE(  48)			 ::Dynamic orphan = displayObjectContainer->_hx___removedChildren->iterator();
-HXDLIN(  48)			while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(  48)				 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXLINE(  50)				if (::hx::IsNull( orphan1->stage )) {
-HXLINE(  52)					renderer->_hx___renderDrawableClear(orphan1);
+            	HX_STACKFRAME(&_hx_pos_8d5a21e4727bbbb1_57_renderDrawableClear)
+HXLINE(  58)		{
+HXLINE(  58)			 ::Dynamic orphan = displayObjectContainer->_hx___removedChildren->iterator();
+HXDLIN(  58)			while(( (bool)(orphan->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(  58)				 ::openfl::display::DisplayObject orphan1 = ( ( ::openfl::display::DisplayObject)(orphan->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXLINE(  60)				if (::hx::IsNull( orphan1->stage )) {
+HXLINE(  62)					renderer->_hx___renderDrawableClear(orphan1);
             				}
             			}
             		}
-HXLINE(  56)		{
-HXLINE(  56)			{
-HXLINE(  56)				 ::Dynamic orphan1 = displayObjectContainer->_hx___removedChildren->iterator();
-HXDLIN(  56)				while(( (bool)(orphan1->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
-HXLINE(  56)					 ::openfl::display::DisplayObject orphan = ( ( ::openfl::display::DisplayObject)(orphan1->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
-HXDLIN(  56)					if (::hx::IsNull( orphan->stage )) {
-HXLINE(  56)						orphan->_hx___cleanup();
+HXLINE(  66)		{
+HXLINE(  66)			{
+HXLINE(  66)				 ::Dynamic orphan1 = displayObjectContainer->_hx___removedChildren->iterator();
+HXDLIN(  66)				while(( (bool)(orphan1->__Field(HX_("hasNext",6d,a5,46,18),::hx::paccDynamic)()) )){
+HXLINE(  66)					 ::openfl::display::DisplayObject orphan = ( ( ::openfl::display::DisplayObject)(orphan1->__Field(HX_("next",f3,84,02,49),::hx::paccDynamic)()) );
+HXDLIN(  66)					if (::hx::IsNull( orphan->stage )) {
+HXLINE(  66)						orphan->_hx___cleanup();
             					}
             				}
             			}
-HXDLIN(  56)			displayObjectContainer->_hx___removedChildren->set_length(0);
+HXDLIN(  66)			displayObjectContainer->_hx___removedChildren->set_length(0);
             		}
-HXLINE(  58)		{
-HXLINE(  58)			int _g = 0;
-HXDLIN(  58)			::Array< ::Dynamic> _g1 = displayObjectContainer->_hx___children;
-HXDLIN(  58)			while((_g < _g1->length)){
-HXLINE(  58)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
-HXDLIN(  58)				_g = (_g + 1);
-HXLINE(  60)				renderer->_hx___renderDrawableClear(child);
+HXLINE(  68)		{
+HXLINE(  68)			int _g = 0;
+HXDLIN(  68)			::Array< ::Dynamic> _g1 = displayObjectContainer->_hx___children;
+HXDLIN(  68)			while((_g < _g1->length)){
+HXLINE(  68)				 ::openfl::display::DisplayObject child = _g1->__get(_g).StaticCast<  ::openfl::display::DisplayObject >();
+HXDLIN(  68)				_g = (_g + 1);
+HXLINE(  70)				renderer->_hx___renderDrawableClear(child);
             			}
             		}
+HXLINE(  73)		::openfl::display::_internal::DOMDisplayObject_obj::clear(displayObjectContainer,renderer);
             	}
 
 

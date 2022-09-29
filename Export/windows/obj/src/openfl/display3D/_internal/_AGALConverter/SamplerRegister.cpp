@@ -80,7 +80,7 @@ HXLINE( 899)				filter = 4;
             			}
             			break;
             			default:{
-HXLINE( 901)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,null())));
+HXLINE( 901)				HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,null()));
             			}
             		}
 HXLINE( 905)		switch((int)(this->m)){
@@ -97,7 +97,7 @@ HXLINE( 915)				mipfilter = 0;
             			}
             			break;
             			default:{
-HXLINE( 917)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,null())));
+HXLINE( 917)				HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,null()));
             			}
             		}
 HXLINE( 923)		switch((int)(this->w)){
@@ -110,7 +110,7 @@ HXLINE( 928)				wrap = 2;
             			}
             			break;
             			default:{
-HXLINE( 930)				HX_STACK_DO_THROW(::haxe::Exception_obj::thrown( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,null())));
+HXLINE( 930)				HX_STACK_DO_THROW( ::openfl::errors::IllegalOperationError_obj::__alloc( HX_CTX ,null()));
             			}
             		}
 HXLINE( 933)		bool ignoreSampler = ((this->s & 4) == 4);

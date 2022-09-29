@@ -4,22 +4,22 @@
 #include <lime/_internal/backend/native/KeyEventInfo.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_cef4a471e9b9c478_747_new,"lime._internal.backend.native.KeyEventInfo","new",0x84b8978d,"lime._internal.backend.native.KeyEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",747,0xc1eba895)
-HX_LOCAL_STACK_FRAME(_hx_pos_cef4a471e9b9c478_756_clone,"lime._internal.backend.native.KeyEventInfo","clone",0x44e9bfca,"lime._internal.backend.native.KeyEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",756,0xc1eba895)
+HX_DEFINE_STACK_FRAME(_hx_pos_cef4a471e9b9c478_760_new,"lime._internal.backend.native.KeyEventInfo","new",0x84b8978d,"lime._internal.backend.native.KeyEventInfo.new","lime/_internal/backend/native/NativeApplication.hx",760,0xc1eba895)
+HX_LOCAL_STACK_FRAME(_hx_pos_cef4a471e9b9c478_769_clone,"lime._internal.backend.native.KeyEventInfo","clone",0x44e9bfca,"lime._internal.backend.native.KeyEventInfo.clone","lime/_internal/backend/native/NativeApplication.hx",769,0xc1eba895)
 namespace lime{
 namespace _internal{
 namespace backend{
 namespace native{
 
-void KeyEventInfo_obj::__construct( ::Dynamic type,::hx::Null< int >  __o_windowID,::hx::Null< int >  __o_keyCode,::hx::Null< int >  __o_modifier){
+void KeyEventInfo_obj::__construct( ::Dynamic type,::hx::Null< int >  __o_windowID,::hx::Null< Float >  __o_keyCode,::hx::Null< int >  __o_modifier){
             		int windowID = __o_windowID.Default(0);
-            		int keyCode = __o_keyCode.Default(0);
+            		Float keyCode = __o_keyCode.Default(0);
             		int modifier = __o_modifier.Default(0);
-            	HX_STACKFRAME(&_hx_pos_cef4a471e9b9c478_747_new)
-HXLINE( 748)		this->type = ( (int)(type) );
-HXLINE( 749)		this->windowID = windowID;
-HXLINE( 750)		this->keyCode = keyCode;
-HXLINE( 751)		this->modifier = modifier;
+            	HX_STACKFRAME(&_hx_pos_cef4a471e9b9c478_760_new)
+HXLINE( 761)		this->type = ( (int)(type) );
+HXLINE( 762)		this->windowID = windowID;
+HXLINE( 763)		this->keyCode = keyCode;
+HXLINE( 764)		this->modifier = modifier;
             	}
 
 Dynamic KeyEventInfo_obj::__CreateEmpty() { return new KeyEventInfo_obj; }
@@ -38,8 +38,8 @@ bool KeyEventInfo_obj::_hx_isInstanceOf(int inClassId) {
 }
 
  ::lime::_internal::backend::native::KeyEventInfo KeyEventInfo_obj::clone(){
-            	HX_GC_STACKFRAME(&_hx_pos_cef4a471e9b9c478_756_clone)
-HXDLIN( 756)		return  ::lime::_internal::backend::native::KeyEventInfo_obj::__alloc( HX_CTX ,this->type,this->windowID,this->keyCode,this->modifier);
+            	HX_GC_STACKFRAME(&_hx_pos_cef4a471e9b9c478_769_clone)
+HXDLIN( 769)		return  ::lime::_internal::backend::native::KeyEventInfo_obj::__alloc( HX_CTX ,this->type,this->windowID,this->keyCode,this->modifier);
             	}
 
 
@@ -76,7 +76,7 @@ KeyEventInfo_obj::KeyEventInfo_obj()
 		if (HX_FIELD_EQ(inName,"type") ) { type=inValue.Cast< int >(); return inValue; }
 		break;
 	case 7:
-		if (HX_FIELD_EQ(inName,"keyCode") ) { keyCode=inValue.Cast< int >(); return inValue; }
+		if (HX_FIELD_EQ(inName,"keyCode") ) { keyCode=inValue.Cast< Float >(); return inValue; }
 		break;
 	case 8:
 		if (HX_FIELD_EQ(inName,"modifier") ) { modifier=inValue.Cast< int >(); return inValue; }
@@ -96,7 +96,7 @@ void KeyEventInfo_obj::__GetFields(Array< ::String> &outFields)
 
 #ifdef HXCPP_SCRIPTABLE
 static ::hx::StorageInfo KeyEventInfo_obj_sMemberStorageInfo[] = {
-	{::hx::fsInt,(int)offsetof(KeyEventInfo_obj,keyCode),HX_("keyCode",6c,22,9e,9b)},
+	{::hx::fsFloat,(int)offsetof(KeyEventInfo_obj,keyCode),HX_("keyCode",6c,22,9e,9b)},
 	{::hx::fsInt,(int)offsetof(KeyEventInfo_obj,modifier),HX_("modifier",57,db,c7,16)},
 	{::hx::fsInt,(int)offsetof(KeyEventInfo_obj,type),HX_("type",ba,f2,08,4d)},
 	{::hx::fsInt,(int)offsetof(KeyEventInfo_obj,windowID),HX_("windowID",cb,af,cd,7d)},

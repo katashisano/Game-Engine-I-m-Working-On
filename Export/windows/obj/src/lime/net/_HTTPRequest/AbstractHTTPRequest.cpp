@@ -25,26 +25,27 @@
 #include <lime/net/_IHTTPRequest.h>
 #endif
 
-HX_DEFINE_STACK_FRAME(_hx_pos_bc0cf2bf735ddd18_49_new,"lime.net._HTTPRequest.AbstractHTTPRequest","new",0x2f7ffcbb,"lime.net._HTTPRequest.AbstractHTTPRequest.new","lime/net/HTTPRequest.hx",49,0x339db723)
-HX_LOCAL_STACK_FRAME(_hx_pos_bc0cf2bf735ddd18_70_cancel,"lime.net._HTTPRequest.AbstractHTTPRequest","cancel",0x9e11abff,"lime.net._HTTPRequest.AbstractHTTPRequest.cancel","lime/net/HTTPRequest.hx",70,0x339db723)
-HX_LOCAL_STACK_FRAME(_hx_pos_bc0cf2bf735ddd18_76_load,"lime.net._HTTPRequest.AbstractHTTPRequest","load",0x5f323d6b,"lime.net._HTTPRequest.AbstractHTTPRequest.load","lime/net/HTTPRequest.hx",76,0x339db723)
+HX_DEFINE_STACK_FRAME(_hx_pos_bc0cf2bf735ddd18_50_new,"lime.net._HTTPRequest.AbstractHTTPRequest","new",0x2f7ffcbb,"lime.net._HTTPRequest.AbstractHTTPRequest.new","lime/net/HTTPRequest.hx",50,0x339db723)
+HX_LOCAL_STACK_FRAME(_hx_pos_bc0cf2bf735ddd18_72_cancel,"lime.net._HTTPRequest.AbstractHTTPRequest","cancel",0x9e11abff,"lime.net._HTTPRequest.AbstractHTTPRequest.cancel","lime/net/HTTPRequest.hx",72,0x339db723)
+HX_LOCAL_STACK_FRAME(_hx_pos_bc0cf2bf735ddd18_78_load,"lime.net._HTTPRequest.AbstractHTTPRequest","load",0x5f323d6b,"lime.net._HTTPRequest.AbstractHTTPRequest.load","lime/net/HTTPRequest.hx",78,0x339db723)
 namespace lime{
 namespace net{
 namespace _HTTPRequest{
 
 void AbstractHTTPRequest_obj::__construct(::String uri){
-            	HX_GC_STACKFRAME(&_hx_pos_bc0cf2bf735ddd18_49_new)
-HXLINE(  50)		this->uri = uri;
-HXLINE(  52)		this->contentType = HX_("application/x-www-form-urlencoded",9e,61,91,fa);
-HXLINE(  53)		this->followRedirects = true;
-HXLINE(  54)		this->enableResponseHeaders = false;
-HXLINE(  55)		this->formData =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
-HXLINE(  56)		this->headers = ::Array_obj< ::Dynamic>::__new(0);
-HXLINE(  57)		this->method = HX_("GET",76,1c,36,00);
-HXLINE(  58)		this->timeout = 30000;
-HXLINE(  59)		this->withCredentials = false;
-HXLINE(  62)		this->_hx___backend =  ::lime::_internal::backend::native::NativeHTTPRequest_obj::__alloc( HX_CTX );
-HXLINE(  63)		this->_hx___backend->init(::hx::ObjectPtr<OBJ_>(this));
+            	HX_GC_STACKFRAME(&_hx_pos_bc0cf2bf735ddd18_50_new)
+HXLINE(  51)		this->uri = uri;
+HXLINE(  53)		this->contentType = HX_("application/x-www-form-urlencoded",9e,61,91,fa);
+HXLINE(  54)		this->followRedirects = true;
+HXLINE(  55)		this->enableResponseHeaders = false;
+HXLINE(  56)		this->formData =  ::haxe::ds::StringMap_obj::__alloc( HX_CTX );
+HXLINE(  57)		this->headers = ::Array_obj< ::Dynamic>::__new(0);
+HXLINE(  58)		this->method = HX_("GET",76,1c,36,00);
+HXLINE(  59)		this->timeout = 30000;
+HXLINE(  60)		this->withCredentials = false;
+HXLINE(  61)		this->manageCookies = true;
+HXLINE(  64)		this->_hx___backend =  ::lime::_internal::backend::native::NativeHTTPRequest_obj::__alloc( HX_CTX );
+HXLINE(  65)		this->_hx___backend->init(::hx::ObjectPtr<OBJ_>(this));
             	}
 
 Dynamic AbstractHTTPRequest_obj::__CreateEmpty() { return new AbstractHTTPRequest_obj; }
@@ -78,16 +79,16 @@ void *AbstractHTTPRequest_obj::_hx_getInterface(int inHash) {
 }
 
 void AbstractHTTPRequest_obj::cancel(){
-            	HX_STACKFRAME(&_hx_pos_bc0cf2bf735ddd18_70_cancel)
-HXDLIN(  70)		this->_hx___backend->cancel();
+            	HX_STACKFRAME(&_hx_pos_bc0cf2bf735ddd18_72_cancel)
+HXDLIN(  72)		this->_hx___backend->cancel();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC0(AbstractHTTPRequest_obj,cancel,(void))
 
  ::lime::app::Future AbstractHTTPRequest_obj::load(::String uri){
-            	HX_STACKFRAME(&_hx_pos_bc0cf2bf735ddd18_76_load)
-HXDLIN(  76)		return null();
+            	HX_STACKFRAME(&_hx_pos_bc0cf2bf735ddd18_78_load)
+HXDLIN(  78)		return null();
             	}
 
 
@@ -128,6 +129,7 @@ void AbstractHTTPRequest_obj::__Mark(HX_MARK_PARAMS)
 	HX_MARK_MEMBER_NAME(uri,"uri");
 	HX_MARK_MEMBER_NAME(userAgent,"userAgent");
 	HX_MARK_MEMBER_NAME(withCredentials,"withCredentials");
+	HX_MARK_MEMBER_NAME(manageCookies,"manageCookies");
 	HX_MARK_MEMBER_NAME(_hx___backend,"__backend");
 	HX_MARK_END_CLASS();
 }
@@ -148,6 +150,7 @@ void AbstractHTTPRequest_obj::__Visit(HX_VISIT_PARAMS)
 	HX_VISIT_MEMBER_NAME(uri,"uri");
 	HX_VISIT_MEMBER_NAME(userAgent,"userAgent");
 	HX_VISIT_MEMBER_NAME(withCredentials,"withCredentials");
+	HX_VISIT_MEMBER_NAME(manageCookies,"manageCookies");
 	HX_VISIT_MEMBER_NAME(_hx___backend,"__backend");
 }
 
@@ -181,6 +184,9 @@ void AbstractHTTPRequest_obj::__Visit(HX_VISIT_PARAMS)
 		break;
 	case 12:
 		if (HX_FIELD_EQ(inName,"responseData") ) { return ::hx::Val( responseData ); }
+		break;
+	case 13:
+		if (HX_FIELD_EQ(inName,"manageCookies") ) { return ::hx::Val( manageCookies ); }
 		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"responseStatus") ) { return ::hx::Val( responseStatus ); }
@@ -225,6 +231,9 @@ void AbstractHTTPRequest_obj::__Visit(HX_VISIT_PARAMS)
 	case 12:
 		if (HX_FIELD_EQ(inName,"responseData") ) { responseData=inValue.Cast<  ::Dynamic >(); return inValue; }
 		break;
+	case 13:
+		if (HX_FIELD_EQ(inName,"manageCookies") ) { manageCookies=inValue.Cast< bool >(); return inValue; }
+		break;
 	case 14:
 		if (HX_FIELD_EQ(inName,"responseStatus") ) { responseStatus=inValue.Cast< int >(); return inValue; }
 		break;
@@ -255,6 +264,7 @@ void AbstractHTTPRequest_obj::__GetFields(Array< ::String> &outFields)
 	outFields->push(HX_("uri",6c,2b,59,00));
 	outFields->push(HX_("userAgent",7a,f0,12,c8));
 	outFields->push(HX_("withCredentials",56,86,c4,ca));
+	outFields->push(HX_("manageCookies",6a,1f,8f,bc));
 	outFields->push(HX_("__backend",f4,0c,d6,7c));
 	super::__GetFields(outFields);
 };
@@ -275,6 +285,7 @@ static ::hx::StorageInfo AbstractHTTPRequest_obj_sMemberStorageInfo[] = {
 	{::hx::fsString,(int)offsetof(AbstractHTTPRequest_obj,uri),HX_("uri",6c,2b,59,00)},
 	{::hx::fsString,(int)offsetof(AbstractHTTPRequest_obj,userAgent),HX_("userAgent",7a,f0,12,c8)},
 	{::hx::fsBool,(int)offsetof(AbstractHTTPRequest_obj,withCredentials),HX_("withCredentials",56,86,c4,ca)},
+	{::hx::fsBool,(int)offsetof(AbstractHTTPRequest_obj,manageCookies),HX_("manageCookies",6a,1f,8f,bc)},
 	{::hx::fsObject /*  ::lime::_internal::backend::native::NativeHTTPRequest */ ,(int)offsetof(AbstractHTTPRequest_obj,_hx___backend),HX_("__backend",f4,0c,d6,7c)},
 	{ ::hx::fsUnknown, 0, null()}
 };
@@ -296,6 +307,7 @@ static ::String AbstractHTTPRequest_obj_sMemberFields[] = {
 	HX_("uri",6c,2b,59,00),
 	HX_("userAgent",7a,f0,12,c8),
 	HX_("withCredentials",56,86,c4,ca),
+	HX_("manageCookies",6a,1f,8f,bc),
 	HX_("__backend",f4,0c,d6,7c),
 	HX_("cancel",7a,ed,33,b8),
 	HX_("load",26,9a,b7,47),

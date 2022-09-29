@@ -414,7 +414,7 @@ HXLINE( 232)			::openfl::display::_internal::CairoGraphics_obj::hitTesting = tru
 HXLINE( 234)			x = (x - ::openfl::display::_internal::CairoGraphics_obj::bounds->x);
 HXLINE( 235)			y = (y - ::openfl::display::_internal::CairoGraphics_obj::bounds->y);
 HXLINE( 237)			if (::hx::IsNull( graphics->_hx___cairo )) {
-HXLINE( 239)				 ::openfl::display::BitmapData bitmap =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,::Math_obj::floor(::openfl::display::_internal::CairoGraphics_obj::bounds->width),::Math_obj::floor(::openfl::display::_internal::CairoGraphics_obj::bounds->height),true,0);
+HXLINE( 239)				 ::openfl::display::BitmapData bitmap =  ::openfl::display::BitmapData_obj::__alloc( HX_CTX ,::Math_obj::floor(::Math_obj::max(( (Float)(1) ),::openfl::display::_internal::CairoGraphics_obj::bounds->width)),::Math_obj::floor(::Math_obj::max(( (Float)(1) ),::openfl::display::_internal::CairoGraphics_obj::bounds->height)),true,0);
 HXLINE( 240)				 ::Dynamic surface = bitmap->getSurface();
 HXLINE( 241)				graphics->_hx___cairo =  ::lime::graphics::cairo::Cairo_obj::__alloc( HX_CTX ,surface);
             			}

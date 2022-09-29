@@ -5,7 +5,7 @@
 #include <hxcpp.h>
 #endif
 
-HX_DECLARE_STACK_FRAME(_hx_pos_48b909785036aaec_861_new)
+HX_DECLARE_STACK_FRAME(_hx_pos_48b909785036aaec_874_new)
 HX_DECLARE_CLASS4(lime,_internal,backend,native,TextEventInfo)
 
 namespace lime{
@@ -43,12 +43,12 @@ class HXCPP_CLASS_ATTRIBUTES TextEventInfo_obj : public ::hx::Object
             		int windowID = __o_windowID.Default(0);
             		int start = __o_start.Default(0);
             		int length = __o_length.Default(0);
-            	HX_STACKFRAME(&_hx_pos_48b909785036aaec_861_new)
-HXLINE( 862)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->type = ( (int)(type) );
-HXLINE( 863)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->windowID = windowID;
-HXLINE( 864)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->text = text;
-HXLINE( 865)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->start = start;
-HXLINE( 866)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->length = length;
+            	HX_STACKFRAME(&_hx_pos_48b909785036aaec_874_new)
+HXLINE( 875)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->type = ( (int)(type) );
+HXLINE( 876)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->windowID = windowID;
+HXLINE( 877)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->text = text;
+HXLINE( 878)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->start = start;
+HXLINE( 879)		( ( ::lime::_internal::backend::native::TextEventInfo)(__this) )->length = length;
             	}
 		
 			return __this;

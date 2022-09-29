@@ -9,8 +9,12 @@ class Main extends Sprite {
 	var inited:Bool;
 	
 	public static var game:Game;
+	
+	//not in use yet
 	public static var gameResX:Int;
 	public static var gameResY:Int;
+	//not in use yet
+
 	public static var input:Input;
 
 	function resize(e) {
@@ -26,7 +30,7 @@ class Main extends Sprite {
 		inited = true;
 
 		game = new Game();
-		game.initGame(false, 16);
+		game.initGame(true, 16);
 		this.addChild(game);
 
 		input = new Input();

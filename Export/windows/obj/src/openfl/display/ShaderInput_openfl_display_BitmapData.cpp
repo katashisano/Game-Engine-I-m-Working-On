@@ -27,7 +27,7 @@
 
 HX_DEFINE_STACK_FRAME(_hx_pos_e18280422777664c_141_new,"openfl.display.ShaderInput_openfl_display_BitmapData","new",0x3cac89f3,"openfl.display.ShaderInput_openfl_display_BitmapData.new","openfl/display/ShaderInput.hx",141,0xcc724ba5)
 HX_LOCAL_STACK_FRAME(_hx_pos_e18280422777664c_152___disableGL,"openfl.display.ShaderInput_openfl_display_BitmapData","__disableGL",0x1fba3f80,"openfl.display.ShaderInput_openfl_display_BitmapData.__disableGL","openfl/display/ShaderInput.hx",152,0xcc724ba5)
-HX_LOCAL_STACK_FRAME(_hx_pos_e18280422777664c_159___updateGL,"openfl.display.ShaderInput_openfl_display_BitmapData","__updateGL",0xe64a7a5b,"openfl.display.ShaderInput_openfl_display_BitmapData.__updateGL","openfl/display/ShaderInput.hx",159,0xcc724ba5)
+HX_LOCAL_STACK_FRAME(_hx_pos_e18280422777664c_161___updateGL,"openfl.display.ShaderInput_openfl_display_BitmapData","__updateGL",0xe64a7a5b,"openfl.display.ShaderInput_openfl_display_BitmapData.__updateGL","openfl/display/ShaderInput.hx",161,0xcc724ba5)
 HX_LOCAL_STACK_FRAME(_hx_pos_e18280422777664c_60_boot,"openfl.display.ShaderInput_openfl_display_BitmapData","boot",0xd2652b3f,"openfl.display.ShaderInput_openfl_display_BitmapData.boot","openfl/display/ShaderInput.hx",60,0xcc724ba5)
 namespace openfl{
 namespace display{
@@ -60,51 +60,54 @@ bool ShaderInput_openfl_display_BitmapData_obj::_hx_isInstanceOf(int inClassId) 
 
 void ShaderInput_openfl_display_BitmapData_obj::_hx___disableGL( ::openfl::display3D::Context3D context,int id){
             	HX_STACKFRAME(&_hx_pos_e18280422777664c_152___disableGL)
-HXLINE( 153)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
-HXLINE( 154)		context->setTextureAt(id,null());
+HXLINE( 153)		if ((id < 0)) {
+HXLINE( 153)			return;
+            		}
+HXLINE( 155)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
+HXLINE( 156)		context->setTextureAt(id,null());
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC2(ShaderInput_openfl_display_BitmapData_obj,_hx___disableGL,(void))
 
 void ShaderInput_openfl_display_BitmapData_obj::_hx___updateGL( ::openfl::display3D::Context3D context,int id, ::openfl::display::BitmapData overrideInput, ::Dynamic overrideFilter, ::Dynamic overrideMipFilter, ::Dynamic overrideWrap){
-            	HX_STACKFRAME(&_hx_pos_e18280422777664c_159___updateGL)
-HXLINE( 160)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
-HXLINE( 161)		 ::openfl::display::BitmapData input;
-HXDLIN( 161)		if (::hx::IsNotNull( overrideInput )) {
-HXLINE( 161)			input = overrideInput;
+            	HX_STACKFRAME(&_hx_pos_e18280422777664c_161___updateGL)
+HXLINE( 162)		 ::lime::_internal::backend::native::NativeOpenGLRenderContext gl = context->gl;
+HXLINE( 163)		 ::openfl::display::BitmapData input;
+HXDLIN( 163)		if (::hx::IsNotNull( overrideInput )) {
+HXLINE( 163)			input = overrideInput;
             		}
             		else {
-HXLINE( 161)			input = this->input;
+HXLINE( 163)			input = this->input;
             		}
-HXLINE( 162)		 ::Dynamic filter;
-HXDLIN( 162)		if (::hx::IsNotNull( overrideFilter )) {
-HXLINE( 162)			filter = overrideFilter;
-            		}
-            		else {
-HXLINE( 162)			filter = this->filter;
-            		}
-HXLINE( 163)		 ::Dynamic mipFilter;
-HXDLIN( 163)		if (::hx::IsNotNull( overrideMipFilter )) {
-HXLINE( 163)			mipFilter = overrideMipFilter;
+HXLINE( 164)		 ::Dynamic filter;
+HXDLIN( 164)		if (::hx::IsNotNull( overrideFilter )) {
+HXLINE( 164)			filter = overrideFilter;
             		}
             		else {
-HXLINE( 163)			mipFilter = this->mipFilter;
+HXLINE( 164)			filter = this->filter;
             		}
-HXLINE( 164)		 ::Dynamic wrap;
-HXDLIN( 164)		if (::hx::IsNotNull( overrideWrap )) {
-HXLINE( 164)			wrap = overrideWrap;
-            		}
-            		else {
-HXLINE( 164)			wrap = this->wrap;
-            		}
-HXLINE( 166)		if (::hx::IsNotNull( input )) {
-HXLINE( 170)			 ::openfl::display::BitmapData bitmapData = input;
-HXLINE( 171)			context->setTextureAt(id,bitmapData->getTexture(context));
-HXLINE( 172)			context->setSamplerStateAt(id,wrap,filter,mipFilter);
+HXLINE( 165)		 ::Dynamic mipFilter;
+HXDLIN( 165)		if (::hx::IsNotNull( overrideMipFilter )) {
+HXLINE( 165)			mipFilter = overrideMipFilter;
             		}
             		else {
-HXLINE( 176)			context->setTextureAt(id,null());
+HXLINE( 165)			mipFilter = this->mipFilter;
+            		}
+HXLINE( 166)		 ::Dynamic wrap;
+HXDLIN( 166)		if (::hx::IsNotNull( overrideWrap )) {
+HXLINE( 166)			wrap = overrideWrap;
+            		}
+            		else {
+HXLINE( 166)			wrap = this->wrap;
+            		}
+HXLINE( 168)		if (::hx::IsNotNull( input )) {
+HXLINE( 172)			 ::openfl::display::BitmapData bitmapData = input;
+HXLINE( 173)			context->setTextureAt(id,bitmapData->getTexture(context));
+HXLINE( 174)			context->setSamplerStateAt(id,wrap,filter,mipFilter);
+            		}
+            		else {
+HXLINE( 178)			context->setTextureAt(id,null());
             		}
             	}
 
