@@ -1,5 +1,6 @@
 package;
 
+import openfl.Vector;
 import openfl.events.Event;
 import openfl.geom.Point;
 
@@ -9,69 +10,59 @@ class PhysicsBody extends Component {
     // wip
     //
 
-    public var velocity:Point = new Point(0, 0);
-    public var gravity:Point = new Point(0, -35);
+    var lastPosition:Point = new Point(0, 0);
+    var position:Point = new Point(0, 0);
 
-    public var maxGravityVelocity:Float = 50;
+    var vel:Point = new Point(0, 0);
+    var acc:Point = new Point(0, 0);
 
-    public var canGoDown:Bool = true;
-    public var canGoUp:Bool = true;
-    public var canGoLeft:Bool = true;
-    public var canGoRight:Bool = true;
+    var affectedByGravity:Bool = true;
 
-    public function new() {
+    override function update(e:Event) {
 
-        super();
+        applyGravity();
+        updatePosition();
 
-        type = "Physics Body";
+        parentObject.worldPosition = position;
+
+        //trace(vel + " " + acc + " " + parentObject.worldPosition);
 
     }
 
-    var startTime:Float = 0;
-    private override function update(e:Event):Void {
+    function updatePosition() {
+        
+        vel = pointSubstract(position, lastPosition);
+        //trace(Math.round(position.y - lastPosition.y));
 
-        if (enabled) {
+        lastPosition = position;
+        
+        position = point(parentObject.worldPosition.x + vel.x + acc.x * Main.game.deltaTime, 
+        parentObject.worldPosition.y + acc.y * Main.game.deltaTime);
 
-            if (startTime > 1.5) {
+        trace(point(Math.round((parentObject.worldPosition.x + vel.x + acc.x * Main.game.deltaTime)*100)/100, 
+        Math.round((parentObject.worldPosition.y + acc.y * Main.game.deltaTime)*100)/100) + " " + parentObject.worldPosition + " " + point(parentObject.x, parentObject.y));
 
-                if (velocity.x > -maxGravityVelocity && velocity.x < maxGravityVelocity)
-                    velocity.x += gravity.x * Main.game.deltaTime;
+        acc = point(0, 0);
+        
+    }
 
-                if (velocity.y > -maxGravityVelocity && velocity.y < maxGravityVelocity)
-                    velocity.y += gravity.y * Main.game.deltaTime;
+    overload extern inline function accelerate(accel:Point) {
 
-                if (velocity.y < 0) {
+        acc = pointAdd(acc, accel);
 
-                    if (canGoDown)
-                        parentObject.translate(new Point(0, velocity.y), true);
+    }
+    
+    overload extern inline function accelerate(accelX:Float, accelY:Float) {
+        
+        acc = pointAdd(acc, point(accelX, accelY));
 
-                }
-                if (velocity.y > 0) {
+    }
 
-                    if (canGoUp)
-                        parentObject.translate(new Point(0, velocity.y), true);
+    var gravity:Point = new Point(0, -5);
 
-                }
-                if (velocity.x < 0) {
-
-                    if (canGoLeft)
-                        parentObject.translate(new Point(velocity.x, 0), true);
-
-                }
-                if (velocity.x > 0) {
-
-                    if (canGoRight)
-                        parentObject.translate(new Point(velocity.x, 0), true);
-
-                }
-
-            }
-
-            startTime += Main.game.deltaTime;
-
-            //trace(canGoDown + " " + parentObject.worldPosition);
-
-        }
+    function applyGravity() {
+        
+        accelerate(gravity.x * Main.game.deltaTime, gravity.y * Main.game.deltaTime);
 
     }
 

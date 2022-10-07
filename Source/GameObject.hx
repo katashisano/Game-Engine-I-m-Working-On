@@ -11,7 +11,9 @@ class GameObject extends Behaviour {
     public var enabled:Bool = true;
     public var isVisible:Bool = true;
     
+    public var lastPosition:Point = new Point(0, 0);
     public var worldPosition:Point = new Point(0, 0);
+    public var positionDelta:Point = new Point(0, 0);
     public var worldSize:Point = new Point(1, 1);
     public var zRot:Float = 0;
     
@@ -19,7 +21,6 @@ class GameObject extends Behaviour {
     public var localScale:Point = new Point(1, 1);
     public var localZRot:Float = 0;
     
-    public var positionDelta:Point = new Point(0, 0);
 
     public var _name:String = null;
 
@@ -64,6 +65,8 @@ class GameObject extends Behaviour {
         }
 
         objectType = SIMPLE;
+
+        updatePosDelta();
         
     }
 
@@ -75,7 +78,6 @@ class GameObject extends Behaviour {
 
     }
 
-    private var posDeltaResetTime:Float = 0;
     private function updateObject(event:Event) {
 
         if (isVisible) {
@@ -111,8 +113,7 @@ class GameObject extends Behaviour {
 
             if (moveWithParent) {
 
-                this.worldPosition.x = parentObject.worldPosition.x + localPosition.x;
-                this.worldPosition.y = parentObject.worldPosition.y + localPosition.y;
+                worldPosition = pointAdd(parentObject.worldPosition, localPosition);
 
             }
             
@@ -124,9 +125,6 @@ class GameObject extends Behaviour {
 
         }
 
-        if (posDeltaResetTime > 0) posDeltaResetTime -= Main.game.deltaTime;
-        else positionDelta = new Point(0, 0);
-        
     }
 
     public function addChildObject(o:Array<GameObject>) {
@@ -135,9 +133,8 @@ class GameObject extends Behaviour {
 
             this.children.push(o[i]);
             o[i].parentObject = this;
-    
-            o[i].localPosition.x = -(this.worldPosition.x - o[i].worldPosition.x);
-            o[i].localPosition.y = -(this.worldPosition.y - o[i].worldPosition.y);
+
+            o[i].localPosition = pointMultiply(pointSubstract(this.worldPosition, o[i].worldPosition), -1);
 
         }
 
@@ -166,7 +163,10 @@ class GameObject extends Behaviour {
 
         if (delta.x == 0 && delta.y == 0) return;
 
+        
         if (applyDeltaTime) {
+
+            updatePosDelta(worldPosition, pointAdd(worldPosition, pointMultiply(delta, Main.game.deltaTime)));
 
             if (this.parentObject != null && moveWithParent) {
 
@@ -180,10 +180,9 @@ class GameObject extends Behaviour {
                 
             }
 
-            positionDelta.x = delta.x * Main.game.deltaTime;
-            positionDelta.y = delta.y * Main.game.deltaTime;
-
         } else {
+
+            updatePosDelta(worldPosition, pointAdd(worldPosition, delta));
             
             if (this.parentObject != null && moveWithParent) {
 
@@ -197,19 +196,28 @@ class GameObject extends Behaviour {
                 
             }
 
-            positionDelta.x = delta.x;
-            positionDelta.y = delta.y;
-
         }
 
-        trace(this._name + " " + delta);
-
-        posDeltaResetTime = 1 / Lib.current.stage.frameRate;
+        //trace(this._name + " " + delta + " " + worldPosition);
         
+    }
+
+    overload extern inline private function updatePosDelta(lastPos, currentPos) {
+        
+        positionDelta = pointSubstract(currentPos, lastPos);
+
+    }
+
+    overload extern inline private function updatePosDelta() {
+        
+        positionDelta = point();
+
     }
 
     public function moveTo(x:Float, y:Float) {
         
+        updatePosDelta(worldPosition, point(x, y));
+
         if (this.parentObject != null && moveWithParent) {
 
             this.localPosition.x = x;
@@ -221,20 +229,6 @@ class GameObject extends Behaviour {
             this.worldPosition.y = y;
             
         }
-
-    }
-
-    public static function getObjectByName(a:Array<GameObject>, n:String):GameObject {
-        
-        var g:GameObject = null;
-        for (i in 0...a.length) {
-
-            if (a[i]._name == n)
-                g = a[i];
-
-        }
-        
-        return g;
 
     }
 

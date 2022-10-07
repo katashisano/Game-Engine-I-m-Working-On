@@ -39,13 +39,17 @@ class Camera extends GameObject {
         updateBackground();
 
         if (Main.input.checkKey(73))
-            translate(new Point(0, 10), true);
+            translate(point(0, 10), true);
         if (Main.input.checkKey(75))
-            translate(new Point(0, -10), true);
+            translate(point(0, -10), true);
         if (Main.input.checkKey(76))
-            translate(new Point(10, 0), true);
+            translate(point(10, 0), true);
         if (Main.input.checkKey(74))
-            translate(new Point(-10, 0), true);
+            translate(point(-10, 0), true);
+        
+        trace(bg[0].children[1].worldPosition + " " + bg[0].children[1].positionDelta);
+
+        //trace(point(getObjectByName(objectsInDisplay, "player").x, getObjectByName(objectsInDisplay, "player").y));
 
     }
     
@@ -211,7 +215,7 @@ class Camera extends GameObject {
                     for (_i in 0...bg[i].children.length) {
 
                         if (ibmType == HORIZONTAL || ibmType == BOTH) {
-
+                            
                             bg[i].children[_i].translate(new Point(-positionDelta.x * imageParallax[i], 0));
 
                             if (bg[i].children[_i].localPosition.x > bg[i].children[_i].spriteImg.bitmapData.width * 2 / Main.game.worldScale)

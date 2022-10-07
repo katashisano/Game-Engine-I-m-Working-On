@@ -1,5 +1,8 @@
 package;
 
+import openfl.geom.Rectangle;
+import openfl.system.Capabilities;
+import openfl.system.System;
 import openfl.display.StageDisplayState;
 import openfl.Lib;
 import openfl.geom.Point;
@@ -25,13 +28,30 @@ class Game extends Behaviour {
     var player:GameObject;
     var child:GameObject;
     var fpsCounter:TextObject;
-    public function initGame(fullScreen:Bool, _worldScale:Int):Void {
+    public function initGame(fullScreen:Bool, _worldScale:Int, xres:Int = 1280, yres:Int = 720):Void {
         
         if (fullScreen) {
             
+            Lib.current.stage.fullScreenSourceRect = new Rectangle(0, 0, 1920, 1080);
+
+            //Lib.current.stage.window.borderless = true;
+            //Lib.current.stage.window.x = 0;
+            //Lib.current.stage.window.y = 0;
+            //Lib.current.stage.window.resize(Math.round(Capabilities.screenResolutionX), Math.round(Capabilities.screenResolutionY));
             
+            Lib.current.stage.displayState = FULL_SCREEN;
+            Lib.current.stage.window.onFocusIn.add(onWindowFocusIn);
+            Lib.current.stage.window.onFocusOut.add(onWindowFocusOut);
+            //Lib.current.stage.addEventListener
             
-        } else Lib.current.stage.window.resize(1280, 720); 
+        } else {
+
+            Lib.current.stage.window.resize(xres, yres); 
+            Lib.current.stage.window.x = Math.round((Capabilities.screenResolutionX - xres) / 2); 
+            Lib.current.stage.window.y = Math.round((Capabilities.screenResolutionY - yres) / 2); 
+
+        }
+        //Lib.current.stage.scaleMode = EXACT_FIT;
         
         worldScale = _worldScale;
 
@@ -40,10 +60,10 @@ class Game extends Behaviour {
         player.renderLayer = 1;
         player.addToActiveObjects();
 
-        //var physicsBody = new PhysicsBody();
-        //physicsBody.enabled = true;
-        //player.addComponent(physicsBody);
-        //player.pBody = physicsBody;
+        var physicsBody = new PhysicsBody();
+        physicsBody.enabled = true;
+        player.addComponent(physicsBody);
+        player.pBody = physicsBody;
         
         //var col = new Collider();
         //col.enabled = true;
@@ -71,16 +91,26 @@ class Game extends Behaviour {
         fpsCounter.addToActiveObjects();
         fpsCounter.moveTo(-15.5, 8.5);
         
-        Lib.current.stage.scaleMode = EXACT_FIT;
+        
+    }
+
+    function onWindowFocusIn() {
         
     }
     
+    function onWindowFocusOut() {
+        
+    }
+
     var frameUpdates:Int = 0;
     var frameRate:Float = 0;
     var t:Float = 0;
 
     var pressed:Bool = false;
     override function update(event:Event) {
+
+        //trace(Lib.current.stage.width + " " + Lib.current.stage.height);
+        //trace(player.worldPosition);
         
         frameUpdates++;
         getDeltaTime();
@@ -100,8 +130,6 @@ class Game extends Behaviour {
         if (Main.input.checkKey(27))
             openfl.system.System.exit(0);
 
-        trace(Lib.current.stage.window.width + " " + Lib.current.stage.window.height);
-
         if (Main.input.checkKey(37))
             Lib.current.stage.window.x -= 1;
         if (Main.input.checkKey(39))
@@ -110,24 +138,6 @@ class Game extends Behaviour {
             Lib.current.stage.window.y -= 1;
         if (Main.input.checkKey(40))
             Lib.current.stage.window.y += 1;
-        
-        if (!pressed) {
-            
-            if (Main.input.checkKey(13)) {
-                
-                Lib.current.stage.window.width += 16;
-                Lib.current.stage.window.height += 9;
-    
-                pressed = true;
-            
-            }
-
-        }
-        if (!Main.input.checkKey(13)) {
-            
-            pressed = false;
-        
-        }
 
     }
 

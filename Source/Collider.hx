@@ -3,8 +3,10 @@ package;
 import openfl.events.Event;
 import openfl.geom.Point;
 
-class Collider extends Component {
 
+class Collider extends Component {
+    
+    /**
     public var colliderSize:Point = new Point(0, 0);
 
     public var trigger:Bool = false;
@@ -23,5 +25,6 @@ class Collider extends Component {
             parentObject.pBody.canGoDown = false;
         
     }
+    **/
 
 }

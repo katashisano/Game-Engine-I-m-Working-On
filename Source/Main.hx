@@ -2,6 +2,7 @@ package;
 
 import openfl.display.Sprite;
 import openfl.events.Event;
+import openfl.Lib;
 import Game;
 
 class Main extends Sprite {
@@ -21,6 +22,8 @@ class Main extends Sprite {
 
 		if (!inited) init();	
 
+		trace(Lib.current.stage.stageWidth + " " + Lib.current.stage.stageHeight);
+
 	}
 
 	function init() {
@@ -30,7 +33,7 @@ class Main extends Sprite {
 		inited = true;
 
 		game = new Game();
-		game.initGame(true, 16);
+		game.initGame(false, 16);
 		this.addChild(game);
 
 		input = new Input();
